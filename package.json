@@ -1,0 +1,37 @@
+{
+	"name": "persistent-democracy",
+	"version": "0.1.0",
+	"description": "",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/blainehansen/persistent-democracy.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/blainehansen/persistent-democracy/issues"
+	},
+	"homepage": "https://github.com/blainehansen/persistent-democracy#readme",
+	"scripts": {
+		"main": "ts-node -O '{ \"module\": \"CommonJS\" }' components/voting.utils.ts",
+		"dev": "nuxt",
+		"build": "nuxt generate"
+	},
+	"dependencies": {
+		"@vue/composition-api": "*"
+	},
+	"devDependencies": {
+		"@nuxt/content": "^1.14.0",
+		"@nuxt/types": "^2.15.4",
+		"@nuxt/typescript-build": "^2.1.0",
+		"@nuxtjs/tailwindcss": "^4.0.3",
+		"@tailwindcss/typography": "^0.4.0",
+		"core-js": "^3.11.1",
+		"nuxt": "^2.15.4",
+		"postcss": "^8.2.13",
+		"pug": "^3.0.2",
+		"pug-plain-loader": "^1.1.0",
+		"ts-node": "^9.1.1",
+		"typescript": "^4.2.4"
+	}
+}

@@ -1,0 +1,73 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/*.content > * {
+	@apply mb-2 max-w-3xl;
+}
+
+.spaced > * {
+	@apply mb-6;
+}
+
+.container {
+	@apply px-6 py-4;
+}
+@screen sm {
+	.container {
+		@apply p-5;
+	}
+}
+@screen md {
+	.container {
+		@apply px-24 py-16;
+	}
+}
+
+
+button {
+	@apply py-2 px-4 border rounded;
+}
+
+b {
+	@apply font-bold;
+}
+
+a {
+	@apply text-blue-400;
+}
+a:hover {
+	@apply text-blue-600;
+}
+
+
+ul {
+	list-style-type: disc;
+	@apply p-4;
+}
+
+
+html {
+	font-size: 16px
+}
+
+@screen sm {
+	html {
+		font-size: 18px
+	}
+}
+
+@screen md {
+	html {
+		font-size: 20px
+	}
+}
+
+@screen lg {
+	html {
+		font-size: 22px
+	}
+}
+*/
