@@ -4,70 +4,61 @@
 
 @tailwind utilities;
 
-/*.content > * {
-	@apply mb-2 max-w-3xl;
-}
-
-.spaced > * {
-	@apply mb-6;
-}
-
-.container {
-	@apply px-6 py-4;
+html {
+	font-size: 18px
 }
 @screen sm {
-	.container {
-		@apply p-5;
+	html {
+		font-size: 20px
 	}
 }
-@screen md {
-	.container {
-		@apply px-24 py-16;
+/*@screen md {
+	html {
+		font-size: 22px
 	}
+}*/
+/*@screen lg {
+	html {
+		font-size: 26px
+	}
+}*/
+
+
+.chapter-title {
+	@apply text-4xl font-bold;
+}
+
+.nuxt-content {
+	@apply prose max-w-none prose-sm lg_prose-lg xl_prose-xl;
+}
+
+.toc-link.nuxt-link-exact-active {
+	@apply text-blue-800;
 }
 
 
-button {
+a {
+	@apply text-gray-900 font-medium underline;
+}
+a:hover {
+	@apply text-blue-800;
+}
+
+button, .btn {
 	@apply py-2 px-4 border rounded;
+}
+button:hover, .btn:hover {
+	@apply bg-gray-50;
 }
 
 b {
 	@apply font-bold;
 }
 
-a {
-	@apply text-blue-400;
-}
-a:hover {
-	@apply text-blue-600;
-}
 
-
-ul {
-	list-style-type: disc;
-	@apply p-4;
+.icon {
+	display: inline-block;
+	fill: currentColor;
+	vertical-align: middle;
+	overflow: hidden;
 }
-
-
-html {
-	font-size: 16px
-}
-
-@screen sm {
-	html {
-		font-size: 18px
-	}
-}
-
-@screen md {
-	html {
-		font-size: 20px
-	}
-}
-
-@screen lg {
-	html {
-		font-size: 22px
-	}
-}
-*/

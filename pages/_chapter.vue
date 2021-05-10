@@ -1,14 +1,13 @@
 <template lang="pug">
 
-.container.mx-auto.spaced
-	h1 {{ chapter.title }}
+div
+	h1.chapter-title.mb-4 {{ chapter.title }}
 
-	nuxt-content(:document="chapter")
+	NuxtContent(:document="chapter")
 
-	nuxt-link(v-if="prev", :to="prev.slug")
-		h1 Prev - {{ prev.title }}
-	nuxt-link(v-if="next", :to="next.slug")
-		h1 Next - {{ next.title }}
+	.flex.flex-col.md_flex-row.mt-12
+		ChapterNav.w-full.md_w-1by2.mb-2.md_mb-0(v-if="prev", :link="prev", type="prev")
+		ChapterNav.w-full.md_w-1by2.mb-2.md_mb-0(v-if="next", :link="next", type="next")
 
 </template>
 

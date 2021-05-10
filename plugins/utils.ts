@@ -5,9 +5,9 @@ export function processSlug(slug: string) {
 	return slug.replace(slugPrefixRegex, '')
 }
 
-export type ChapterLink = { title: string, slug: string }
-export function ChapterLink({ title, slug: rawSlug }: IContentDocument): ChapterLink {
+export type ChapterLink = { title: string, subtitle: string, slug: string }
+export function ChapterLink({ title, subtitle, slug: rawSlug }: IContentDocument): ChapterLink {
 	return rawSlug === '00.introduction'
-		? { title: 'Introduction', slug: '/' }
-		: { title, slug: processSlug(rawSlug) }
+		? { title: 'Introduction', slug: '/', subtitle }
+		: { title, slug: processSlug(rawSlug), subtitle }
 }

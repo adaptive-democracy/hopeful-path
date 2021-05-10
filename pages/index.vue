@@ -1,12 +1,12 @@
 <template lang="pug">
 
-.container.mx-auto.spaced
-	h1 Persistent Democracy
+div
+	h1.chapter-title.mb-4 I think we can fix everything.
 
-	nuxt-content(:document="introduction")
+	NuxtContent(:document="introduction")
 
-	nuxt-link(:to="firstChapter.slug")
-		| First Chapter - {{ firstChapter.title }}
+	.flex.mt-8
+		ChapterNav.w-full.md_ml-auto.md_w-1by2(:link="firstChapter", type="top")
 
 </template>
 
@@ -17,9 +17,10 @@ import { ChapterLink } from '@/plugins/utils'
 
 export default Vue.extend({
 	async asyncData({ $content }) {
-		const introduction = await $content('00.introduction').fetch()
-		const [firstChapter] = await $content().sortBy('path').skip(1).limit(1).fetch() as IContentDocument[]
-		return { introduction, firstChapter: ChapterLink(firstChapter) }
+		const [introduction, ...rawChapters] = await $content().sortBy('path').fetch() as IContentDocument[]
+		const chapters = rawChapters.map(ChapterLink)
+		const firstChapter = chapters[0]
+		return { introduction, chapters, firstChapter }
 	},
 })
 </script>
