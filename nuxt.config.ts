@@ -1,6 +1,4 @@
 import { NuxtConfig } from '@nuxt/types'
-// const defaultTheme = require('tailwindcss/defaultTheme')
-
 
 const config: NuxtConfig = {
 	head: {
@@ -33,7 +31,7 @@ const config: NuxtConfig = {
 	// https://tailwindcss.com/docs/using-with-preprocessors
 	// https://tailwindcss.nuxtjs.org/tailwind-config
 	tailwindcss: {
-		jit: true,
+		mode: 'jit',
 		viewer: false,
 
 		cssPath: '~/styles/main.css',
