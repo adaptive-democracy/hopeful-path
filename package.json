@@ -1,17 +1,17 @@
 {
-	"name": "persistent-democracy",
+	"name": "hopeful-pathway",
 	"version": "0.1.0",
 	"description": "",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/blainehansen/persistent-democracy.git"
+		"url": "git+https://github.com/blainehansen/hopeful-pathway.git"
 	},
 	"author": "",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/blainehansen/persistent-democracy/issues"
+		"url": "https://github.com/blainehansen/hopeful-pathway/issues"
 	},
-	"homepage": "https://github.com/blainehansen/persistent-democracy#readme",
+	"homepage": "https://github.com/blainehansen/hopeful-pathway#readme",
 	"scripts": {
 		"main": "ts-node -O '{ \"module\": \"CommonJS\" }' components/voting.utils.ts",
 		"dev": "nuxt",
