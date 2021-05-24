@@ -2,9 +2,9 @@
 
 div
 	nav.w-full.border-b.border-gray-200
-		.container.h-14.flex.items-center
+		.container.py-4.md_py-0.flex.flex-col.md_flex-row.md_h-16.items-center
 			NuxtLink.no-underline.text-xl.mr-auto(to="/") A Hopeful Pathway for Humanity
-			a.no-underline(href="https://github.com/blainehansen/hopeful-pathway") Contribute
+			a.hidden.md_block.no-underline(href="https://github.com/blainehansen/hopeful-pathway") Contribute
 
 	Nuxt.pt-6.container
 
