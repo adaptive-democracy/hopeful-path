@@ -1,11 +1,9 @@
 <template lang="pug">
 
 div
-	h1.chapter-title.mb-4 I think we can fix everything.
-
 	NuxtContent(:document="introduction")
 
-	.flex.mt-8
+	.flex.flex-col.md_flex-row.mt-12
 		ChapterNav.w-full.md_ml-auto.md_w-1by2(:link="firstChapter", type="top")
 
 </template>

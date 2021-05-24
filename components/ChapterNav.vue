@@ -1,8 +1,8 @@
 <template lang="pug">
 
 NuxtLink(:to="link.slug")
-	.btn.px-4.py-4.flex.items-center.justify-between(:class="classes")
-		Arrow.transform.w-6.h-6(:class="[type === 'prev' ? 'rotate-180' : '']")
+	.btn.px-4.py-4.mb-2.flex.items-center(:class="classes")
+		Arrow.transform.w-6.h-6(:class="[type === 'prev' ? 'mr-2 rotate-180' : 'ml-2']")
 		span {{ link.title }}
 
 </template>
@@ -20,8 +20,8 @@ export default defineComponent({
 	setup(props) {
 		const classes = computed(() => {
 			switch (props.type) {
-				case 'prev': return 'flex-row md_mr-2'
-				case 'next': return 'flex-row-reverse md_ml-2'
+				case 'prev': return 'flex-row'
+				case 'next': return 'flex-row-reverse'
 				case 'top': return 'flex-row-reverse'
 			}
 		})

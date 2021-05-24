@@ -1,13 +1,13 @@
 <template lang="pug">
 
 div
-	h1.chapter-title.mb-4 {{ chapter.title }}
+	h1.text-5xl.font-bold.mb-10 {{ chapter.title }}
 
 	NuxtContent(:document="chapter")
 
-	.flex.flex-col.md_flex-row.mt-12
-		ChapterNav.w-full.md_w-1by2.mb-2.md_mb-0(v-if="prev", :link="prev", type="prev")
-		ChapterNav.w-full.md_w-1by2.mb-2.md_mb-0(v-if="next", :link="next", type="next")
+	.mt-12
+		ChapterNav(v-if="prev", :link="prev", type="prev")
+		ChapterNav(v-if="next", :link="next", type="next")
 
 </template>
 

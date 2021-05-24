@@ -24,10 +24,6 @@ html {
 }*/
 
 
-.chapter-title {
-	@apply text-4xl font-bold;
-}
-
 .nuxt-content {
 	@apply prose max-w-none prose-sm lg_prose-lg xl_prose-xl;
 }
