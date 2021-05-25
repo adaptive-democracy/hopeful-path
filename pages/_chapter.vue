@@ -1,7 +1,7 @@
 <template lang="pug">
 
 div
-	h1.text-5xl.font-bold.mb-10 {{ chapter.title }}
+	h1.text-3xl.font-bold.mb-8 {{ chapter.title }}
 
 	NuxtContent(:document="chapter")
 

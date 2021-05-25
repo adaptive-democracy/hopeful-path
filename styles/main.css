@@ -25,7 +25,7 @@ html {
 
 
 .nuxt-content {
-	@apply prose max-w-none prose-sm lg_prose-lg xl_prose-xl;
+	@apply prose max-w-none prose-sm lg_prose xl_prose-lg;
 }
 
 .toc-link.nuxt-link-exact-active {
