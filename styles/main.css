@@ -23,9 +23,15 @@ html {
 	}
 }*/
 
-
+body {
+	overflow-x: hidden;
+}
 .nuxt-content {
 	@apply prose max-w-none prose-sm lg_prose xl_prose-lg;
+}
+.nuxt-content pre, .nuxt-content table {
+	display: block;
+	overflow-x: scroll;
 }
 
 .toc-link.nuxt-link-exact-active {

@@ -2,7 +2,7 @@
 
 NuxtLink(:to="link.slug")
 	.btn.px-4.py-4.mb-2.flex.items-center(:class="classes")
-		Arrow.transform.w-6.h-6(:class="[type === 'prev' ? 'mr-2 rotate-180' : 'ml-2']")
+		Arrow.transform.w-6.h-6.flex-none(:class="[type === 'prev' ? 'mr-2 rotate-180' : 'ml-2']")
 		span {{ link.title }}
 
 </template>
