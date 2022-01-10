@@ -81,6 +81,16 @@ wait blaine, what size stabilization bucket would this default document have? ma
 For recurring commitments such as those for budgets and spending decisions, there can be some time cycle on which the commitments are made, such as every month. So for a budget, each month there would be a commitment to decide the budget for the next month.
 
 
+a normal persistent commitments cycle will look like this:
+
+- people can both nominate and vote for some choice at any time
+- instead of using stabilization buckets with a current winner as is done in persistent voting, particular choices instead simply accumulate voting strength over the cycle of the commitment.
+- each voter's weights are basically given a strength according to how many weights they've placed and how long their weights have been in place. check out the [theory page](TODO) for exact formulas and such.
+- if a voter removes weights from an option, the contribution moves slowly from the old to the new instead of happening immediately
+- when the deadline hits, whichever option is the winner is chosen.
+
+the options in most types of commitment cycles will only accumulate weight *during* the cycle itself, but in cycles like those used in [persistent funding](TODO) options can accumulate weight over their entire lifetime until they're chosen and funded.
+
 
 
 
@@ -91,7 +101,8 @@ The thing I think we have to remember is that we're just trusting democracy! Peo
 
 
 
-comparison with liquid democracy
+# comparison with liquid democracy
+
 Both persistent and liquid democracy are really trying to achieve the same thing. Both want to make *direct* democracy possible by making it possible in principle for every person to effect every group decision.
 
 I make the claim that persistent democracy is strictly better than liquid democracy because it:
