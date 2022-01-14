@@ -1,6 +1,10 @@
----
-title: "Computable Legal Code"
----
+# Computable Governance Code
+
+Laws are really just code, let me convince you of that fact.
+
+If we're going to make and use something like this, then we really ought to be able to logically *prove* things about this governance code. In the [Magmide project](https://github.com/magmide/magmide) I'm working on building a proof language capable of being a solid and approachable foundation for all software, and it would be a perfect tool to use to define any computable governance language. However Magmide isn't strictly necessary to do so, it would just make it easier. We could use existing proof languages like Coq to do this work, there are just a few annoying obstacles to work through before it would make perfect sense.
+
+
 
 Legal codes are typically written in natural language, which is necessarily vague and imprecise. This is problematic in many situations, since the law is meant to be a "code", instructions about governmental action that are intended to be as precise as is possible. Very often legal codes describe true "algorithms", step-by-step instructions intended to produce specific defined outcomes.
 
@@ -23,10 +27,6 @@ define function add:
 
 Real computer languages are often much less verbose. Here's the same function in a common language called `python`:
 
-```python
-def add(x: number, y: number):
-  return x + y
-```
 
 The importance of the separation between code and data is this: the messy human findings and decisions and conclusions of humans can be modeled as data, and the laws themselves can be code that accepts data inputs and gives data outputs.
 
@@ -116,3 +116,12 @@ I intend to design such a legal programming language at some point in the future
 
 
 governance engineers
+
+
+
+
+
+# Computable legal code
+a body of laws is just a "codebase" for how to make decisions. it's just like a computer program, except that instead of running in a computer with precisely defined rules, it runs in human brains and institutions.
+
+the exciting thing about this idea is that if we define a body of laws as a computable language, then we can use that code to *literally* run the organization, by creating actual server code to do things like run votes and allow forms, etc.
