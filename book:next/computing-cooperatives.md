@@ -1,3 +1,42 @@
+# Blockchains aren't going to fix the internet, but cooperatives could
+
+The internet, and computing in general, have a few problems
+
+open source is a critical part of our society, and the clearly best model in both the ethical and logistical sense. however it's chronically underfunded and understaffed, and important parts of our software infrastructure are allowed to languish in obscurity despite their massive impact.
+
+The software-as-a-service model is endangering the entire idea of open source itself, at least in relation to software that can easily be made into a service. rather than extending the benefits of open source to more and more domains, any domain that can be closed off routinely is. it seems that any given open source project is only able to consistently sustain itself when it is a component of some collection of SaaS companies' stack but not core to their business model. The SaaS model has allowed private companies to seize control of large parts of the internet, despite the obvious problems with the model for users, such as data siloing, increased cost, and lack of control.
+
+The massive cloud computing companies seem intent on being the only entities in the world that actually own and control substantial computers. This is a problem, since it creates yet another landlord class in the part of our society that was supposed to be most open.
+
+I think we can solve all three of these problems with one concept, [member cooperatives](TODO).
+
+To understand how we can use cooperatives to solve these problems, let's try to design the *correct* way we hope for the internet and software ecosystem to work. Software is merely a free public good, and is designed to run anywhere rather than only on some private companies inaccessible servers.
+
+The problem is ownership and control.
+
+the cloud company can be a [user defined organization](TODO) where voting weights are given when compute is billed.
+then the company can divert some percentage of funds to create a [persistent funding pool](TODO), and of course simply create open source software internally as directed by democratic control.
+
+
+some people want to literally control their own computers and run home servers. we should make that easier so that more people can do it!
+but not everyone will be willing or able to do that, and even if everyone has a moderately sized home server and those servers can cooperate with everyone else's we'll probably always want some kind of generalized public cloud infrastructure available to us in order to gain the benefits of datacenter scale design, truly redundant backups, fast coordination with far away people, etc.
+
+so in general, we want location agnostic software, reusable libraries that can run on and interact with any node, whether its our own home servers, our mobile devices or laptops, or a datacenter rack.
+
+this means software should just be funded in whatever ways we can fund any public good. I'll talk about structuring open source projects as cooperatives in a bit, but its obvious that these cooperatives are inherently more "ephemeral" than any company we're used to.
+
+operating a public cloud on the other hand is a different story. that has to do with managing real physical stuff, and so it has to have an institution. a member cooperative is a perfect organizational structure for such a thing.
+
+
+It's bigger than just the internet. All kinds of intellectual labor are inherently public goods, so generally fixing public goods funding is critical to the health of computing.
+
+A cloud computing cooperative is a perfect way to fund public goods without having to wait for government reform.
+
+
+
+
+
+
 # Using Persistent Democracy to govern and fund open source projects
 
 [Persistent Democracy](TODO) applies very naturally to governing open source projects if we think of an open source project as a cooperative.
