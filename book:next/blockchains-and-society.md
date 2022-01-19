@@ -10,7 +10,7 @@ Of course blockchains can be *used* to create trustless cryptographic transparen
 
 The only thing we need to do is effectively work together. That's [humanity's superpower](TODO), the thing that's allowed us to achieve everything we've achieved. Our systems of large-scale decision making are just showing their age, and need to be upgraded. Blockchains could be a part of that upgrade, but they absolutely don't need to be.
 
-And we must point out that blockchains, at least in the way they're mostly being pursued, could actually make things *worse*. The overwhelming trend in these products is toward "financialization", or trying to turn everything into a market and every interaction into a financially evaluable transaction. I don't think the people doing these things realize how narrow and specific a worldview you have to have accepted in order to think that's a good idea, and aren't considering the myriad ways that can go wrong. Markets are *just one* of the tools for coordination we have, and they can create problems just as easily as solve them. Greed and consumptive competition can just as easily be forces for destruction and degradation as incentives for innovation.
+And we must point out that blockchains, at least in the way they're mostly being pursued, could actually make things *worse*. The overwhelming trend in these products is toward "financialization", or trying to turn everything into a market and every interaction into a financially evaluable transaction. I don't think the people realize how narrow and specific a worldview you have to have accepted in order to think that's a good idea, and aren't considering the myriad ways that can go wrong. Markets are *just one* of the tools for coordination we have, and they can create problems just as easily as solve them. Greed and consumptive competition can just as easily be forces for destruction and degradation as incentives for innovation.
 
 Ultimately all of this comes down to actually enforceable ownership and control, which come from communities and systems of justice. Blockchains only have knowledge about computational things, and don't have real jurisdiction over anything. "All real power comes from the barrel of a gun", and blockchains are only capable of keeping a ledger. Actually enforcing that ledger is always going to be a messy human process grounded in the real world. We don't need to subvert or circumvent our governments, we need to fix them.
 
@@ -23,11 +23,12 @@ provide very basic idea of welfare theory
 
 There are three reasons why blockchains aren't necessary, or could make things worse:
 
+- Blockchains can only create efficient markets for purely computational resources.
+- Even if these purely computational markets are perfectly efficient, all they can do is encode the true scarcity underneath them, the scarcity of electricity and chips. This will merely continue to propagate the same inequities that already exist in our societies. The problems of the internet come from irrational rights in intellectual property, land, and
 - A ledger that isn't enforced in real life is useless. We need to fix our governments not subvert or circumvent them.
 - Cryptocurrencies are actually probably mostly harmful, precisely because they aren't fiat, which means they're unaccountable and incentivize wasteful coordination that doesn't add value. If anything we should just use these algorithms to create a governmental public good currency, combining the benefits of both.
 - Financialization is bad.
 - Almost all tokenomic models are just irrational, and won't do anything to solve the public goods problem. The only real solution to the public goods problem is to simply prevent free-riding, which can only really be done through some form of exclusion, such as taxing access to land. After that we just have to figure out [how to spend shared resources](TODO persistent funding).
-- Efficient markets won't do anything to reverse inequality if the legal rights underneath them are unfair.
 
 point toward your consensus algorithm
 point toward rest of book
