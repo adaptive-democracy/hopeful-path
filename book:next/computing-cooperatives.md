@@ -1,11 +1,3 @@
-# Blockchains aren't going to fix the internet, but cooperatives could
-
-
-
-
-
-
-
 The internet, and computing in general, have a few problems
 
 open source is a critical part of our society, and the clearly best model in both the ethical and logistical sense. however it's chronically underfunded and understaffed, and important parts of our software infrastructure are allowed to languish in obscurity despite their massive impact.

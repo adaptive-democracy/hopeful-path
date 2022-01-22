@@ -1,10 +1,83 @@
-This file is the rough work-in-progress exploration of the formal theory behind the ideas in this book, as well as conjectures and proof sketches, and code snippets where that makes sense.
+This file is a concatenation of work-in-progress documents exploring the formal theory behind the ideas in this book. As portions of this writing are concretely formalized as code or fleshed out properly they will be pulled into their own documents.
 
-None of this writing is strongly held at this point, it's basically conjecture all the way down. However I hope it's at least intuitively convincing.
+None of this writing is strongly held at this point, it's basically conjecture all the way down. However I hope it's at least intuitively convincing, and I give proof sketches where appropriate.
 
-It also isn't trying to be approachable or even grammatically correct. It's merely trying to explore and convey these ideas.
+It also isn't trying to be approachable or even grammatically correct. It's merely trying to explore and convey ideas.
 
 ---
+
+# Toward verified ethical foundations
+
+We would really like to have a theory of welfare that enabled us to design and prove the optimality of much more complicated mechanisms. It makes sense for this theory to include some appropriately abstract formalization of the universe, since our interactions with the universe are the only way we experience welfare and build up welfare-producing infrastructure.
+
+going to sketch proofs that:
+a totally ethical system is a coordination function that achieves pareto efficiency in contrast to a population ethics frame
+persistent democracy is optimal to maximize welfare for any universe/beings by simply reusing the properties that make quadratic voting welfare optimal for decisions and harberger taxes optimal for allocative efficiency.
+empiricism is the best concrete framework for improving infrastructural welfare leverage (which is the measurement of the welfare yield on work given the current state of the universe),
+
+## model of beings and the universe
+
+this section lays out the model that defines our primitives, and sketches what it all means with abstractions and examples
+
+model
+a being is a structure parameterized by unique qualia and welfare types and a global universe vector type, a sensing function that accepts the universe vector and the previous qualia value and produces a new qualia value and welfare type as exposes a force vector representing the actions of this being upon the universe. the universe loop is the coinductive function that updates the universe based on the functions of all beings.
+
+abstractions
+notable type theoretical qualities, welfare opacity and comparisons between vectors, strict/mixed improvements/changes. we don't measure welfare gained by comparing directly, but merely by comparing the vector to itself pointwise.
+<!-- at this stage I'm ignoring questions of birth and death, but in general it seems reasonable that it should be considered bad for a coordination function to allow a being to die if it is possible to prevent it, and good to allow a being to be born as long as it doesn't harm existing beings
+perhaps this vector of beings encodes all beings past and future, and if they're not alive that point in the vector is merely inactive?
+-->
+interference and coordination, cooperative groups
+welfare leverage
+
+## ethical functions not populations
+
+this section lays out all the principles we'd like our solution to achieve, and philosophical thinking behind them
+
+talking about strict/mixed changes goes here alongside original position/trading places properties
+
+a perfectly optimal coordination function would have the quality that it would be what any being would choose if they didn't know what universe or position they would occupy. an interesting subcondition is the quality that any being would choose it even if they did know the universe but not the position, I think our system is one that's optimal here still since no matter the conditions of the universe common partial ownership ensures that universe is most reasonably used, and if a being chose a function that prized some kinds of ownership in hopes that they would land in a position with that kind of ownership then they would be making an irrational choice since a system of common partial ownership would give them those same benefits without the risk of being excluded.
+a perfectly fair system and a perfectly welfare maximizing system are the same thing, precisely because of qualia/welfare opacity and the consequent inability to value happiness of one over misery of another. a system cannot maximize welfare over an opaque vector without being perfectly fair.
+in this manner we completely sidestep contradictions possibly introduced by population ethics frames, since we're defining the ethicality of the system based on the coordination function rather than the population.
+original position property
+
+## omniscient universal mediator
+
+this section sketches a proof of optimality persistent democracy given zero coordination and switching costs
+
+this system is optimal assuming zero coordination and switching costs, as well as the non-existence of permanent damage to beings. if we "bake in" non-negotiable ownership of one's non-repairable body then we sidestep that problem. we might have already done that by not making the model totally aware of the fact that qualia is directly encoded by some subset of the universe variables! we're again dealing with a concept of "looming harm", where we have to continously use our weight to protect things that are merely necessary but not sufficient for welfare. having to do that precludes using that weight to signal for positive improvements, possibly ones that produce positive externalities.
+it's optimal because it uses the quadratic principle for optimal decision efficiency and harberger taxes for optimal allocative efficiency. it satisfies the original position property because it equally considers the votes of all participants and uses partial common ownership to ensure that no universe state allows irreversible accrual of property and therefore market power, and prevents all externalties in principle since all portions of the universe can be bid at any time which allows concerned agents to always have their say about any possilbly externality producing set of variables
+
+# cohesive non-tradable rights
+
+this is to encode another cost, "cohesion" cost, or degree to which the welfare leverage of any set of universe variables depends on the values of other universe variables. in other words, in systems in which ownership of a smaller portion of universe variables doesn't decrease expected welfare linearly but non-linearly, even possibly removing welfare entirely for even small changes.
+non-tradable rights allows us to remove deadweight negotiations, ones that are essentially bickering over substitutable requirements, mixed change substitutions
+
+basically, we're trying to apply this universe variables model to our real world, and we realize that without say over a huge section of the universe around you, basically the whole planet, you don't truly control *anything*
+
+## persistent constitutional systems
+
+sampling and stabilization allow a persistent system to most closely approximate the omniscient mediator given non-zero coordination and switching costs. sampling/stabilization intervals should be proportional to coordination/switching costs respectively.
+rather than allowing bids for subsection functions individually, we choose one function that specifies all subfunctions. we do this because it durably protects permanent non-tradable rights, which are things we value as desirable and efficient. importantly allowing these rights to change gives us the flexibility to refine them or change them if the state of the universe drastically changes.
+when voting for a constitution we're essentially bidding for the *entire* universe space, so we're really just bidding on the function that goes alongside that global bid.
+importantly, if it is true that the omniscient persistent mediator is optimal for any universe and set of beings, the same is true for any strict subset of any universe/beings combination. this gives credence to the fact that persistent constitutions can be nested arbitrarily, since each constitution is given a strict subset of the universe/beings to control using the same systems.
+
+---
+
+# Toward verification of empiricism
+
+empiricism is the best system for maximizing action given uncertainty about both force leverage (the real change that will occur to the universe given some applied force vector) and welfare leverage
+it is the thing that best compensates for the impossibility of perfect information
+we have to make our model somewhat more complex, and instead of each being simply emitting a force vector they perfectly understand, they instead have opaque perception functions that mediate their internal force vector with the true force vectors that are actually applied. the internal force vector is merely some portion of qualia?
+given this gap between perception and reality, we also want some notion of prediction functions, essentially model-building tools that give a predicted true force vector for some intended one. the whole idea of empiricism is that is seeks to minimize the gap between predictions and reality, slowly fitting a model of the real world to the truth, and increasing our predictive power.
+
+the theory of infrastructural welfare leverage is what makes it so that pareto efficiency isn't static, but instead continually driving toward strictly better welfare states of the universe. this is what could enable us to also prove optimality of empiricism as a concrete method of improving welfare, and why public goods will tend to create more welfare than private goods.
+since this process can be path-dependent, its probably the thing with the most difficult to formalize behavior.
+
+
+
+
+
 
 # beings and welfare
 
@@ -135,61 +208,6 @@ It's important to remember how important voting method efficiency is when making
 conjecture: persistent democracy with stabilization rules optimally makes welfare choices after considering coordination overhead. unsure hand-waving and pointing to the above conjectures goes here!
 
 <!-- I conjecture that this structure is optimal, because it directly represents the true nature of the search for welfare. it maximizes the amount of information each person can give to the coordination function, and perfectly encodes the real nature of attention and concern -->
-
-# persistent voting details
-
-we can change how stabilization works:
-
-- the current winner needs to have continued weight support, so those who voted for them need to continue to do so
-- the current winner doesn't have to have continued support! instead other nominated candidates fill up the stabilization bucket according to their lead over other options, and to prevent them taking over people can vote against them or for other options. this is more stable but possibly unfairly privileges the current winner
-
-thinking about update cycles:
-
-- Update Time, the rhythm of time in which vote changes are actually published and take effect. So for example if the Vote Cycle is for votes to be updated every day at 12:00 UTC, then a voter could change their vote four times in a day before that time and only the final state would actually have an effect on elections. This cycle would exist just to encourage
-- Change Time, the rhythm of time in which actual position changes are made. So for example if the Change Time is every Monday at 7:00 UTC, then that's when any new winners actually take over their positions.
-
-- If *multiple* new candidates overtake the current winner, they each fill up their own stabilization bucket individually, and whichever of them fills theirs up first becomes the new winner.
-
-True ties are handled by no one occupying the position! Votes can be changed very quickly though, so true ties should very rarely last long.
-
-the exact nature of persistent democracy will only be truly figured out once there's actual *code* representing the mechanisms.
-it would be really nice to have a governance language capable of writing these kinds of constitutions and mechanisms directly, and verifying them
-
-# persistent commitments details
-
-Each commitment would have some deadline for the electorate to choose some "decision document". Each commitment should have a default document that is considered the "winner", and any new document must overtake that document using stabilization buckets in order to be implemented. This default document would be decided by whatever election defined the existence of this commitment. This default document could very easily be "do nothing".
-wait blaine, what size stabilization bucket would this default document have? maybe these should just be normal conviction voting cycles, and people have to actually endorse the default document?
-
-If a persistent voting style change could possibly require an outlay of resource from something like a budget, then perhaps that means we should make the change time equivalent to the time necessary to put that outlay together? And possibly even require with dependent types that if such a change happens the next budget must include an item for this change?
-
-The thing I think we have to remember is that we're just trusting democracy! People will bring up any truly concerning problems if they're at all possibly predictable. It's unwise of us to think we can predict everything this system might have to account for. That's why we're enabling it to be changed by voters!
-
-# persistent constitutions details
-
-This is an interesting question to consider: *should* we design constitutions with kernels? I'm still not sure about all the ramifications of this idea, but there are some things to consider:
-
-- If a group is *certain* they'll never want to change some aspect of their governance, perhaps because they've found a logical proof the aspect is perfect or optimal in some way, then it can make sense.
-- If a group is essentially encoding their non-negotiable values into the kernel.
-- If a group isn't very high stakes or  and they don't want to get bogged down with certain kinds of decisions.
-- If a group is just experimenting with kernels.
-
-of course another thing to consider is *how difficult* it is to change the rules of change. you could design a constitution that made it so difficult to change certain aspects that those aspects were *effectively* in the kernel. This honestly seems like a good way to design most constitutions. Make it *possible* to change everything, but make some aspects so difficult to change that any proposed change would basically have to be universally agreed upon before it could happen.
-
-Consider the situation where some group is in perfect agreement about wanting to change their highest level document, and in perfect agreement about which document they want to replace it with. If they want to do this, we can assume for simplicity's sake that the sub-decisions the current document defines aren't the right ones. If they thought this, each person would place all of their weights on the same new document, and this situation is clearly the one that should happen the fastest possible, since the entire group is in perfect agreement. This number defines the size of the stabilization bucket! The size should be amount of accrued vote as if every member of the group was in perfect agreement. This means we've defined stabilization as a sort of "time-based delegation".
-
-Then at lower levels where there are more decisions to make, we should divide the size of the stabilization buckets by the number of decisions, meaning that each decision can be made with less consensus.
-It's unclear if the number of decisions should include all *higher* decisions or only the ones that the current level.
-We want higher up decisions to only be diluted by even higher decisions rather than lower decisions.
-
-If the layers divide up the electorate into smaller groups, then that nicely handles resizing the importance of decisions made by those smaller groups.
-
-We can put these three things together to decide the size of stabilization buckets. If all the members of a group were in perfect agreement with each other on all issues at some layer of governance, only cared about that layer of governance, and cared about each decision at that layer equally, then they would divide their weights equally to select a single candidate in each decision at that layer. Since those candidates would be perfectly agreed upon, each should be made the winner as fast as possible
-
-Or perhaps it makes sense to size stabilization buckets according to the number of *unallocated* weights? So all the people who just haven't used their weights are the only people you have to counterbalance? I don't think I like this idea, since most people would put all their weights on *something*, even if it was just one thing.
-
-# miscellaneous persistent methods
-
-prioritizing finite resources, prioritizing project funding, offsetting taxes, asserting ownership, or endorsing people for public service.
 
 # world state leverage and progress
 
@@ -322,3 +340,63 @@ Another is whether the actors possibly creating negative utility are doing so to
 
 
 And of course there's a difference between these examples where there's time for a decision to be made versus ones where there isn't. Those are just called tragedies, and we can only interrogate people's choices after the fact for intention and best effort.
+
+
+---
+
+# methods details and algorithms
+
+## persistent voting details
+
+we can change how stabilization works:
+
+- the current winner needs to have continued weight support, so those who voted for them need to continue to do so
+- the current winner doesn't have to have continued support! instead other nominated candidates fill up the stabilization bucket according to their lead over other options, and to prevent them taking over people can vote against them or for other options. this is more stable but possibly unfairly privileges the current winner
+
+thinking about update cycles:
+
+- Update Time, the rhythm of time in which vote changes are actually published and take effect. So for example if the Vote Cycle is for votes to be updated every day at 12:00 UTC, then a voter could change their vote four times in a day before that time and only the final state would actually have an effect on elections. This cycle would exist just to encourage
+- Change Time, the rhythm of time in which actual position changes are made. So for example if the Change Time is every Monday at 7:00 UTC, then that's when any new winners actually take over their positions.
+
+- If *multiple* new candidates overtake the current winner, they each fill up their own stabilization bucket individually, and whichever of them fills theirs up first becomes the new winner.
+
+True ties are handled by no one occupying the position! Votes can be changed very quickly though, so true ties should very rarely last long.
+
+the exact nature of persistent democracy will only be truly figured out once there's actual *code* representing the mechanisms.
+it would be really nice to have a governance language capable of writing these kinds of constitutions and mechanisms directly, and verifying them
+
+## persistent commitments
+
+Each commitment would have some deadline for the electorate to choose some "decision document". Each commitment should have a default document that is considered the "winner", and any new document must overtake that document using stabilization buckets in order to be implemented. This default document would be decided by whatever election defined the existence of this commitment. This default document could very easily be "do nothing".
+wait blaine, what size stabilization bucket would this default document have? maybe these should just be normal conviction voting cycles, and people have to actually endorse the default document?
+
+If a persistent voting style change could possibly require an outlay of resource from something like a budget, then perhaps that means we should make the change time equivalent to the time necessary to put that outlay together? And possibly even require with dependent types that if such a change happens the next budget must include an item for this change?
+
+The thing I think we have to remember is that we're just trusting democracy! People will bring up any truly concerning problems if they're at all possibly predictable. It's unwise of us to think we can predict everything this system might have to account for. That's why we're enabling it to be changed by voters!
+
+## persistent constitutions
+
+This is an interesting question to consider: *should* we design constitutions with kernels? I'm still not sure about all the ramifications of this idea, but there are some things to consider:
+
+- If a group is *certain* they'll never want to change some aspect of their governance, perhaps because they've found a logical proof the aspect is perfect or optimal in some way, then it can make sense.
+- If a group is essentially encoding their non-negotiable values into the kernel.
+- If a group isn't very high stakes or  and they don't want to get bogged down with certain kinds of decisions.
+- If a group is just experimenting with kernels.
+
+of course another thing to consider is *how difficult* it is to change the rules of change. you could design a constitution that made it so difficult to change certain aspects that those aspects were *effectively* in the kernel. This honestly seems like a good way to design most constitutions. Make it *possible* to change everything, but make some aspects so difficult to change that any proposed change would basically have to be universally agreed upon before it could happen.
+
+Consider the situation where some group is in perfect agreement about wanting to change their highest level document, and in perfect agreement about which document they want to replace it with. If they want to do this, we can assume for simplicity's sake that the sub-decisions the current document defines aren't the right ones. If they thought this, each person would place all of their weights on the same new document, and this situation is clearly the one that should happen the fastest possible, since the entire group is in perfect agreement. This number defines the size of the stabilization bucket! The size should be amount of accrued vote as if every member of the group was in perfect agreement. This means we've defined stabilization as a sort of "time-based delegation".
+
+Then at lower levels where there are more decisions to make, we should divide the size of the stabilization buckets by the number of decisions, meaning that each decision can be made with less consensus.
+It's unclear if the number of decisions should include all *higher* decisions or only the ones that the current level.
+We want higher up decisions to only be diluted by even higher decisions rather than lower decisions.
+
+If the layers divide up the electorate into smaller groups, then that nicely handles resizing the importance of decisions made by those smaller groups.
+
+We can put these three things together to decide the size of stabilization buckets. If all the members of a group were in perfect agreement with each other on all issues at some layer of governance, only cared about that layer of governance, and cared about each decision at that layer equally, then they would divide their weights equally to select a single candidate in each decision at that layer. Since those candidates would be perfectly agreed upon, each should be made the winner as fast as possible
+
+Or perhaps it makes sense to size stabilization buckets according to the number of *unallocated* weights? So all the people who just haven't used their weights are the only people you have to counterbalance? I don't think I like this idea, since most people would put all their weights on *something*, even if it was just one thing.
+
+## miscellaneous persistent methods
+
+prioritizing finite resources, prioritizing project funding, offsetting taxes, asserting ownership, or endorsing people for public service.
