@@ -113,6 +113,11 @@ We don't need to subvert or circumvent our governments, we need to fix them.
 
 In closing I'd like to point you towards our efforts to create computing cooperatives in all forms.
 
+
+This video is great, it's more thorough but focuses more on political and technical reasons
+https://www.youtube.com/watch?v=YQ_xWvX1n9g&ab_channel=FoldingIdeas
+
+
 Ultimately all of this comes down to actually enforceable ownership and control, which come from communities and systems of justice. Blockchains only have knowledge about computational things, and don't have real jurisdiction over anything. "All real power comes from the barrel of a gun", and blockchains are only capable of keeping a ledger. Actually enforcing that ledger is always going to be a messy human process grounded in the real world. We don't need to subvert or circumvent our governments, we need to fix them.
 
 Creating uncensorable decentralized digital markets can only solve a tiny percentage of our problems. Governments aren't powerful because they control our monetary system, they're powerful because they control land, physical resources, and the loyalty of people. And importantly *that's the point of a government!* We created democratic governments because we recognized our shared need to solve problems and create public goods *in the real world*, ones relating to land and resources that none of us could solve by ourselves. If our governments have become inefficient or corrupt or unfair, then no amount of darknet markets will change that.
