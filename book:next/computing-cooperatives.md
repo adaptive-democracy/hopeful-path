@@ -1,5 +1,7 @@
 The internet, and computing in general, have a few problems
 
+zero-knowledge computation is very cool, but given how insanely more expensive it is, wouldn't it be better for people to just control machines? or have legal control over an institution and have real capability to seek legal redress if officers of that institution break the rules?
+
 open source is a critical part of our society, and the clearly best model in both the ethical and logistical sense. however it's chronically underfunded and understaffed, and important parts of our software infrastructure are allowed to languish in obscurity despite their massive impact.
 
 The software-as-a-service model is endangering the entire idea of open source itself, at least in relation to software that can easily be made into a service. rather than extending the benefits of open source to more and more domains, any domain that can be closed off routinely is. it seems that any given open source project is only able to consistently sustain itself when it is a component of some collection of SaaS companies' stack but not core to their business model. The SaaS model has allowed private companies to seize control of large parts of the internet, despite the obvious problems with the model for users, such as data siloing, increased cost, and lack of control.

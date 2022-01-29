@@ -96,3 +96,27 @@ Importantly, this “standing” must be non-tradable, so you can’t buy it or 
 possible spam volume is dealt with by putting most of the verification effort on transaction initiators and the people who referred them into the network, so those who create traffic are most burdened by it. importantly, people *you* refer into the network can't verify your transactions, since that would give you a benefit for referring them.
 all of this could be amenable to privacy with zero-knowledge proofs, but I'm agnostic to those details at this point :)
 this is a very rough idea, in order for it to make sense there are a ton of game-theoretical and network liveness questions to answer, and a huge number of devils in the details. perhaps one of you readers has the time/willingness/skills to tackle some of them!
+
+
+
+
+decentralized *identity* is the most important unsolved problem.
+
+there's a theoretical limit of these kinds of semi-cooperative decentralized ledgers, which is one that has zero (marginal) transaction costs, changes state fast enough to be below the threshold of human perception, and is only limited by real computational scarcity. however such a system would completely nullify the two primary incentive systems in the blockchain space (artificially scarce coins that will speculatively rise in value, transaction fees). however such a system *is* possible if the network has a model of "mutual obligation" where each person-linked account is simply expected to do work to secure and audit the ledger, and is exiled if it doesn't meet its obligations or commits fraud. the only way to pay for the development of such a system is with public goods funding, since by its very design it doesn't allow any other funding models. and again, that design achieves a theoretical limit of usefulness! so if we *have* a way of provisioning public goods enough to fund such a thing, then it will inevitably replace and outstrip other models
+
+
+
+
+
+then the only thing I really want to bring about is an identity-based blockchain that operates through mutual obligation rather than speculative finance incentives, recentering labor rather than assets.
+
+in a mutual obligation network????
+
+- if you create more computational or storage work, you don't necessarily have to *pay* for all that on the network, but you do have to pay for it in your local version and you are the one expected to validate others are replicating it properly.
+- or your obligation to others increases. this is ultimately just like a currency?? except that this network obligation can't be transferred?
+- oh oh or we simply use democratic weights to allocate obligation at any one time! rather than burning currency we simply prioritize work according to a democratic weighting. if it's possible for an actor or group to do more computation upfront on their own and therefore decrease the amount of work necessary by the network then we can still let people spend physical resources in order to make more complex things happen faster
+
+it's the same as any cooperative good: in order to be a part of the cooperative, you have to provide the same amount of utility to the cooperative, and you get access to the benefits as a cooperative as a result. you have the same right to cooperative goods as everyone else as represented by your democratic weights, and at
+
+is an identity membership chain good enough?
+can we just store nothing but current membership and standing and seal snapshots/hashes and nothing else?
