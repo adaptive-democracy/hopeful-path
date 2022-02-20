@@ -1,127 +1,42 @@
 # Computable Governance Code
 
-Laws are really just code, let me convince you of that fact.
+Laws and other governance documents are typically written in natural language, which is necessarily vague and imprecise. This is problematic in many ways, since the law is literally just a "code", instructions about governance action that are intended to be as precise as possible. In a very real way, legal codes are just like computer programs, except instead of being executed by computers they are executed by people and institutions. Very often legal codes literally just describe algorithms, step-by-step instructions intended to produce specific defined outcomes. But fuzzy and imprecise natural languages are a very poor fit for this job.
 
-If we're going to make and use something like this, then we really ought to be able to logically *prove* things about this governance code. In the [Magmide project](https://github.com/magmide/magmide) I'm working on building a proof language capable of being a solid and approachable foundation for all software, and it would be a perfect tool to use to define any computable governance language. However Magmide isn't strictly necessary to do so, it would just make it easier. We could use existing proof languages like Coq to do this work, there are just a few annoying obstacles to work through before it would make perfect sense.
+Computer programming languages in contrast are strictly structured, and can be designed so that any specific program always has a single deterministic meaning. This is true because computer programs [are secretly just constructions of pure logic](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence), so they can have the same absolute precision as pure logic. Building a programming language isn't easy, but it still happens all the time, so building a computable governance language would absolutely be possible. The more interesting question is whether it would improve governance and clarity of the law.
 
+There would be many benefits if we could make our legal codes more like computer languages, as long as we acknowledge the limits of doing so and remain humble about what pure logic can do. Here are some of the benefits we could expect from making governance code "computable":
 
+- We could use [automated proof assistants](https://en.wikipedia.org/wiki/Proof_assistant) to *prove* arbitrary qualities about our laws and legal procedures, such as their consistency with some ethical framework, or that they are provably secure or fair. In the [Magmide project](https://github.com/magmide/magmide) I'm building a proof language capable of being a solid and approachable foundation for all software, and it would be a perfect tool to define any computable governance language. Magmide isn't complete, but we could use existing proof languages just as well.
+- We could use *governance* code to extract actual runnable *computer* code to automate aspects of institutional management. This runnable computer code could be used in systems such as government databases, voting machines, form submission websites, etc.
+- Computable legal code makes the law more searchable, since a stricter structure allows search algorithms to more easily understand information.
+- Legal codes would gain the powers of all programming languages, such as allowing easy reuse of definitions in different parts of the law, easy sharing between groups, and automatic checks that it is sound and addresses all possible conditions.
 
-Legal codes are typically written in natural language, which is necessarily vague and imprecise. This is problematic in many situations, since the law is meant to be a "code", instructions about governmental action that are intended to be as precise as is possible. Very often legal codes describe true "algorithms", step-by-step instructions intended to produce specific defined outcomes.
+These benefits would be very cool, but of course there are some obvious possible objections. The rest of this essay will go through some objections and talk about how serious they actually are and whether we could offset them.
 
-Computer programming languages in contrast are strictly structured, and any programming language text always has a single deterministic meaning. There would be many benefits if we could to make our legal codes more like computer languages, by making them deterministic, strictly structured, and computable, while at the same keeping them readable to non-experts.
+## Mainstream Legibility
 
-An obvious potential objection to this idea is that the law cannot be fully deterministic since it must interact with the vague natural world and the inherently subjective phenomenological conclusions of human plaintiffs and investigators. This is of course true and unavoidable, but by understanding the separation between *code* and *data*, we can make our legal codes fully deterministic while still acknowledging the human messiness they must interact with.
+Many people have brought up the existing social problem of "legalese", the confusing and jargon-filled language that typical laws are written in. It's a fairly serious problem if the laws that govern a group can't actually be understood by most people in that group, and that lack of legibility can unfairly empower a small group of experts since they're the only ones that can successfully navigate and change the law.
 
-# Description
+Although at first glance it might seem that making governance codes would only make this problem worse, I'm actually convinced it would make it better! Although it's certainly true that there would be groups of experts who did most of the work writing and reasoning about laws, making laws computable can make them more legible for a few reasons:
 
-Type theory is a branch of mathematics that is powerful and complete enough to encode all logical propositions, and it is the foundation of theoretical computer science and many modern automated proof assistants. By using a few type theoretical constructs, we can define our legal codes with complete precision.
+- A computable governance language has a precise structure, which means it's actually easier to learn! [Open and precise standards tend to make things more fair](https://astralcodexten.substack.com/p/contra-weyl-on-technocracy), since the existence of the standard is something that anyone can reference. If anyone can reference a precise standard, they can either learn from it directly or create even clearer explanations to share with everyone else. As much as programming and programming languages are treated as confusing and opaque magic by many people, it's actually becoming more and more common for people to learn how to program completely by themselves using nothing other than completely free resources. The same would be true for a governance language.
+- Governance codes too often use jargon terms, often latin phrases like "per curiam" or "sua sponte" that mean nothing to normal people and that experts only understand because they went through many years of school. These jargon terms are pointless and almost seem to intentionally exclude people based on social or economic status, since they're just a holdover from the era when a high class education always included instruction in latin and greek. When a term like this is used in the law, a reader has to look it up in some external resource, but in a computable language any term can be traced back to its original definition, which at the end of the day has to be written using the basic standard concepts of the language. This makes it possible to truly understand a body of laws without having to understand anything other than the language its written in.
+it's just the form that's easy for humans to understand. Instead the computer "parses" the raw text into data structures that the computer understands, and we can display those structures any way we want. For example, in the computer language TypeScript we can write a function that takes in a number and multiplies it by `2` like this: `let double = (n: number) => n * 2`. This probably looks like gibberish if you haven't learned TypeScript, but we could easily write a computer program that would parse that code text and display it like this: "Let's define a function, called `double`, which accepts a `number` we'll call `n`. This function returns the result of multiplying `n` by `2`." You can probably see why computer languages are written to seem like gibberish, since it makes them much shorter and faster to type. But for people trying to read the code, that terseness isn't very helpful. Luckily we can have it both ways!
 
-In computer languages code is merely a set of instructions, and data is the information that is input or output from those instructions. For example, let's say we're defining a function that takes as input any two numbers, adds them together, and returns that addition as the result. The actual program text that will define such a function will depend entirely on the exact grammar of the programming language, but let's pretend some language exists that makes the text look like this:
+<!-- governance engineers -->
 
-```
-define function add:
-  accept input "x" which is a number
-  accept input "y" which is a number
-  return result (x + y)
-```
+## Reality isn't Precise
 
-Real computer languages are often much less verbose. Here's the same function in a common language called `python`:
-
-
-The importance of the separation between code and data is this: the messy human findings and decisions and conclusions of humans can be modeled as data, and the laws themselves can be code that accepts data inputs and gives data outputs.
-
-Let's use a silly fictional example to make this idea clear. Say we're writing the laws regarding zoning, and deciding what kinds of zoning exceptions can be made for different kinds of construction. We want to allow these kinds of exceptions:
-
-- Charitable organizations can build anything they want.
-- For-profit organizations can be given an exception if an auditor approves it.
-- For-profit organizations can be given an exception if an auditor doesn't approve it but they pay an increased tax per month.
-- Construction performed before a certain date is "grandfathered in".
-
-The zoning exception law is then a function that takes as input what kind of organization owns the property, when the construction will be performed, the decisions of auditors, and outputs some conclusion about whether the exception application will be denied or accepted with some modifications. Let's pretend there's some language where this is the program text that makes zoning application decisions:
-
-```
-define type Organization, which is one of:
-  Charitable
-  or ForProfit
-
-define type YesOrNo, which is one of:
-  Yes
-  or No
-
-define type Date, which has properties:
-  year, which is a number
-  month, which is a number
-  day, which is a number
-
-define constant grandfather_cutoff_date to be a Date
-  assigning property year to 2020, month to 1, and day to 1
-
-define type ZoningExceptionApplication, which has properties:
-  organization, which is an Organization
-  construction_date, which is a Date
-  has_auditor_approval, which is a YesOrNo
+An obvious potential objection to this idea is that the law cannot be fully precise and deterministic since it must interact with the vague and messy natural world, or the inherently subjective decisions and observations of human plaintiffs and investigators. This is absolutely true! But by understanding the difference between *code* and *data*, we can make our legal codes fully deterministic while still acknowledging the messiness they must interact with.
 
 
-define type ZoningExceptionDecision, which is one of:
-  Rejection
-  or GrandfatherApproval, which has properties:
-    construction_date, which is less than grandfather_cutoff_date
-  or CharitableApproval, which has properties:
-    organization, which has value Charitable
-  or ForProfitAuditorApproval
-  or ForProfitMustPayTax
 
-define function decide_ZoningExceptionApplication:
-  accept input application, which is a ZoningExceptionApplication
+## Social Inertia
 
-  if property organization of application has value Charitable
-    then return result CharitableApproval
-      assigning property organization to organization
+The idea of writing governance codes in imprecise natural language is a concept everyone in the world is familiar with, that's been around for thousands of years. There are entire professions centered around the way we write laws and corporate contracts, and these people likely wouldn't be very excited about the entire paradigm of their world changing. And of course, society as a whole is difficult to change, which can be reasonable since it's not always smart to change something that's already working to something we barely understand.
 
-  if property construction_date of application is less than grandfather_cutoff_date
-    then return result GrandfatherApproval
-      assigning property construction_date to construction_date
+This the biggest problem with this idea, that its risky and expensive and possibly unpopular to make large changes to important aspects of society. Society isn't wrong in being resistant to change, so if we're going to propose some big change we should prove it's a good idea with small-scale experimentation first.
 
-  if property has_auditor_approval of application has value Yes
-    then return result ForProfitAuditorApproval
-
-  else return result ForProfitMustPayTax
-```
-
-Of course I've just made up this little language, but it is absolutely possible to create a language to fulfill these requirements.
+Governments have the power to tax people and enforce laws and go to war, so changing governments is risky and should be done carefully. But changing purely private organizations is a lot less risky, especially if those private organizations are small or new. At some point in the near future, probably after [the Magmide project](https://github.com/magmide/magmide) is fully usable, I intend to build a governance language and to use it to govern private organizations like cooperatives, companies, and political groups. If the idea of computable governance code has been used in enough successful organizations for long enough, then we can more confidently propose using it in governments.
 
 <!-- it would be really cool to have a "(s: Signer) -> Signature<s, T>" type, representing a type that has been proven to be a cryptographic signature of the particular individual signer -->
-
-# Benefits
-
-- Computable legal code gives us the ability to prove arbitrary logical qualities about our laws and legal procedures, such as their consistency with some ethical framework, or that they are provably secure or fair.
-- Computable legal code gives us the ability to extract running computer code to use in systems such as government databases and voting machines.
-- Computable legal code makes the law more searchable, since a stricter structure allows search algorithms to more easily understand information.
-- Since the law is computable, it doesn't matter if people don't find the default representation understandable. Anyone can create a program to convert the one syntax representation of the code into any other representation, translating it into any form some group may find easier to understand.
-- Our legal system would benefit by gaining the powers of all programming languages, such as allowing easy reuse of legal definitions in different parts of the law, easy sharing between groups, and automatic checks that it is sound and addresses all possible conditions.
-
-# Potential Objections
-
-- Designing and implementing *any* programming language is a difficult task, and this is no exception.
-- Converting existing legal systems to use a language like this would require a lot of work.
-- Such a technological solution to a traditionally very analog problem would likely seem foreign and meet resistance from the legal profession and many citizens.
-- We already rely on a class of legal experts to write and adjudicate our laws, and this would shift the nature of that expertise rather than removing it's necessity. The argument can be made that since this would give the law such predictable structure that it would be easier to learn, but it would still require effort.
-
-# Open Questions
-
-The technical aspects of this idea are well understood by theoretical computer scientists, and there is no doubt in my mind that a language like this could be constructed. The more interesting question is whether it would actually improve governance and clarity of the law.
-
-I intend to design such a legal programming language at some point in the future, and to use it as much as possible in governing private organizations such as cooperatives, companies, and political groups. Only by using such a language with real people can we find the social flaws in the design.
-
-
-
-governance engineers
-
-
-
-
-
-# Computable legal code
-a body of laws is just a "codebase" for how to make decisions. it's just like a computer program, except that instead of running in a computer with precisely defined rules, it runs in human brains and institutions.
-
-the exciting thing about this idea is that if we define a body of laws as a computable language, then we can use that code to *literally* run the organization, by creating actual server code to do things like run votes and allow forms, etc.
