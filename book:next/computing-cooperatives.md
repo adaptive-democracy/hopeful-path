@@ -10,9 +10,9 @@ The massive cloud computing companies seem intent on being the only entities in 
 
 I think we can solve all three of these problems with one concept, [member cooperatives](TODO).
 
-To understand how we can use cooperatives to solve these problems, let's try to design the *correct* way we hope for the internet and software ecosystem to work. Software is merely a free public good, and is designed to run anywhere rather than only on some private companies inaccessible servers.
+To understand how we can use cooperatives to solve these problems, let's try to design the *correct* way we hope for the internet and software ecosystem to work. It is best for users if software is merely a free public good, and is designed to run anywhere rather than only on some private company's inaccessible servers. If this software is free, and especially if it's designed to be agnostic of where it runs and where the data it processes is stored, then users can simply run software on home servers that they physically control, or cloud servers that they control democratically in concert with others.
 
-The problem is ownership and control.
+The problem is ownership and control. Software should be collectively owned by all through the shared commons, and physical computers should be owned by their direct users or by democratically controlled organizations.
 
 the cloud company can be a [user defined organization](TODO) where voting weights are given when compute is billed.
 then the company can divert some percentage of funds to create a [persistent funding pool](TODO), and of course simply create open source software internally as directed by democratic control.
@@ -21,7 +21,7 @@ then the company can divert some percentage of funds to create a [persistent fun
 some people want to literally control their own computers and run home servers. we should make that easier so that more people can do it!
 but not everyone will be willing or able to do that, and even if everyone has a moderately sized home server and those servers can cooperate with everyone else's we'll probably always want some kind of generalized public cloud infrastructure available to us in order to gain the benefits of datacenter scale design, truly redundant backups, fast coordination with far away people, etc.
 
-so in general, we want location agnostic software, reusable libraries that can run on and interact with any node, whether its our own home servers, our mobile devices or laptops, or a datacenter rack.
+so in general, we want location agnostic software and reusable libraries that can run on and interact with any node, whether its our own home servers, our mobile devices or laptops, or a datacenter rack.
 
 this means software should just be funded in whatever ways we can fund any public good. I'll talk about structuring open source projects as cooperatives in a bit, but its obvious that these cooperatives are inherently more "ephemeral" than any company we're used to.
 
@@ -47,7 +47,7 @@ In an open source project, anyone who has somehow sacrified to improve the share
 
 The tricky thing about funding open source is that no individual is required to give money in order to benefit from the project. They might realize that if they *don't* support the project there will be a commons tragedy, but most people aren't altruistic or forward thinking enough for that motivation to be sufficient.
 
-Various crowdfunding systems have solved this problem by giving funders something "extra" in addition to the project existing. Although this works, its technically a pure distraction from the project itself if maintainers have to somehow provide whatever this "extra" stuff is. But if we structure a project as a cooperative, then voting rights can act as an "extra" thing that also naturally
+Various crowdfunding systems have solved this problem by giving funders something "extra" in addition to the project existing. Although this works, it's technically a pure distraction from the project itself if maintainers have to somehow provide whatever this "extra" stuff is. But if we structure a project as a cooperative, then voting rights can act as an "extra" thing that naturally contributes to the long-term progress of the project.
 
 - Give voting weights to those who make monthly donations to the project. If voting weights are always [scaled quadratically](TODO) then large patrons won't have undue power. More on how those weights can be used within the project in a moment.
 - Give voting weights to whoever's a contributor according to the governance documents. The rules could designate a hardcoded list of contributors, give some function for determining vote weight based on contribution metrics, or use a blend of many methods.
@@ -86,7 +86,7 @@ I think the monthly donations and the *existence* of contributor stakeholders sh
 
 So the kernel constitution should basically state that someone currently has persistent weights equivalent to the minimum of either last month's donation or the amount committed for the next donation, and that there exists a contributor list of people who all receive weights, and if there is only one contributor that person has weights equivalent to the highest donor.
 
-Below the kernel defining who is given voting weights and how, then the first layer of governance can just be a persistent vote for a constitutional document. This constitutional document can specify absolutely anything that's well-typed according to the constitutional kernel. Let's play around with a different things this document could specify.
+Below the kernel defining who is given voting weights and how, then the first layer of governance can just be a persistent vote for a constitutional document. This constitutional document can specify absolutely anything that's well-typed according to the constitutional kernel. Let's play around with different things this document could specify.
 
 - Selection of some elected "president" or main contributor. Most projects would just do this, since many crystallize around the vision of some individual anyway. This would allow for safe and changable versions of the "Benevolent Dictator for Life" pattern.
 - Defining contributor committees and working groups, much like what is done in the Rust project.
@@ -98,17 +98,6 @@ Below the kernel defining who is given voting weights and how, then the first la
 
 the problem with the naively continuous "flow of funding directed by each person" strategy is that those people can direct the funds to themselves. this effectively negates the support mechanism, and puts us squarely back our current world of "merely voluntary contribution" (it's perhaps slightly better, since people have to decide to do this... but they have to decide to direct it elsewhere! no matter what each person has to make a conscious choice about the contribution, which isn't a clean way of scaling decision making)
 
-
-
-
-
-
-# Using Persistent Democracy to govern and fund blockchain projects
-You can mix the idea of user defined organizations with persistent voting by having the voting weights accrued by purchases decay in some way as they age.
-
-The kernel basically answers the question of how much we can change without simply forking. For blockchain projects, that's probably *only* the decision of who voters are and how their voting power is allocated. After that, how their voting power is *used* can be defined arbitrarily with a persistent constitution. the kernel can allow finer parameters of that process to be delegated to lower decisions. it can also define exactly how a fork can occur! if the kernel allows some kind of change to itself, then again the community is defining how it can fork itself gracefully.
-Some governance changes are tantamount to a fork, since they might change how voting power is allocated!
-constitutional kernels of all kinds set the fork conditions
 
 
 

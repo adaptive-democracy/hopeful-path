@@ -10,15 +10,15 @@ Software is an increasingly critical component of our society, underpinning almo
 
 Using the same theoretical methods that underpin logic and mathematics, the field of formal verification seeks to find ways to prove that software has arbitrary logical qualities. Since software is complex and proving logical theorems can be difficult, the field has been mostly confined to academics verifying a few types of software. However recent advancements in the field promise to make it easier to verify software in its full complexity.
 
-I've started work on a programming language called `Rok` that intends to combine recent advancements in formal verification with the existing state-of-the-art in programming language design, and I hope we can use it to improve our software infrastructure enough to feel confident relying on it in our democratic processes.
+I've started work on a programming language called [Magmide](https://github.com/magmide/magmide) that intends to combine recent advancements in formal verification with the existing state-of-the-art in programming language design, and I hope we can use it to improve our software infrastructure enough to feel confident relying on it in our democratic processes.
 
 When the project has matured, I hope it will allow us to:
 
-- Write software that is provably secure, making expensive hacks or privacy breaches a historical oddity. In our world, hackers search for new *vectors* of attack that utilize known vulnerabilities or attack types. In a world of verified software a hacker would have to invent an entirely new *type* of attack that was still present despite the fact that the target software has been proven to do precisely what it was specified to do and nothing else. This would raise the difficulty to perform any hack from a small amount of online research and computer savvy to years of dedicated expert research.
+- Write software that is provably secure, making expensive hacks or privacy breaches a historical oddity. In our world, hackers search for new *vectors* of attack that utilize known vulnerabilities or attack types. In a world of verified software a hacker would have to invent an entirely new *type* of attack that was still possible despite the target software being verified against a narrow specification. This would substantially raise the difficulty to perform any hack, from a small amount of online research and computer savvy, to years of dedicated expert research.
 - Write software that is provably correct, making software much more reliable. Not all software requires perfect correctness, but there is a lot of foundational infrastructural software that everything else relies on and should absolutely be fully verified. Right now we live in a world where *no* software even has the *potential* to be fully verified.
 - Make software more useful. When software is easier to make reliable and correct, it can become much more ambitious.
 
-The project is obviously deeply technical, but if you are curious to learn more you can [visit the project's source code repository](TODO) or its [documentation site](TODO).
+The project is obviously deeply technical, but if you are curious to learn more you can [visit the project's source code repository](https://github.com/magmide/magmide).
 
 # Benefits
 

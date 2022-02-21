@@ -8,7 +8,7 @@ This is a big scary one, but many of the ideas presented in the previous section
 
 - The most likely thing that will save us is safe, clean, abundant nuclear power. The first version is to make some form of fission safe/clean/abundant, such as designs that use thorium or use uranium/plutonium but can use old waste rods or don't produce waste. And we should lean into whatever things already exist.
 
-- Hydrogen is showing more promise, *if* we can get clean sources of electricity.
+- Liquid hydrogen is showing more promise, *if* we can get clean sources of electricity.
 
 - We should however increase the strength of our environmental regulations (see democratic regulation above), as well as the strength of our laws about fraud, and delegation of crimes (by corporate boards/managers). The right not to be defrauded should be much more serious than we currently take it, and it seems reasonable to fairly aggresively fine/prosecute corporations/individuals whose actions led to the current unacceptable status quo.
 
