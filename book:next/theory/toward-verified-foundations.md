@@ -1,4 +1,144 @@
-I'm an engineer by trade and in my heart, I have a more entrepreurial bend, I'm not trained in mathematics or economics or philosophy, I don't have the existing support structures to pursue proofs of all these conjectures. however all of this seems just barely convincing enough to me that I think it's worth experimenting with in organizations like a persistently democratic political party and a mega-cooperative. even if these theorems were proven, we'll have to empirically validate them anyway, so we might as well do so in parallel.
+# Toward Verified Foundations for Ethics, Action, and Coordination
+
+tldr: a new model and set of conjectures about moral philosophy and welfare economics that could *possibly* solve some of our trickiest debates (utilitarianism vs deontology, long-term vs near-term, rights) and give a provable foundation for empiricism and democratic coordination.
+
+
+preamble about who I am, how I know I don't know what I'm talking about, and all of this is conjecture, but the conjectures seem plausible since most of them simply point to some proven result. I'm extremely open to feedback, but I'm mostly putting this out there because it seems usefully distinct from the existing discussion, and could offer some promising pathways. I don't think my life and skills best place me to be the one who actually pursues all of this, but someone in this community likely has the time and capability to take these questions somewhere useful, if there's anything here at all
+
+brief interlude about proof assistants, and how I'm coming at this from a type-theoretic rather than a set-theoretic direction
+
+# The Model
+
+These are the axiomatic constructions of the model, things that are merely assumed to exist in this form.
+
+## The Universe as a vector of variables
+
+I model the universe as a vector of variables that behave similarly to the real numbers, in that each variable can be assigned different values that can be more or less far apart from each other.
+
+This construction is intentionally vague, since this theory isn't concerned with the true precise nature of the universe, merely that we can abstractly measure the distance between one state of the universe and another. The universe variables could encode each point of space in the universe and the value describe what type of particle in what state currently occupied that space. Or they could encode all the different dimensions of each particle in existence, such as position and current energy. It doesn't matter for our purposes.
+
+For example, if the entire universe only consisted of three balls, red blue and green, and each could be in one of three positions low mid and high, then there would be nine possible states of the universe.
+
+We can see here that the types of each variable could be different! This would give us a heterogeneously typed universe vector, and that wouldn't need to disrupt our essential ability to measure the distance between different states of the universe as a distance vector as long as each type fit into the Abelian typeclass, or basically had some function defined upon it that could turn it into a distance. We could think of our logical models of the universe just being a piece-wise composition of models, each only attempting to predict one variable or family of variables that can derived into an Abelian type. Then we simply don't assume to improve our *total* model, but only each sub-component. In a very real way this is exactly what we do, since all measurements in science have some *units* attached, which truly does place the value in a different type than others (in type-theoretic terms, a real number with an attached unit is like a nominal one-tuple, also known as a "wrapped type" in languages like Rust). Although these types would allow us to pull out the inner real, any combination of unassociated reals would be meaningless, and producing proofs based on them would be impossible. If we commit to using heterogeneous types, then speed of *total* error reduction becomes meaningless. Instead we have to end up in a world where we simply reject logical models that aren't strict improvements, since we have no way of meaningfully comparing mixed changes apart from democratically valuing them.
+
+<!-- Vectors of this nature are common in this theory, so I'll call them Abelian-component vectors -->
+
+It's way simpler if we just use the reals, since again this isn't what the theory is concerned with. When we talk about predictions and error we'll see why it matters so much.
+
+Why am I willing to make the real number assumption for universe variables and not for being welfare? Because it seems more morally important to not flippantly compare beings than atoms.
+
+## Beings as Qualia, Welfare, and Will types
+
+I model conscious beings as mostly a collection of functions that produce types. First a being is an experience function that can be given a value of the universe type, and which outputs a Qualia value. Then that Qualia value can be input into a welfare function, which outputs a separate Welfare type. I separate the two because they seem intuitively separate! Merely experiencing the sensation of red isn't the same as experiencing positive or negative feelings about red.
+
+Strictly speaking we could just derive all other aspects of conscious experience from Qualia, and if I ever fully tackle this that's what I'll do. But for now it isn't important.
+
+Then the final component of a being is a Will type, some value they can "apply" to a universe value to mutate it into a different state.
+
+This construction of beings happily assumes a few things that go beyond "I exist":
+
+- Other beings exist. We can't know this, but it's a reasonable "pascal-like" wager to simply assume.
+- We have some kind of free will. Again, very possibly not true, and no way to verify it, but it's a reasonable wager.
+- The universe is rationally deterministic, meaning that the same force of will applied to the same universe value will produce the same result. Same as above, seen to be a reasonable wager.
+- The universe is shared and durable, meaning that all beings exist in the same universe together. Same as above, seen to be a reasonable wager.
+
+Basically we're assuming that beings are the only source of "non-determinism" in the universe. Again this is an economic/ethical theory not an existential one, so these simplifying assumptions are just treated as non-problematic.
+
+## Existence as a loop of timestepped universe mutations
+
+Now we can put our models of the universe and beings together. I model time or existence as the interaction of a vector of living conscious beings interacting with the universe, which is a vector of variables, in this loop:
+
+- The beings experience the current state of the universe, so a qualia and welfare value is produced for each of them.
+- The beings, using whatever internal logic they wish, issue some force of will value to be applied to the universe.
+- The force of will values are aggregated and applied, mutating the universe.
+- An instantaneous timestep passes, and the loop begins again.
+
+You'll notice I've been intentionally vague about what an instantaneous timestep is, since again it doesn't matter for our purposes. Essentially a timestep is merely the smallest amount of time that can be perceived by beings, including using measurement technology, but not divided any further.
+
+You'll also notice that I've defined the vector of beings as separate from the universe state, even though that's obviously not the case in real life. If we wanted this to be perfectly accurate, we would recover this beings vector by applying some function capable of measuring their existence in a universe, and projecting them back outward. We could keep treating beings as the sole source of non-determinism by just assuming that this projected vector of beings still had force of will that could mutate the universe in the next step, and that more complex model would include the facts that the vector of beings itself can change each timestep through births and deaths. Again, this doesn't matter for our purposes at this point.
+
+You'll also notice that the ambient forces of nature such as the weather and the motion of the planets isn't included in this model. It would be relatively simple to include by just defining some "force of nature" function that participates in the mutation of the universe alongside the beings. Such a function would need to be pure and deterministic in the type-theoretic sense, only applying changes to the universe based on its current state.
+
+# Derived Concepts
+
+From the above axiomatic constructions we can derive many other non-primitive ideas.
+
+## Work and Welfare Potential
+
+a state where many ripe apples are already growing in easily accessible locations on a tree has more "welfare leverage" than a state where the apples are hard to get to, or aren't ripe yet, or there isn't a tree at all
+a state where a fueled and repaired backhoe is already in a position ready to dig a hole has more "work leverage" than a state where the backhoe is out of fuel or is in disrepair, or in the wrong place, or there isn't a backhoe at all
+this is obviously an ordinal rather than cardinal system? or rather, it's cardinal for individuals, but can't be aggregated across individuals
+
+## Prediction and Error
+
+## Coordination Functions
+
+# Vector-Compatible Ethics
+
+now to the meat of it. first a new definition of moral value, one that's consistent with non-comparable states. I propose the most reasonable way to assign moral value is to assign it based on the *coordination* function, not the actual state of the universe
+for example, if we have a particular universe with some beings that's in a particular state, it's silly to try to compare that universe to a completely different universe, since our model would have to have more assumptions in order to do so *and* in our real reality we can't just swap to different universes, we have to incrementally mutate our universe to a different state.
+morality seems to intuitively come from *actions* rather than states, and since in this model the coordination function is the hopeful arbiter of all actions, it is the source of moral value, the thing we're obligated to make as "correct" as we can
+the most compatible definition of correct is one based on Pareto efficiency, with two versions
+
+## Democratic Willingness-to-Pay
+
+we recover "tolerable" ordinality through *democratic* willingness-to-pay
+
+## Veil of Ignorance
+
+basically the simple version of this is the weaker "trading places" property, that only assumes a veil of ignorance for all beings in a *particular* state of the universe.
+
+## Long-Termist Addenda
+
+to make it durable for the long-term, we'd have to strengthen it to the "help me out" version (a being would choose this coordination function for all *previous* beings in order to maximize the welfare potential of the universe once the being began existing) with the caveat that you have to choose the same function for yourself as that you'd choose for previous beings, so you can't require them to sacrifice their entire welfare to create maximum welfare potential for you.
+
+as long as the things that provide welfare potential to currently existing beings are the same things that will do so for future beings, then merely empowering (or requiring) existing beings to prevent irreversible welfare potential destruction as they maximize their welfare is sufficient. this applies both to natural resources (and various sustainability concepts could do the job) and to coordination institutions.
+the knowledge commons is probably the highest leverage form of both work and welfare potential
+
+perhaps it's good enough to say it's ethically positive to create new lives if doing so doesn't violate the coordination function (which implicitly just means that it's democratically been agreed on that creating new lives is okay with everyone) and doesn't produce irreversible welfare potential destruction
+so basically it's ethical to create new lives in a situation of plenty and perhaps unethical from a long-termist perspective not to do so, and unethical to do so in situations where doing so causes destruction or harm.
+in a system that is infinitely sustainable but maxed out, it would be positive to contribute to replacement and likely democratically controlled to overshoot replacement.
+
+
+
+<!--
+things to add to blog AI post:
+we know *strictly* less about the experience of an AI system than we know about even the most alien biological creatures, because at least we have some concept from our own experience of what it's like to be a biological being
+the only truly safe ethical position to take to artificial beings is simply not to create them. we should avoid creating a conscious artificial being at all costs, since we have no way of knowing whether such an existence is even tolerable, and no way to know whether we've given this consciousness the ability to signal to us that they're miserable even if they are.
+-->
+
+# Conjectures
+
+## Empiricism
+
+brief sidebar about empiricism, although that's not the focus of the theory.
+
+as the optimal way to minimize prediction error
+
+## Persistent Democracy
+
+sustainable persistent democracy seems like the sensible change to make in order to adjust this for the long-term.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I'm an engineer by trade and in my heart, I have a more entrepreneurial bend, I'm not trained in mathematics or economics or philosophy, I don't have the existing support structures to pursue proofs of all these conjectures. however all of this seems just barely convincing enough to me that I think it's worth experimenting with in organizations like a persistently democratic political party and a mega-cooperative. even if these theorems were proven, we'll have to empirically validate them anyway, so we might as well do so in parallel.
 
 # value of proof assistants
 
@@ -77,3 +217,8 @@ none of those costs is actually zero, so in order to deal with them we make thes
 proving the optimality of the naive zero cost version is actually a weaker case of the more general proof, one where we assume these costs are zero. proving that persistent democracy *as it is stated* is optimal we would have to prove that each of these cost compensations prevents the incurrence of strict negative updates, always allows or encourages strict positive updates, and always chooses mixed changes that are valued more highly than all others that compete with it. we can do this by appeal to the [fundamental theorems of welfare economics](https://en.wikipedia.org/wiki/Fundamental_theorems_of_welfare_economics), since this structure gives all beings equal market power since all rights and goods in the universe can have their fundamental ownership structures changed in the constitution which all beings can equally vote for, allows them to arbitrarily tamp down externalities since they can set rules about the entire universe, and best compensates for the presence of imperfect information by both allowing perfect price information through common partial ownership and allowing stabilization periods that can help correct valuations. lots of stuff left out there!
 
 this is as far as I want to go downward in the coordination function. with the presence of an arbitrary persistent constitution, beings are just left to argue about what the most optimal *next* constructions are, and of course we'll argue for further instantiations of common partial ownership and persistent democracy. since these persistent constitutions control the entire universal coordination function, they have the authority to instantiate any structure, such as common resource taxes, that the beings consider optimal.
+
+
+
+
+moral coordination conjecture
