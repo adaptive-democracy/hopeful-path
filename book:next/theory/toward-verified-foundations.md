@@ -33,13 +33,13 @@ I model conscious beings as mostly a collection of functions that produce types.
 
 Strictly speaking we could just derive all other aspects of conscious experience from Qualia, and if I ever fully tackle this that's what I'll do. But for now it isn't important.
 
-Then the final component of a being is a Will type, some value they can "apply" to a universe value to mutate it into a different state.
+Then the final component of a being is a Will type, some value they can "apply" to a universe vector to mutate it into a different state.
 
 This construction of beings happily assumes a few things that go beyond "I exist":
 
 - Other beings exist. We can't know this, but it's a reasonable "pascal-like" wager to simply assume.
 - We have some kind of free will. Again, very possibly not true, and no way to verify it, but it's a reasonable wager.
-- The universe is rationally deterministic, meaning that the same force of will applied to the same universe value will produce the same result. Same as above, seen to be a reasonable wager.
+- The universe is rationally deterministic, meaning that the same force of will applied to the same universe vector will produce the same result. Same as above, seen to be a reasonable wager.
 - The universe is shared and durable, meaning that all beings exist in the same universe together. Same as above, seen to be a reasonable wager.
 
 Basically we're assuming that beings are the only source of "non-determinism" in the universe. Again this is an economic/ethical theory not an existential one, so these simplifying assumptions are just treated as non-problematic.
@@ -50,39 +50,98 @@ Now we can put our models of the universe and beings together. I model time or e
 
 - The beings experience the current state of the universe, so a qualia and welfare value is produced for each of them.
 - The beings, using whatever internal logic they wish, issue some force of will value to be applied to the universe.
-- The force of will values are aggregated and applied, mutating the universe.
+- The universe is transformed by the force of will values, but mediated by a "natural laws function", the opaque holder of the true updating rules of the universe. This function accepts all the force of will values and the previous state of the universe, and outputs the new state.
 - An instantaneous timestep passes, and the loop begins again.
 
 You'll notice I've been intentionally vague about what an instantaneous timestep is, since again it doesn't matter for our purposes. Essentially a timestep is merely the smallest amount of time that can be perceived by beings, including using measurement technology, but not divided any further.
 
 You'll also notice that I've defined the vector of beings as separate from the universe state, even though that's obviously not the case in real life. If we wanted this to be perfectly accurate, we would recover this beings vector by applying some function capable of measuring their existence in a universe, and projecting them back outward. We could keep treating beings as the sole source of non-determinism by just assuming that this projected vector of beings still had force of will that could mutate the universe in the next step, and that more complex model would include the facts that the vector of beings itself can change each timestep through births and deaths. Again, this doesn't matter for our purposes at this point.
 
-You'll also notice that the ambient forces of nature such as the weather and the motion of the planets isn't included in this model. It would be relatively simple to include by just defining some "force of nature" function that participates in the mutation of the universe alongside the beings. Such a function would need to be pure and deterministic in the type-theoretic sense, only applying changes to the universe based on its current state.
-
 # Derived Concepts
 
 From the above axiomatic constructions we can derive many other non-primitive ideas.
 
-## Work and Welfare Potential
+## Displacement and Welfare Leverage
 
-a state where many ripe apples are already growing in easily accessible locations on a tree has more "welfare leverage" than a state where the apples are hard to get to, or aren't ripe yet, or there isn't a tree at all
-a state where a fueled and repaired backhoe is already in a position ready to dig a hole has more "work leverage" than a state where the backhoe is out of fuel or is in disrepair, or in the wrong place, or there isn't a backhoe at all
-this is obviously an ordinal rather than cardinal system? or rather, it's cardinal for individuals, but can't be aggregated across individuals
+For the purposes of this model, I'll define "displacement" as the degree of physical mutation of the universe, or the "effective work" done to change one state of the universe into another. This means displacement is just the measurable pointwise difference between two states of the universe.
+
+It is obviously easier to produce large displacements in some states of the universe than others. It is easier to create a large displacement if a state has a large boulder balanced in a tall location than it is to displace that same boulder once it's solidly on the ground. I'll define the ratio between beings' exertion in force of will vs how much displacement they can cause with that force of will as "displacement leverage".
+
+This concept of displacement leverage can be used to encode how "powerful" or "advanced" a society is. A universe state where a fueled and repaired backhoe is in position ready to dig a hole has more displacement leverage than a state where the backhoe is out of fuel or is in disrepair, or is in a bad position, or there isn't a backhoe at all.
+
+A similar concept can be used for production of welfare. Some states of the universe will require less force of will to create highly positive welfare than other states. A state where many ripe apples are already growing in easily accessible locations on a tree will likely have more "welfare leverage" than a state where the apples are hard to get to, or aren't ripe yet, or there isn't a tree at all.
+
+Displacement leverage merely encodes power over the universe, and is agnostic to the welfare consequences of that power. Displacement leverage is obviously useful for the pursuit of welfare, but only if the beings are actually able to use it to mutate the universe into welfare leveraged states. This implies that they have to actually know what will give them welfare, be able to do any coordination necessary to use the displacement leverage, and do so without compromising their welfare in other unexpected ways. Simply put, mere power over the universe isn't sufficient.
+
+It is clear that in this model there can be asymmetries between universe states, where it requires more force of will to mutate the universe into one state than back to the other.
+
+Scientific progress seems like it should be the most effective and most durable way of improving both the displacement and welfare leverage of the universe, displacement by improving understanding of the natural laws function, and welfare by improving understanding of both groups of beings and individual beings. It is difficult to uncover useful scientific knowledge, but once it is uncovered it is relatively cheap to maintain a record of it enough to continue using it (the brains of beings part of the universe too, and those brains have extremely high leverage if they encode useful patterns of the universe).
+
+<!-- this is obviously an ordinal rather than cardinal system? or rather, it's cardinal for individuals, but can't be aggregated across individuals -->
 
 ## Prediction and Error
 
+Because of the presence of other beings and the opacity of the natural laws function, beings can never know with complete certainty exactly what state the universe will be in after they apply some force of will value. They can only make predictions. Since the natural laws are encoded as a function, beings can also define their own logical function to approximate the natural laws function.
+
+I'll define a prediction as this: a being can formulate a force of will value and run it through their approximation of the natural laws to produce a predicted universe vector. They can choose to ignore some variables in this universe vector if they aren't considered relevant, perhaps using something like the type-theoretical concept of `option`. Then after the real universe vector has been produced, the being can compare their predicted value to the real one, not computing differences between ignored variables. This difference is their "error", and this being could choose to perform repeated experiments to decrease the observed error of their approximation function.
+
+It is always possible to produce a strictly better prediction function by decomposing functions that simultaneously predict multiple variables into copies of the same function that only produces one variable prediction each. If a function is found that better predicts one variable but possibly worse for others, you can simply only use the better function for that one variable. Obviously this is less desirable, and we want as much theoretical unification as possible, but it's still possible.
+
 ## Coordination Functions
 
+Beings can choose to define coordination functions, which try to align their actions. A coordination function can accept a value from each coordinating being, and those values can be of any type the group has defined. The function then outputs a possibly nonexistent recommended force of will value to each being at each step.
+
+We can think of these functions as being like governance codes. Governance codes can be activated with many different types of inputs from the governed beings, such as votes in an election or reports of wrongdoing. The coordination function doesn't have to give every coordinating being a recommendation every step.
+
+Defining a function that gives no recommendations to any beings every step is equivalent to having no coordination function at all. Having a function that only examines the inputs of a sub-vector of beings is an oligarchy or autocracy. A function that treats the inputs of all beings the same is a democracy. If you squint you can see coordination functions all around us.
+
+I'll use the term "cooperative" to describe a group of beings who have chosen some coordination function. Governments are cooperatives, tribal groups are cooperatives, businesses are cooperatives that don't use democratic rules, and of course normal economic cooperatives are... cooperatives.
+
 # Vector-Compatible Ethics
+
+With all the axioms and definitions out of the way, we can get to business actually trying to reason about this model. I'll start with what I think is the most important thing: what's the definition of ethical anyway?
+
+it's not interesting or useful to point out that ethicality is only produced by actions, not by universe states. the population ethics view is instead talking about the possibility of *transforming* one state into another, and whether doing so would be ethical.
+
+I think this question is misplaced.
+
+There are two ways we can assign ethical value, either to individuals or to the coordination function itself. Perhaps both make sense? An ethical *system* would be one that would always prompt or push individuals to act most ethically, and an ethical *being* would be one that acted in harmony with that ethical system.
+
+We care about this because we *personally* want to be ethical, but that leaves the question of what ethical even is? It seems obvious that before we can deem an individual to be ethical we have to have a system that can evaluate the ethicality of their actions! So the entire task is determining an ethical system, and then we simply have to live in harmony with it.
+
+
+
+Since comparing the welfare of different sets of beings or naively aggregating the welfare of one vector of beings are both undefined operations in this model, we can't assign ethical value based on the current overall welfare state of a universe.
+
+Besides, it seems silly to say that some universe is unethical just because everyone there is miserable. If they're miserable but acting well to each other and cooperating and using a fair coordination function, then their universe is just as ethical as one in which all beings are extremely happy. of course we can't in this model even make such a comparison at all!
+
+It seems obvious to me that ethicality can only be applied to actions, not to universe states. A universe state where beings are universally unhappy can be unethical if their actions are moving them in a better direction.
+
+
+
+
+Comparing completely non-overlapping sets of beings would be equivalent to comparing a transition in which all beings instantly died and a completely new set instantly appeared.
+
+In a purely "hedonistic" construction of ethics, where it only mattered to what degree the coordination function allowed *already existent* beings to fairly maximize their welfare, then whether or not people were born or died would depend only on the welfare consequences of those occurrences. To not have children would be morally neutral, as long as you were happy, and having children would only be morally negative if it caused already existent beings or the newly existent being to be unhappy (the newly existent being only counts once they actually exist).
 
 now to the meat of it. first a new definition of moral value, one that's consistent with non-comparable states. I propose the most reasonable way to assign moral value is to assign it based on the *coordination* function, not the actual state of the universe
 for example, if we have a particular universe with some beings that's in a particular state, it's silly to try to compare that universe to a completely different universe, since our model would have to have more assumptions in order to do so *and* in our real reality we can't just swap to different universes, we have to incrementally mutate our universe to a different state.
 morality seems to intuitively come from *actions* rather than states, and since in this model the coordination function is the hopeful arbiter of all actions, it is the source of moral value, the thing we're obligated to make as "correct" as we can
 the most compatible definition of correct is one based on Pareto efficiency, with two versions
 
+this means this moral theory isn't a consequentialist one, at least in the strictest sense of the word. It is consequentialist in the sense that one's *best effort predictions* about consequences are measured more than the actual consequences. of course, this brings the moral obligation to truly make a *best* effort, which seems quite morally demanding.
+
+
+
 ## Democratic Willingness-to-Pay
 
-we recover "tolerable" ordinality through *democratic* willingness-to-pay
+If the welfare of a vector of beings is opaque, then how can we build a coordination function that accurately takes it into account?
+
+It seems to me the best way is by using a resource voting system, which basically lets us measure a "democratic willingness-to-pay". If each being is given an equal amount of some voting resource, and then we ask them to assign that resource as "weight" to either favor or disfavor different possible actions our cooperative could take, it seems that will best allow them to signal to us their real preferences. I conjecture this is true because their real preferences would appear as force of will values applied in the attempt to encourage or prevent some outcome, and these force of will values can be complex and produce multiple outcomes. It's possible for a person to run toward a place to effect some outcome while at the same time yelling or signaling to others to go to another place to effect a different outcome, giving arbitrarily complex instructions. Allowing an arbitrarily subdivided assignment of our democratic resource seems to best allow a being to signal the best approximation what they would be observed to do with their actions.
+
+We could also reason that this resource model is the best approximation by merely remembering that the being themselves will assign value to outcomes based on their welfare predictions about those outcomes. These welfare predictions can have unbounded differences, so constraining the signal to have the same strength for different outcomes is obviously not optimal.
+
+I also just lean on any existing proofs of the welfare-optimality of quadratic voting, which is a resource voting system!
 
 ## Veil of Ignorance
 
@@ -153,7 +212,7 @@ universe is some opaque vector of variables, all of which must be abelian in the
 a being is some welfare type and function, along with a force of will type.
 qualia is philosophical interesting, but not useful for our purpose here. everything that is included in qualia can simply be directly modeled as a separate function
 
-at each timestep of the universe, beings can apply a value of their force of will type to update the state of the universe. these values are aggregated and applied by a universe function, which is basically a function opaquely representing the laws of physics, which updates the universe value. importantly, this universe function creates a layer of indirection between being's perception of their actions and the real effects of those actions.
+at each timestep of the universe, beings can apply a value of their force of will type to update the state of the universe. these values are aggregated and applied by a universe function, which is basically a function opaquely representing the laws of physics, which updates the universe vector. importantly, this universe function creates a layer of indirection between being's perception of their actions and the real effects of those actions.
 
 beings can make predictions, which are essentially mapping some force of will value to an update vector of the universe, which is a vector exactly mirroring the type of the universe function but where each value can `none` in the style of `option` types. this means they can make predictions about only a narrow window of the universe and not make any claim about unrelated parts of the universe. these predictions can then be compared against reality, which gives us the ability to measure the relative error of different models of the universe function.
 internally this prediction mechanism implicitly requires that the being has constructed their "best guess" at what the universe function does for the predictive window the being is concerned with, so they can just "run" this proposed function to see what it would do. this whole process mirrors the way in which the scientific method first constructs a logical model of the universe that can be used to calculate predictions, which can then be compared against reality.
