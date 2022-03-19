@@ -18,6 +18,19 @@ These two different ways of framing the problem create a reasonably intuitive di
 
 
 
+we compare worlds by this lexicographic ordering
+
+- do they use a fair coordination function?
+- are they sustainable?
+- are they growing both in technological capacity and population?
+
+this aligns with our intuitions
+
+- it's good to have more people, but only if extra people don't cause a disruption to the fairness of the coordination function or to a degradation of sustainability
+- it doesn't matter if you're growing extremely rapidly if it isn't being shared fairly, or is being enabled by suffering
+
+
+
 
 # Toward Verified Foundations for Ethics, Action, and Coordination
 
