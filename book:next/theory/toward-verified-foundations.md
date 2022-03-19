@@ -1,3 +1,24 @@
+https://en.wikipedia.org/wiki/Population_ethics
+> The main problem has been to find an adequate population theory, that is, a theory about the moral value of states of affairs where the number of people, the quality of their lives, and their identities may vary. Since, arguably, any reasonable moral theory has to take these aspects of possible states of affairs into account when determining the normative status of actions, the study of population theory is of general import for moral theory.
+
+This theory rejects the idea that we have to be able to assign moral value to states of affairs where the set of beings varies, and instead posits that moral value is derived from the fairness of the actions taken, or the coordination function.
+
+The long-termist addenda just stipulates that each generation merely must maintain the coordination function and do whatever they can to improve both forms of leverage without doing anything to compromise the long-term sustainability of both forms of leverage in order to fulfill their moral obligation to future generations
+
+So the moral assignment of a change of state in which a person dies (one slot in the beings vector is removed or of nullified or something) merely revolves around whether that being and all others had equal weight in signaling their preferences, and if that's true then their death was unavoidable given an acceptable cost to the rest of society. Basically I'm saying the *truly* fair and equal signaling weight is the final arbiter of moral action. If a universe has that the universe is just, and if an individual is doing their best to use their signal weight to improve the lives of others in a way that positively deviates from their mere self-interest, then that individual is just.
+
+In other words, moral value of the coordination function is assigned based on self-determination and fairness, not by welfare outcome. It might be possible to demonstrate that a truly fair and self-determination-compatible system would yield pareto efficiency and therefore maximize welfare.
+
+Individuals can choose go above and beyond this merely fair system, and try to accrue "meaning" value by deviating from their mere self-interest to improve the welfare of others.
+
+These two different ways of framing the problem create a reasonably intuitive division between the obligation of society and the moral meaningfulness of individuals.
+
+- A society is just merely if it gives truly equal signaling weight to all citizens, which must include full capability to signal for control over the universe and not just chunks of the governance function. It seems intuitive that since society can't prize certain types of welfare above others without violating this fairness constraint, then it can't participate in any "extra" morality and has maxed out its justness if it is merely fair.
+- A person can accrue potentially unbounded positive meaning value by deviating ever farther from their self-interest in favor of others. We can't necessarily say they're obligated to do this, but more meaning is better than none. A person who follows the rules and harms no one but only acts in favor of their self-interest accrues no positive meaning, so they have a "meaningless" life, which seems intuitive. A person who violates the rules of fairness accrues negative meaning, so they have a life that's "evil" or worse than meaningless, which is also intuitive.
+
+
+
+
 # Toward Verified Foundations for Ethics, Action, and Coordination
 
 tldr: a new model and set of conjectures about moral philosophy and welfare economics that could *possibly* solve some of our trickiest debates (utilitarianism vs deontology, long-term vs near-term, rights) and give a provable foundation for empiricism and democratic coordination.
