@@ -124,6 +124,16 @@ Defining a function that gives no recommendations to any beings every step is eq
 
 I'll use the term "cooperative" to describe a group of beings who have chosen some coordination function. Governments are cooperatives, tribal groups are cooperatives, businesses are cooperatives that don't use democratic rules, and of course normal economic cooperatives are... cooperatives.
 
+# Consequences and Constraints
+
+This model has a few important qualities that will constrain the things we can prove with it.
+
+## Welfare values can't be aggregated
+
+## Welfare can't be determined, only preferences, and only with voting
+
+## Beings can only predict future states, not calculate them
+
 ---
 
 <!--
