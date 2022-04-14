@@ -10,7 +10,7 @@ tldr: I've created a new type-theoretical vectorized model of the universe and w
 
 My conjectures simply rely on the existing optimality proofs of [harberger taxes](TODO), [quadratic voting](TODO), and [ideal markets](TODO).
 
-I'm looking for feedback to see if I'm crazy. After all, it's not every day you solve ethics! :laughing:
+I'm looking for feedback to see if I'm crazy. After all, if this theory is really correct then we will have solved ethics ha, which seems unlikely :laughing:
 
 ---
 
@@ -126,11 +126,21 @@ I'll use the term "cooperative" to describe a group of beings who have chosen so
 
 # Consequences and Constraints
 
-This model has a few important qualities that will constrain the things we can prove with it.
+This model doesn't assume the Welfare types of different beings have any known type or alignment, or that beings can reveal their Qualia types in any way.
 
 ## Welfare values can't be aggregated
 
+It is impossible to even propose a model of "aggregate" or "average" welfare in this model. The welfare values of different beings are of different types, so aggregations of them are simply undefined, similarly to how the square root of orange is undefined.
+
+This mi
+
 ## Welfare can't be determined, only preferences, and only with voting
+
+Minds are completely opaque, so beings cannot view the Qualia or welfare values of other beings, or understand the welfare functions of those beings. We can only infer the welfare or Qualia of a being based on their actions.
+
+Our knowledge of other beings preferences must be solicited from them directly, allowing them to control what signal is given to us. It is impossible for a being to convey in complete detail what their welfare function is enough for us to predict on their behalf how they'll evaluate different choices, but we can always create a protocol where we communicate a *specific* set of options to them, and they somehow convey their relative preferences for those options.
+
+This is why we invented voting, to have a simple and logically clear method for soliciting and aggregating other being's preferences for a discrete set of options. However different voting systems have different properties, and it seems clear that the best voting methods will be those which allow beings to convey their with the highest accuracy or expressiveness, meaning that the shape of the data structures used to convey preferences most closely matches the shape of the internal landscape of the being. Such methods must allow this expressiveness while at the same time minimizing the incentive for a being to misrepresent their preferences for "metagame" strategic reasons.
 
 ## Beings can only predict future states, not calculate them
 
@@ -158,52 +168,104 @@ if we always choose whatever decomposition of prediction functions produces stri
 this is a bit of an idealization... but that's okay ha
 
 
-*speed* of error reduction is harder though. certainly with the above requirement we get for free that at every time step the function will choose the predictive model that best reduces error *of all those available*, but to really get this property we have to prove that this function will maximally incent the best possible logical model at each timestep given current resources and observations. this seems like more of a public goods problem that a statistics problem! we might be able to recover this property if we can piggy-back on the optimality of quadratic funding!
+*speed* of error reduction is harder though. certainly with the above requirement we get for free that at every time step the function will choose the predictive model that best reduces error *of all those available*, but to really get this property we have to prove that this function will maximally incentivize the best possible logical model at each timestep given current resources and observations. this seems like more of a public goods problem that a statistics problem! we might be able to recover this property if we can piggy-back on the optimality of quadratic funding!
  -->
 
 # Persistent Democracy Conjectures
 
-With the model and derived concepts defined, I can move on to my conjectures of optimality.
+The precise definition of persistent democracy is as a coordination function with these properties:
 
-This model doesn't assume the Welfare types of different beings have any known alignment, or that beings can reveal their Qualia types in any way. This has two important consequences:
+- All beings have an equal amount of Quadratic decision weights.
+- There is a "lock" object that relates to each universe variable.
+- All beings can use their decision weights to bid for control of groups of locks, which they do by submitting a list of groups along with a bid for each. If a being has control of a group of locks, then they can assign an arbitrary function that can see what happens with that group of universe variables and can then return action recommendations for the coordination function. This is kind of like holding a deed to a piece of property, but more granular and capable of arbitrary recommendations.
+- Lock groups cannot be rivalrous, meaning they can't share any of the same locks. Winners are determined with this algorithm:
+  - All bids are partitioned into three layers of equivalence classes: by their bid amount, by the count of variable locks they ask for, and whether the group is already held by the bidder.
+  - These equivalence classes are given a lexicographic ordering where: higher bids rank higher, then lower variable counts rank higher, then being the existing holder of a group of locks ranks higher.
+  - Starting with the highest ranked class, all bids that overlap with others in the same class are denied. The remaining bids always beat overlapping bids in lower equivalence classes.
 
-- It is impossible to even propose a model of "aggregate" or "average" welfare. The welfare values of different beings are of different types, so aggregations of them are simply undefined, similarly to how the square root of orange is undefined.
-- Minds are completely opaque, so beings cannot view the Qualia or welfare values of other beings, or understand the welfare functions of those beings. We can only infer these things based on the actions of other beings.
+I'll call this exact mechanism a total persistent Harberger auction for ownership of universe variable locks.
 
-**Conjecture:** Given a universe with zero costs for coordination, switching, and reversiblity, an instantaneous total persistent harberger auction for ownership of universe variable locks optimally maximizes welfare.
+You'll notice I haven't specified how often this bid resolution process takes place, and haven't placed any restrictions at all on the action recommendations that can be given from bid functions. There are three important costs we have to consider:
 
-**Conjecture:** Given a universe with non-zero costs for coordination, switching, and reversibility, a constitutional persistent democracy optimally maximizes welfare.
+- Coordination costs, meaning the negative welfare necessary for all beings to submit their lock bids and have them resolved. If these costs are zero we could use instantaneous voting every universe timestep without losing any welfare.
+- Switching costs, meaning the negative welfare experienced for one owner of locks to give up their ownership and hand it over to another. If these costs are zero we could have ownership switch instantaneously every universe timestep without losing any welfare.
+- Reversal costs, meaning any asymmetries between the cost to transition the universe into one state versus back again to the same state. This is different than switching costs because switching costs are assumed to be roughly symmetric and mostly measured in welfare, whereas reversal costs are measured in leverage. If these costs are zero we could simply allow any being to bid for ownership of any set of locks, and not worry that some ownerships could destroy welfare leverage in an irreversible way.
+
+**Conjecture:** Given a universe with zero costs for coordination, switching, and reversal, an instantaneous total persistent Harberger auction for ownership of universe variable locks optimally maximizes welfare.
+
+This proof would simply rely on the optimality proofs of Quadratic voting, Harberger taxes, and the fundamental theorems of welfare economics since this system creates a perfectly democratic market. The [preconditions for Pareto optimal exchange](https://en.wikipedia.org/wiki/Fundamental_theorems_of_welfare_economics) have been maximally satisfied for these three reasons:
+
+- *No market power:* Since all aspects of the universe can be bid for in a democratic way, the possibility of true market power is removed.
+- *No negative externalities:* Since this step assumes no switching or reversal costs, and all beings can signal for any variables they care about, there are by definition no externalities. If a being is experiencing negative externalities they can bid for control to prevent them if they consider it worth it.
+- *Perfect information:* There will always be some degree of imperfect information in an uncertain universe, but Harberger taxes ensure all predicted valuations are fully revealed.
+
+Of course coordination and switching and reversal costs aren't actually zero in the real world, so in order to deal with them we make these adjustments:
+
+- Increasing the amount of time between bid periods, which is equivalent to the persistent update rhythm.
+- Using stabilization periods.
+- Having a total constitution that defines rights and the finer rules of property ownership and division. This is equivalent to locking down the entire universe with one coordination function that simply allows the definition of sub-functions, which are just sub-constitutions.
+
+**Conjecture:** Given a universe with non-zero costs for coordination, switching, and reversal, a constitutional persistent democracy optimally maximizes welfare.
+
+The optimality proof of constitutional persistent democracy is the same as the naive zero cost version, but we have to demonstrate that each of these cost compensations prevents the incurrence of strictly negative exchanges, always allows or encourages strictly positive exchanges, and always chooses mixed changes that are valued more highly than all competing options others.
+
+- *Coordination costs:* Assuming that each being has a constant cost to participate in the voting process (time for travel, psychological effort to make decisions), and there is a cost to aggregate decisions (gathering and counting votes), there will be a persistent update frequency that on average best trades these costs against the amount of increased welfare from coordination. This constant will be a factor of both human psychology (how inconvenient or difficult it is to make voting decisions) and a coordinating group's technology (voting online is more efficient than voting by mail, which is more efficient than voting in person with computers, or with paper, etc). The update frequency must be slow enough to prevent coordination costs from cannibalizing benefits, but must be fast enough to keep the system responsive.
+- *Switching costs:* Stabilization periods help ensure a change of ownership is actually considered beneficial by both parties by requiring every trade to prove that it's legitimately desired more highly than others. By giving current owners time to adjust their valuations in the event they hadn't properly considered them, and making prospective owners demonstrate durable and consistent desire to acquire the ownership, we prevent wasteful switches that don't actually increase predicted welfare. Both those sides must also consider merely logistical switching costs (it costs time and money to move out of your house, or exchange a car with someone else) when giving their valuations.
+- *Reversal costs:* There are many sources of welfare or displacement leverage that are easier to destroy than to replace (it's easier to cut down a tree than grow one, it's easier to sever a person's arm than do the research and engineering that would be necessary to replace it, beautiful rock formations can be destroyed in minutes but take millions of years to form). Unfortunately these sources can only be identified with empirical means, and there's no automatic decidable way to identify them within a universe vector. This means the only way to identify and protect them is to simply designate a single total function that has ownership of the entire universe, and then allow all beings to vote on the contents of that function. This group of beings can negotiate about any source of leverage and give it special coordination status in whatever way they can agree to. They will miss some forms, or be unable to agree about others, but
+
+The preconditions for Pareto optimal exchange have still been maximally fulfilled:
+
+- *No market power:*
+- *No negative externalities:* Constitutions handle both reversal problems and take up the responsibility of preventing negative externalities. Beings can no longer bid for variables enough to prevent externalities, but they can still try to prevent those externalities through the constitutional definitions of rights.
+- *Perfect information:*
 
 
-**Conjecture:** Increasing the persistent update cycle length reduces experienced coordination costs.
-
-**Conjecture:** For any cooperative with some given amount of technological capability, there exists a cycle length that best trades overhead for achieved coordination.
+<!-- Persistent voting partially avoids this problem by making -->
 
 
-**Conjecture:** Increasing the stabilization constant reduces experienced switching costs. By requiring every trade to "prove" that it's legimately desired more highly than others, we prevent wasteful switches that don't actually increase experienced welfare.
+we can do this by appeal to the , since this structure gives all beings equal market power since all rights and goods in the universe can have their fundamental ownership structures changed in the constitution which all beings can equally vote for, allows them to arbitrarily tamp down externalities since they can set rules about the entire universe, and best compensates for the presence of imperfect information by both allowing perfect price information through common partial ownership and allowing stabilization periods that can help correct valuations.
 
-**Conjecture:** For any type of trade with some given average switching cost, there exists a stabilization constant that best trades stabilization time for switching cost reduction.
+<!-- but the combination of common partial ownership and stabilization periods minimizes avoidable valuation error, since common partial ownership provably optimizes valuation honesty and maximizes allocative efficiency, and because stabilization periods allow beings to reflect and correct their valuations instead of merely incurring loss. -->
 
-
-**Conjecture:** Using a persistent constitution (total universe function) uniquely allows a cooperative to identify and prevent irreversible harms, for both displacement and welfare leverage.
+<!-- - Negative externalities can be arbitrarily identified and removed within the limits of technological possibility since the entire universe is owned by the cooperating group, meaning they can make rules about any aspect of the universe that they can democratically agree to. -->
 
 
 
+**Conjecture:** Increasing the persistent update cycle length reduces experienced coordination costs. For any cooperative with some given amount of technological capability, there exists a cycle length that best trades overhead for achieved coordination.
 
-**Conjecture:** Resource voting systems, modeled using a rational number division, can represent a being's relative strength of concern for a discrete set of choices with arbitrary accuracy.
+It stresses people out to have to think more frequently about vote updates, and depending on how difficult it is to update votes it is better to have to do so less often. Once a day or once a week seem like reasonable update rhythms depending on the decision importance and cost to check updates.
 
-**Conjecture:** Score voting systems, modeled using a signed rational number, can represent a being's degree of predicted welfare alignment with arbitrary accuracy.
+**Conjecture:** Increasing the stabilization constant reduces experienced switching costs. For any type of trade with some given average switching cost, there exists a stabilization constant that best trades stabilization time for switching cost reduction.
+
+Stabilization periods are supposed to minimize the actual incurrence of switching costs by allowing owner misperception of value to be corrected rather than just surprising them. Basically we're defining any switching cost that doesn't actually produce a Pareto positive tradeoff of perceived value to be a cost that should be avoided, and these situations will only happen when owners misperceive their own valuation.
+
+
+
+**Conjecture:** Using a persistent constitution (total universe function) uniquely allows a cooperative to identify and prevent externalities and irreversible harms, for both displacement and welfare leverage.
+
+Since these constitutions are arbitrary, the coordinating beings can use them to define inviolable rights, since they control the entire universe, which should be defined as welfare-important ownerships that could be irreversibly destroyed. Ownership of irreversible qualities of our bodies and minds as well as certain types of natural resources obviously fall into this category. The optimality of this step again just piggy-backs on quadratic voting and Harberger auctions.
+
+
+
+
+**Conjecture:** Resource voting systems, modeled using a rational number division, can represent a being's relative strength of concern for a discrete set of choices with arbitrary precision.
+
+**Conjecture:** Score voting systems, modeled using a signed rational number, can represent a being's degree of predicted welfare alignment with arbitrary precision.
 
 **Conjecture:** A two-tiered voting system, in which *decisions* are ranked with resources and *candidates* are ranked with scores optimally combines relative preference with alignment preference.
 
 
+Resource and Score voting systems give us insight into being's preferences from two very different mutually exclusive angles. Resource voting systems allow arbitrary signal for preference between *options*, while score voting systems allow arbitrary signal for preference between *the option and the being*.
+
+Both of these are useful. We need to understand true strength of relative concern between options, but resource systems can't escape a very distorting strategic effect
+vote splitting for similar options
+using resouces between *decisions* instead is more durable, since decisions are much less likely to be truly similar or substitutable
+range voting is best for honestly eliciting true alignment of an option with the being
 
 
-It is obvious whatever method we choose must rely entirely on soliciting preferences from the beings directly, allowing them to control what signal is given to us. It is impossible for a being to convey in complete detail what their welfare function is enough for us to predict on their behalf how they'll evaluate different choices, but we can always create a protocol where we communicate a *specific* set of options to them, and they somehow convey their relative preferences for those options.
 
-If the welfare of a vector of beings is opaque, then how can we build a coordination function that accurately takes it into account?
 
-This is why we invented voting, to have a simple and logically clear method for soliciting and aggregating other being's preferences for a discrete set of options. However different voting systems have different properties, and it seems clear that the best voting methods will be those which allow beings to convey their with the highest accuracy or expressiveness, meaning that the shape of the data structures used to convey preferences most closely matches the shape of the internal landscape of the being. Such methods must allow this expressiveness while at the same time minimizing the incentive for a being to misrepresent their preferences for "metagame" strategic reasons.
+
 
 This is why resource voting systems like quadratic voting are so effective. If the pool of resources can be divided arbitrarily finely, then it can always perfectly match a being's differences in concern between issues.
 
@@ -246,44 +308,8 @@ since persistent democracy allows nomination of documents, it allows voters to g
 questions of equilibrium and convergence seem less important
 although we are hoping that this mechanism converges to a coordination function that best approximates an aggregation of all the welfare prediction
 
-democracy can only maximize *predicted* welfare. it the job of experimentation to actually close the gap between prediction and reality.
+democracy can only maximize *predicted* welfare. its the job of experimentation to actually close the gap between prediction and reality.
 
-Conjecture: **The optimal coordination function for all universes, states, and sets of beings is a constitutional persistent democracy**. To give a proof sketch, we'll walk through a series of more nuanced pictures of what persistent democracy is.
-
-Sub-conjecture: **Given a universe with zero costs for coordination overhead, switching, and reversiblity, an instantaneous total persistent harberger auction for ownership of universe variable locks optimally maximizes welfare**.
-This just piggy-backs on the proven optimality of harberger taxes and quadratic voting.
-
-a universe lock is basically the right to decide the coordination function for some set of universe variables. the winner can set an arbitrary function, and the harberger system using persistent quadratic weights does the work of ensuring that the entire set of universe lock ownerships is welfare optimal.
-
-two groups of locks are rivalrous if they contain overlapping variables.
-if two groups of locks don't overlap, then both are granted
-if two groups of locks overlap, the one with the higher weight is granted and the old one revoked
-if two groups of locks overlap and are tied, the smaller one that asks for less variables is granted
-a derivable consequence of the above property is that if one group of locks is a strict subset of another and they're tied, strict subsets beat strict supersets
-if a bid overlaps with several locks, these rules are applied in order, and the whole bid is canceled if it is beaten in any one?
-
-however in order for this system to actually be optimal, there have to be zero costs of these types:
-
-- coordination overhead, meaning the negative welfare necessary for all beings to submit their lock bids and have them aggregated. if these costs were zero we could instantaneous voting every universe timestep.
-- switching, meaning the negative welfare experienced for one owner of locks to give up their ownership and hand it over to another. if these costs were zero we could have ownership switch instantaneously every universe timestep.
-- reversibility, meaning any asymmetries between the cost to transition the universe into one state versus back again to the same state. this is subtly different than switching costs which are assumed to be roughly symmetric between states. if these costs were zero we could simply allow any being to bid for ownership of any set of locks, and not worry that some ownerships could destroy welfare potential in an irreversible way.
-
-none of those costs is actually zero, so in order to deal with them we make these adjustments:
-
-- lengthening the persistent update rhythm to one that minimizes coordination overhead costs given technological capability and human psychology. it stresses people out to have to think more frequently about vote updates, and depending on how difficult it is to update votes it is better to have to do so less often. once a day or once a week seem like reasonable update rhythms depending on the decision importance and cost to check updates.
-- using stabilization periods where current owners who are outbid can adjust their valuations. stabilization periods are supposed to minimize the actual incurrence of switching costs by allowing owner misperception of value to be corrected rather than just surprising them. basically we're defining any switching cost that doesn't actually produce a pareto positive tradeoff of perceived value to be a cost that should be avoided, and these situations will only happen when owners misperceive their own valuation.
-- locking down the entire universe with one coordination function that simply allows the definition of sub-functions, which are just sub-constitutions. since these constitutions are arbitrary, the coordinating beings can use them to define inviolable rights, since they control the entire universe, which should be defined as welfare-important ownerships that could be irreversibly destroyed. ownership of irrversible qualities of our bodies and minds as well as certain types of natural resources obviously fall into this category. the optimality of this step again just piggy-backs on quadratic voting and harberger auctions.
-
-proving the optimality of the naive zero cost version is actually a weaker case of the more general proof, one where we assume these costs are zero. proving that persistent democracy *as it is stated* is optimal we would have to prove that each of these cost compensations prevents the incurrence of strict negative updates, always allows or encourages strict positive updates, and always chooses mixed changes that are valued more highly than all others that compete with it. we can do this by appeal to the , since this structure gives all beings equal market power since all rights and goods in the universe can have their fundamental ownership structures changed in the constitution which all beings can equally vote for, allows them to arbitrarily tamp down externalities since they can set rules about the entire universe, and best compensates for the presence of imperfect information by both allowing perfect price information through common partial ownership and allowing stabilization periods that can help correct valuations.
-
-
-if we can create a "market" where the only asset being exchanged is ownerships of universe variable coordination sub-functions, and we can provably optimize the [three laws of welfare economics](https://en.wikipedia.org/wiki/Fundamental_theorems_of_welfare_economics), then we've created a market where a pareto optimal exchange will happen. importantly, this is a market being conducted in democratic weights rather than a spendable currency
-
-- the possibility of true market power is removed, since by making our market democratic by giving all beings an equal amount of weights, and through common partial ownership by making it possible for any being or set of beings to non-negotiably hold some portion of the universe, since if they are holding it they must legitimately want it more as evidenced by their allotment of weights.
-- negative externalities can be arbitrarily identified and removed within the limits of technological possibility since the entire universe is owned by the cooperating group, meaning they can make rules about any aspect of the universe that they can democratically agree to.
-- there will always be some degree of imperfect information in an uncertain universe, but the combination of common partial ownership and stabilization periods minimizes avoidable valuation error, since common partial ownership provably optimizes valuation honesty and maximizes allocative efficiency, and because stabilization periods allow beings to reflect and correct their valuations instead of merely incurring loss.
-
-lots of stuff left out there! these are sketchy proofs
 
 
 
@@ -334,7 +360,7 @@ These two different forms of moral value create a reasonably intuitive division 
 - A being can accrue potentially unbounded meaning value based on how their actions effect other beings. Whether their actions positively or negatively affect other beings must be determined by comparing their actions with the recommendations of a fair coordination function.
   - A person who acts in alignment with a fair coordination function and harms no one but only acts in favor of their own self-interest accrues no positive or negative meaning, so they have a "meaningless" but normal life. Meaningless isn't meant to be bad here, it's merely the absence of meaning.
   - A person who violates the rules of fairness and harms others in order to further their self-interest accrues negative meaning, so they have a life that's "evil" or negatively meaningful.
-  - A person that sacrifices opportunities to advance their own self-interest in order to advance the welfare of others accrues positive meaning, so they will have a "meaningful" life. This might not be strictly "required", but if meaning exists at all then more of it is better than less of it right?
+  - A person that sacrifices opportunities to advance their own self-interest in order to advance the welfare of others accrues positive meaning, so they will have a "good" or positively meaningful life. Living this way isn't necessarily strictly "required", but if meaning exists at all then more of it is better than less of it right?
 
 <!-- , which must include full capability to signal for control over the universe and not just chunks of the governance function -->
 
@@ -398,9 +424,9 @@ Importantly, it doesn't really seem possible to reliably "bake in" sustainabilit
 
 We can partially order worlds by this [lexicographic ordering]()
 
-- do they use a fair coordination function?
-- are they sustainable?
-- are they growing both in technological capacity and population?
+- do they use a fair coordination function? some functions favor some beings over others, and this unfairness can be ranked based on how often and how much this favor occurs
+- are they sustainable? some functions allow destruction of leverage capacity, so we can rank this as well
+- are they growing both in technological capacity and population? after fairness and sustainability have been pragmatically maximized, it's good to grow.
 
 But again, we shouldn't bother comparing worlds. We only have one world, so we should just try to maximize those three dimensions in order.
 
