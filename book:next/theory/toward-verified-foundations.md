@@ -14,7 +14,7 @@ I'm looking for feedback to see if I'm crazy. After all, if this theory is reall
 
 ---
 
-Hi there! A little while ago I came up with an idea called Persistent Voting, where a vote is conducted not as a discrete event with a deadline but as a continuous process where voters could change their votes at any time and candidates could enter or exit an election at any time. I've since evolved the idea into a new mode of societal coordination I call Persistent Democracy, and I'm very excited about its potential to massively improve the efficiency and fairness of democratic societies. I intend to very soon begin experimenting with it in private organizations like a democratically controlled political party and a consumer cooperative. Feel free to read about the details here:
+A little while ago I came up with an idea called Persistent Voting, where a vote is conducted not as a discrete event with a deadline but as a continuous process where voters could change their votes at any time and candidates could enter or exit an election at any time. I've since evolved the idea into a new mode of societal coordination I call Persistent Democracy, and I'm very excited about its potential to massively improve the efficiency and fairness of democratic societies. I intend to very soon begin experimenting with it in private organizations like a democratically controlled political party and a consumer cooperative. Feel free to read about the details here:
 
 [Persistent Democracy](https://github.com/blainehansen/hopeful-pathway/blob/main/book:next/02.persistent-democracy.md)
 
@@ -138,9 +138,9 @@ This mi
 
 Minds are completely opaque, so beings cannot view the Qualia or welfare values of other beings, or understand the welfare functions of those beings. We can only infer the welfare or Qualia of a being based on their actions.
 
-Our knowledge of other beings preferences must be solicited from them directly, allowing them to control what signal is given to us. It is impossible for a being to convey in complete detail what their welfare function is enough for us to predict on their behalf how they'll evaluate different choices, but we can always create a protocol where we communicate a *specific* set of options to them, and they somehow convey their relative preferences for those options.
+Our knowledge of other beings' preferences must be solicited from them directly, allowing them to control what signal is given to us. It is impossible for a being to convey in complete detail what their welfare function is enough for us to predict on their behalf how they'll evaluate different choices, but we can always create a protocol where we communicate a *specific* set of options to them, and they somehow convey their relative preferences for those options.
 
-This is why we invented voting, to have a simple and logically clear method for soliciting and aggregating other being's preferences for a discrete set of options. However different voting systems have different properties, and it seems clear that the best voting methods will be those which allow beings to convey their with the highest accuracy or expressiveness, meaning that the shape of the data structures used to convey preferences most closely matches the shape of the internal landscape of the being. Such methods must allow this expressiveness while at the same time minimizing the incentive for a being to misrepresent their preferences for "metagame" strategic reasons.
+This is why we invented voting, to have a simple and logically clear method for soliciting and aggregating other being's preferences for a discrete set of options. However different voting systems have different properties, and it seems clear that the best voting methods will be those which allow beings to convey their preferences with the highest accuracy or expressiveness, meaning that the shape of the data structures used to convey preferences most closely matches the shape of the internal landscape of the being. Such methods must allow this expressiveness while at the same time minimizing the incentive for a being to misrepresent their preferences for "metagame" strategic reasons.
 
 ## Beings can only predict future states, not calculate them
 
@@ -176,7 +176,7 @@ this is a bit of an idealization... but that's okay ha
 The precise definition of persistent democracy is as a coordination function with these properties:
 
 - All beings have an equal amount of Quadratic decision weights.
-- There is a "lock" object that relates to each universe variable.
+- There is a "lock" object related to each universe variable.
 - All beings can use their decision weights to bid for control of groups of locks, which they do by submitting a list of groups along with a bid for each. If a being has control of a group of locks, then they can assign an arbitrary function that can see what happens with that group of universe variables and can then return action recommendations for the coordination function. This is kind of like holding a deed to a piece of property, but more granular and capable of arbitrary recommendations.
 - Lock groups cannot be rivalrous, meaning they can't share any of the same locks. Winners are determined with this algorithm:
   - All bids are partitioned into three layers of equivalence classes: by their bid amount, by the count of variable locks they ask for, and whether the group is already held by the bidder.
@@ -189,15 +189,15 @@ You'll notice I haven't specified how often this bid resolution process takes pl
 
 - Coordination costs, meaning the negative welfare necessary for all beings to submit their lock bids and have them resolved. If these costs are zero we could use instantaneous voting every universe timestep without losing any welfare.
 - Switching costs, meaning the negative welfare experienced for one owner of locks to give up their ownership and hand it over to another. If these costs are zero we could have ownership switch instantaneously every universe timestep without losing any welfare.
-- Reversal costs, meaning any asymmetries between the cost to transition the universe into one state versus back again to the same state. This is different than switching costs because switching costs are assumed to be roughly symmetric and mostly measured in welfare, whereas reversal costs are measured in leverage. If these costs are zero we could simply allow any being to bid for ownership of any set of locks, and not worry that some ownerships could destroy welfare leverage in an irreversible way.
+- Reversal costs, meaning any asymmetries between the cost to transition the universe into one state versus back again to the same state. This is different than switching costs because switching costs are assumed to be roughly symmetric and mostly measured in welfare, whereas reversal costs are measured in leverage. If these costs are zero we could simply allow any being to bid for ownership of any set of locks, and not worry that some ownerships could destroy welfare leverage in a very costly to reverse way.
 
 **Conjecture:** Given a universe with zero costs for coordination, switching, and reversal, an instantaneous total persistent Harberger auction for ownership of universe variable locks optimally maximizes welfare.
 
 This proof would simply rely on the optimality proofs of Quadratic voting, Harberger taxes, and the fundamental theorems of welfare economics since this system creates a perfectly democratic market. The [preconditions for Pareto optimal exchange](https://en.wikipedia.org/wiki/Fundamental_theorems_of_welfare_economics) have been maximally satisfied for these three reasons:
 
-- *No market power:* Since all aspects of the universe can be bid for in a democratic way, the possibility of true market power is removed.
-- *No negative externalities:* Since this step assumes no switching or reversal costs, and all beings can signal for any variables they care about, there are by definition no externalities. If a being is experiencing negative externalities they can bid for control to prevent them if they consider it worth it.
-- *Perfect information:* There will always be some degree of imperfect information in an uncertain universe, but Harberger taxes ensure all predicted valuations are fully revealed.
+- *No market power:* Since all aspects of the universe can be democratically bid for by any being, the possibility of true market power is removed.
+- *No negative externalities:* Since this step assumes no switching or reversal costs, and all beings can bid for any variables they care about, there are by definition no externalities. If a being is experiencing negative externalities they can bid for control to prevent them if they consider it worth it.
+- *Perfect information:* There will always be some degree of imperfect information in an uncertain universe given the impossibility of perfectly predicting welfare outcomes of actions, but Harberger taxes ensure all predicted valuations are fully revealed.
 
 Of course coordination and switching and reversal costs aren't actually zero in the real world, so in order to deal with them we make these adjustments:
 
