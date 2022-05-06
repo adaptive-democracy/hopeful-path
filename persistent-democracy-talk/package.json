@@ -1,0 +1,13 @@
+{
+	"name": "persistent-democracy-talk",
+	"private": true,
+	"scripts": {
+		"build": "slidev build",
+		"dev": "slidev --open",
+		"export": "slidev export --with-clicks"
+	},
+	"dependencies": {
+		"@slidev/cli": "^0.29.2",
+		"@slidev/theme-apple-basic": "^0.20.0"
+	}
+}
