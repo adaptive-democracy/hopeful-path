@@ -91,6 +91,16 @@ I have some proof sketches I think are quite convincing that persistent democrac
 
 ---
 
+# Persistent Democracy
+
+- Persistent Voting
+- Persistent Constitutions
+- Quadratic Voting
+- Quadratic Funding
+- Common Partial Ownership
+
+---
+
 # Why doesn't our
 # *current* democracy work?
 
