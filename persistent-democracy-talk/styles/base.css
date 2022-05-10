@@ -19,3 +19,8 @@
 .slidev-layout ul, .slidev-layout h2 {
 	@apply mt-2 !important;
 }
+
+.slidev-layout img {
+	max-height: 40vh;
+	@apply mx-auto;
+}

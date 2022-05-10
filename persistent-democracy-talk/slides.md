@@ -18,35 +18,127 @@ drawings:
 ---
 
 # Climate Change
-<!-- deforestation of rainforests -->
-<!-- inefficient  -->
+
+[Climate change already worse than expected, says new UN report - nationalgeographic.com](https://www.nationalgeographic.com/environment/article/climate-change-already-worse-than-expected-un-report)
+
+![](https://i.natgeofe.com/n/7368dc48-b609-4afa-a8cc-845fc5ff243e/NationalGeographic_2736412.jpg?w=1399.2000303268433&h=932.8000202178955)
+
+---
+
+# Climate Change
+
+[Yes, There Has Been Progress on Climate. No, It’s Not Nearly Enough - nytimes.com](https://www.nytimes.com/interactive/2021/10/25/climate/world-climate-pledges-cop26.html)
+
+![](https://static01.nyt.com/images/2021/10/24/us/world-climate-pledges-by-degrees-promo-1635123284508/world-climate-pledges-by-degrees-promo-1635123284508-videoSixteenByNineJumbo1600.png)
+
+
+---
+
+# Climate Change
+
+[UN climate report: It’s "now or never" to limit global warming to 1.5 degrees - un.org](https://news.un.org/en/story/2022/04/1115452)
+
+![](https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production+Library/04-04-2022_UNICEF_Somalia.jpg/image1170x530cropped.jpg)
+
+---
+
+# Climate Change
+
+## yikes
+
+[What if Democracy and Climate Mitigation Are Incompatible? - foreignpolicy.com](https://foreignpolicy.com/2022/01/07/climate-change-democracy/)
+
+![](https://foreignpolicy.com/wp-content/uploads/2021/12/climate-change-democracy-wildfire-turkey-GettyImages-1234542847_SW_V1.jpg?quality=90)
+
+---
+
+# Climate Change
+
+
+[Amazon deforestation in April was the worst in modern records - newscientist.com](https://www.newscientist.com/article/2319326-amazon-deforestation-in-april-was-the-worst-in-modern-records/)
+
+![](https://images.newscientist.com/wp-content/uploads/2022/05/10121119/SEI_1032100951.jpg?width=800)
+
+---
+
+# Resource Scarcity
+
+[There's never been such a severe shortage of homes in the U.S. Here's why - npr.org](https://www.npr.org/2022/03/29/1089174630/housing-shortage-new-home-construction-supply-chain)
+
+![](https://media.npr.org/assets/img/2022/03/28/img_0841-8cf40dad414ddb389f68ce37fbe2220610371b9c-s1600-c85.webp)
+
+---
 
 # Resource Scarcity
 
 
+[Water privatisation: a worldwide failure? - theguardian.com](https://www.theguardian.com/global-development/2015/jan/30/water-privatisation-worldwide-failure-lagos-world-bank)
+
+![](https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/1/29/1422550505116/054bb070-257a-46ae-b389-232f5d816e20-2060x1236.jpeg?width=1020&quality=45&auto=format&fit=max&dpr=2&s=301a864c2cdc6f40e8b8ff1c8d6de644)
+
+---
+
 # Institutional/Market Failure
 
+[How Much Longer Can This Era Of Political Gridlock Last? - fivethirtyeight.com](https://fivethirtyeight.com/features/how-much-longer-can-this-era-of-political-gridlock-last/)
+
+![](https://fivethirtyeight.com/wp-content/uploads/2021/03/PARTISAN-STALEMATE-4x3-1.png?w=1150)
+
+---
+
+# Institutional/Market Failure
+
+[Report: Corruption in U.S. at Worst Levels in Almost a Decade - foreignpolicy.com](https://foreignpolicy.com/2021/01/28/report-transparency-international-corruption-worst-decade-united-states/)
+
+![](https://foreignpolicy.com/wp-content/uploads/2021/01/corruption-global-us-perception-transparency-international-2021-articlel.png)
+
+---
+
+# Institutional/Market Failure
+
+[Democracy under Siege - freedomhouse.org](https://freedomhouse.org/report/freedom-world/2021/democracy-under-siege)
+
+![](https://freedomhouse.org/sites/default/files/2021-02/FIW2021_COVER_PHOTO_GettyImages-1196132829_crop2.jpg)
+
+---
+
+# Institutional/Market Failure
+
+[Municipal Broadband Is Restricted In 18 States Across The U.S. In 2021 - broadbandnow.com](https://broadbandnow.com/report/municipal-broadband-roadblocks/)
+
+![](https://broadbandnow.com/app/uploads/2021/04/BBN_municipal_broadband_roadblocks_map_2021-2.png)
+
+---
+
+# Institutional/Market Failure
+
+[Every day, we rely on digital infrastructure built by volunteers. What happens when it fails? - fordfoundation.org](https://www.fordfoundation.org/news-and-stories/stories/posts/every-day-we-rely-on-digital-infrastructure-built-by-volunteers-what-happens-when-it-fails/)
+
+![](https://www.fordfoundation.org/media/3404/every-day-we-rely-on-digital-infrastructure-built-by-volunteers-what-happens-when-it-fails.jpg?crop=0.0000000000000001263187085796,0.12499999999999989,0,0&width=3200&height=1200&rnd=131562792710000000&cropmode=percentage)
+
+---
+
+# Institutional/Market Failure
+
+[Overlooked and underfunded: neglected diseases exert a toll - nature.com](https://www.nature.com/articles/d41586-021-02912-w)
+
+![](https://media.nature.com/lw800/magazine-assets/d41586-021-02912-w/d41586-021-02912-w_19787472.jpg)
+
+---
+
+# Institutional/Market Failure
+
+[Overpatented, Overpriced: How Excessive Pharmaceutical Patenting is Extending Monopolies and Driving up Drug Prices - i-mak.org](https://www.i-mak.org/wp-content/uploads/2018/08/I-MAK-Overpatented-Overpriced-Report.pdf)
+
+![](/imak.100s.patents.totals-2-1024x1024.png)
+
+---
 
 # Space Governance?
 
-<!-- TODO find headlines -->
+[Problem profiles: Space governance - 80000hours.org](https://80000hours.org/problem-profiles/space-governance/)
 
-- climate change
-  - deforestation
-  - inability to change policy
-  - can't stop harmful consumption
-- resource scarcity
-  - housing crises around the world
-  - essentials like water are being monopolized
-  - intellectual property being hoarded
-- cultural and institutional failure
-  - bad incentives in news and media
-  - we have no idea how to govern space
-  - social media centralization
-  - open source funding
-  - income inequality
-  - asset inequality
-  - political corruption
+![](https://80000hours.org/wp-content/uploads/2022/02/nasa-7Cz6bWjdlDs-unsplash-2880x1650.jpg)
 
 ---
 
@@ -54,15 +146,9 @@ drawings:
 # Persistent Democracy
 # can solve all these problems
 
-by making direct democracy and common partial ownership fair and efficient
-
-<!--
-could even allow galactic scale civilizations
--->
-
-- solve all those mentioned problems
 - make cooperation efficient, maybe even provably optimally
 - make direct democracy possible
+- efficiently decide ownership of all resources
 - allow cooperatives to finally live up to their full potential
 - scale society as big as communication and travel allow
 
@@ -70,47 +156,69 @@ could even allow galactic scale civilizations
 
 # Cooperation is humanity's secret weapon
 
-all human prosperity comes from cooperation
+- all human prosperity comes from cooperation
 
-almost everything you have or you know comes from cooperating with people both in the present and in the past
+- sharing and passing down knowledge is a form of cooperation
 
-ultimately *every* problem we have is just a "sub-problem" of human cooperation
+- even small groups rely on cooperation to survive and thrive
 
+- almost all problems are versions of cooperation failure
 
 ---
 
 # We use logical systems to cooperate at scale
 
-things like governments and religions and companies and clubs and cooperatives are all just structures we've created in order to make cooperation easier
+## voting simplifies consensus-finding to an algorithm
 
-we create these structures with specific rules in order to help us cooperate better, or to cooperate to achieve specific goals
+<!-- TODO pictures showing small group talking, big group too much talking  -->
 
-this is the *short* answer to how persistent democracy can solve all of the above problems, because its aim is to solve the coordination problem, once and for all
+---
 
-I have some proof sketches I think are quite convincing that persistent democracy is literally provably optimal (it maximizes welfare for all beings in any universe)
+# We use logical systems to cooperate at scale
+
+## voting systems can be studied mathematically
+
+- it's possible to *prove* things about voting systems
+- when you've proven a logical claim, you can be as confident in its truth as the fact that `1 + 1 = 2`
+- still have to be validated in the real world of course
+
+---
+
+# We use logical systems to cooperate at scale
+
+## cooperation structures
+
+- government
+- companies
+- clubs
+- cooperatives
+
+have logical rules and constraints to make cooperation more efficient
 
 ---
 
 # Persistent Democracy
 
-- Persistent Voting
-- Persistent Constitutions
 - Quadratic Voting
 - Quadratic Funding
 - Common Partial Ownership
+- Persistent Voting
+- Persistent Constitutions
 
 ---
 
 # Why doesn't our
 # *current* democracy work?
 
-## Democracy =/= Plurality Voting
+## Democracy isn't the same as Plurality Voting
 
 ---
 
 # Plurality Voting is awful
 
-<!-- TODO picture of plurality vote -->
+## irrational outcomes with 3+ options
+
+![](https://d3n8a8pro7vhmx.cloudfront.net/ucer/pages/16/attachments/original/1613055360/SpoilerEffect.jpg?1613055360)
 
 <!--
 - only thing worse is random chance
@@ -121,35 +229,46 @@ I have some proof sketches I think are quite convincing that persistent democrac
 
 # Plurality Voting is awful
 
-## the reason for the broken two party system
+## incentivizes enforcement of two party system
 
-- because of vote splitting
-- structurally forces parties to merge/die until only two remain
+![](https://unsplitthevote.org/wp-content/uploads/2019/04/plurality-voting_vote-splitting_cycle_yellow.png)
 
 ---
 
-# Approval Voting
-# is better...
+# Approval Voting is better...
 
-<!-- TODO picture of approval vote -->
+## can always vote for all favorites
+
+![](https://i2.wp.com/californiaapproves.org/wp-content/uploads/2021/08/approval-ballot.png?fit=750%2C440&ssl=1)
 
 ---
 
 # ... but not good enough
+
+## casual majorities can outvote passionate minorities
 
 <!-- TODO picture of two groups, casual and concerned, casual make uninformed choice -->
 <!-- importantly, the casual group isn't wrong or bad or irrational, they did the most rational thing from their perspective. if they slightly prefer some choice and it costs them nothing to support it, then they will -->
 
 ---
 
-# Resource voting systems
-# are much better...
+# Resource voting systems are much better...
+
+## can put more votes on things you care more about
 
 <!-- TODO picture of voter spending different votes on different issues -->
 
 ---
 
+# Quadratic Voting is provably optimal!
+
+<!-- TODO picture of quadratic scaling -->
+
+---
+
 # ... but still have important problems
+
+## casual majorities can "bankrupt" minorities with repeated proposals
 
 <!-- TODO picture of concerned group going vote broke -->
 
@@ -157,11 +276,11 @@ I have some proof sketches I think are quite convincing that persistent democrac
 
 # Persistent Voting
 
-- Resource voting system
-- Voters *move around* "weights" instead of *spending* "credits"
-- Voters can move around their weights at any time
-- Candidates can enter or exit an election at any time
-- Current winner is determined by who has the most weights
+- resource voting system
+- voters *move around* "weights" instead of *spending* "credits"
+- voters can move around their weights at any time
+- candidates can enter or exit an election at any time
+- current winner is determined by who has the most weights
 
 ---
 
@@ -202,16 +321,7 @@ I have some proof sketches I think are quite convincing that persistent democrac
 
 ---
 
-# Persistent Democracy
-
-## choosing the Constitution
-## using Persistent Voting
-
-although strictly speaking that's all you'd need to do to make persistent democracy, and that constitution can specify literally anything people want, I think there are a few more things we need to do
-
----
-
-# Persistent Democracy
+# Persistent Constitutions
 
 ## flexible districts
 
@@ -220,6 +330,12 @@ although strictly speaking that's all you'd need to do to make persistent democr
 <!-- TODO picture chopping further -->
 
 each one of these sub-districts would have its own persistently chosen sub-constitution. these sub-constitutions would intentionally have a narrow scope defined by their ancestor constitutions
+
+---
+
+# Persistent Prioritization
+
+##
 
 ---
 
@@ -239,17 +355,16 @@ but we want to avoid the same problems our current systems have with deadlines
 
 ---
 
-# Persistent Prioritization
-
-##
-
----
-
 # Persistent Budgets
 
 ---
 
 # Persistent Funding
+
+---
+
+# Quadratic Voting
+# Quadratic Funding
 
 ---
 
@@ -303,6 +418,7 @@ achieves *highest and best use* for resources
 - things are valued *socially* as well as financially
 - more housing
 - monopolies are impossible
+- disincentivizes landlording
 - makes wealth taxes make more sense
 
 </v-clicks>
@@ -356,15 +472,22 @@ or otherwise burden society
 
 # Could this be provably optimal?
 
-Maybe
+## maybe!
 
-I'm making another video giving my step-by-step proof sketch. If it's done the link is in the description, so you can check that out if you care.
+proof sketch presentation is work-in-progress
 
----
+```
+persistent voting
+==
+harberger auction for ownership of decision making power
 
-# Could this be provably optimal?
+common partial ownership
++ persistent voting
+==
+pareto efficient market for ownership of society
+```
 
-Harberger taxation is provably optimal with regard to allocative efficiency
+<!-- Harberger taxation is provably optimal with regard to allocative efficiency
 
 quadratic voting is provably optimal in terms of welfare outcome of an election
 
@@ -373,15 +496,23 @@ markets are provably optimal in terms of Pareto efficiency under these circumsta
 - no market power
 - no negative externalities
 
-Persistent Democracy is just those things. It's a market that uses Harberger taxation and quadratic voting to auction ownership of *power*, in which all market participants have equal wealth, there is perfect information because prices are public and Harberger taxation provably incentivizes honest valuations, and because all "properties" of pieces of power are always up for auction there can't be any market power or externalities since anyone can step in to change anything if they think it's worth it based on prices.
+Persistent Democracy is just those things. It's a market that uses Harberger taxation and quadratic voting to auction ownership of *power*, in which all market participants have equal wealth, there is perfect information because prices are public and Harberger taxation provably incentivizes honest valuations, and because all "properties" of pieces of power are always up for auction there can't be any market power or externalities since anyone can step in to change anything if they think it's worth it based on prices. -->
+
+---
+
+# Could this be provably optimal?
+
+even if it *does* turn out to be provably optimal, we still have to validate it in real practice
+
+my proof sketch is good enough for me, at least to work on implementation
 
 ---
 
 # How to make this happen?
 
-## huge changes, lots of them very risky
+## huge changes, lots of them risky
 
-have to prove these ideas in small trials
+have to validate in small trials
 can't wait for permission
 
 ---
@@ -398,7 +529,7 @@ can't wait for permission
 
 ## Persistent Democracy Foundation
 
-- find proofs of theoretical claims
+- evolve and prove theoretical claims
 - study persistently democratic organizations in practice
 - build reusable tools like software and legal documents
 - should be controlled using persistent democracy once that's possible
@@ -409,8 +540,8 @@ can't wait for permission
 
 ## Persistently Democratic Political Party
 
-- can experiment with sub-constitutions for different areas
 - do whatever party members wish
+- can experiment with sub-constitutions for different areas
 - can fund projects and agitate for incremental change
 
 ---
@@ -419,11 +550,45 @@ can't wait for permission
 
 ## Persistently Democratic Cooperative
 
+<v-clicks>
+
+## Cooperative?
+
 - cooperatives are private companies owned by their members (workers or consumers)
 - consumer cooperatives are the future given automation (multi-stakeholder in the interim)
 - cooperatives are a proven model
 - cooperatives haven't lived up to their potential
-- can build economic power and change things without getting permission
+
+</v-clicks>
+
+---
+
+# How to make this happen?
+
+## Persistently Democratic Cooperative
+
+<v-clicks>
+
+## this is where we can really change things
+
+- can build economic power without waiting for permission or reform
+- can afford to fail
+- can we build a mega-cooperative?
+- can we reclaim science, technology, and industrial scale?
+
+</v-clicks>
+
+---
+
+# How to make this happen?
+
+## Persistently Democratic Cooperative
+
+- journalism and news media?
+- social media?
+- cloud computing?
+- shipping?
+- internet service?
 
 ---
 
@@ -438,8 +603,11 @@ can't wait for permission
 
 ## I'm an engineer, not a leader or a manager
 
-I want to build things like [Magmide](TODO)
-I'd love to do so in the context of an expansive startup-energy cooperative
+I want to build things like Magmide, and other exciting engineering work
+
+[![magmide talk](https://img.youtube.com/vi/Lf7ML_ErWvQ/0.jpg)](https://www.youtube.com/watch?v=Lf7ML_ErWvQ)
+
+I'd love to do so in the context of a "startup-energy" cooperative
 
 
 
