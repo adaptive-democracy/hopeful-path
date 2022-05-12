@@ -184,9 +184,17 @@ drawings:
 
 # We use logical systems to cooperate at scale
 
+## we want find consensus socially with too many people
+
+![](/drawing-1-noise.png)
+
+---
+
+# We use logical systems to cooperate at scale
+
 ## voting simplifies consensus-finding to an algorithm
 
-<!-- TODO pictures showing small group talking, big group too much talking  -->
+![](/drawing-2-voting.png)
 
 ---
 
@@ -281,7 +289,8 @@ have logical rules and constraints to make cooperation more efficient
 
 ## casual majorities can outvote passionate minorities
 
-<!-- TODO picture of two groups, casual and concerned, casual make uninformed choice -->
+![](/drawing-3-casual-out-approves-passionate.png)
+
 <!-- importantly, the casual group isn't wrong or bad or irrational, they did the most rational thing from their perspective. if they slightly prefer some choice and it costs them nothing to support it, then they will -->
 
 ---
@@ -290,7 +299,7 @@ have logical rules and constraints to make cooperation more efficient
 
 ## can put more votes on things you care more about
 
-<!-- TODO picture of voter spending different votes on different issues -->
+![](/drawing-4-resource-voting.png)
 
 ---
 
@@ -298,7 +307,14 @@ have logical rules and constraints to make cooperation more efficient
 
 ## Provably optimal!
 
-<!-- TODO picture of quadratic scaling -->
+| voting credits spent | √ | actual vote cast |
+|----------------------|---|------------------|
+| 1                    | → | 1                |
+| 2                    | → | 1.4142           |
+| 3                    | → | 1.7320           |
+| 4                    | → | 2                |
+| ...                  |   | ...              |
+| 9                    | → | 3                |
 
 ---
 
@@ -306,7 +322,13 @@ have logical rules and constraints to make cooperation more efficient
 
 ## casual majorities can "bankrupt" minorities with repeated proposals
 
-<!-- TODO picture of concerned group going vote broke -->
+| horrifying<br>proposal<br>prevented? | large group<br>votes remaining | small group<br>votes remaining |
+|--------------------------------|-----------------------------|-----------------------------|
+| ✅                              | 1,000,000                   | 40,000                      |
+| ✅                              | 950,000                     | 30,000                      |
+| ✅                              | 900,000                     | 20,000                      |
+| ✅                              | 850,000                     | 10,000                      |
+| 💥                              | 800,000                     | 0                           |
 
 ---
 
@@ -322,11 +344,21 @@ have logical rules and constraints to make cooperation more efficient
 
 # Persistent Voting
 
-## Stabilization
+## Update Schedule
 
-### Don't change too fast
+it would be stressful for vote changes to be published and possibly change the result the moment they happen
 
-<!-- TODO picture of update schedule -->
+![](/drawing-5-instantaneous-updates.png)
+
+---
+
+# Persistent Voting
+
+## Update Schedule
+
+publishing and recalculation should happen on a more human schedule
+
+![](/drawing-6-reasonable-updates.png)
 
 ---
 
@@ -334,9 +366,9 @@ have logical rules and constraints to make cooperation more efficient
 
 ## Stabilization
 
-### Don't change without real support
+have to fill up a "stabilization bucket" before you actually win
 
-<!-- TODO picture of stabilization buckets -->
+![](/drawing-7-stabilization-buckets.png)
 
 ---
 
@@ -348,7 +380,7 @@ have logical rules and constraints to make cooperation more efficient
 
 - can vote *merely against* something
 - no more election hangovers
-- no more strategic windows
+- no more last minute trickery
 - low voter participation not a problem
 - direct democracy is reasonable
 - can vote for *documents* instead of people
@@ -361,19 +393,39 @@ have logical rules and constraints to make cooperation more efficient
 
 ## flexible districts
 
-<!-- TODO picture highlighting top level districts -->
-<!-- TODO picture chopping further -->
-<!-- TODO picture chopping further -->
+the borders of different districts (states, counties, cities, etc) can be chosen democratically
 
-each one of these sub-districts would have its own persistently chosen sub-constitution. these sub-constitutions would intentionally have a narrow scope defined by their ancestor constitutions
+![](/drawing-8-districts-1.png)
 
 ---
 
 # Persistent Constitutions
 
-## can delegate more or less control to officials
+## flexible districts
+
+the borders of different districts (states, counties, cities, etc) can be chosen democratically
+
+![](/drawing-8-districts-2.png)
 
 ---
+
+# Persistent Constitutions
+
+## flexible districts
+
+the borders of different districts (states, counties, cities, etc) can be chosen democratically
+
+![](/drawing-8-districts-2-diff.png)
+
+<!-- each one of these sub-districts would have its own persistently chosen sub-constitution. these sub-constitutions would intentionally have a narrow scope defined by their ancestor constitutions -->
+
+---
+
+<!--
+# Persistent Constitutions
+
+## can delegate more or less control to officials
+-->
 
 # Persistent Commitments
 
@@ -382,7 +434,7 @@ each one of these sub-districts would have its own persistently chosen sub-const
 - budgets
 - public projects
 - court cases
-- restructuring
+- administrative restructuring
 
 need to avoid deadline problems
 
@@ -392,7 +444,11 @@ need to avoid deadline problems
 
 ## basically just [conviction voting](TODO)
 
-<!-- TODO picture illustrating conviction voting -->
+weight takes time to be fully applied, moves slowly
+
+![](/drawing-9-weight-transfer.png)
+
+<!-- ![](https://medium.com/giveth/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-aa746cfb9475) -->
 
 ---
 
@@ -424,24 +480,46 @@ Quadratic Funding?
 
 ## problems when:
 
-- the pool isn't big enough
-- there are lots of spammy projects
+- matching pool isn't big enough
+- lots of spammy projects
 
 ---
 
 # Persistent Funding
 
-<!-- TODO picture showing prioritization -->
+- uses persistent commitments rounds
+- voters select a decision document
+- can remove spammy projects
+- can choose to fund nothing
+- can add extra money to the funding pool
+
+---
+
+# Persistent Funding
+
+can prioritize projects that achieve the most social good (have the most weight) compared to how much they would cost to match
+
+![](/drawing-10-prioritization.png)
 
 ---
 
 # Common Partial Ownership
 
-## achieves *highest and best use* for resources
+the way we think about property ownership isn't the most efficient or the most ethical
+
+we've enshrined the "dibs" rule as a sacred right
+
+non-negotiable property makes big and small monopolies easy
+
+strengthens cycles of cumulative advantage
+
+but we have no idea how to manually redistribute property...
 
 ---
 
 # Harberger Taxes
+
+## achieves *highest and best use* for resources
 
 <!-- TODO pictures explaining -->
 <!-- someone values something, they state their value -->
