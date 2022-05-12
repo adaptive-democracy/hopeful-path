@@ -7,200 +7,199 @@ drawings:
   persist: false
 ---
 
-# Persistent Democracy
+<h1 class="!text-8xl">Persistent Democracy</h1>
 
-## The governmental structure that can fix... everything?
-
----
-
-# Humanity has some huge problems ahead
+<h2 class="!text-6xl !font-light">The governmental structure<br>that can fix...<br>everything?</h2>
 
 ---
 
-# Climate Change
+# Humanity has some<br>huge problems ahead
 
-[Climate change already worse than expected, says new UN report - nationalgeographic.com](https://www.nationalgeographic.com/environment/article/climate-change-already-worse-than-expected-un-report)
+---
+
+## Climate Change
+
+["Climate change already worse than expected, says new UN report" - nationalgeographic.com](https://www.nationalgeographic.com/environment/article/climate-change-already-worse-than-expected-un-report)
 
 ![](https://i.natgeofe.com/n/7368dc48-b609-4afa-a8cc-845fc5ff243e/NationalGeographic_2736412.jpg?w=1399.2000303268433&h=932.8000202178955)
 
 ---
 
-# Climate Change
+## Climate Change
 
-[Yes, There Has Been Progress on Climate. No, It’s Not Nearly Enough - nytimes.com](https://www.nytimes.com/interactive/2021/10/25/climate/world-climate-pledges-cop26.html)
+["Yes, There Has Been Progress on Climate. No, It’s Not Nearly Enough" - nytimes.com](https://www.nytimes.com/interactive/2021/10/25/climate/world-climate-pledges-cop26.html)
 
 ![](https://static01.nyt.com/images/2021/10/24/us/world-climate-pledges-by-degrees-promo-1635123284508/world-climate-pledges-by-degrees-promo-1635123284508-videoSixteenByNineJumbo1600.png)
 
 
 ---
 
-# Climate Change
+## Climate Change
 
-[UN climate report: It’s "now or never" to limit global warming to 1.5 degrees - un.org](https://news.un.org/en/story/2022/04/1115452)
+["UN climate report: It's 'now or never' to limit global warming to 1.5 degrees" - un.org](https://news.un.org/en/story/2022/04/1115452)
 
 ![](https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production+Library/04-04-2022_UNICEF_Somalia.jpg/image1170x530cropped.jpg)
 
 ---
 
-# Climate Change
+## Climate Change
 
-## yikes
-
-[What if Democracy and Climate Mitigation Are Incompatible? - foreignpolicy.com](https://foreignpolicy.com/2022/01/07/climate-change-democracy/)
+["What if Democracy and Climate Mitigation Are Incompatible?" - foreignpolicy.com](https://foreignpolicy.com/2022/01/07/climate-change-democracy/)
 
 ![](https://foreignpolicy.com/wp-content/uploads/2021/12/climate-change-democracy-wildfire-turkey-GettyImages-1234542847_SW_V1.jpg?quality=90)
 
+*yikes...*
+
 ---
 
-# Climate Change
+## Climate Change
 
 
-[Amazon deforestation in April was the worst in modern records - newscientist.com](https://www.newscientist.com/article/2319326-amazon-deforestation-in-april-was-the-worst-in-modern-records/)
+["Amazon deforestation in April was the worst in modern records" - newscientist.com](https://www.newscientist.com/article/2319326-amazon-deforestation-in-april-was-the-worst-in-modern-records/)
 
 ![](https://images.newscientist.com/wp-content/uploads/2022/05/10121119/SEI_1032100951.jpg?width=800)
 
 ---
 
-# Resource Scarcity
+## Resource Scarcity
 
-[There's never been such a severe shortage of homes in the U.S. Here's why - npr.org](https://www.npr.org/2022/03/29/1089174630/housing-shortage-new-home-construction-supply-chain)
+["There's never been such a severe shortage of homes in the U.S. Here's why" - npr.org](https://www.npr.org/2022/03/29/1089174630/housing-shortage-new-home-construction-supply-chain)
 
 ![](https://media.npr.org/assets/img/2022/03/28/img_0841-8cf40dad414ddb389f68ce37fbe2220610371b9c-s1600-c85.webp)
 
 ---
 
-# Resource Scarcity
+## Resource Scarcity
 
 
-[Water privatisation: a worldwide failure? - theguardian.com](https://www.theguardian.com/global-development/2015/jan/30/water-privatisation-worldwide-failure-lagos-world-bank)
+["Water privatisation: a worldwide failure?" - theguardian.com](https://www.theguardian.com/global-development/2015/jan/30/water-privatisation-worldwide-failure-lagos-world-bank)
 
 ![](https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/1/29/1422550505116/054bb070-257a-46ae-b389-232f5d816e20-2060x1236.jpeg?width=1020&quality=45&auto=format&fit=max&dpr=2&s=301a864c2cdc6f40e8b8ff1c8d6de644)
 
 ---
 
-# Institutional/Market Failure
+## Institutional/Market Failure
 
-[How Much Longer Can This Era Of Political Gridlock Last? - fivethirtyeight.com](https://fivethirtyeight.com/features/how-much-longer-can-this-era-of-political-gridlock-last/)
+["How Much Longer Can This Era Of Political Gridlock Last?" - fivethirtyeight.com](https://fivethirtyeight.com/features/how-much-longer-can-this-era-of-political-gridlock-last/)
 
 ![](https://fivethirtyeight.com/wp-content/uploads/2021/03/PARTISAN-STALEMATE-4x3-1.png?w=1150)
 
 ---
 
-# Institutional/Market Failure
+## Institutional/Market Failure
 
-[Report: Corruption in U.S. at Worst Levels in Almost a Decade - foreignpolicy.com](https://foreignpolicy.com/2021/01/28/report-transparency-international-corruption-worst-decade-united-states/)
+["Report: Corruption in U.S. at Worst Levels in Almost a Decade" - foreignpolicy.com](https://foreignpolicy.com/2021/01/28/report-transparency-international-corruption-worst-decade-united-states/)
 
 ![](https://foreignpolicy.com/wp-content/uploads/2021/01/corruption-global-us-perception-transparency-international-2021-articlel.png)
 
 ---
 
-# Institutional/Market Failure
+## Institutional/Market Failure
 
-[Democracy under Siege - freedomhouse.org](https://freedomhouse.org/report/freedom-world/2021/democracy-under-siege)
+["Democracy under Siege" - freedomhouse.org](https://freedomhouse.org/report/freedom-world/2021/democracy-under-siege)
 
 ![](https://freedomhouse.org/sites/default/files/2021-02/FIW2021_COVER_PHOTO_GettyImages-1196132829_crop2.jpg)
 
 ---
 
-# Institutional/Market Failure
+## Institutional/Market Failure
 
-[Municipal Broadband Is Restricted In 18 States Across The U.S. In 2021 - broadbandnow.com](https://broadbandnow.com/report/municipal-broadband-roadblocks/)
+["Municipal Broadband Is Restricted In 18 States Across The U.S. In 2021" - broadbandnow.com](https://broadbandnow.com/report/municipal-broadband-roadblocks/)
 
 ![](https://broadbandnow.com/app/uploads/2021/04/BBN_municipal_broadband_roadblocks_map_2021-2.png)
 
 ---
 
-# Institutional/Market Failure
+## Institutional/Market Failure
 
-[Every day, we rely on digital infrastructure built by volunteers. What happens when it fails? - fordfoundation.org](https://www.fordfoundation.org/news-and-stories/stories/posts/every-day-we-rely-on-digital-infrastructure-built-by-volunteers-what-happens-when-it-fails/)
+["Every day, we rely on digital infrastructure built by volunteers.<br>What happens when it fails?" - fordfoundation.org](https://www.fordfoundation.org/news-and-stories/stories/posts/every-day-we-rely-on-digital-infrastructure-built-by-volunteers-what-happens-when-it-fails/)
 
 ![](https://www.fordfoundation.org/media/3404/every-day-we-rely-on-digital-infrastructure-built-by-volunteers-what-happens-when-it-fails.jpg?crop=0.0000000000000001263187085796,0.12499999999999989,0,0&width=3200&height=1200&rnd=131562792710000000&cropmode=percentage)
 
 ---
 
-# Institutional/Market Failure
+## Institutional/Market Failure
 
-[Overlooked and underfunded: neglected diseases exert a toll - nature.com](https://www.nature.com/articles/d41586-021-02912-w)
+["Overlooked and underfunded: neglected diseases exert a toll" - nature.com](https://www.nature.com/articles/d41586-021-02912-w)
 
 ![](https://media.nature.com/lw800/magazine-assets/d41586-021-02912-w/d41586-021-02912-w_19787472.jpg)
 
 ---
 
-# Institutional/Market Failure
+## Institutional/Market Failure
 
-[Overpatented, Overpriced: How Excessive Pharmaceutical Patenting is Extending Monopolies and Driving up Drug Prices - i-mak.org](https://www.i-mak.org/wp-content/uploads/2018/08/I-MAK-Overpatented-Overpriced-Report.pdf)
+["Overpatented, Overpriced:<br>How Excessive Pharmaceutical Patenting is Extending Monopolies and Driving up Drug Prices" - i-mak.org](https://www.i-mak.org/wp-content/uploads/2018/08/I-MAK-Overpatented-Overpriced-Report.pdf)
 
 ![](/imak.100s.patents.totals-2-1024x1024.png)
 
 ---
 
-# Institutional/Market Failure
+## Institutional/Market Failure
 
-[64% of Americans say social media have a mostly negative effect on the way things are going in the U.S. today](https://www.pewresearch.org/fact-tank/2020/10/15/64-of-americans-say-social-media-have-a-mostly-negative-effect-on-the-way-things-are-going-in-the-u-s-today/)
+["64% of Americans say social media have a mostly negative effect on the way things are going in the U.S. today" - pewresearch.org](https://www.pewresearch.org/fact-tank/2020/10/15/64-of-americans-say-social-media-have-a-mostly-negative-effect-on-the-way-things-are-going-in-the-u-s-today/)
 
 ![](https://www.pewresearch.org/wp-content/uploads/2020/10/ft_2020.10.15_socialmediaeffect_01.png)
 
 ---
 
-# Institutional/Market Failure
+## Institutional/Market Failure
 
-[Has Wealth Inequality in America Changed over Time? Here Are Key Statistics](https://www.stlouisfed.org/open-vault/2020/december/has-wealth-inequality-changed-over-time-key-statistics)
+["Has Wealth Inequality in America Changed over Time? Here Are Key Statistics" - stlouisfed.org](https://www.stlouisfed.org/open-vault/2020/december/has-wealth-inequality-changed-over-time-key-statistics)
 
 ![](https://www.stlouisfed.org/open-vault/2020/december/-/media/project/frbstl/stlouisfed/blog/2020/december/distribution_american_wealth.png)
 
 ---
 
-# Space Governance?
+## Space Governance?
 
-[Problem profiles: Space governance - 80000hours.org](https://80000hours.org/problem-profiles/space-governance/)
+["Problem profiles: Space governance" - 80000hours.org](https://80000hours.org/problem-profiles/space-governance/)
 
 ![](https://80000hours.org/wp-content/uploads/2022/02/nasa-7Cz6bWjdlDs-unsplash-2880x1650.jpg)
 
 ---
 
-# I'm convinced
-# Persistent Democracy
-# can solve all these problems
+# I'm convinced<br>Persistent Democracy<br>can solve these problems
 
 - make cooperation efficient, maybe provably optimally
 - make direct democracy possible
-- efficiently negogiate ownership of all resources
+- efficiently negotiate ownership of all resources
 - allow cooperatives to finally live up to their full potential
 - scale democratic society as big as communication and travel allow
 
 ---
 
-# Cooperation is humanity's secret weapon
+# Cooperation<br>is humanity's secret weapon
 
 - all human prosperity comes from cooperation
-
 - sharing and passing down knowledge is a form of cooperation
-
 - even small groups rely on cooperation to survive and thrive
-
 - almost all problems are versions of cooperation failure
 
 ---
 
-# We use logical systems to cooperate at scale
+## We use logical systems to cooperate at scale
 
-## we want find consensus socially with too many people
+we can't find consensus socially with too many people
 
 ![](/drawing-1-noise.png)
 
 ---
 
-# We use logical systems to cooperate at scale
+## We use logical systems to cooperate at scale
 
-## voting simplifies consensus-finding to an algorithm
+voting simplifies consensus-finding to an algorithm
 
 ![](/drawing-2-voting.png)
 
 ---
 
-# We use logical systems to cooperate at scale
+## We use logical systems to cooperate at scale
 
-## voting systems can be studied mathematically
+<br>
+<br>
+<br>
+
+<h1 class="!font-light">voting systems can be studied mathematically</h1>
 
 - it's possible to *prove* things about voting systems
 - when you've proven a logical claim, you can be as confident in its truth as the fact that `1 + 1 = 2`
@@ -208,9 +207,9 @@ drawings:
 
 ---
 
-# We use logical systems to cooperate at scale
+## We use logical systems to cooperate at scale
 
-## cooperation structures
+cooperation structures
 
 - government
 - companies
@@ -307,6 +306,8 @@ have logical rules and constraints to make cooperation more efficient
 
 ## Provably optimal!
 
+it might still be a good idea to blend it with other methods, "Quadratic Approval Voting"
+
 | voting credits spent | √ | actual vote cast |
 |----------------------|---|------------------|
 | 1                    | → | 1                |
@@ -318,9 +319,11 @@ have logical rules and constraints to make cooperation more efficient
 
 ---
 
-# ... but there are still important problems
+# Quadratic Voting
 
-## casual majorities can "bankrupt" minorities with repeated proposals
+## ... but there are still important problems
+
+casual majorities can "bankrupt" minorities with repeated proposals
 
 | horrifying<br>proposal<br>prevented? | large group<br>votes remaining | small group<br>votes remaining |
 |--------------------------------|-----------------------------|-----------------------------|
@@ -421,11 +424,14 @@ the borders of different districts (states, counties, cities, etc) can be chosen
 
 ---
 
-<!--
 # Persistent Constitutions
 
-## can delegate more or less control to officials
--->
+- constitutions can structure things however people want
+- can delegate more or less control to officials
+- can give special extra weights to elected experts
+- can combine methods like sortition, approval voting, etc
+
+---
 
 # Persistent Commitments
 
@@ -442,13 +448,19 @@ need to avoid deadline problems
 
 # Persistent Commitments
 
-## basically just [conviction voting](TODO)
+## basically just [Conviction Voting](https://miro.medium.com/max/1220/1*NTN1FVV6VpoxY1lR8ENY1w.jpeg)
 
 weight takes time to be fully applied, moves slowly
 
 ![](/drawing-9-weight-transfer.png)
 
 <!-- ![](https://medium.com/giveth/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-aa746cfb9475) -->
+
+---
+
+# Persistent Commitments
+
+![](/drawing-9-1-persistent-commitment.png)
 
 ---
 
@@ -505,26 +517,31 @@ can prioritize projects that achieve the most social good (have the most weight)
 
 # Common Partial Ownership
 
-the way we think about property ownership isn't the most efficient or the most ethical
+- the way we think about property ownership isn't the most efficient or the most ethical
 
-we've enshrined the "dibs" rule as a sacred right
+- we've enshrined the "dibs" rule as a sacred right
 
-non-negotiable property makes big and small monopolies easy
+- non-negotiable property makes big and small monopolies easy
 
-strengthens cycles of cumulative advantage
+- strengthens cycles of cumulative advantage
 
-but we have no idea how to manually redistribute property...
+- but we have no idea how to manually redistribute property...
 
 ---
 
 # Harberger Taxes
 
-## achieves *highest and best use* for resources
+achieves *highest and best use* for resources
 
-<!-- TODO pictures explaining -->
-<!-- someone values something, they state their value -->
-<!-- the tax rate is the same for everyone, they pay based on their self-assessed value -->
-<!-- but if someone offers to buy for a higher value, the owner *must* sell -->
+![](/drawing-11-1-harberger-taxes.png)
+
+---
+
+# Harberger Taxes
+
+whoever values something most becomes the owner
+
+![](/drawing-11-2-harberger-taxes.png)
 
 ---
 
@@ -545,9 +562,24 @@ but we have no idea how to manually redistribute property...
 
 ## Harberger Taxes + Persistent Voting
 
-<!-- TODO pictures explaining -->
-<!-- same as before, but owners can *also* place weights -->
-<!-- to force a sale, you have to match both and beat one -->
+![](/drawing-12-1-common-resource-taxes.png)
+
+---
+
+# Common Resource Taxes
+
+## Harberger Taxes + Persistent Voting
+
+![](/drawing-12-2-common-resource-taxes.png)
+
+---
+
+# Common Resource Taxes
+
+## Harberger Taxes + Persistent Voting
+
+![](/drawing-12-3-common-resource-taxes.png)
+
 <!-- and there's also stabilization, your offer has to fill a stabilization bucket -->
 
 ---
@@ -573,7 +605,7 @@ but we have no idea how to manually redistribute property...
 ## possible problems?
 
 - only my left shoe was bought: you can "bind together" property
-- not everything should be for sale: constitutions can set aside some things
+- national parks shouldn't be for sale: constitutions can set aside some things
 - have to choose between high taxes and voting: probably a good idea to separate "legislative" and "administrative" weights
 
 ---
@@ -594,17 +626,16 @@ but we have no idea how to manually redistribute property...
 
 # would still dramatically change society
 
-it's tempting to think through how this system would work given the current composition of our society
-but common resource taxes would prevent the kinds of inequalities that exist in our society today
-people wouldn't be fighting for a limited amount of housing, more housing would get built
-things like cooperatives would easily out-compete for-profits
+- billionaires wouldn't just buy everything
+- it's likely billionaires couldn't exist anymore
+- people wouldn't fight over housing, more would get built
+- cooperatives would easily out-compete for-profits
 
 ---
 
 # A note about taxes in general
 
-we should only tax things that create negative externalities
-or otherwise burden society
+we should only tax things that create negative externalities or otherwise burden society
 
 - common resource taxes (owning something prevents others from owning it)
 - wealth taxes (being substantially more wealthy than others is structurally dangerous)
@@ -624,12 +655,12 @@ proof sketch presentation is work-in-progress
 ```
 persistent voting
 ==
-harberger auction for ownership of decision making power
+Harberger auction for ownership of decision making power
 
 common partial ownership
 + persistent voting
 ==
-pareto efficient market for ownership of society
+Pareto efficient market for ownership of society
 ```
 
 <!-- Harberger taxation is provably optimal with regard to allocative efficiency
@@ -649,9 +680,25 @@ Persistent Democracy is just those things. It's a market that uses Harberger tax
 
 even if it *does* turn out to be provably optimal...
 
-...we still have to validate it in real practice
+... we still have to validate it in real applications
 
 proof sketch is convincing enough for me to work on applications
+
+---
+
+# Comparison with Liquid Democracy
+
+liquid democracy allows delegating votes
+
+![](https://miro.medium.com/max/560/1*7_LuI-hO6J5Jdz6HIK3R4Q.png)
+
+---
+
+# Comparison with Liquid Democracy
+
+## would make "automated demagoguery" worryingly possible
+
+## don't need explicit delegation, Persistent Voting has "delegation by abstention"
 
 ---
 
@@ -742,6 +789,28 @@ proof sketch is convincing enough for me to work on applications
 
 ---
 
+# Solving problems
+
+- climate change
+  - more direct and effective voting
+  - extremely flexible public goods funding
+- resource scarcity
+  - effective community ownership
+  - structural pressure to increase supply
+- corruption and effective government
+  - accountability is much more direct
+- social/news media
+  - cooperatives
+- municipal broadband
+  - classic example of a public good
+- open source and other research
+  - extremely flexible public goods funding
+  - open source cooperatives
+- space governance
+  - common resource taxes scale elegantly
+
+---
+
 # I need help!
 
 - funding
@@ -776,7 +845,7 @@ I'd love to do so in the context of a "startup-energy" cooperative
 
 
 
-
+<!--
 I'm convinced Persistent Democracy can solve many of our societal problems, including long-term ones. I need help to make it happen.
 
 A little while ago I came up with Persistent Democracy, a new structure for democratic organization that I am convinced is the most flexible and powerful such a system could possibly be. I have rough proof sketches conjecturing that Persistent Democracy is even provably optimal as a system to allow any being to maximize their welfare.
@@ -863,3 +932,4 @@ I'm extraordinarily focused. I'm able to complete immense amounts of difficult w
 I'm very creative, especially when solving tricky open-ended problems. I point to things like Magmide and Persistent Democracy to validate that assertion.
 I have a good sense of "engineering design", meaning
 I can be a good teacher and explainer.
+-->

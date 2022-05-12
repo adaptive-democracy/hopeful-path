@@ -24,3 +24,21 @@
 	max-height: 40vh;
 	@apply mx-auto;
 }
+
+/* banner */
+.slidev-layout h1 {
+	@apply text-7xl;
+}
+
+/* title  */
+.slidev-layout h2 {
+	@apply text-3xl;
+	/*text-transform: uppercase;*/
+}
+
+/* h3 is too broken */
+
+/* subtitle */
+.slidev-layout h4 {
+	@apply text-2xl;
+}
