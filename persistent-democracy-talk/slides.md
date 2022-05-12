@@ -134,6 +134,22 @@ drawings:
 
 ---
 
+# Institutional/Market Failure
+
+[64% of Americans say social media have a mostly negative effect on the way things are going in the U.S. today](https://www.pewresearch.org/fact-tank/2020/10/15/64-of-americans-say-social-media-have-a-mostly-negative-effect-on-the-way-things-are-going-in-the-u-s-today/)
+
+![](https://www.pewresearch.org/wp-content/uploads/2020/10/ft_2020.10.15_socialmediaeffect_01.png)
+
+---
+
+# Institutional/Market Failure
+
+[Has Wealth Inequality in America Changed over Time? Here Are Key Statistics](https://www.stlouisfed.org/open-vault/2020/december/has-wealth-inequality-changed-over-time-key-statistics)
+
+![](https://www.stlouisfed.org/open-vault/2020/december/-/media/project/frbstl/stlouisfed/blog/2020/december/distribution_american_wealth.png)
+
+---
+
 # Space Governance?
 
 [Problem profiles: Space governance - 80000hours.org](https://80000hours.org/problem-profiles/space-governance/)
@@ -146,11 +162,11 @@ drawings:
 # Persistent Democracy
 # can solve all these problems
 
-- make cooperation efficient, maybe even provably optimally
+- make cooperation efficient, maybe provably optimally
 - make direct democracy possible
-- efficiently decide ownership of all resources
+- efficiently negogiate ownership of all resources
 - allow cooperatives to finally live up to their full potential
-- scale society as big as communication and travel allow
+- scale democratic society as big as communication and travel allow
 
 ---
 
@@ -199,18 +215,36 @@ have logical rules and constraints to make cooperation more efficient
 
 # Persistent Democracy
 
+<v-click>
+
 - Quadratic Voting
 - Quadratic Funding
 - Common Partial Ownership
+
+</v-click>
+
+<v-click>
+
 - Persistent Voting
 - Persistent Constitutions
 
+</v-click>
+
 ---
 
-# Why doesn't our
-# *current* democracy work?
+# Why doesn't our *current* democracy work?
 
-## Democracy isn't the same as Plurality Voting
+<v-click>
+
+## Our Democracy uses Plurality Voting
+
+</v-click>
+
+<v-click>
+
+## Democracy ≠ Plurality Voting
+
+</v-click>
 
 ---
 
@@ -260,13 +294,15 @@ have logical rules and constraints to make cooperation more efficient
 
 ---
 
-# Quadratic Voting is provably optimal!
+# Quadratic Voting
+
+## Provably optimal!
 
 <!-- TODO picture of quadratic scaling -->
 
 ---
 
-# ... but still have important problems
+# ... but there are still important problems
 
 ## casual majorities can "bankrupt" minorities with repeated proposals
 
@@ -333,9 +369,9 @@ each one of these sub-districts would have its own persistently chosen sub-const
 
 ---
 
-# Persistent Prioritization
+# Persistent Constitutions
 
-##
+## can delegate more or less control to officials
 
 ---
 
@@ -343,7 +379,12 @@ each one of these sub-districts would have its own persistently chosen sub-const
 
 ## not all choices are reversible
 
-but we want to avoid the same problems our current systems have with deadlines
+- budgets
+- public projects
+- court cases
+- restructuring
+
+need to avoid deadline problems
 
 ---
 
@@ -355,24 +396,48 @@ but we want to avoid the same problems our current systems have with deadlines
 
 ---
 
-# Persistent Budgets
+# Persistent Funding
+
+## Persistent Commitments + Quadratic Funding
+
+Quadratic Funding?
+
+---
+
+# Quadratic Funding
+
+## Provably optimal!
+
+![](https://vitalik.ca/images/qv-files/quadratic_funding.png)
+
+---
+
+# Quadratic Funding
+
+## gives more money to projects with more small donors
+
+![](https://finematics.com/wp-content/uploads/2020/12/example-1024x554.png)
+
+---
+
+# Quadratic Funding
+
+## problems when:
+
+- the pool isn't big enough
+- there are lots of spammy projects
 
 ---
 
 # Persistent Funding
 
----
-
-# Quadratic Voting
-# Quadratic Funding
+<!-- TODO picture showing prioritization -->
 
 ---
 
 # Common Partial Ownership
 
-## (common resource taxes)
-
-achieves *highest and best use* for resources
+## achieves *highest and best use* for resources
 
 ---
 
@@ -400,7 +465,7 @@ achieves *highest and best use* for resources
 
 # Common Resource Taxes
 
-## Harberger Taxes + Persistent Democracy
+## Harberger Taxes + Persistent Voting
 
 <!-- TODO pictures explaining -->
 <!-- same as before, but owners can *also* place weights -->
@@ -448,6 +513,8 @@ achieves *highest and best use* for resources
 ---
 
 # Common Resource Taxes
+
+# would still dramatically change society
 
 it's tempting to think through how this system would work given the current composition of our society
 but common resource taxes would prevent the kinds of inequalities that exist in our society today
@@ -502,9 +569,11 @@ Persistent Democracy is just those things. It's a market that uses Harberger tax
 
 # Could this be provably optimal?
 
-even if it *does* turn out to be provably optimal, we still have to validate it in real practice
+even if it *does* turn out to be provably optimal...
 
-my proof sketch is good enough for me, at least to work on implementation
+...we still have to validate it in real practice
+
+proof sketch is convincing enough for me to work on applications
 
 ---
 
@@ -512,16 +581,18 @@ my proof sketch is good enough for me, at least to work on implementation
 
 ## huge changes, lots of them risky
 
-have to validate in small trials
-can't wait for permission
+- have to validate in low-risk contexts
+- can't wait for permission
 
 ---
 
 # How to make this happen?
 
-- Persistent Democracy Foundation
-- Persistently Democratic Political Party
-- Persistently Democratic Cooperative
+## here's my plan:
+
+- Persistent Democracy Foundation (general support)
+- Persistently Democratic Political Party (political activism)
+- Persistently Democratic Cooperative (economic activism)
 
 ---
 
@@ -532,7 +603,7 @@ can't wait for permission
 - evolve and prove theoretical claims
 - study persistently democratic organizations in practice
 - build reusable tools like software and legal documents
-- should be controlled using persistent democracy once that's possible
+- should be controlled using persistent democracy once possible
 
 ---
 
@@ -541,6 +612,7 @@ can't wait for permission
 ## Persistently Democratic Political Party
 
 - do whatever party members wish
+- easier to get going than a cooperative
 - can experiment with sub-constitutions for different areas
 - can fund projects and agitate for incremental change
 
