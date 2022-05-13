@@ -20,8 +20,16 @@
 	@apply mt-2 !important;
 }
 
+.slidev-layout ul {
+	@apply text-2xl;
+}
+
+.slidev-layout li > ul {
+	@apply !mt-0;
+}
+
 .slidev-layout img {
-	max-height: 40vh;
+	max-height: 38vh;
 	@apply mx-auto;
 }
 
@@ -33,12 +41,22 @@
 /* title  */
 .slidev-layout h2 {
 	@apply text-3xl;
-	/*text-transform: uppercase;*/
 }
 
 /* h3 is too broken */
 
 /* subtitle */
 .slidev-layout h4 {
-	@apply text-2xl;
+	@apply text-5xl !font-light my-5;
+}
+
+/* subtitle */
+.slidev-layout h5 {
+	@apply text-2xl !font-light my-3;
+}
+
+:not(pre) > code::before, :not(pre) > code::after {
+	content: '';
+	opacity: inherit;
+	@apply px-1;
 }

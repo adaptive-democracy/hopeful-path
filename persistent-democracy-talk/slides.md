@@ -44,20 +44,18 @@ drawings:
 
 ## Climate Change
 
-["What if Democracy and Climate Mitigation Are Incompatible?" - foreignpolicy.com](https://foreignpolicy.com/2022/01/07/climate-change-democracy/)
 
-![](https://foreignpolicy.com/wp-content/uploads/2021/12/climate-change-democracy-wildfire-turkey-GettyImages-1234542847_SW_V1.jpg?quality=90)
+["Amazon deforestation in April was the worst in modern records" - newscientist.com](https://www.newscientist.com/article/2319326-amazon-deforestation-in-april-was-the-worst-in-modern-records/)
 
-*yikes...*
+![](https://images.newscientist.com/wp-content/uploads/2022/05/10121119/SEI_1032100951.jpg?width=800)
 
 ---
 
 ## Climate Change
 
+["What if Democracy and Climate Mitigation Are Incompatible?" - foreignpolicy.com](https://foreignpolicy.com/2022/01/07/climate-change-democracy/) 😨
 
-["Amazon deforestation in April was the worst in modern records" - newscientist.com](https://www.newscientist.com/article/2319326-amazon-deforestation-in-april-was-the-worst-in-modern-records/)
-
-![](https://images.newscientist.com/wp-content/uploads/2022/05/10121119/SEI_1032100951.jpg?width=800)
+![](https://foreignpolicy.com/wp-content/uploads/2021/12/climate-change-democracy-wildfire-turkey-GettyImages-1234542847_SW_V1.jpg?quality=90)
 
 ---
 
@@ -168,7 +166,7 @@ drawings:
 
 ---
 
-# Cooperation<br>is humanity's secret weapon
+# Cooperation<br>is humanity's<br>secret weapon
 
 - all human prosperity comes from cooperation
 - sharing and passing down knowledge is a form of cooperation
@@ -179,7 +177,7 @@ drawings:
 
 ## We use logical systems to cooperate at scale
 
-we can't find consensus socially with too many people
+##### we can't find consensus socially with too many people
 
 ![](/drawing-1-noise.png)
 
@@ -187,7 +185,7 @@ we can't find consensus socially with too many people
 
 ## We use logical systems to cooperate at scale
 
-voting simplifies consensus-finding to an algorithm
+##### voting simplifies consensus-finding to an algorithm
 
 ![](/drawing-2-voting.png)
 
@@ -195,11 +193,7 @@ voting simplifies consensus-finding to an algorithm
 
 ## We use logical systems to cooperate at scale
 
-<br>
-<br>
-<br>
-
-<h1 class="!font-light">voting systems can be studied mathematically</h1>
+#### voting systems<br>can be<br>studied mathematically
 
 - it's possible to *prove* things about voting systems
 - when you've proven a logical claim, you can be as confident in its truth as the fact that `1 + 1 = 2`
@@ -209,14 +203,12 @@ voting simplifies consensus-finding to an algorithm
 
 ## We use logical systems to cooperate at scale
 
-cooperation structures
+#### organizations have logical rules and constraints to make cooperation more efficient
 
 - government
 - companies
 - clubs
 - cooperatives
-
-have logical rules and constraints to make cooperation more efficient
 
 ---
 
@@ -241,23 +233,19 @@ have logical rules and constraints to make cooperation more efficient
 
 # Why doesn't our *current* democracy work?
 
-<v-click>
+<v-clicks>
 
-## Our Democracy uses Plurality Voting
+#### Our Democracy uses Plurality Voting
 
-</v-click>
+#### Democracy ≠ Plurality Voting
 
-<v-click>
-
-## Democracy ≠ Plurality Voting
-
-</v-click>
+</v-clicks>
 
 ---
 
-# Plurality Voting is awful
+## Plurality Voting is awful
 
-## irrational outcomes with 3+ options
+##### irrational outcomes with 3+ options
 
 ![](https://d3n8a8pro7vhmx.cloudfront.net/ucer/pages/16/attachments/original/1613055360/SpoilerEffect.jpg?1613055360)
 
@@ -268,25 +256,25 @@ have logical rules and constraints to make cooperation more efficient
 
 ---
 
-# Plurality Voting is awful
+## Plurality Voting is awful
 
-## incentivizes enforcement of two party system
+##### incentivizes enforcement of two party system
 
 ![](https://unsplitthevote.org/wp-content/uploads/2019/04/plurality-voting_vote-splitting_cycle_yellow.png)
 
 ---
 
-# Approval Voting is better...
+## Approval Voting is better...
 
-## can always vote for all favorites
+##### can always vote for all favorites
 
 ![](https://i2.wp.com/californiaapproves.org/wp-content/uploads/2021/08/approval-ballot.png?fit=750%2C440&ssl=1)
 
 ---
 
-# ... but not good enough
+## ... but not good enough
 
-## casual majorities can outvote passionate minorities
+##### casual majorities can outvote passionate minorities
 
 ![](/drawing-3-casual-out-approves-passionate.png)
 
@@ -294,19 +282,19 @@ have logical rules and constraints to make cooperation more efficient
 
 ---
 
-# Resource voting systems are much better...
+## Resource voting systems are much better...
 
-## can put more votes on things you care more about
+##### can put more votes on things you care more about
 
 ![](/drawing-4-resource-voting.png)
 
 ---
 
-# Quadratic Voting
+## Quadratic Voting
 
-## Provably optimal!
+##### Provably optimal!
 
-it might still be a good idea to blend it with other methods, "Quadratic Approval Voting"
+it might be a good idea to blend it with other methods, "Quadratic Approval Voting"
 
 | voting credits spent | √ | actual vote cast |
 |----------------------|---|------------------|
@@ -319,9 +307,9 @@ it might still be a good idea to blend it with other methods, "Quadratic Approva
 
 ---
 
-# Quadratic Voting
+## Quadratic Voting
 
-## ... but there are still important problems
+##### ... but there are still important problems
 
 casual majorities can "bankrupt" minorities with repeated proposals
 
@@ -345,9 +333,9 @@ casual majorities can "bankrupt" minorities with repeated proposals
 
 ---
 
-# Persistent Voting
+## Persistent Voting
 
-## Update Schedule
+##### Update Schedule
 
 it would be stressful for vote changes to be published and possibly change the result the moment they happen
 
@@ -355,9 +343,9 @@ it would be stressful for vote changes to be published and possibly change the r
 
 ---
 
-# Persistent Voting
+## Persistent Voting
 
-## Update Schedule
+##### Update Schedule
 
 publishing and recalculation should happen on a more human schedule
 
@@ -365,9 +353,9 @@ publishing and recalculation should happen on a more human schedule
 
 ---
 
-# Persistent Voting
+## Persistent Voting
 
-## Stabilization
+##### Stabilization
 
 have to fill up a "stabilization bucket" before you actually win
 
@@ -375,9 +363,9 @@ have to fill up a "stabilization bucket" before you actually win
 
 ---
 
-# Persistent Voting
+## Persistent Voting
 
-## Benefits
+##### Benefits
 
 <v-clicks>
 
@@ -392,9 +380,9 @@ have to fill up a "stabilization bucket" before you actually win
 
 ---
 
-# Persistent Constitutions
+## Persistent Constitutions
 
-## flexible districts
+##### flexible districts
 
 the borders of different districts (states, counties, cities, etc) can be chosen democratically
 
@@ -402,9 +390,9 @@ the borders of different districts (states, counties, cities, etc) can be chosen
 
 ---
 
-# Persistent Constitutions
+## Persistent Constitutions
 
-## flexible districts
+##### flexible districts
 
 the borders of different districts (states, counties, cities, etc) can be chosen democratically
 
@@ -412,9 +400,9 @@ the borders of different districts (states, counties, cities, etc) can be chosen
 
 ---
 
-# Persistent Constitutions
+## Persistent Constitutions
 
-## flexible districts
+##### flexible districts
 
 the borders of different districts (states, counties, cities, etc) can be chosen democratically
 
@@ -424,7 +412,7 @@ the borders of different districts (states, counties, cities, etc) can be chosen
 
 ---
 
-# Persistent Constitutions
+## Persistent Constitutions
 
 - constitutions can structure things however people want
 - can delegate more or less control to officials
@@ -433,22 +421,22 @@ the borders of different districts (states, counties, cities, etc) can be chosen
 
 ---
 
-# Persistent Commitments
+## Persistent Commitments
 
-## not all choices are reversible
+##### not all choices are reversible
 
 - budgets
 - public projects
 - court cases
 - administrative restructuring
 
-need to avoid deadline problems
+##### need to avoid deadline problems
 
 ---
 
-# Persistent Commitments
+## Persistent Commitments
 
-## basically just [Conviction Voting](https://miro.medium.com/max/1220/1*NTN1FVV6VpoxY1lR8ENY1w.jpeg)
+##### basically just [Conviction Voting](https://miro.medium.com/max/1220/1*NTN1FVV6VpoxY1lR8ENY1w.jpeg)
 
 weight takes time to be fully applied, moves slowly
 
@@ -458,46 +446,46 @@ weight takes time to be fully applied, moves slowly
 
 ---
 
-# Persistent Commitments
+## Persistent Commitments
 
 ![](/drawing-9-1-persistent-commitment.png)
 
 ---
 
-# Persistent Funding
+## Persistent Funding
 
-## Persistent Commitments + Quadratic Funding
+##### Persistent Commitments + Quadratic Funding
 
-Quadratic Funding?
+##### Quadratic Funding?
 
 ---
 
-# Quadratic Funding
+## Quadratic Funding
 
-## Provably optimal!
+##### Provably optimal!
 
 ![](https://vitalik.ca/images/qv-files/quadratic_funding.png)
 
 ---
 
-# Quadratic Funding
+## Quadratic Funding
 
-## gives more money to projects with more small donors
+##### gives more money to projects with more small donors
 
 ![](https://finematics.com/wp-content/uploads/2020/12/example-1024x554.png)
 
 ---
 
-# Quadratic Funding
+## Quadratic Funding
 
-## problems when:
+##### problems when:
 
 - matching pool isn't big enough
 - lots of spammy projects
 
 ---
 
-# Persistent Funding
+## Persistent Funding
 
 - uses persistent commitments rounds
 - voters select a decision document
@@ -507,9 +495,9 @@ Quadratic Funding?
 
 ---
 
-# Persistent Funding
+## Persistent Funding
 
-can prioritize projects that achieve the most social good (have the most weight) compared to how much they would cost to match
+can prioritize projects that achieve the most social good (have the most weight)<br>compared to how much they would cost to match
 
 ![](/drawing-10-prioritization.png)
 
@@ -518,18 +506,14 @@ can prioritize projects that achieve the most social good (have the most weight)
 # Common Partial Ownership
 
 - the way we think about property ownership isn't the most efficient or the most ethical
-
 - we've enshrined the "dibs" rule as a sacred right
-
 - non-negotiable property makes big and small monopolies easy
-
 - strengthens cycles of cumulative advantage
-
 - but we have no idea how to manually redistribute property...
 
 ---
 
-# Harberger Taxes
+## Harberger Taxes
 
 achieves *highest and best use* for resources
 
@@ -537,7 +521,7 @@ achieves *highest and best use* for resources
 
 ---
 
-# Harberger Taxes
+## Harberger Taxes
 
 whoever values something most becomes the owner
 
@@ -545,7 +529,7 @@ whoever values something most becomes the owner
 
 ---
 
-# Harberger Taxes
+## Harberger Taxes
 
 <v-clicks>
 
@@ -558,25 +542,25 @@ whoever values something most becomes the owner
 
 ---
 
-# Common Resource Taxes
+## Common Resource Taxes
 
-## Harberger Taxes + Persistent Voting
+##### Harberger Taxes + Persistent Voting
 
 ![](/drawing-12-1-common-resource-taxes.png)
 
 ---
 
-# Common Resource Taxes
+## Common Resource Taxes
 
-## Harberger Taxes + Persistent Voting
+##### Harberger Taxes + Persistent Voting
 
 ![](/drawing-12-2-common-resource-taxes.png)
 
 ---
 
-# Common Resource Taxes
+## Common Resource Taxes
 
-## Harberger Taxes + Persistent Voting
+##### Harberger Taxes + Persistent Voting
 
 ![](/drawing-12-3-common-resource-taxes.png)
 
@@ -584,9 +568,9 @@ whoever values something most becomes the owner
 
 ---
 
-# Common Resource Taxes
+## Common Resource Taxes
 
-## benefits
+##### benefits
 
 <v-clicks>
 
@@ -600,9 +584,9 @@ whoever values something most becomes the owner
 
 ---
 
-# Common Resource Taxes
+## Common Resource Taxes
 
-## possible problems?
+##### possible problems?
 
 - only my left shoe was bought: you can "bind together" property
 - national parks shouldn't be for sale: constitutions can set aside some things
@@ -610,10 +594,10 @@ whoever values something most becomes the owner
 
 ---
 
-# Common Resource Taxes
+## Common Resource Taxes
 
-## a big change
-## start with obvious truly finite things
+##### a big change
+##### start with obvious truly finite things
 
 - land
 - domain names
@@ -622,9 +606,9 @@ whoever values something most becomes the owner
 
 ---
 
-# Common Resource Taxes
+## Common Resource Taxes
 
-# would still dramatically change society
+#### would still dramatically change society
 
 - billionaires wouldn't just buy everything
 - it's likely billionaires couldn't exist anymore
@@ -633,9 +617,9 @@ whoever values something most becomes the owner
 
 ---
 
-# A note about taxes in general
+## A note about taxes in general
 
-we should only tax things that create negative externalities or otherwise burden society
+##### we should only tax things that create negative externalities<br>or otherwise burden society
 
 - common resource taxes (owning something prevents others from owning it)
 - wealth taxes (being substantially more wealthy than others is structurally dangerous)
@@ -646,9 +630,9 @@ we should only tax things that create negative externalities or otherwise burden
 
 ---
 
-# Could this be provably optimal?
+## Could this be provably optimal?
 
-## maybe!
+##### maybe!
 
 proof sketch presentation is work-in-progress
 
@@ -676,17 +660,17 @@ Persistent Democracy is just those things. It's a market that uses Harberger tax
 
 ---
 
-# Could this be provably optimal?
+## Could this be provably optimal?
 
-even if it *does* turn out to be provably optimal...
+##### even if it *does* turn out to be provably optimal...
 
-... we still have to validate it in real applications
+##### ... we still have to validate it in real applications
 
-proof sketch is convincing enough for me to work on applications
+##### proof sketch is convincing enough for me to work on applications
 
 ---
 
-# Comparison with Liquid Democracy
+## Comparison with Liquid Democracy
 
 liquid democracy allows delegating votes
 
@@ -694,36 +678,36 @@ liquid democracy allows delegating votes
 
 ---
 
-# Comparison with Liquid Democracy
+## Comparison with Liquid Democracy
 
-## would make "automated demagoguery" worryingly possible
+- would make "automated demagoguery" <br>worryingly possible
 
-## don't need explicit delegation, Persistent Voting has "delegation by abstention"
+- don't need explicit delegation, Persistent Voting has<br>"delegation by abstention"
 
 ---
 
-# How to make this happen?
+## How to make this happen?
 
-## huge changes, lots of them risky
+##### huge changes, lots of them risky
 
 - have to validate in low-risk contexts
 - can't wait for permission
 
 ---
 
-# How to make this happen?
+## How to make this happen?
 
-## here's my plan:
+#### here's my plan:
 
-- Persistent Democracy Foundation (general support)
+- Persistent Democracy Labs (general support)
 - Persistently Democratic Political Party (political activism)
 - Persistently Democratic Cooperative (economic activism)
 
 ---
 
-# How to make this happen?
+## How to make this happen?
 
-## Persistent Democracy Foundation
+#### Persistent Democracy Labs
 
 - evolve and prove theoretical claims
 - study persistently democratic organizations in practice
@@ -732,27 +716,28 @@ liquid democracy allows delegating votes
 
 ---
 
-# How to make this happen?
+## How to make this happen?
 
-## Persistently Democratic Political Party
+#### Persistently Democratic Political Party
 
-- do whatever party members wish
+- members pay dues and therefore get voting weights
+- members select the constitution at all levels
 - easier to get going than a cooperative
 - can experiment with sub-constitutions for different areas
 - can fund projects and agitate for incremental change
 
 ---
 
-# How to make this happen?
+## How to make this happen?
 
-## Persistently Democratic Cooperative
+#### Persistently Democratic Cooperative
 
 <v-clicks>
 
-## Cooperative?
+##### Cooperative?
 
-- cooperatives are private companies owned by their members (workers or consumers)
-- consumer cooperatives are the future given automation (multi-stakeholder in the interim)
+- cooperatives are private companies owned by their members<br>(workers or consumers)
+- consumer cooperatives are the future given automation<br>(multi-stakeholder in the interim)
 - cooperatives are a proven model
 - cooperatives haven't lived up to their potential
 
@@ -760,13 +745,13 @@ liquid democracy allows delegating votes
 
 ---
 
-# How to make this happen?
+## How to make this happen?
 
-## Persistently Democratic Cooperative
+#### Persistently Democratic Cooperative
 
 <v-clicks>
 
-## this is where we can really change things
+##### this is where we can really change things
 
 - can build economic power without waiting for permission or reform
 - can afford to fail
@@ -777,9 +762,9 @@ liquid democracy allows delegating votes
 
 ---
 
-# How to make this happen?
+## How to make this happen?
 
-## Persistently Democratic Cooperative
+#### Persistently Democratic Cooperative
 
 - journalism and news media?
 - social media?
@@ -789,7 +774,11 @@ liquid democracy allows delegating votes
 
 ---
 
-# Solving problems
+## Solving problems
+
+<div class="flex basis-1/2">
+
+<div class="mr-3">
 
 - climate change
   - more direct and effective voting
@@ -799,6 +788,11 @@ liquid democracy allows delegating votes
   - structural pressure to increase supply
 - corruption and effective government
   - accountability is much more direct
+
+</div>
+
+<div class="ml-3">
+
 - social/news media
   - cooperatives
 - municipal broadband
@@ -809,6 +803,16 @@ liquid democracy allows delegating votes
 - space governance
   - common resource taxes scale elegantly
 
+</div>
+
+</div>
+
+<style>
+.slidev-layout ul {
+  @apply text-xl;
+}
+</style>
+
 ---
 
 # I need help!
@@ -818,17 +822,21 @@ liquid democracy allows delegating votes
 
 ---
 
-# I need help!
+## I need help!
 
-## I'm an engineer, not a leader or a manager
+##### I'm an engineer, not a leader or a manager
 
-I want to build things like Magmide, and other exciting engineering work
+##### I want to build things like Magmide, and other exciting engineering work
 
 [![magmide talk](https://img.youtube.com/vi/Lf7ML_ErWvQ/0.jpg)](https://www.youtube.com/watch?v=Lf7ML_ErWvQ)
 
-I'd love to do so in the context of a "startup-energy" cooperative
+##### I'd love to do so in the context of a "startup-energy" cooperative
 
-
+<style>
+.slidev-layout img {
+  max-height: 28vh;
+}
+</style>
 
 
 
