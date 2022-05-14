@@ -710,6 +710,7 @@ liquid democracy allows delegating votes
 #### Persistent Democracy Labs
 
 - evolve and prove theoretical claims
+- resolve open questions (anti-noise nomination method?)
 - study persistently democratic organizations in practice
 - build reusable tools like software and legal documents
 - should be controlled using persistent democracy once possible
@@ -838,7 +839,19 @@ liquid democracy allows delegating votes
 }
 </style>
 
+---
 
+# Persistent Democracy
+#### =
+# Ownership and Control
+
+<v-click>
+
+#### a structure doesn't work for us
+
+#### if it doesn't belong to us
+
+</v-click>
 
 
 
