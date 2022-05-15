@@ -1,0 +1,64 @@
+/*.slidev-layout {
+	@apply px-[11rem] pt-[6rem] pb-[8rem] text-2xl;
+}
+
+.slidev-layout h1 + p {
+	opacity: 1 !important;
+}
+
+.slidev-code, pre {
+	@apply text-lg !important;
+}
+
+:not(pre) > code::before, :not(pre) > code::after {
+	content: '';
+	opacity: inherit;
+}
+*/
+
+.slidev-layout ul, .slidev-layout h2 {
+	@apply mt-2 !important;
+}
+
+.slidev-layout ul {
+	@apply text-2xl;
+}
+
+.slidev-layout li > ul {
+	@apply !mt-0;
+}
+
+.slidev-layout img {
+	width: 40%;
+	max-height: 80vh;
+	float: left;
+	@apply mr-14;
+}
+
+/* banner */
+.slidev-layout h1 {
+	@apply text-7xl;
+}
+
+/* title  */
+.slidev-layout h2 {
+	@apply text-3xl;
+}
+
+/* h3 is too broken */
+
+/* subtitle */
+.slidev-layout h4 {
+	@apply text-5xl !font-light my-5;
+}
+
+/* subtitle */
+.slidev-layout h5 {
+	@apply text-2xl !font-light my-3;
+}
+
+:not(pre) > code::before, :not(pre) > code::after {
+	content: '';
+	opacity: inherit;
+	@apply px-1;
+}

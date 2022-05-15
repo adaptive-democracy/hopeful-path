@@ -692,12 +692,13 @@ liquid democracy allows delegating votes
 
 - have to validate in low-risk contexts
 - can't wait for permission
+- nice if experiments weren't just experiments
 
 ---
 
 ## How to make this happen?
 
-#### here's my plan:
+#### here's my tentative plan:
 
 - Persistent Democracy Labs (general support)
 - Persistently Democratic Political Party (political activism)

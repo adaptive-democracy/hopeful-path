@@ -5,3 +5,7 @@ dist
 index.html
 .remote-assets
 components.d.ts
+
+/slides.md
+/styles/base.css
+/public
