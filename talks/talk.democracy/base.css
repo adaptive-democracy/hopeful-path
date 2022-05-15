@@ -1,21 +1,3 @@
-/*.slidev-layout {
-	@apply px-[11rem] pt-[6rem] pb-[8rem] text-2xl;
-}
-
-.slidev-layout h1 + p {
-	opacity: 1 !important;
-}
-
-.slidev-code, pre {
-	@apply text-lg !important;
-}
-
-:not(pre) > code::before, :not(pre) > code::after {
-	content: '';
-	opacity: inherit;
-}
-*/
-
 .slidev-layout ul, .slidev-layout h2 {
 	@apply mt-2 !important;
 }
