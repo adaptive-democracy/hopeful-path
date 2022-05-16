@@ -226,9 +226,9 @@ drawings:
 
 ##### incentivizes enforcement of two party system
 
-![](https://unsplitthevote.org/wp-content/uploads/2019/04/plurality-voting_vote-splitting_cycle_yellow.png)
+![](/drawing-2-5-voting-cycle.png)
 
-<!-- TODO do your own cycle picture -->
+<!-- ![](https://unsplitthevote.org/wp-content/uploads/2019/04/plurality-voting_vote-splitting_cycle_yellow.png) -->
 
 ---
 
