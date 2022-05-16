@@ -31,31 +31,13 @@ drawings:
 
 ![](https://static01.nyt.com/images/2021/10/24/us/world-climate-pledges-by-degrees-promo-1635123284508/world-climate-pledges-by-degrees-promo-1635123284508-videoSixteenByNineJumbo1600.png)
 
-
 ---
 
 ## Climate Change
-
-["UN climate report: It's 'now or never' to limit global warming to 1.5 degrees" - un.org](https://news.un.org/en/story/2022/04/1115452)
-
-![](https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production+Library/04-04-2022_UNICEF_Somalia.jpg/image1170x530cropped.jpg)
-
----
-
-## Climate Change
-
 
 ["Amazon deforestation in April was the worst in modern records" - newscientist.com](https://www.newscientist.com/article/2319326-amazon-deforestation-in-april-was-the-worst-in-modern-records/)
 
 ![](https://images.newscientist.com/wp-content/uploads/2022/05/10121119/SEI_1032100951.jpg?width=800)
-
----
-
-## Climate Change
-
-["What if Democracy and Climate Mitigation Are Incompatible?" - foreignpolicy.com](https://foreignpolicy.com/2022/01/07/climate-change-democracy/) 😨
-
-![](https://foreignpolicy.com/wp-content/uploads/2021/12/climate-change-democracy-wildfire-turkey-GettyImages-1234542847_SW_V1.jpg?quality=90)
 
 ---
 
@@ -201,17 +183,6 @@ drawings:
 
 ---
 
-## We use logical systems to cooperate at scale
-
-#### organizations have logical rules and constraints to make cooperation more efficient
-
-- government
-- companies
-- clubs
-- cooperatives
-
----
-
 # Persistent Democracy
 
 <v-click>
@@ -248,11 +219,6 @@ drawings:
 ##### irrational outcomes with 3+ options
 
 ![](https://d3n8a8pro7vhmx.cloudfront.net/ucer/pages/16/attachments/original/1613055360/SpoilerEffect.jpg?1613055360)
-
-<!--
-- only thing worse is random chance
-- only behaves well when there are exactly two options
--->
 
 ---
 
@@ -526,7 +492,7 @@ can prioritize projects that achieve the most social good (have the most weight)
 
 ## Harberger Taxes
 
-achieves *highest and best use* for resources
+achieves highest and best *financial* use for resources
 
 ![](/drawing-11-1-harberger-taxes.png)
 
@@ -547,7 +513,7 @@ whoever values something most becomes the owner
 - provably optimal *allocative efficiency*
 - removes *market power* and *imperfect information*
 - **only values things financially**
-- would be a disaster
+- would be a disaster if used unmodified
 
 </v-clicks>
 
@@ -575,7 +541,7 @@ whoever values something most becomes the owner
 
 ![](/drawing-12-3-common-resource-taxes.png)
 
-<!-- and there's also stabilization, your offer has to fill a stabilization bucket -->
+offers are stabilized just like with a vote
 
 ---
 
@@ -631,39 +597,15 @@ whoever values something most becomes the owner
 
 ##### maybe!
 
-proof sketch presentation is work-in-progress
-
-```
-persistent voting
-==
-Harberger auction for ownership of decision making power
-
-common partial ownership
-+ persistent voting
-==
-Pareto efficient market for ownership of society
-```
-
-<!-- Harberger taxation is provably optimal with regard to allocative efficiency
-
-quadratic voting is provably optimal in terms of welfare outcome of an election
-
-markets are provably optimal in terms of Pareto efficiency under these circumstances:
-- perfect information
-- no market power
-- no negative externalities
-
-Persistent Democracy is just those things. It's a market that uses Harberger taxation and quadratic voting to auction ownership of *power*, in which all market participants have equal wealth, there is perfect information because prices are public and Harberger taxation provably incentivizes honest valuations, and because all "properties" of pieces of power are always up for auction there can't be any market power or externalities since anyone can step in to change anything if they think it's worth it based on prices. -->
-
----
-
-## Could this be provably optimal?
+<v-click>
 
 ##### even if it *does* turn out to be provably optimal...
 
 ##### ... we still have to validate it in real applications
 
 ##### proof sketch is convincing enough for me to work on applications
+
+</v-click>
 
 ---
 
