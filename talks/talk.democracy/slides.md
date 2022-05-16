@@ -262,6 +262,8 @@ drawings:
 
 ![](https://unsplitthevote.org/wp-content/uploads/2019/04/plurality-voting_vote-splitting_cycle_yellow.png)
 
+<!-- TODO do your own cycle picture -->
+
 ---
 
 ## Approval Voting is better...
@@ -335,6 +337,21 @@ casual majorities can "bankrupt" minorities with repeated proposals
 
 ## Persistent Voting
 
+##### Benefits
+
+- can vote *merely against* something
+- no more election hangovers
+- no more last minute trickery
+- low voter participation not a problem
+- direct democracy is reasonable
+- can vote for *documents* instead of people
+
+##### need to stabilize decisions!
+
+---
+
+## Persistent Voting
+
 ##### Update Schedule
 
 it would be stressful for vote changes to be published and possibly change the result the moment they happen
@@ -367,16 +384,12 @@ have to fill up a "stabilization bucket" before you actually win
 
 ##### Benefits
 
-<v-clicks>
-
 - can vote *merely against* something
 - no more election hangovers
 - no more last minute trickery
 - low voter participation not a problem
 - direct democracy is reasonable
 - can vote for *documents* instead of people
-
-</v-clicks>
 
 ---
 
@@ -456,9 +469,11 @@ weight takes time to be fully applied, moves slowly
 
 ##### Persistent Commitments + Quadratic Funding
 
-##### Quadratic Funding?
+##### not going into deep detail, efficiently funds public goods
 
----
+![](https://finematics.com/wp-content/uploads/2020/12/example-1024x554.png)
+
+<!--
 
 ## Quadratic Funding
 
@@ -466,15 +481,12 @@ weight takes time to be fully applied, moves slowly
 
 ![](https://vitalik.ca/images/qv-files/quadratic_funding.png)
 
----
 
 ## Quadratic Funding
 
 ##### gives more money to projects with more small donors
 
-![](https://finematics.com/wp-content/uploads/2020/12/example-1024x554.png)
 
----
 
 ## Quadratic Funding
 
@@ -483,23 +495,22 @@ weight takes time to be fully applied, moves slowly
 - matching pool isn't big enough
 - lots of spammy projects
 
----
 
 ## Persistent Funding
 
 - uses persistent commitments rounds
 - voters select a decision document
 - can remove spammy projects
-- can choose to fund nothing
 - can add extra money to the funding pool
+- can choose to fund nothing!
 
----
 
 ## Persistent Funding
 
 can prioritize projects that achieve the most social good (have the most weight)<br>compared to how much they would cost to match
 
 ![](/drawing-10-prioritization.png)
+ -->
 
 ---
 
@@ -575,7 +586,6 @@ whoever values something most becomes the owner
 <v-clicks>
 
 - things are valued *socially* as well as financially
-- more housing
 - monopolies are impossible
 - disincentivizes landlording
 - makes wealth taxes make more sense
@@ -586,11 +596,22 @@ whoever values something most becomes the owner
 
 ## Common Resource Taxes
 
+#### would dramatically change society
+
+- billionaires wouldn't just buy everything
+- it's likely billionaires couldn't exist anymore
+- people wouldn't fight over housing, more would get built
+- cooperatives would easily out-compete for-profits
+
+---
+
+## Common Resource Taxes
+
 ##### possible problems?
 
-- only my left shoe was bought: you can "bind together" property
-- national parks shouldn't be for sale: constitutions can set aside some things
-- have to choose between high taxes and voting: probably a good idea to separate "legislative" and "administrative" weights
+- only my left shoe was bought:<br>you can "bind together" property
+- national parks shouldn't be for sale:<br>constitutions can set aside some things
+- have to choose between high taxes and voting:<br>probably a good idea to separate "legislative" and "administrative" weights
 
 ---
 
@@ -603,30 +624,6 @@ whoever values something most becomes the owner
 - domain names
 - electromagnetic spectrum
 - intellectual property
-
----
-
-## Common Resource Taxes
-
-#### would still dramatically change society
-
-- billionaires wouldn't just buy everything
-- it's likely billionaires couldn't exist anymore
-- people wouldn't fight over housing, more would get built
-- cooperatives would easily out-compete for-profits
-
----
-
-## A note about taxes in general
-
-##### we should only tax things that create negative externalities<br>or otherwise burden society
-
-- common resource taxes (owning something prevents others from owning it)
-- wealth taxes (being substantially more wealthy than others is structurally dangerous)
-- taxes on harmful/dangerous things
-
-- no income taxes (what counts as income is endlessly manipulable)
-- no payroll taxes (working doesn't cause negative externalities)
 
 ---
 
@@ -691,8 +688,8 @@ liquid democracy allows delegating votes
 ##### huge changes, lots of them risky
 
 - have to validate in low-risk contexts
-- can't wait for permission
 - nice if experiments weren't just experiments
+- can't wait for permission
 
 ---
 
@@ -714,7 +711,12 @@ liquid democracy allows delegating votes
 - resolve open questions (anti-noise nomination method?)
 - study persistently democratic organizations in practice
 - build reusable tools like software and legal documents
-- should be controlled using persistent democracy once possible
+
+<v-click>
+
+##### need to build systems before organizations
+
+</v-click>
 
 ---
 
@@ -724,9 +726,13 @@ liquid democracy allows delegating votes
 
 - members pay dues and therefore get voting weights
 - members select the constitution at all levels
-- easier to get going than a cooperative
-- can experiment with sub-constitutions for different areas
 - can fund projects and agitate for incremental change
+
+<v-click>
+
+##### easier to get going than a cooperative
+
+</v-click>
 
 ---
 
@@ -734,12 +740,11 @@ liquid democracy allows delegating votes
 
 #### Persistently Democratic Cooperative
 
-<v-clicks>
-
 ##### Cooperative?
 
-- cooperatives are private companies owned by their members<br>(workers or consumers)
-- consumer cooperatives are the future given automation<br>(multi-stakeholder in the interim)
+<v-clicks>
+
+- cooperatives are private companies owned by their members<br>(workers or users or both)
 - cooperatives are a proven model
 - cooperatives haven't lived up to their potential
 
@@ -751,12 +756,12 @@ liquid democracy allows delegating votes
 
 #### Persistently Democratic Cooperative
 
-<v-clicks>
-
 ##### this is where we can really change things
 
-- can build economic power without waiting for permission or reform
+<v-clicks>
+
 - can afford to fail
+- can build economic power without waiting for permission or reform
 - can we build a mega-cooperative?
 - can we reclaim science, technology, and industrial scale?
 
