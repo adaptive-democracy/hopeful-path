@@ -568,6 +568,7 @@ offers are stabilized just like with a vote
 - it's likely billionaires couldn't exist anymore
 - people wouldn't fight over housing, more would get built
 - cooperatives would easily out-compete for-profits
+- prices of these things would drop dramatically, need a way to transition
 
 ---
 
