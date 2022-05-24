@@ -157,7 +157,7 @@ drawings:
 
 ---
 
-## We use logical systems to cooperate at scale
+## logical systems are tools to cooperate at scale
 
 ##### we can't find consensus socially with too many people
 
@@ -165,7 +165,7 @@ drawings:
 
 ---
 
-## We use logical systems to cooperate at scale
+## logical systems are tools to cooperate at scale
 
 ##### voting simplifies consensus-finding to an algorithm
 
@@ -173,12 +173,13 @@ drawings:
 
 ---
 
-## We use logical systems to cooperate at scale
+## logical systems are tools to cooperate at scale
 
 #### voting systems<br>can be<br>studied mathematically
 
 - it's possible to *prove* things about voting systems
-- when you've proven a logical claim, you can be as confident in its truth as the fact that `1 + 1 = 2`
+- systems can be provably *better than others*
+- systems can even be provably *optimal*
 - still have to be validated in the real world of course
 
 ---
@@ -209,6 +210,9 @@ drawings:
 #### Our Democracy uses Plurality Voting
 
 #### Democracy ≠ Plurality Voting
+
+##### if we're trying to make a functional and prosperous democracy
+##### we're using the wrong tools
 
 </v-clicks>
 
@@ -262,9 +266,9 @@ drawings:
 
 ##### Provably optimal!
 
-it might be a good idea to blend it with other methods, "Quadratic Approval Voting"
+it might be a good idea to blend it with other methods: "Quadratic Approval Voting"
 
-| voting credits spent | √ | actual vote cast |
+| **voting credits spent** | **√** | **actual vote cast** |
 |----------------------|---|------------------|
 | 1                    | → | 1                |
 | 2                    | → | 1.4142           |
@@ -279,9 +283,9 @@ it might be a good idea to blend it with other methods, "Quadratic Approval Voti
 
 ##### ... but there are still important problems
 
-casual majorities can "bankrupt" minorities with repeated proposals
+there are *savings strategies*: majorities can "bankrupt" minorities with repeated proposals
 
-| horrifying<br>proposal<br>prevented? | large group<br>votes remaining | small group<br>votes remaining |
+| **horrifying<br>proposal<br>prevented?** | **large group<br>votes remaining** | **small group<br>votes remaining** |
 |--------------------------------|-----------------------------|-----------------------------|
 | ✅                              | 1,000,000                   | 40,000                      |
 | ✅                              | 950,000                     | 30,000                      |
@@ -299,20 +303,16 @@ casual majorities can "bankrupt" minorities with repeated proposals
 - candidates can enter or exit an election at any time
 - current winner is determined by who has the most weights
 
----
+## could solve tons of problems!
 
-## Persistent Voting
+<v-click>
 
-##### Benefits
+##### for it to work, need to:
 
-- can vote *merely against* something
-- no more election hangovers
-- no more last minute trickery
-- low voter participation not a problem
-- direct democracy is reasonable
-- can vote for *documents* instead of people
+- prevent stress and overload
+- stabilize decisions
 
-##### need to stabilize decisions!
+</v-click>
 
 ---
 
@@ -320,7 +320,7 @@ casual majorities can "bankrupt" minorities with repeated proposals
 
 ##### Update Schedule
 
-it would be stressful for vote changes to be published and possibly change the result the moment they happen
+it would be stressful for vote changes to be published/recalculated instantly
 
 ![](/drawing-5-instantaneous-updates.png)
 
@@ -340,7 +340,7 @@ publishing and recalculation should happen on a more human schedule
 
 ##### Stabilization
 
-have to fill up a "stabilization bucket" before you actually win
+have to fill up a *stabilization bucket* before you actually win
 
 ![](/drawing-7-stabilization-buckets.png)
 
@@ -348,14 +348,26 @@ have to fill up a "stabilization bucket" before you actually win
 
 ## Persistent Voting
 
-##### Benefits
+<v-clicks>
 
-- can vote *merely against* something
+- can vote *against* something
 - no more election hangovers
 - no more last minute trickery
 - low voter participation not a problem
 - direct democracy is reasonable
 - can vote for *documents* instead of people
+
+</v-clicks>
+
+---
+
+## Persistent Constitutions
+
+- can structure rules however voters want
+- can allow sub-constitutions for lower levels
+- can delegate more or less control to elected officials
+- can give special extra weights to elected experts
+- can combine methods like sortition, approval voting, etc
 
 ---
 
@@ -388,15 +400,6 @@ the borders of different districts (states, counties, cities, etc) can be chosen
 ![](/drawing-8-districts-2-diff.png)
 
 <!-- each one of these sub-districts would have its own persistently chosen sub-constitution. these sub-constitutions would intentionally have a narrow scope defined by their ancestor constitutions -->
-
----
-
-## Persistent Constitutions
-
-- constitutions can structure things however people want
-- can delegate more or less control to officials
-- can give special extra weights to elected experts
-- can combine methods like sortition, approval voting, etc
 
 ---
 
@@ -433,11 +436,13 @@ weight takes time to be fully applied, moves slowly
 
 ## Persistent Funding
 
-##### Persistent Commitments + Quadratic Funding
+Persistent Commitments + Quadratic Funding
 
-##### not going into deep detail, efficiently funds public goods
+not going into deep detail, efficiently matches funds based on public good
 
 ![](https://finematics.com/wp-content/uploads/2020/12/example-1024x554.png)
+
+---
 
 <!--
 
@@ -478,15 +483,39 @@ can prioritize projects that achieve the most social good (have the most weight)
 ![](/drawing-10-prioritization.png)
  -->
 
+## Comparison with Liquid Democracy
+
+liquid democracy allows delegating votes
+
+![](https://miro.medium.com/max/560/1*7_LuI-hO6J5Jdz6HIK3R4Q.png)
+
+---
+
+## Comparison with Liquid Democracy
+
+- would make *automated demagoguery* worryingly possible
+
+- don't need explicit delegation, Persistent Voting has<br>*delegation by abstention*
+
 ---
 
 # Common Partial Ownership
 
-- the way we think about property ownership isn't the most efficient or the most ethical
+##### the way we understand property isn't most efficient or most ethical
+
+<v-clicks>
+
 - we've enshrined the "dibs" rule as a sacred right
-- non-negotiable property makes big and small monopolies easy
-- strengthens cycles of cumulative advantage
-- but we have no idea how to manually redistribute property...
+- non-negotiable property makes big and small monopolies inevitable
+- reinforces cycles of cumulative advantage
+
+</v-clicks>
+
+<v-click at="4">
+
+#### but we have no idea how to<br>manually redistribute property...
+
+</v-click>
 
 ---
 
@@ -541,7 +570,7 @@ whoever values something most becomes the owner
 
 ![](/drawing-12-3-common-resource-taxes.png)
 
-offers are stabilized just like with a vote
+<!-- offers are stabilized just like with a vote -->
 
 ---
 
@@ -565,10 +594,10 @@ offers are stabilized just like with a vote
 #### would dramatically change society
 
 - billionaires wouldn't just buy everything
-- it's likely billionaires couldn't exist anymore
+- billionaires likely couldn't exist anymore
 - people wouldn't fight over housing, more would get built
 - cooperatives would easily out-compete for-profits
-- prices of these things would drop dramatically, need a way to transition
+- prices would drop dramatically, need a way to transition
 
 ---
 
@@ -584,7 +613,7 @@ offers are stabilized just like with a vote
 
 ## Common Resource Taxes
 
-##### a big change
+#### a big change
 ##### start with obvious truly finite things
 
 - land
@@ -594,51 +623,47 @@ offers are stabilized just like with a vote
 
 ---
 
-## Could this be provably optimal?
-
-##### maybe!
+## Is Persistent Democracy provably optimal?
 
 <v-click>
+
+#### maybe!
+
+I have a proof sketch, am working on a presentation of it
+
+</v-click>
+
+<v-clicks at="2">
 
 ##### even if it *does* turn out to be provably optimal...
 
 ##### ... we still have to validate it in real applications
 
-##### proof sketch is convincing enough for me to work on applications
+proof sketch is convincing enough for me to work on applications
 
-</v-click>
-
----
-
-## Comparison with Liquid Democracy
-
-liquid democracy allows delegating votes
-
-![](https://miro.medium.com/max/560/1*7_LuI-hO6J5Jdz6HIK3R4Q.png)
+</v-clicks>
 
 ---
 
-## Comparison with Liquid Democracy
-
-- would make "automated demagoguery" <br>worryingly possible
-
-- don't need explicit delegation, Persistent Voting has<br>"delegation by abstention"
-
----
-
-## How to make this happen?
+# Can this be done?
 
 ##### huge changes, lots of them risky
 
+<v-clicks>
+
+#### How do you eat an elephant?
+#### One bite at a time.
+
 - have to validate in low-risk contexts
-- nice if experiments weren't just experiments
-- can't wait for permission
+- have to build up incrementally
+- nice if experiments aren't just experiments
+- not going to wait for permission
+
+</v-clicks>
 
 ---
 
-## How to make this happen?
-
-#### here's my tentative plan:
+# My tentative plan
 
 - Persistent Democracy Labs (general support)
 - Persistently Democratic Political Party (political activism)
@@ -646,7 +671,7 @@ liquid democracy allows delegating votes
 
 ---
 
-## How to make this happen?
+## My tentative plan
 
 #### Persistent Democracy Labs
 
@@ -663,13 +688,13 @@ liquid democracy allows delegating votes
 
 ---
 
-## How to make this happen?
+## My tentative plan
 
 #### Persistently Democratic Political Party
 
 - members pay dues and therefore get voting weights
 - members select the constitution at all levels
-- can fund projects and agitate for incremental change
+- can fund public good projects and agitate for change
 
 <v-click>
 
@@ -679,7 +704,7 @@ liquid democracy allows delegating votes
 
 ---
 
-## How to make this happen?
+## My tentative plan
 
 #### Persistently Democratic Cooperative
 
@@ -695,35 +720,38 @@ liquid democracy allows delegating votes
 
 ---
 
-## How to make this happen?
+## My tentative plan
 
 #### Persistently Democratic Cooperative
 
-##### this is where we can really change things
+##### this is how we really start to change things
 
 <v-clicks>
 
 - can afford to fail
 - can build economic power without waiting for permission or reform
-- can we build a mega-cooperative?
-- can we reclaim science, technology, and industrial scale?
+- can expand to arbitrary markets, solve arbitrary private problems
+- could reclaim science, technology, and industrial scale
 
 </v-clicks>
 
 ---
 
-## How to make this happen?
+## My tentative plan
 
 #### Persistently Democratic Cooperative
 
 - journalism and news media?
 - social media?
 - cloud computing?
-- shipping?
+- ecommerce?
+- media streaming?
 - internet service?
+- manufacturing?
 
 ---
 
+<!--
 ## Solving problems
 
 <div class="flex basis-1/2">
@@ -762,13 +790,13 @@ liquid democracy allows delegating votes
   @apply text-xl;
 }
 </style>
-
----
+-->
 
 # I need help!
 
-- funding
-- talented people
+#### feedback
+#### funding
+#### allies
 
 ---
 
@@ -796,9 +824,9 @@ liquid democracy allows delegating votes
 
 <v-click>
 
-#### a structure doesn't work for us
+#### a system doesn't work for us
 
-#### if it doesn't belong to us
+#### unless it belongs to us
 
 </v-click>
 
