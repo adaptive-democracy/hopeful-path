@@ -13,6 +13,27 @@ drawings:
 
 ---
 
+persistent democracy, a broad overview
+
+this talk has this structure:
+
+- problems I think persistent democracy can solve
+  - climate change (resolving gridlock, improving rights definitions, removing negative externalities, funding public goods)
+  - two party system
+  - space governance
+  - software security
+- how persistent democracy works
+  persistent democracy builds on several existing ideas from the world of political economy, so there are sections marked "primer" that merely describe those existing ideas. feel free to skip those sections if you already understand that concept
+  - quadratic voting -> persistent voting
+  - range voting -> quadratic range voting
+  - conviction voting -> persistent commitments
+  - quadratic funding -> persistent funding
+  - harberger taxes -> common resource taxes
+- how we can incrementally achieve persistent democracy and use it to solve the above problems
+- my proof sketch for why persistent democracy could be welfare optimal
+
+
+
 # Humanity has some<br>huge problems ahead
 
 ---
