@@ -2,13 +2,13 @@
 	"name": "persistent-democracy-talk",
 	"private": true,
 	"scripts": {
-		"democracy-build": "ln -sf talk.democracy/slides.md slides.md && ln -sf talk.democracy/public ./public && ln -f talk.democracy/base.css styles/base.css && slidev build",
-		"democracy-dev": "ln -sf talk.democracy/slides.md slides.md && ln -sf talk.democracy/public ./public && ln -f talk.democracy/base.css styles/base.css && slidev --open",
-		"democracy-export": "ln -sf talk.democracy/slides.md slides.md && ln -sf talk.democracy/public ./public && ln -f talk.democracy/base.css styles/base.css && slidev export --with-clicks",
+		"democracy-build": "slidev build talk.democracy/slides.md",
+		"democracy-dev": "slidev talk.democracy/slides.md",
+		"democracy-export": "slidev export --with-clicks talk.democracy/slides.md",
 
-		"theory-build": "ln -sf talk.theory/slides.md slides.md && ln -sf talk.theory/public ./public && ln -f talk.theory/base.css styles/base.css && slidev build",
-		"theory-dev": "ln -sf talk.theory/slides.md slides.md && ln -sf talk.theory/public ./public && ln -f talk.theory/base.css styles/base.css && slidev --open",
-		"theory-export": "ln -sf talk.theory/slides.md slides.md && ln -sf talk.theory/public ./public && ln -f talk.theory/base.css styles/base.css && slidev export --with-clicks"
+		"theory-build": "slidev build talk.theory/slides.md",
+		"theory-dev": "slidev talk.theory/slides.md",
+		"theory-export": "slidev export --with-clicks talk.theory/slides.md"
 	},
 	"dependencies": {
 		"@slidev/cli": "^0.29.2",

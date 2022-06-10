@@ -1,17 +1,122 @@
 ---
 theme: apple-basic
-# class: text-center
 highlighter: prism
 lineNumbers: false
 drawings:
   persist: false
+layout: cover
 ---
 
-<h1 class="!text-8xl">Persistent Democracy</h1>
+<!--
+I'm going to steal the apple basic theme stuff, fix some of the annoying things, and make my own layouts
 
-<h2 class="!text-6xl !font-light">The governmental structure<br>that can fix...<br>everything?</h2>
+layouts
+- cover, the first slide
+- chapter-title, where # is big, ## is subtitle, paragraph is big but just normal description
+- the normal default layout, for normal slides, which will need some "hook" for the chapter marker. this layout needs to be able to handle normal images
+
+things will be a little different in the theory theme?
+-->
+
+# Persistent Democracy
+
+## The governmental structure<br>that can fix...<br>everything?
+
+<!-- introduce yourself, and talk about what persistent democracy is: your best bet -->
 
 ---
+
+how is this talk structured?
+
+- very in depth
+- broken into skippable chapters
+- geared toward Effective Altruists, but not exclusively
+- inspired by Glen Weyl and RxC, some review
+- ordered for ease of understanding by a newcomer
+
+---
+
+answer these questions:
+
+- why do we need Persistent Democracy?
+- what is Persistent Democracy, and how does it work?
+- how can we actually make it happen?
+
+---
+
+# Persistent Democracy
+
+instead of elections being discrete events with a deadline
+voters can update their choices at any time
+
+<v-click>
+
+- Quadratic Voting
+- Quadratic Funding
+- Common Partial Ownership
+
+</v-click>
+
+<v-click>
+
+- Persistent Voting
+- Persistent Funding
+- Persistent Constitutions
+
+</v-click>
+
+---
+layout: two-cols
+---
+
+# chapters
+
+- 📖 urgent global problems
+- 📖 coordination systems
+- 📖 why is our democracy broken?
+- 📖 score voting systems
+- 📖 resource voting systems
+- 📖 persistent voting
+- 📖 persistent constitutions
+- 📖 what are rights?
+- 📖 persistent commitments
+- 📖 what are public goods?
+- 📖 quadratic funding
+- 📖 persistent funding
+
+::right::
+
+- 📖 crowdsell system and intellectual property
+- 📖 understanding preferences
+- 📖 persistent quadratic range voting
+- 📖 partial common ownership
+- 📖 harberger taxes
+- 📖 common resource taxes
+- 📖 comparison with liquid democracy
+- 📖 could this be provably optimal?
+- 📖 how to make this happen?
+- 📖 the power of cooperatives
+- 📖 I need help!
+
+---
+layout: chapter-title
+---
+
+# 📖 urgent global problems
+
+the motivation for this talk
+why persistent democracy is necessary
+
+<v-clicks>
+
+*we got 99 problems...*
+*and they're all related to coordination failure*
+
+</v-clicks>
+
+---
+
+<!-- TODO put slides about problems here, add our poor pandemic response and probability of future pandemics -->
 
 # Humanity has some<br>huge problems ahead
 
@@ -50,7 +155,6 @@ drawings:
 ---
 
 ## Resource Scarcity
-
 
 ["Water privatisation: a worldwide failure?" - theguardian.com](https://www.theguardian.com/global-development/2015/jan/30/water-privatisation-worldwide-failure-lagos-world-bank)
 
@@ -148,12 +252,30 @@ drawings:
 
 ---
 
+# we have the *duty* of hope
+
+problems will not be solved unless we *stubbornly insist* on solving them
+
+we must *assume* it is possible, and do what we can
+
+many people are relying on us: those who are already alive, and countless more in the long-term future
+
+---
+layout: chapter-title
+---
+
+# 📖 coordination systems
+
+---
+
 # Cooperation<br>is humanity's<br>secret weapon
 
 - all human prosperity comes from cooperation
 - sharing and passing down knowledge is a form of cooperation
 - even small groups rely on cooperation to survive and thrive
 - almost all problems are versions of cooperation failure
+
+<!-- cooperation is humanity's superpower, our logical systems are foundational tools, ones that help us achieve all our other goals, and that can cause all our other problems. improving our logical systems for coordination allows us to improve everything else about society. persistent democracy is my best bet at a (possibly provably) best base system for democratic coordination -->
 
 ---
 
@@ -183,23 +305,12 @@ drawings:
 - still have to be validated in the real world of course
 
 ---
+layout: chapter-title
+---
 
-# Persistent Democracy
+# 📖 why is our democracy broken?
 
-<v-click>
-
-- Quadratic Voting
-- Quadratic Funding
-- Common Partial Ownership
-
-</v-click>
-
-<v-click>
-
-- Persistent Voting
-- Persistent Constitutions
-
-</v-click>
+<!-- what is democracy, and why is it faltering? (plurality voting, toxin or cancer?) -->
 
 ---
 
@@ -235,6 +346,14 @@ drawings:
 <!-- ![](https://unsplitthevote.org/wp-content/uploads/2019/04/plurality-voting_vote-splitting_cycle_yellow.png) -->
 
 ---
+layout: chapter-title
+---
+
+# 📖 score voting systems
+
+---
+
+<!-- approval voting and range voting, and how it's a good next step, but not good enough -->
 
 ## Approval Voting is better...
 
@@ -253,6 +372,14 @@ drawings:
 <!-- importantly, the casual group isn't wrong or bad or irrational, they did the most rational thing from their perspective. if they slightly prefer some choice and it costs them nothing to support it, then they will -->
 
 ---
+layout: chapter-title
+---
+
+# 📖 resource voting systems
+
+---
+
+<!-- quadratic voting -->
 
 ## Resource voting systems are much better...
 
@@ -292,6 +419,13 @@ there are *savings strategies*: majorities can "bankrupt" minorities with repeat
 | ✅                              | 900,000                     | 20,000                      |
 | ✅                              | 850,000                     | 10,000                      |
 | 💥                              | 800,000                     | 0                           |
+
+
+---
+layout: chapter-title
+---
+
+# 📖 persistent voting
 
 ---
 
@@ -360,6 +494,14 @@ have to fill up a *stabilization bucket* before you actually win
 </v-clicks>
 
 ---
+layout: chapter-title
+---
+
+# 📖 persistent constitutions
+
+---
+
+<!-- talk about districts, budgets, specialized delegation weights, prioritization -->
 
 ## Persistent Constitutions
 
@@ -402,6 +544,18 @@ the borders of different districts (states, counties, cities, etc) can be chosen
 <!-- each one of these sub-districts would have its own persistently chosen sub-constitution. these sub-constitutions would intentionally have a narrow scope defined by their ancestor constitutions -->
 
 ---
+layout: chapter-title
+---
+
+# 📖 what are rights?
+
+---
+layout: chapter-title
+---
+
+# 📖 persistent commitments
+
+---
 
 ## Persistent Commitments
 
@@ -433,6 +587,44 @@ weight takes time to be fully applied, moves slowly
 ![](/drawing-9-1-persistent-commitment.png)
 
 ---
+layout: chapter-title
+---
+
+# 📖 what are public goods?
+
+---
+layout: chapter-title
+---
+
+# 📖 quadratic funding
+
+---
+
+## Quadratic Funding
+
+##### Provably optimal!
+
+![](https://vitalik.ca/images/qv-files/quadratic_funding.png)
+
+## Quadratic Funding
+
+##### gives more money to projects with more small donors
+
+
+## Quadratic Funding
+
+##### problems when:
+
+- matching pool isn't big enough
+- lots of spammy projects
+
+---
+layout: chapter-title
+---
+
+# 📖 persistent funding
+
+---
 
 ## Persistent Funding
 
@@ -443,29 +635,6 @@ not going into deep detail, efficiently matches funds based on public good
 ![](https://finematics.com/wp-content/uploads/2020/12/example-1024x554.png)
 
 ---
-
-<!--
-
-## Quadratic Funding
-
-##### Provably optimal!
-
-![](https://vitalik.ca/images/qv-files/quadratic_funding.png)
-
-
-## Quadratic Funding
-
-##### gives more money to projects with more small donors
-
-
-
-## Quadratic Funding
-
-##### problems when:
-
-- matching pool isn't big enough
-- lots of spammy projects
-
 
 ## Persistent Funding
 
@@ -481,23 +650,42 @@ not going into deep detail, efficiently matches funds based on public good
 can prioritize projects that achieve the most social good (have the most weight)<br>compared to how much they would cost to match
 
 ![](/drawing-10-prioritization.png)
- -->
 
-## Comparison with Liquid Democracy
+---
+layout: chapter-title
+---
 
-liquid democracy allows delegating votes
+# 📖 crowdsell system and intellectual property
 
-![](https://miro.medium.com/max/560/1*7_LuI-hO6J5Jdz6HIK3R4Q.png)
+---
+layout: chapter-title
+---
+
+# 📖 understanding preferences
 
 ---
 
-## Comparison with Liquid Democracy
-
-- would make *automated demagoguery* worryingly possible
-
-- don't need explicit delegation, Persistent Voting has<br>*delegation by abstention*
+<!-- what I think the internal structure of welfare preferences is. -->
 
 ---
+layout: chapter-title
+---
+
+# 📖 persistent quadratic range voting
+
+---
+
+<!-- and the nomination bucket system, how that combination of elements seems natural to me. difference between categorically comparable and incomparable options. different ice cream flavors can most likely be scored on a single scale together, since they're likely triggering a merely different degree of the same feeling. but comparing ice cream choices against models of car doesn't make sense, since they involve completely different aspects of experience and enjoyment. ice cream flavors and car models are in different clusters, different incomparable categories. this suggests we want something like range voting for comparable options and quadratic voting *across* groups of incomparable options. using rational numbers between 0-1 inclusive a system could model different gradations of preference with perfect accuracy, and using rational numbers that must add up to exactly 1 a system could model differences in preference intensity between options with perfect accuracy -->
+
+---
+layout: chapter-title
+---
+
+# 📖 partial common ownership
+
+---
+
+<!-- or a brief rant about cumulative advantage, the wealth rachet, and the inherent uselessless of landlording. should this section graze the ethical theory? if someone is born into a world where some small group has the legal right of ownership to almost everything, has this person really been born into a world where they can actually freely pursue their welfare and happiness to the same degree as others? ownership and control is an absolutely essential element of real freedom, but at the same time it's impossible for us to simply "calculate" how much everyone should have, since different people want different things. this is the single useful insight of market theory, but I think it's pretty easy to demonstrate that our ideas of property ownership, especially ownership of truly finite resources like land, both create inefficient markets and are inherently unethical. hint at future "libertarian hangover" talk -->
 
 # Common Partial Ownership
 
@@ -516,6 +704,12 @@ liquid democracy allows delegating votes
 #### but we have no idea how to<br>manually redistribute property...
 
 </v-click>
+
+---
+layout: chapter-title
+---
+
+# 📖 harberger taxes
 
 ---
 
@@ -547,6 +741,14 @@ whoever values something most becomes the owner
 </v-clicks>
 
 ---
+layout: chapter-title
+---
+
+# 📖 common resource taxes
+
+---
+
+<!-- (common resource rights?), problems and mitigations -->
 
 ## Common Resource Taxes
 
@@ -622,6 +824,36 @@ whoever values something most becomes the owner
 - intellectual property
 
 ---
+layout: chapter-title
+---
+
+# 📖 comparison with liquid democracy
+
+---
+
+## Comparison with Liquid Democracy
+
+liquid democracy allows delegating votes
+
+![](https://miro.medium.com/max/560/1*7_LuI-hO6J5Jdz6HIK3R4Q.png)
+
+---
+
+## Comparison with Liquid Democracy
+
+- would make *automated demagoguery* worryingly possible
+
+- don't need explicit delegation, Persistent Voting has<br>*delegation by abstention*
+
+---
+layout: chapter-title
+---
+
+# 📖 could this be provably optimal?
+
+---
+
+<!-- maybe! point to wip proof sketches, say that I will release a talk version asap. I'm not a logician, and actually completing a fully rigorous proof is much more difficult than coming up with a convincing proof sketch. persistent democracy, a recap so far. we have systems of voting that can achieve theoretically perfect accuracy, allow people to input as much information as they want through nomination and document elections, fluidly fund arbitrary public goods, and efficiently decide ownership of all resources in a democratic way. looking pretty good! (internet thumbs up kid) -->
 
 ## Is Persistent Democracy provably optimal?
 
@@ -644,6 +876,14 @@ proof sketch is convincing enough for me to work on applications
 </v-clicks>
 
 ---
+layout: chapter-title
+---
+
+# 📖 how to make this happen?
+
+---
+
+<!-- need to build tools, do small safe experiments, would be nice if the experiments could directly improve things. briefly go over three initiatives. -->
 
 # Can this be done?
 
@@ -750,57 +990,28 @@ proof sketch is convincing enough for me to work on applications
 - manufacturing?
 
 ---
+layout: chapter-title
+---
 
-<!--
-## Solving problems
+# 📖 the power of cooperatives
 
-<div class="flex basis-1/2">
+---
 
-<div class="mr-3">
+<!-- the way the whole economy should be structured. democracy + markets, just the good parts. talk about history of cooperatives and why they haven't lived up to their full potential because of inefficient voting systems and seemingly intentional honey pot regulation. hint at the things we could cooperativize -->
 
-- climate change
-  - more direct and effective voting
-  - extremely flexible public goods funding
-- resource scarcity
-  - effective community ownership
-  - structural pressure to increase supply
-- corruption and effective government
-  - accountability is much more direct
+---
+layout: chapter-title
+---
 
-</div>
+# 📖 I need help!
 
-<div class="ml-3">
-
-- social/news media
-  - cooperatives
-- municipal broadband
-  - classic example of a public good
-- open source and other research
-  - extremely flexible public goods funding
-  - open source cooperatives
-- space governance
-  - common resource taxes scale elegantly
-
-</div>
-
-</div>
-
-<style>
-.slidev-layout ul {
-  @apply text-xl;
-}
-</style>
--->
-
-# I need help!
+---
 
 #### feedback
 #### funding
 #### allies
 
 ---
-
-## I need help!
 
 ##### I'm an engineer, not a leader or a manager
 
@@ -829,105 +1040,3 @@ proof sketch is convincing enough for me to work on applications
 #### unless it belongs to us
 
 </v-click>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-I'm convinced Persistent Democracy can solve many of our societal problems, including long-term ones. I need help to make it happen.
-
-A little while ago I came up with Persistent Democracy, a new structure for democratic organization that I am convinced is the most flexible and powerful such a system could possibly be. I have rough proof sketches conjecturing that Persistent Democracy is even provably optimal as a system to allow any being to maximize their welfare.
-
-I'm very passionate about this idea, and have been working on theory and material to share with the world. But I'm realizing the projects will take a while to complete, and many of them aren't very suited to my skills. I've decided I need to get my thoughts and plans out into the world sooner. This post shares the important points, links to various work-in-progress efforts, and details the help I'm looking for.
-
-# Persistent Democracy
-
-[The theory and conjectures is work-in-progress.](TODO)
-
-The only assumptions of Persistent Democracy are that members have some arbitrary number of "decision weights" they can freely move around to effect different decisions, it's directly inspired by [Quadratic Voting]() and [Harberger Taxes](). [This work-in-progress chapter](TODO) discusses in more detail, but here are the big concepts that are unlocked by the paradigm.
-
-## Persistent Voting
-
-Instead of having election events with hard deadlines for everyone to vote and a winner to be selected, Persistent Voting simply allows voters to change their votes at any time, candidates to enter
-
-## Persistent Funding
-## Persistent Constitutions
-
-## Persistently Democratic Cooperatives
-
-## Open Source Cooperatives
-
-# My principles, conjectures, and assertions
-
-- [Blockchain technology can be useful in some ways, but it won't solve the social problems many believe it will.](TODO)
-- The future must be democratically owned, both economically and politically. Otherwise some kind of horrifying techno-feudalism will emerge. I'm convinced Persistent Democracy and member cooperatives are the best way to structure that ownership.
-  - In a world of increasing automation, *worker* ownership will become less important than *consumer/citizen* ownership. Cooperatives should be multi-stakeholder in the meantime.
-  -
-- [Our current understanding of intellectual property is foolish and inefficient](TODO). It should be replaced with a combination of assurance contracts, open source cooperatives, and Persistent Funding.
-  -
-- Most
-
-
-# My plans
-
-All of these plans are merely my best guess at an effective strategy, so I'm completely open to feedback.
-
-I hope to use Persistent Democracy to dramatically reform our politics and economics. These are the institutions I intend to create, and the work they'll do:
-
-- The Persistent Democracy Foundation, a normal non-profit that seeks to advance Persistent Democracy in general. The foundation will use full-time positions and grants to pursue these types of work:
-  - Research to validate and deepen the economic and philosophical theory, and empirically study organizations that apply it.
-  - Implementation of reusable open source tools to make applying Persistent Democracy easier, such as software, legal toolkits, organizational patterns, etc.
-  - Spreading the word through explanatory media and events.
-- A persistently democratic political party, intended to prove the viability of Persistent Democracy in a political context and advocate for reform. People will become voting members of the party by either paying yearly dues or doing approved volunteer work.
-- A persistently democratic cooperative company, intended to take back control of the economy for normal people. This cooperative won't be constrained to one geographic area or one industry, but is intended to grow to as many corners of the economy as is useful. I want this cooperative to be aggressive and activist and have a "startup energy" rather than settling into a comfortable stasis as many cooperatives have.
-
-Some of these institutions will be easier to create than others. Here are a bunch of "implementation details" for each:
-
-- Foundation:
-  - This org will be started first, since it will create tools necessary to start the other two.
-  - This is structured as a non-profit to make things simpler for funders, but the institution should be controlled using Persistent Democracy once that's possible.
-- Political Party:
-  - By using a Persistent Constitution, the party will be able to pursue whatever political goals members wish in whatever way they wish. Since these members joined a persistently democratic party, its very likely those goals will in some way advocate for Persistent Democracy or similar reforms.
-  - The party will start in the US, but could become a global institution with chapters in different polities.
-  - Starting this party should be relatively straightforward, since it won't in any way strain US regulatory boundaries.
-- Cooperative:
-  - There are a *ton* of tricky legal/regulatory questions to answer in regard to this cooperative. I'd like its first facet to be a digital credit union, but because of the fairly tight regulatory boundaries around credit unions it's unclear if that's possible. Regardless, I'm more interested in creating a powerful and dynamic organization than fitting nicely into existing frameworks, so this institution will be structured in whatever way is necessary to achieve its goals. If that's as a "for-profit" entity whose charter demands it use Persistent Democracy, then that's what I'll do.
-  - Since I'm an engineer this cooperative will have a heavy focus on software innovation and automation from the very beginning. I strongly believe the [Magmide proof language project](TODO) would dramatically improve the quality and security of our software infrastructure, so I hope to incubate that project in this cooperative. I intend for Magmide to be the foundation of many other software projects, such as low-code programming languages, databases, operating systems, etc.
-  - I might experiment with the [proof of social trust decentralized consensus mechanism](TODO) in the context of this cooperative.
-  - Different parts of the cooperative where usage between members can be drastically different might use concepts of [User-Defined Organizations](TODO).
-
-# How I need help
-
-I'm a computer engineer and logician, so much of the way I intend to contribute to the above work is through engineering and formal verification. But there are a ton of other necessary skills. Specifically the most important immediate needs are:
-
-- A lawyer: someone who can navigate the tricky legal and organizational questions, especially those surrounding
-
-But above all, I'm looking for funding. I've been working on all this writing and theory in my free time, but it's going much slower than I'd like. I'd be thrilled to talk to funders interested in new voting and coordination methods and who see the potential in Persistent Democracy. If someone appears who's excited to offer funding, then I'll put the task to incorporate the Persistent Democracy Foundation at the top of my list.
-
-I'm going to make all of this happen, it's just a question of how long it will take. I've decided I'm done asking for permission, but I am asking for help.
-
-And finally, in the spirit of transparency, I'm just going to share my strengths and weaknesses with the fullest amount of brutal honesty I can. I think I'm capable of leading this effort in the beginning, but I recognize my flaws, and am sure that at some point I'll be much more suited to a non-leadership role. I'm most comfortable and productive wrangling interesting engineering or logical problems, so I expect if this all goes to plan my final place among these institutions would be as an engineer in the economic cooperative.
-
-## My weaknesses
-
-I'm a father, so time constrained
-I'm a night owl. This is a weakness, as much as I'd like to believe otherwise.
-My personal life isn't in order, so I fall into bouts of depression and loneliness and craving status
-
-## My strengths
-I'm an extremely skilled programmer and engineer. I'm very excited to do work regarding formal verification and bring that into the mainstream.
-I'm extraordinarily focused. I'm able to complete immense amounts of difficult work very quickly, *once I'm convinced a project is worth the time*.
-I'm very creative, especially when solving tricky open-ended problems. I point to things like Magmide and Persistent Democracy to validate that assertion.
-I have a good sense of "engineering design", meaning
-I can be a good teacher and explainer.
--->
