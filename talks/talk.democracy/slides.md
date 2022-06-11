@@ -114,7 +114,7 @@ layout: two-cols
 - 📖 harberger taxes
 - 📖 common resource taxes
 - 📖 comparison with liquid democracy
-- 📖 could this be provably optimal?
+- 📖 provably optimal?
 - 📖 how to make this happen?
 - 📖 the power of cooperatives
 - 📖 I need help!
@@ -263,7 +263,7 @@ why persistent democracy is necessary
 
 ---
 
-# I'm convinced<br>Persistent Democracy<br>can solve these problems
+# I'm convinced Persistent Democracy can solve these problems
 
 - make cooperation efficient, maybe provably optimally
 - make direct democracy possible
@@ -289,7 +289,7 @@ layout: chapter-title
 
 ---
 
-# Cooperation<br>is humanity's<br>secret weapon
+# Cooperation is humanity's secret weapon
 
 - all human prosperity comes from cooperation
 - sharing and passing down knowledge is a form of cooperation
@@ -399,8 +399,6 @@ layout: chapter-title
 # 📖 resource voting systems
 
 ---
-
-<!-- quadratic voting -->
 
 ## Resource voting systems are much better...
 
@@ -570,6 +568,22 @@ layout: chapter-title
 
 # 📖 what are rights?
 
+rights are just a system to decide what things we *can't* vote on
+
+right set aside some things as **off limits**, things that we've decided aren't worth trading on markets or making more granular rules about
+
+they're also a system to carve out different activities so they *can* be traded on markets
+
+ultimately this is what constitutions are for, they more or less decide what rights everyone has, defining things people can and can't vote for
+
+what decisions are made by the group? and exactly how?
+
+allowing constitutions to be defined democratically means that the voters have *full* control over something. each of them can input an arbitrary amount of information into the system, since a constitutional document can define any rules imaginable
+
+the rights we have are pretty obviously something we've just decided over time. you can possibly imagine crazy science fiction beings with dramatically different bodies/worlds than ours, and the rights they would define would be different!
+
+a hint at why rights are useful: they basically allow us to find actions that are both undesirable and *difficult to reverse*, so we can preempt a lot of irreversible damage
+
 ---
 layout: chapter-title
 ---
@@ -613,6 +627,18 @@ layout: chapter-title
 
 # 📖 what are public goods?
 
+we all intuitively understand the idea of a private good. it's something a single person can tractably own and control by themself, that provides value only to one person or small group of people at a time.
+
+public goods are goods that provide a lot of benefit to *everyone*, but wouldn't provide a lot of value to individuals, at least enough to compensate for how expensive they are.
+
+basically they're goods that don't make sense to trade on markets, either because of something about human psychology or just cost
+
+public goods are really defined by whether or not it would ever make sense for a individual to pay for them themselves
+
+if it wouldn't make sense for one person to buy by themselves, but it would *benefit* that individual if the good happened to already be available to them. basically if people can cooperate to provision a good, share the cost to provision it, and then get more value from it than they contributed, that's a public good.
+
+public goods tend to be defined by *thresholds* of usefulness, situations where a good is worthless if done at a smaller scale, but immensely valuable if done past a certain threshold.
+
 ---
 layout: chapter-title
 ---
@@ -627,10 +653,17 @@ layout: chapter-title
 
 ![](https://vitalik.ca/images/qv-files/quadratic_funding.png)
 
+---
+
 ## Quadratic Funding
 
 ##### gives more money to projects with more small donors
 
+![](https://finematics.com/wp-content/uploads/2020/12/example-1024x554.png)
+
+<!-- TODO example -->
+
+---
 
 ## Quadratic Funding
 
@@ -651,9 +684,10 @@ layout: chapter-title
 
 Persistent Commitments + Quadratic Funding
 
-not going into deep detail, efficiently matches funds based on public good
+uses democratic weights make a *default* prioritization of projects
 
-![](https://finematics.com/wp-content/uploads/2020/12/example-1024x554.png)
+persistent commitments allows the system to have *oversight*, so the quadratic matching algorithm doesn't turn into a mathematical dictator.
+the algorithm is useful but not perfect, so it's merely one input into a process that at the end of the day is purely democratic.
 
 ---
 
@@ -665,6 +699,7 @@ not going into deep detail, efficiently matches funds based on public good
 - can add extra money to the funding pool
 - can choose to fund nothing!
 
+---
 
 ## Persistent Funding
 
@@ -678,15 +713,53 @@ layout: chapter-title
 
 # 📖 crowdsell system and intellectual property
 
+crowdsell system allows people to sell creative work of all kinds directly to society
+could allow us to abolish intellectual property as a concept
+
+can work both for projects that are finished and proposed work
+
+finished projects basically just use something called assurance contracts
+
+- a creator submits a description of work they've already done, sets a price, makes promises about what they've done
+- people pledge
+- if enough money is pledged then the promised work is released, there's a window where the pledgers can assert the work doesn't meet the promises, if they don't do this then the creator is given the money
+
+proposed work is basically just a crowdfunding campaign with more oversight
+
+- creator submits their plan, including a monthly budget and a "prize" amount
+- people pledge
+- if enough money is pledged then the project begins, and every budget cycle the pledgers can assert the creators aren't meeting the commitments of the project plan. if they do so then the project is halted and all undisbursed money is refunded at a prorate
+- if the project runs past their budgeted plan, then the prize amount is eaten away. once the project is finished to the satisfaction of the pledgers then the prize amount is disbursed
+
+
+intellectual property is a very slippery idea
+you can't actually "own" intellectual work, you can merely assert that you in fact did the work
+we've made intellectual work into property, but really it's labor
+
+how can we reasonably define who deserves to own a piece of work?
+
 ---
 layout: chapter-title
 ---
 
 # 📖 understanding preferences
 
----
+if I asked you to describe to me how much you like different ice cream flavors, what's the most natural way to most accurately describe your feelings?
+it's obviously by giving them all a score, with the scale being "degree of enjoyment".
+
+- the scale goes negative
+- the scale is *theoretically* unbounded, even once you get to transcendent ecstasy you can theoretically go further, but in practice most things fall into a normal range.
+- different choices can be pretty far apart from each other
+
+a simple ranking would pretty obviously do a bad job allowing you to describe your preferences. if you were describing your preferences informally and I forced you to use a ranking, you would almost certainly include a lot of "scoring context" so I actually understood what you mean
+
+but what if I mixed in different car models?
+
+different experiences are obviously different, eating ice cream is different, and incomparable, to riding in a car
 
 <!-- what I think the internal structure of welfare preferences is. -->
+
+and the nomination bucket system, how that combination of elements seems natural to me. difference between categorically comparable and incomparable options. different ice cream flavors can most likely be scored on a single scale together, since they're likely triggering a merely different degree of the same feeling. but comparing ice cream choices against models of car doesn't make sense, since they involve completely different aspects of experience and enjoyment. ice cream flavors and car models are in different clusters, different incomparable categories. this suggests we want something like range voting for comparable options and quadratic voting *across* groups of incomparable options. using rational numbers between 0-1 inclusive a system could model different gradations of preference with perfect accuracy, and using rational numbers that must add up to exactly 1 a system could model differences in preference intensity between options with perfect accuracy
 
 ---
 layout: chapter-title
@@ -694,9 +767,9 @@ layout: chapter-title
 
 # 📖 persistent quadratic range voting
 
----
-
-<!-- and the nomination bucket system, how that combination of elements seems natural to me. difference between categorically comparable and incomparable options. different ice cream flavors can most likely be scored on a single scale together, since they're likely triggering a merely different degree of the same feeling. but comparing ice cream choices against models of car doesn't make sense, since they involve completely different aspects of experience and enjoyment. ice cream flavors and car models are in different clusters, different incomparable categories. this suggests we want something like range voting for comparable options and quadratic voting *across* groups of incomparable options. using rational numbers between 0-1 inclusive a system could model different gradations of preference with perfect accuracy, and using rational numbers that must add up to exactly 1 a system could model differences in preference intensity between options with perfect accuracy -->
+this exact combination of systems combines the strengths of range voting and quadratic voting.
+quadratic voting is used to describe the different in relative *concern* between different elections. so quadratic voting is used to signal differences between categorically incomparable things. this is useful because the options are very unlikely to have "clone splitting", all the things being compared aren't substitutable
+range voting is used to score options *within* an election, things that could be substitutable and are in the same category, so it allows conservation of accuracy even in the face of similar options
 
 ---
 layout: chapter-title
@@ -704,11 +777,11 @@ layout: chapter-title
 
 # 📖 partial common ownership
 
+or a brief rant about cumulative advantage, the wealth rachet, and the inherent uselessless of landlording. should this section graze the ethical theory? if someone is born into a world where some small group has the legal right of ownership to almost everything, has this person really been born into a world where they can actually freely pursue their welfare and happiness to the same degree as others? ownership and control is an absolutely essential element of real freedom, but at the same time it's impossible for us to simply "calculate" how much everyone should have, since different people want different things. this is the single useful insight of market theory, but I think it's pretty easy to demonstrate that our ideas of property ownership, especially ownership of truly finite resources like land, both create inefficient markets and are inherently unethical. hint at future "libertarian hangover" talk
+
 ---
 
-<!-- or a brief rant about cumulative advantage, the wealth rachet, and the inherent uselessless of landlording. should this section graze the ethical theory? if someone is born into a world where some small group has the legal right of ownership to almost everything, has this person really been born into a world where they can actually freely pursue their welfare and happiness to the same degree as others? ownership and control is an absolutely essential element of real freedom, but at the same time it's impossible for us to simply "calculate" how much everyone should have, since different people want different things. this is the single useful insight of market theory, but I think it's pretty easy to demonstrate that our ideas of property ownership, especially ownership of truly finite resources like land, both create inefficient markets and are inherently unethical. hint at future "libertarian hangover" talk -->
-
-# Common Partial Ownership
+# partial common ownership
 
 ##### the way we understand property isn't most efficient or most ethical
 
@@ -731,10 +804,6 @@ layout: chapter-title
 ---
 
 # 📖 harberger taxes
-
----
-
-## Harberger Taxes
 
 achieves highest and best *financial* use for resources
 
@@ -767,11 +836,7 @@ layout: chapter-title
 
 # 📖 common resource taxes
 
----
-
 <!-- (common resource rights?), problems and mitigations -->
-
-## Common Resource Taxes
 
 ##### Harberger Taxes + Persistent Voting
 
@@ -850,10 +915,6 @@ layout: chapter-title
 
 # 📖 comparison with liquid democracy
 
----
-
-## Comparison with Liquid Democracy
-
 liquid democracy allows delegating votes
 
 ![](https://miro.medium.com/max/560/1*7_LuI-hO6J5Jdz6HIK3R4Q.png)
@@ -870,13 +931,9 @@ liquid democracy allows delegating votes
 layout: chapter-title
 ---
 
-# 📖 could this be provably optimal?
-
----
+# 📖 provably optimal?
 
 <!-- maybe! point to wip proof sketches, say that I will release a talk version asap. I'm not a logician, and actually completing a fully rigorous proof is much more difficult than coming up with a convincing proof sketch. persistent democracy, a recap so far. we have systems of voting that can achieve theoretically perfect accuracy, allow people to input as much information as they want through nomination and document elections, fluidly fund arbitrary public goods, and efficiently decide ownership of all resources in a democratic way. looking pretty good! (internet thumbs up kid) -->
-
-## Is Persistent Democracy provably optimal?
 
 <v-click>
 
@@ -969,22 +1026,6 @@ layout: chapter-title
 
 #### Persistently Democratic Cooperative
 
-##### Cooperative?
-
-<v-clicks>
-
-- cooperatives are private companies owned by their members<br>(workers or users or both)
-- cooperatives are a proven model
-- cooperatives haven't lived up to their potential
-
-</v-clicks>
-
----
-
-## My tentative plan
-
-#### Persistently Democratic Cooperative
-
 ##### this is how we really start to change things
 
 <v-clicks>
@@ -997,8 +1038,26 @@ layout: chapter-title
 </v-clicks>
 
 ---
+layout: chapter-title
+---
 
-## My tentative plan
+# 📖 the power of cooperatives
+
+<!-- the way the whole economy should be structured. democracy + markets, just the good parts. talk about history of cooperatives and why they haven't lived up to their full potential because of inefficient voting systems and seemingly intentional honey pot regulation. hint at the things we could cooperativize -->
+
+#### Persistently Democratic Cooperative
+
+##### Cooperative?
+
+<v-clicks>
+
+- cooperatives are private companies owned by their members<br>(workers or users or both)
+- cooperatives are a proven model
+- cooperatives haven't lived up to their potential
+
+</v-clicks>
+
+---
 
 #### Persistently Democratic Cooperative
 
@@ -1009,16 +1068,6 @@ layout: chapter-title
 - media streaming?
 - internet service?
 - manufacturing?
-
----
-layout: chapter-title
----
-
-# 📖 the power of cooperatives
-
----
-
-<!-- the way the whole economy should be structured. democracy + markets, just the good parts. talk about history of cooperatives and why they haven't lived up to their full potential because of inefficient voting systems and seemingly intentional honey pot regulation. hint at the things we could cooperativize -->
 
 ---
 layout: chapter-title
