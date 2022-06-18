@@ -41,6 +41,7 @@ answer these questions:
 - why do we need Persistent Democracy?
 - what is Persistent Democracy, and how does it work?
 - how can we actually make it happen?
+- why should Effective Altruists be especially interested?
 
 <!--
 persistent democracy, a broad overview
@@ -117,6 +118,7 @@ layout: two-cols
 - 📖 provably optimal?
 - 📖 how to make this happen?
 - 📖 the power of cooperatives
+- 📖 persistent democracy and EA
 - 📖 I need help!
 
 ---
@@ -392,6 +394,9 @@ layout: chapter-title
 
 <!-- importantly, the casual group isn't wrong or bad or irrational, they did the most rational thing from their perspective. if they slightly prefer some choice and it costs them nothing to support it, then they will -->
 
+score voting systems much more directly measure the thing we actually care about
+in contrast to ranking systems (which plurality voting is an example of) that only measure a flat contextless ranking, which is not what we want
+
 ---
 layout: chapter-title
 ---
@@ -438,6 +443,14 @@ there are *savings strategies*: majorities can "bankrupt" minorities with repeat
 | ✅                              | 900,000                     | 20,000                      |
 | ✅                              | 850,000                     | 10,000                      |
 | 💥                              | 800,000                     | 0                           |
+
+---
+
+and of course all voting systems have the "deadline problem"
+
+it's easy to flood an electorate with misinformation or propaganda in the strategic window right before an election deadline
+
+this means that instead of options that have legitimate deep support in general winning, it's easy to game the system and make strategy the main decider of what happens
 
 
 ---
@@ -627,7 +640,7 @@ layout: chapter-title
 
 # 📖 what are public goods?
 
-we all intuitively understand the idea of a private good. it's something a single person can tractably own and control by themself, that provides value only to one person or small group of people at a time.
+we all intuitively understand the idea of a private good. it's something a single person can tractably own and control by themselves, that provides value only to one person or small group of people at a time.
 
 public goods are goods that provide a lot of benefit to *everyone*, but wouldn't provide a lot of value to individuals, at least enough to compensate for how expensive they are.
 
@@ -638,6 +651,10 @@ public goods are really defined by whether or not it would ever make sense for a
 if it wouldn't make sense for one person to buy by themselves, but it would *benefit* that individual if the good happened to already be available to them. basically if people can cooperate to provision a good, share the cost to provision it, and then get more value from it than they contributed, that's a public good.
 
 public goods tend to be defined by *thresholds* of usefulness, situations where a good is worthless if done at a smaller scale, but immensely valuable if done past a certain threshold.
+
+Cooperative goods are those that happen when people combine their contributions into a single good. Their individual contributions would be worthless, but there's a step change at some point that makes their combined worth immense
+
+an uncontroversial claim: **our society does not properly provision public goods.** There are many more public goods that could be compatibly and usefully created. these public goods would create immense prosperity and welfare for everyone in society.
 
 ---
 layout: chapter-title
@@ -671,6 +688,7 @@ layout: chapter-title
 
 - matching pool isn't big enough
 - lots of spammy projects
+- it's difficult to draw a line between projects that create public good and those that don't (what happens when a large group of people try to get quadratic funding for an initiative that will only profit them?)
 
 ---
 layout: chapter-title
@@ -744,7 +762,16 @@ layout: chapter-title
 
 # 📖 understanding preferences
 
-if I asked you to describe to me how much you like different ice cream flavors, what's the most natural way to most accurately describe your feelings?
+change the below analogy to choosing where to go eat as a group of friends. your feelings about different restaurants exists in a complex multi-dimensional space, where each option might be good for different things as different times (after you've exercised, when on a date, with your family, etc). but since we've narrowed the specificity of the choice it's possible to score the options on a single scale, "how enjoyable is this place to go with friends". 
+
+however if we say "you can either choose where we go as friends or where you go with your family tomorrow", suddenly these choices don't exist on the same simple scale, or if they do the scale is much more general such as "how much do you care about this thing". you might be much more sensitive to your choice of restaurant when with your family than with your friends
+perhaps its possible to say we could use scoring system all the time, but we have to introduce resource voting *somewhere* to overcome the strategic problems with score voting.
+
+perhaps its as simple as the fact that similar options for the same choice can cannibalize each other in unproductive ways. it is *theoretically* possible to have both choice concern and option alignment use score voting, but then the entire system is 
+the problem with comparable choice cannibalization is that if you score two things the same then you really just consider them equivalent and would prefer them to be merged into one choice. that's less realistic with incomparable choices, the two can't be "the same", and if that's really the case then you should *really* be voting at the constitutional level *above* these choices in order to rearrange them into a more logical shape
+
+
+if I asked you to describe to me how much you like different ice cream flavors, what's the most natural way to most accurately describe your feelings? (say we're going to get ice cream as a group, and for constraints out of our control we can only get one flavor. when making this specific choice one really can score each choice on a scale of "how much happiness" you expect to get from that option, and options can vary widely, including being tied)
 it's obviously by giving them all a score, with the scale being "degree of enjoyment".
 
 - the scale goes negative
@@ -759,7 +786,7 @@ different experiences are obviously different, eating ice cream is different, an
 
 <!-- what I think the internal structure of welfare preferences is. -->
 
-and the nomination bucket system, how that combination of elements seems natural to me. difference between categorically comparable and incomparable options. different ice cream flavors can most likely be scored on a single scale together, since they're likely triggering a merely different degree of the same feeling. but comparing ice cream choices against models of car doesn't make sense, since they involve completely different aspects of experience and enjoyment. ice cream flavors and car models are in different clusters, different incomparable categories. this suggests we want something like range voting for comparable options and quadratic voting *across* groups of incomparable options. using rational numbers between 0-1 inclusive a system could model different gradations of preference with perfect accuracy, and using rational numbers that must add up to exactly 1 a system could model differences in preference intensity between options with perfect accuracy
+difference between categorically comparable and incomparable options. different ice cream flavors can most likely be scored on a single scale together, since they're likely triggering a merely different degree of the same feeling. but comparing ice cream choices against models of car doesn't make sense, since they involve completely different aspects of experience and enjoyment. ice cream flavors and car models are in different clusters, different incomparable categories. this suggests we want something like range voting for comparable options and quadratic voting *across* groups of incomparable options. using rational numbers between 0-1 inclusive a system could model different gradations of preference with perfect accuracy, and using rational numbers that must add up to exactly 1 a system could model differences in preference intensity between options with perfect accuracy
 
 ---
 layout: chapter-title
@@ -771,13 +798,25 @@ this exact combination of systems combines the strengths of range voting and qua
 quadratic voting is used to describe the different in relative *concern* between different elections. so quadratic voting is used to signal differences between categorically incomparable things. this is useful because the options are very unlikely to have "clone splitting", all the things being compared aren't substitutable
 range voting is used to score options *within* an election, things that could be substitutable and are in the same category, so it allows conservation of accuracy even in the face of similar options
 
+the problem with using no nomination systems and simply allowing all options with weights is that of noise and selection. in such a system, the only way candidates can gain attention from potential voters is through their own marketing or outreach, which inherently favors those with access to outreach resources, whatever they may be
+we want it to be possible for genuinely good options to *gradually* gain the attention of the electorate through nothing but the ladder of attention from the lowest levels of excitement. once an option has genuine traction, we would like to present that option for everyone else's consideration, but only once its real. there would be too much noise otherwise.
+
+Nomination thresholds and noise reduction in resource voting elections
+Nomination thresholds should get more costly as:
+Voters in the electorate increases
+Voters in the election increases 
+Existing nominees increases
+Number of elections decreases?
+
+the power of nomination buckets is that it makes is *always possible* for even an obscure choice to make it into mainstream attention, it might just take a while!
+
 ---
 layout: chapter-title
 ---
 
 # 📖 partial common ownership
 
-or a brief rant about cumulative advantage, the wealth rachet, and the inherent uselessless of landlording. should this section graze the ethical theory? if someone is born into a world where some small group has the legal right of ownership to almost everything, has this person really been born into a world where they can actually freely pursue their welfare and happiness to the same degree as others? ownership and control is an absolutely essential element of real freedom, but at the same time it's impossible for us to simply "calculate" how much everyone should have, since different people want different things. this is the single useful insight of market theory, but I think it's pretty easy to demonstrate that our ideas of property ownership, especially ownership of truly finite resources like land, both create inefficient markets and are inherently unethical. hint at future "libertarian hangover" talk
+or a brief rant about cumulative advantage, the wealth ratchet, and the inherent uselessness of landlording. should this section graze the ethical theory? if someone is born into a world where some small group has the legal right of ownership to almost everything, has this person really been born into a world where they can actually freely pursue their welfare and happiness to the same degree as others? ownership and control is an absolutely essential element of real freedom, but at the same time it's impossible for us to simply "calculate" how much everyone should have, since different people want different things. this is the single useful insight of market theory, but I think it's pretty easy to demonstrate that our ideas of property ownership, especially ownership of truly finite resources like land, both create inefficient markets and are inherently unethical. hint at future "libertarian hangover" talk
 
 ---
 
@@ -923,7 +962,7 @@ liquid democracy allows delegating votes
 
 ## Comparison with Liquid Democracy
 
-- would make *automated demagoguery* worryingly possible
+- would make *casual demagoguery* worryingly possible
 
 - don't need explicit delegation, Persistent Voting has<br>*delegation by abstention*
 
@@ -1044,6 +1083,25 @@ layout: chapter-title
 # 📖 the power of cooperatives
 
 <!-- the way the whole economy should be structured. democracy + markets, just the good parts. talk about history of cooperatives and why they haven't lived up to their full potential because of inefficient voting systems and seemingly intentional honey pot regulation. hint at the things we could cooperativize -->
+
+cooperatives only have one big disadvantage, and only in an inefficiently profit-focused economy like ours: comparative difficulty raising *startup* capital. once a cooperative is operating at scale it can much more plausibly fund initiatives with saved capital from members or even through debt financing. but when it's very small that isn't as true. 
+in an economy/society like ours where profit-seekers control almost all of the capital and only wish to deploy that capital to seek further profits (rather than creating true market value in the form of consumer surplus or prosperity or progress) it will be difficult to get some of that capital to create cooperatives that could out-compete profit-seeking companies.
+it seems fairly obvious to me this isn't an *inherent* structural disadvantage of the cooperative model, but one that only exists in societies like ours that don't properly tax property and don't properly provision public goods. in a society that properly provisions public goods and prevents property-based wealth ratchet, there will be lots of capital in public hands ready to use to create new startup cooperatives, for example using something like persistent funding.
+
+cooperative bonds? what are the regulatory difficulties in raising debt capital?
+
+this is where EA organizations (or any altruistic organizations) have the opportunity to step in. if we can get a critical mass of cooperatives to the point where they're operating at scale, then we can be fairly confident they can take it from there. this means grants or low or zero interest loans to scaling cooperatives is a very good impact investment
+in general I think persistent democracy is a very convincing EA initiative. EA has generally centered around utilitarian ethics and a desire to maximize welfare, and I can think of few better ways to do so than to improve coordination efficiency in a way that allows any person to fairly express their preferences.
+I have much more specific theoretical claims about the possible welfare optimality of persistent democracy, and I'll make those in my next talk. I think there's a strong chance persistent democracy is optimal
+
+I think this relates quite strongly to several other EA cause areas:
+
+- global health and development. it's pretty obvious that most global health and development problems are really just examples of coordination failure and resource inequality, and it should be pretty obvious that the only truly robust and scalable solutions to those problems are ones that allow the effected people to coordinate to solve the problems themselves.
+- climate change, biosecurity and pandemic prevention, nuclear security, decision-making. pretty obvious relationship, these all require global coordination and new public goods
+- space governance. persistent constitutions and common resource rights could very plausibly govern a global or multi-planet society. the fluidity of these systems would make it quite straightforward to decide how to divide space resources, either by placing them into shared public governance as is done with things like national parks, or simply using markets driven by common resource taxes to fluidly decide ownership.
+- AI alignment, both because it could dramatically improve our ability to effectively govern AI through both public and cooperative means (if we fail to effectively govern AI systems that will necessarily be a global coordination failure), but also critically because it could structurally prevent AI systems or the resources that could create AI systems from becoming too concentrated in too few hands. I personally think a catastrophic "automation precipice" is a much more urgent concern than a true "superhuman AI precipice". AI systems don't have to be anything *close* to human-level intelligence to render most of the world population economically useless and militarily powerless, which is a very precarious position to be in from the perspective of welfare ethics
+
+- surveillance and recommender systems. the social problems created by large tech firms, especially those related to media and information, have become pressing and obvious. many people discuss how to solve these problems by somehow reforming the companies or regulations, but I think the *real* solution to these problems is quite obvious, cooperative ownership. the real problem at the heart of problematic companies of all kinds (not only tech companies) is that the incentives of the companies aren't aligned with those of their customers or society at large. cooperative ownership directly solves the problem of alignment with customers (since they are the owning decision-makers), and obliquely solves the problem of alignment with society since membership in a cooperative is open.
 
 #### Persistently Democratic Cooperative
 
