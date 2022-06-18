@@ -112,13 +112,13 @@ layout: two-cols
 - 📖 understanding preferences
 - 📖 persistent quadratic range voting
 - 📖 partial common ownership
-- 📖 harberger taxes
+- 📖 Harberger taxes
 - 📖 common resource taxes
 - 📖 comparison with liquid democracy
 - 📖 provably optimal?
 - 📖 how to make this happen?
 - 📖 the power of cooperatives
-- 📖 persistent democracy and EA
+- 📖 persistent democracy and Effective Altruism
 - 📖 I need help!
 
 ---
@@ -1090,19 +1090,6 @@ it seems fairly obvious to me this isn't an *inherent* structural disadvantage o
 
 cooperative bonds? what are the regulatory difficulties in raising debt capital?
 
-this is where EA organizations (or any altruistic organizations) have the opportunity to step in. if we can get a critical mass of cooperatives to the point where they're operating at scale, then we can be fairly confident they can take it from there. this means grants or low or zero interest loans to scaling cooperatives is a very good impact investment
-in general I think persistent democracy is a very convincing EA initiative. EA has generally centered around utilitarian ethics and a desire to maximize welfare, and I can think of few better ways to do so than to improve coordination efficiency in a way that allows any person to fairly express their preferences.
-I have much more specific theoretical claims about the possible welfare optimality of persistent democracy, and I'll make those in my next talk. I think there's a strong chance persistent democracy is optimal
-
-I think this relates quite strongly to several other EA cause areas:
-
-- global health and development. it's pretty obvious that most global health and development problems are really just examples of coordination failure and resource inequality, and it should be pretty obvious that the only truly robust and scalable solutions to those problems are ones that allow the effected people to coordinate to solve the problems themselves.
-- climate change, biosecurity and pandemic prevention, nuclear security, decision-making. pretty obvious relationship, these all require global coordination and new public goods
-- space governance. persistent constitutions and common resource rights could very plausibly govern a global or multi-planet society. the fluidity of these systems would make it quite straightforward to decide how to divide space resources, either by placing them into shared public governance as is done with things like national parks, or simply using markets driven by common resource taxes to fluidly decide ownership.
-- AI alignment, both because it could dramatically improve our ability to effectively govern AI through both public and cooperative means (if we fail to effectively govern AI systems that will necessarily be a global coordination failure), but also critically because it could structurally prevent AI systems or the resources that could create AI systems from becoming too concentrated in too few hands. I personally think a catastrophic "automation precipice" is a much more urgent concern than a true "superhuman AI precipice". AI systems don't have to be anything *close* to human-level intelligence to render most of the world population economically useless and militarily powerless, which is a very precarious position to be in from the perspective of welfare ethics
-
-- surveillance and recommender systems. the social problems created by large tech firms, especially those related to media and information, have become pressing and obvious. many people discuss how to solve these problems by somehow reforming the companies or regulations, but I think the *real* solution to these problems is quite obvious, cooperative ownership. the real problem at the heart of problematic companies of all kinds (not only tech companies) is that the incentives of the companies aren't aligned with those of their customers or society at large. cooperative ownership directly solves the problem of alignment with customers (since they are the owning decision-makers), and obliquely solves the problem of alignment with society since membership in a cooperative is open.
-
 #### Persistently Democratic Cooperative
 
 ##### Cooperative?
@@ -1126,6 +1113,82 @@ I think this relates quite strongly to several other EA cause areas:
 - media streaming?
 - internet service?
 - manufacturing?
+
+- surveillance and recommender systems. the social problems created by large tech firms, especially those related to media and information, have become pressing and obvious. many people discuss how to solve these problems by somehow reforming the companies or regulations, but I think the *real* solution to these problems is quite obvious, cooperative ownership. the real problem at the heart of problematic companies of all kinds (not only tech companies) is that the incentives of the companies aren't aligned with those of their customers or society at large. cooperative ownership directly solves the problem of alignment with customers (since they are the owning decision-makers), and obliquely solves the problem of alignment with society since membership in a cooperative is open.
+
+---
+layout: chapter-title
+---
+
+# 📖 persistent democracy and Effective Altruism
+
+## most big problems require big coordination
+
+---
+
+# persistent democracy could be a force multiplier
+
+## comparable to other infrastructural/community building efforts in terms of expected impact
+
+- persistent democracy is very compatible with EA
+- starting cooperatives should receive EA funding
+
+---
+
+# persistent democracy is very compatible with EA
+
+## could be a valuable tool in achieving EA goals
+
+- global health and development (improve governance and coordination)
+- climate change, biosecurity and pandemic prevention, nuclear security (global coordination and new public goods)
+- space governance (persistent constitutions and common resource rights)
+
+<v-click>
+
+- AI alignment
+  - superhuman AI precipice (improve governance and deliberation)
+  - **automation precipice**
+
+</v-click>
+
+<!--  
+it's pretty obvious that most global health and development problems are really just examples of coordination failure and resource inequality, and it should be pretty obvious that the only truly robust and scalable solutions to those problems are ones that allow the effected people to coordinate to solve the problems themselves.
+
+pretty obvious relationship, these all require global coordination and new public goods
+
+persistent constitutions and common resource rights could very plausibly govern a global or multi-planet society. the fluidity of these systems would make it quite straightforward to decide how to divide space resources, either by placing them into shared public governance as is done with things like national parks, or simply using markets driven by common resource taxes to fluidly decide ownership.
+-->
+
+---
+
+# automation precipice
+
+- quite weak AI could still render most people economically useless and militarily powerless
+- concentration of this power in too few hands could cause many problems
+- ethically precarious for many reasons
+
+<v-click>
+
+- persistent democracy could plausibly cooperativize ownership of AI systems
+- could ensure benefits are widely shared
+
+</v-click>
+
+---
+
+# cooperative bootstrapping should receive EA funding
+
+- grants for research or infrastructure
+- low or zero interest loans for scaling
+- scaled cooperatives are self-sustaining
+
+<!-- 
+cooperatives have the potential to indirectly solve many other societal problems. wealth inequality and corporate misalignment have many knock-on effects in terms of how they negatively impact culture and deliberation and values and global health. for example, a facet of problems like obesity is the fact that food manufacturers have misaligned incentives.
+
+this is where EA organizations (or any altruistic organizations) have the opportunity to step in. if we can get a critical mass of cooperatives to the point where they're operating at scale, then we can be fairly confident they can take it from there. this means grants or low or zero interest loans to scaling cooperatives is a very good impact investment
+in general I think persistent democracy is a very convincing EA initiative. EA has generally centered around utilitarian ethics and a desire to maximize welfare, and I can think of few better ways to do so than to improve coordination efficiency in a way that allows any person to fairly express their preferences.
+I have much more specific theoretical claims about the possible welfare optimality of persistent democracy, and I'll make those in my next talk. I think there's a strong chance persistent democracy is optimal 
+-->
 
 ---
 layout: chapter-title
