@@ -102,7 +102,7 @@ layout: two-cols
 - 📖 persistent constitutions
 - 📖 what are rights?
 - 📖 persistent commitments
-- 📖 what are public goods?
+- 📖 public goods and cooperative goods
 - 📖 quadratic funding
 - 📖 persistent funding
 
@@ -638,7 +638,7 @@ weight takes time to be fully applied, moves slowly
 layout: chapter-title
 ---
 
-# 📖 what are public goods?
+# 📖 public goods and cooperative goods
 
 we all intuitively understand the idea of a private good. it's something a single person can tractably own and control by themselves, that provides value only to one person or small group of people at a time.
 
@@ -655,6 +655,18 @@ public goods tend to be defined by *thresholds* of usefulness, situations where 
 Cooperative goods are those that happen when people combine their contributions into a single good. Their individual contributions would be worthless, but there's a step change at some point that makes their combined worth immense
 
 an uncontroversial claim: **our society does not properly provision public goods.** There are many more public goods that could be compatibly and usefully created. these public goods would create immense prosperity and welfare for everyone in society.
+These public goods are missed opportunities for society
+
+
+for any cooperative good
+it has a total cost
+it has a function that determines amount of benefit gained by one person compared with their amount of ownership of the good. cooperative goods tend to have either linear functions (where benefit of ownership decreases more slowly than amount of ownership) or step functions (where there is a threshold of amount of ownership above which almost all benefit of ownership is enjoyed)
+so cooperative goods are those where the total cost and total ownership can be divided up in a way that makes the cost of ownership lower than the benefit of ownership for each owner
+(can I own a piece of the good such that the benefit of owning the piece is greater than the cost of owning the piece)
+
+
+I'm introducing the term "cooperative goods" to generally refer to this entire category of goods, ones where sharing the good improves the cost ratio for many people. public goods are different than club goods by the degree of enforceability, or in other words cost to exclude, and also to a degree by how much democratic value we place on the thing (it's important for *everyone* to have access to this thing regardless of whether or not they can or have the time or foresight to opt into it)
+
 
 ---
 layout: chapter-title
