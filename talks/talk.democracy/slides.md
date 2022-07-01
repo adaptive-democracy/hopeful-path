@@ -22,6 +22,8 @@ things will be a little different in the theory theme?
 
 ## The governmental structure<br>that can fix...<br>everything?
 
+<!-- My best bet for how we can fix everything. -->
+
 <!-- introduce yourself, and talk about what persistent democracy is: your best bet -->
 
 ---
@@ -39,8 +41,8 @@ how is this talk structured?
 answer these questions:
 
 - why do we need Persistent Democracy?
-- what is Persistent Democracy, and how does it work?
-- how can we actually make it happen?
+- what is Persistent Democracy, and how does it work? (efficient scalable direct democracy)
+- how can we actually make it happen? (cooperatives and collective action)
 - why should Effective Altruists be especially interested?
 
 <!--
@@ -109,7 +111,6 @@ layout: two-cols
 ::right::
 
 - 📖 crowdsell system and intellectual property
-- 📖 understanding preferences
 - 📖 persistent quadratic range voting
 - 📖 partial common ownership
 - 📖 Harberger taxes
@@ -139,7 +140,7 @@ why persistent democracy is necessary
 
 ---
 
-<!-- TODO put slides about problems here, add our poor pandemic response and probability of future pandemics -->
+<!-- TODO put slides about problems here, add our poor pandemic response and probability of future pandemics, democratic gridlock -->
 
 # Humanity has some<br>huge problems ahead
 
@@ -279,7 +280,7 @@ why persistent democracy is necessary
 
 problems will not be solved unless we *stubbornly insist* on solving them
 
-we must *assume* it is possible, and do what we can
+we must ask *how* it is possible, not *if* it is possible
 
 many people are relying on us: those who are already alive, and countless more in the long-term future
 
@@ -325,7 +326,16 @@ layout: chapter-title
 - it's possible to *prove* things about voting systems
 - systems can be provably *better than others*
 - systems can even be provably *optimal*
-- still have to be validated in the real world of course
+
+---
+
+# logic is of course only the first part of progress
+
+we have to validate our ideas in the real world
+
+but we shouldn't neglect this powerful tool!
+
+logic can help us avoid many obvious mistakes and costly failed experiments
 
 ---
 layout: chapter-title
@@ -341,28 +351,30 @@ layout: chapter-title
 
 <v-clicks>
 
-#### Our Democracy uses Plurality Voting
+## Our Democracy uses Plurality Voting
 
-#### Democracy ≠ Plurality Voting
+(also called choose-one, first-past-the-post, etc)
 
-##### if we're trying to make a functional and prosperous democracy
-##### we're using the wrong tools
+# Democracy ≠ Plurality Voting
+
+## if we're trying to make a functional and prosperous democracy
+## we're using the wrong tools
 
 </v-clicks>
 
 ---
 
-## Plurality Voting is awful
+# Plurality Voting is awful
 
-##### irrational outcomes with 3+ options
+## irrational outcomes with 3+ options
 
 ![](https://d3n8a8pro7vhmx.cloudfront.net/ucer/pages/16/attachments/original/1613055360/SpoilerEffect.jpg?1613055360)
 
 ---
 
-## Plurality Voting is awful
+# Plurality Voting is awful
 
-##### incentivizes enforcement of two party system
+## incentivizes enforcement of two party system
 
 ![](/drawing-2-5-voting-cycle.png)
 
@@ -378,17 +390,17 @@ layout: chapter-title
 
 <!-- approval voting and range voting, and how it's a good next step, but not good enough -->
 
-## Approval Voting is better...
+# Approval Voting is much better...
 
-##### can always vote for all favorites
+## can always vote for all favorites
 
 ![](https://i2.wp.com/californiaapproves.org/wp-content/uploads/2021/08/approval-ballot.png?fit=750%2C440&ssl=1)
 
 ---
 
-## ... but not good enough
+# ... but not good enough
 
-##### casual majorities can outvote passionate minorities
+## casual majorities can outvote passionate minorities
 
 ![](/drawing-3-casual-out-approves-passionate.png)
 
@@ -405,7 +417,7 @@ layout: chapter-title
 
 ---
 
-## Resource voting systems are much better...
+# Resource voting systems are much better...
 
 ##### can put more votes on things you care more about
 
@@ -772,7 +784,7 @@ how can we reasonably define who deserves to own a piece of work?
 layout: chapter-title
 ---
 
-# 📖 understanding preferences
+# 📖 persistent quadratic range voting
 
 change the below analogy to choosing where to go eat as a group of friends. your feelings about different restaurants exists in a complex multi-dimensional space, where each option might be good for different things as different times (after you've exercised, when on a date, with your family, etc). but since we've narrowed the specificity of the choice it's possible to score the options on a single scale, "how enjoyable is this place to go with friends". 
 
@@ -800,11 +812,19 @@ different experiences are obviously different, eating ice cream is different, an
 
 difference between categorically comparable and incomparable options. different ice cream flavors can most likely be scored on a single scale together, since they're likely triggering a merely different degree of the same feeling. but comparing ice cream choices against models of car doesn't make sense, since they involve completely different aspects of experience and enjoyment. ice cream flavors and car models are in different clusters, different incomparable categories. this suggests we want something like range voting for comparable options and quadratic voting *across* groups of incomparable options. using rational numbers between 0-1 inclusive a system could model different gradations of preference with perfect accuracy, and using rational numbers that must add up to exactly 1 a system could model differences in preference intensity between options with perfect accuracy
 
----
-layout: chapter-title
----
 
-# 📖 persistent quadratic range voting
+if you're trying to choose between a series of concrete outcomes for the same choice, the only way to signal your feelings with arbitrary accuracy is with a scoring system. the outer limits of the scoring range represent the absolutely best/worst case emotional outcomes.
+the reason this is true is because if you use a resource system you might have to split resources between nearly equivalent options. since options can actually possibly be equivalent, making you split resources between them would cause dilution of accuracy.
+
+but the important question here is: how do we determine how extreme those outer limits are? for people who aren't effected by/don't care about some decision, the outer limits are very low, and the opposite is true.
+
+
+score voting systems are very good at ensuring complete accuracy of preference alignment when weighing possibly equivalent options.
+resource voting systems are very good ensuring complete accuracy of relative concern when weighing incomparable options.
+
+so we can put the two paradigms together! it's pretty clear to me that *elections* are incomparable and are best measured with resource voting systems, and *candidates* within a single election can possibly be comparable and are best measured with score voting systems
+
+
 
 this exact combination of systems combines the strengths of range voting and quadratic voting.
 quadratic voting is used to describe the different in relative *concern* between different elections. so quadratic voting is used to signal differences between categorically incomparable things. this is useful because the options are very unlikely to have "clone splitting", all the things being compared aren't substitutable
