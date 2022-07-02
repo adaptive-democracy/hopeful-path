@@ -41,8 +41,8 @@ how is this talk structured?
 answer these questions:
 
 - why do we need Persistent Democracy?
-- what is Persistent Democracy, and how does it work? (efficient scalable direct democracy)
-- how can we actually make it happen? (cooperatives and collective action)
+- what is Persistent Democracy, and how does it work?
+- how can we actually make it happen?
 - why should Effective Altruists be especially interested?
 
 <!--
@@ -61,9 +61,8 @@ this talk has this structure:
   - range voting -> quadratic range voting
   - conviction voting -> persistent commitments
   - quadratic funding -> persistent funding
-  - harberger taxes -> common resource taxes
+  - harberger taxes -> common resource rights
 - how we can incrementally achieve persistent democracy and use it to solve the above problems
-- my proof sketch for why persistent democracy could be welfare optimal
 -->
 
 ---
@@ -77,6 +76,8 @@ voters can update their choices at any time
 
 - Quadratic Voting
 - Quadratic Funding
+- Range Voting
+- Conviction Voting
 - Common Partial Ownership
 
 </v-click>
@@ -85,6 +86,8 @@ voters can update their choices at any time
 
 - Persistent Voting
 - Persistent Funding
+- Quadratic Range Voting
+- Persistent Commitments
 - Persistent Constitutions
 
 </v-click>
@@ -102,7 +105,7 @@ layout: two-cols
 - 📖 resource voting systems
 - 📖 persistent voting
 - 📖 persistent constitutions
-- 📖 what are rights?
+- 📖 rights and constitutions
 - 📖 persistent commitments
 - 📖 public goods and cooperative goods
 - 📖 quadratic funding
@@ -110,12 +113,13 @@ layout: two-cols
 
 ::right::
 
-- 📖 crowdsell system and intellectual property
-- 📖 persistent quadratic range voting
+- 📖 intellectual property and assurance contracts
+- 📖 quadratic range voting
 - 📖 partial common ownership
 - 📖 Harberger taxes
-- 📖 common resource taxes
+- 📖 common resource rights
 - 📖 comparison with liquid democracy
+- 📖 persistent democracy logistics
 - 📖 provably optimal?
 - 📖 how to make this happen?
 - 📖 the power of cooperatives
@@ -588,26 +592,48 @@ the borders of different districts (states, counties, cities, etc) can be chosen
 <!-- each one of these sub-districts would have its own persistently chosen sub-constitution. these sub-constitutions would intentionally have a narrow scope defined by their ancestor constitutions -->
 
 ---
+
+## Persistent Constitutions
+
+allowing constitutions to be defined democratically means the voters have *full* control. each of them can input an arbitrary amount of information into the system, since a constitutional document can define any rules imaginable
+
+---
 layout: chapter-title
 ---
 
-# 📖 what are rights?
+# 📖 rights and constitutions
 
-rights are just a system to decide what things we *can't* vote on
+choosing the things we *don't* want to vote on
 
-right set aside some things as **off limits**, things that we've decided aren't worth trading on markets or making more granular rules about
+---
 
-they're also a system to carve out different activities so they *can* be traded on markets
+the welfare consequences of most actions is hard to predict
 
-ultimately this is what constitutions are for, they more or less decide what rights everyone has, defining things people can and can't vote for
+we often put these decisions to a vote or allow them be traded on markets
 
-what decisions are made by the group? and exactly how?
+---
 
-allowing constitutions to be defined democratically means that the voters have *full* control over something. each of them can input an arbitrary amount of information into the system, since a constitutional document can define any rules imaginable
+occasionally we can pretty accurately predict the consequences of some actions
 
-the rights we have are pretty obviously something we've just decided over time. you can possibly imagine crazy science fiction beings with dramatically different bodies/worlds than ours, and the rights they would define would be different!
+we often don't think it would be useful to vote about these actions!
 
-a hint at why rights are useful: they basically allow us to find actions that are both undesirable and *difficult to reverse*, so we can preempt a lot of irreversible damage
+if the actions are undesired, it might be because they're always negative, or they do something irreversible that we aren't sure is a good idea
+
+---
+
+**this is what rights are**
+
+we select rights to prevent actions we think will *usually* be overall negative
+
+---
+
+theoretically we could choose a completely different set of rights!
+
+when constitutions are defined democratically, the set of rights protected in them is merely a picture of the group's consensus about what things they don't want to have to decide with voting or market decisions
+
+**rights are arbitrary and determined by the common preferences of the group**
+
+we can imagine crazy science fiction beings with dramatically different bodies/worlds than ours, and the rights they would define would be different!
 
 ---
 layout: chapter-title
@@ -652,33 +678,103 @@ layout: chapter-title
 
 # 📖 public goods and cooperative goods
 
-we all intuitively understand the idea of a private good. it's something a single person can tractably own and control by themselves, that provides value only to one person or small group of people at a time.
+things are better when we work together
 
-public goods are goods that provide a lot of benefit to *everyone*, but wouldn't provide a lot of value to individuals, at least enough to compensate for how expensive they are.
+---
 
-basically they're goods that don't make sense to trade on markets, either because of something about human psychology or just cost
+# public goods?
 
-public goods are really defined by whether or not it would ever make sense for a individual to pay for them themselves
+classic definition
 
-if it wouldn't make sense for one person to buy by themselves, but it would *benefit* that individual if the good happened to already be available to them. basically if people can cooperate to provision a good, share the cost to provision it, and then get more value from it than they contributed, that's a public good.
+|               | Excludable                                                                        | Non-Excludable                                                                                    |
+|---------------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| Rivalrous     | **Private goods**<br>food, clothing, cars, parking spaces                        | **Common-pool resources**<br>fish stocks, timber, coal, free public transport                    |
+| Non-Rivalrous | **Club goods**<br>cinemas, private parks, satellite television, public transport | **Public goods**<br>free-to-air television, air, national defense, free and open-source software |
 
-public goods tend to be defined by *thresholds* of usefulness, situations where a good is worthless if done at a smaller scale, but immensely valuable if done past a certain threshold.
+---
 
-Cooperative goods are those that happen when people combine their contributions into a single good. Their individual contributions would be worthless, but there's a step change at some point that makes their combined worth immense
+nothing is truly *non*-excludable, just impractically expensive to exclude
+both of these things are continuous dimensions rather than simple categories
 
-an uncontroversial claim: **our society does not properly provision public goods.** There are many more public goods that could be compatibly and usefully created. these public goods would create immense prosperity and welfare for everyone in society.
-These public goods are missed opportunities for society
+people argue about aspects of them all the time
 
+these are useful concepts, but I'm more interested in a more general category
 
-for any cooperative good
-it has a total cost
-it has a function that determines amount of benefit gained by one person compared with their amount of ownership of the good. cooperative goods tend to have either linear functions (where benefit of ownership decreases more slowly than amount of ownership) or step functions (where there is a threshold of amount of ownership above which almost all benefit of ownership is enjoyed)
-so cooperative goods are those where the total cost and total ownership can be divided up in a way that makes the cost of ownership lower than the benefit of ownership for each owner
-(can I own a piece of the good such that the benefit of owning the piece is greater than the cost of owning the piece)
+---
 
+# cooperative goods
 
-I'm introducing the term "cooperative goods" to generally refer to this entire category of goods, ones where sharing the good improves the cost ratio for many people. public goods are different than club goods by the degree of enforceability, or in other words cost to exclude, and also to a degree by how much democratic value we place on the thing (it's important for *everyone* to have access to this thing regardless of whether or not they can or have the time or foresight to opt into it)
+happen when people combine their contributions into a single good and share its benefits
 
+individually their contributions would be worthless
+
+there's a "step change" at some point that makes their combined worth immense
+
+tend to be defined by *thresholds* of usefulness, situations where something is worthless if done at a smaller scale, but immensely valuable if done past a certain scale
+
+---
+
+classic example is a pool
+
+- real pools are expensive
+- they're also *awesome*, especially if you live somewhere hot
+- one person doesn't use a pool much individually, so they're easy to share
+- many people can chip in a relatively small contribution
+
+---
+
+each person gets more benefit than cost *because of sharing*
+
+<!-- TODO funny sharing is caring -->
+
+---
+
+most public goods are also cooperative goods:
+<!-- in the sense that they *have* to be shared in order to be worth the cost -->
+
+- municipal water systems
+- public parks
+- community defense
+- environmental protection
+
+some public goods are only valuable *because* they are shared
+
+- roads
+- internet networks
+- languages
+
+---
+
+some *can't* be made into club goods:
+<!-- because exclusion can't possibly be done by anything other than a government with a military -->
+
+- national parks
+- environmental protection
+
+others *shouldn't* be made into club goods:
+<!-- because there's inherent moral or societal value in giving everyone access -->
+
+- roads
+- public education
+- public parks
+- open source software
+- healthcare (hot take!!)
+
+---
+
+**our society doesn't create enough cooperative goods**
+
+many more cooperative goods could be compatibly and usefully created, both public and private
+
+these cooperative goods would create immense prosperity and welfare for everyone in society
+
+these cooperative goods are missed opportunities
+
+---
+
+its hard to coordinate the funding and control of cooperative goods
+
+but it doesn't have to be!
 
 ---
 layout: chapter-title
@@ -753,45 +849,257 @@ can prioritize projects that achieve the most social good (have the most weight)
 layout: chapter-title
 ---
 
-# 📖 crowdsell system and intellectual property
+# 📖 intellectual property and assurance contracts
 
-crowdsell system allows people to sell creative work of all kinds directly to society
-could allow us to abolish intellectual property as a concept
+thinking about intellectual work as labor instead of a property right
+
+---
+
+it makes sense to reward people for doing useful intellectual work
+
+but only if the benefits of that intellectual work are somehow shared with everyone
+
+---
+
+our copyright and patent system gives intellectual creators monopoly over their work
+
+but intentionally only for a limited time. eventually the work becomes a pure public good
+
+the monopoly is only given in exchange for sharing the work
+
+---
+
+does the concept of intellectual property best achieve our goal?
+
+we're ultimately trying to create as much general welfare as possible
+
+so we want to incentivize useful intellectual work that creates welfare
+
+---
+
+in general someone will do useful intellectual work if their expected reward is greater than their perceived cost
+
+in general if we raise the expected reward even higher then more people will consider it worth doing, so the work will tend to get done faster and with higher quality
+
+---
+
+notice that we only actually care about intellectual *work*
+
+it doesn't benefit society at all if people own intellectual *property*
+
+the hope of our current system is that the copyright and patent office is able to initially give deeds only to those people who have somehow made actual work happen
+
+---
+
+**I think this is a pretty tenuous claim**
+
+as the value of intellectual work has done nothing but increase, I'm less and less convinced the "deeds" are ending up in the right hands
+
+<!-- TODO insulin example, other overpatenting examples -->
+
+a system of intellectual property will always more directly incentivize *holding property* rather than doing actual labor
+
+a persistently democratic society could possibly do this better, and have more oversight
+
+the common resource rights system would be another improvement
+
+but it's still always going to be tricky
+
+---
+
+incentive systems that more directly reward *labor* would be better
+want to remove hangers-on the real creators have to deal with in order to gain, maintain, and enforce property rights
+
+the combination of persistent funding and something called *assurance contract* could possibly do so
+
+---
+
+assurance contracts allow someone to sell intellectual work directly to society
+
+you promise to release your intellectual work freely to society if society pays you some amount
 
 can work both for projects that are finished and proposed work
 
-finished projects basically just use something called assurance contracts
+----
+
+when the intellectual work is *already done*:
 
 - a creator submits a description of work they've already done, sets a price, makes promises about what they've done
 - people pledge
-- if enough money is pledged then the promised work is released, there's a window where the pledgers can assert the work doesn't meet the promises, if they don't do this then the creator is given the money
+- if enough money is pledged then the promised work is released
+- a window where the pledgers can assert the work doesn't meet the promises, if they don't do this then the creator is given the money
 
-proposed work is basically just a crowdfunding campaign with more oversight
+<!-- TODO picture -->
+
+---
+
+when the intellectual work is *merely proposed*
 
 - creator submits their plan, including a monthly budget and a "prize" amount
 - people pledge
 - if enough money is pledged then the project begins, and every budget cycle the pledgers can assert the creators aren't meeting the commitments of the project plan. if they do so then the project is halted and all undisbursed money is refunded at a prorate
 - if the project runs past their budgeted plan, then the prize amount is eaten away. once the project is finished to the satisfaction of the pledgers then the prize amount is disbursed
 
+<!-- TODO picture -->
 
-intellectual property is a very slippery idea
-you can't actually "own" intellectual work, you can merely assert that you in fact did the work
-we've made intellectual work into property, but really it's labor
+---
 
-how can we reasonably define who deserves to own a piece of work?
+persistent funding + assurance contracts = crowdfunding with democratic oversight
+
+could easily coexist with intellectual property
 
 ---
 layout: chapter-title
 ---
 
-# 📖 persistent quadratic range voting
+# 📖 quadratic range voting
 
-change the below analogy to choosing where to go eat as a group of friends. your feelings about different restaurants exists in a complex multi-dimensional space, where each option might be good for different things as different times (after you've exercised, when on a date, with your family, etc). but since we've narrowed the specificity of the choice it's possible to score the options on a single scale, "how enjoyable is this place to go with friends". 
+can we combine the strengths of score and resource voting systems?
+
+---
+
+score voting systems are great at *preference accuracy*
+
+resource voting systems are great at *preventing strategy*
+
+---
+
+score voting systems are great at:
+
+- signaling *preference alignment*
+- (how a choice aligns with someone's best/worst case expectations)
+- can be arbitrarily accurate
+- (if scores are given as rational numbers composed of infinite integers, which all must be less than 1)
+- maxing out score indicates an option as being the best case scenario (given strategic concerns)
+- voters intuitively feel they can express themselves with full accuracy
+
+great for choosing between options that can *possibly be equivalent*
+
+(equivalent options never compete with or dilute each other)
+
+---
+
+<!-- TODO picture showing possibly equivalent options and accuracy to human preferences -->
+
+---
+
+score voting systems are *not* great at:
+
+- keeping people honest in a strategic environment
+- can max out scores without any cost
+- measuring the absolute strength of a maxed out score
+
+---
+
+resource voting systems are great at:
+
+- preventing strategy
+
+- signaling *relative preference strength*
+- (how much someone cares about a choice compared to others)
+- can be arbitrarily accurate
+- (if allocations are given as rational numbers composed of infinite integers, which all must sum to less than 1)
+- keeping people honest in a strategic environment
+- must be judicious and honest about selections
+
+great for choosing between options that are *unlikely to be equivalent*
+
+(choosing between incomparable or "apples and oranges" things)
+
+<!-- a big part of the reason quadratic voting is so useful is that it compensates for this kind of accuracy dilution by making splitting resources less truly costly -->
+
+---
+
+<!-- TODO picture showing incomparable options and how you would divide weights  -->
+
+---
+
+resource voting systems are *not* great at:
+
+- allowing people to signal with complete accuracy how much they *like* some concrete choice
+- possibly equivalent options will complete with or dilute each other
+
+---
+
+resource and score voting systems excel *complementary* aspects:
+
+- score voting for possibly equivalent or comparable *concrete* options
+- resource voting for inherently incomparable *abstract* options
+
+---
+
+resource and score voting systems excel *complementary* aspects:
+
+- resource voting for measuring relative concern for *elections*
+- score voting for measuring preference alignment for *candidates* in elections
+
+---
+
+# quadratic range voting
+
+- there's some election, we're choosing between A, B, C, D
+- if you approve of some choices, you can use weights to place a *positive* ballot with positive scores
+- if you disapprove of other choices, you can use separate weights to place a *negative* ballot with negative scores
+- for both the number of weights multiplies those scores
+
+<!-- TODO picture showing three example voters for an election, with negative/positive, positive, negative ballots, and different weights on each -->
+
+---
+
+# who gets to be on the ballot?
+
+with resource voting, we don't *need* nomination
+
+it's costs weights to support a candidate
+
+---
+
+but I think it's still important to limit *noise*
+
+without some nomination mechanism, it's possible for bad faith actors to flood elections with nonsense candidates
+
+if there are many nonsense candidates, how are voters supposed to know which ones to actually investigate further?
+
+in such a system, candidates can only get attention from potential voters through their own marketing or outreach, which inherently favors those with access to outreach resources
+
+---
+
+need some sort of nomination system:
+
+- useful candidates without a large social network or marketing budget could gain visibility with nothing more than a small group of focused and passionate supporters
+- those useful candidates would then be visible to voters, and voters would only have to look at their ballots to know who they should look more seriously into
+
+should be possible for genuinely good options to *gradually* gain attention. once an option has genuine traction, we would like to present that option for everyone else's consideration
+
+**but only once its real**
+
+---
+
+**nomination buckets** achieves that goal
+
+- in order to be placed on the real ballot, all new candidates must fill up a *nomination bucket*
+- the bucket fills up faster if nominators have placed more weights
+- the bucket gets larger (or fills up less quickly?) in correspondence with these things:
+  - voters in the total electorate increases?
+  - voters actually participating in the election increases
+  - already nominated candidates increases
+  - nominees increases
+  - margin of current winner decreases (if the current winning candidate isn't strongly preferred, then we might need more choices)
+  - number of elections increases? decreases?
+
+---
+
+the power of nomination buckets it that it's *always possible* for even an obscure choice to gain mainstream attention
+
+it just might take a while!
+
+<!--
+change the below analogy to choosing where to go eat as a group of friends. your feelings about different restaurants exists in a complex multi-dimensional space, where each option might be good for different things as different times (after you've exercised, when on a date, with your family, etc). but since we've narrowed the specificity of the choice it's possible to score the options on a single scale, "how enjoyable is this place to go with friends".
 
 however if we say "you can either choose where we go as friends or where you go with your family tomorrow", suddenly these choices don't exist on the same simple scale, or if they do the scale is much more general such as "how much do you care about this thing". you might be much more sensitive to your choice of restaurant when with your family than with your friends
 perhaps its possible to say we could use scoring system all the time, but we have to introduce resource voting *somewhere* to overcome the strategic problems with score voting.
 
-perhaps its as simple as the fact that similar options for the same choice can cannibalize each other in unproductive ways. it is *theoretically* possible to have both choice concern and option alignment use score voting, but then the entire system is 
+perhaps its as simple as the fact that similar options for the same choice can cannibalize each other in unproductive ways. it is *theoretically* possible to have both choice concern and option alignment use score voting, but then the entire system is strategically unsound
 the problem with comparable choice cannibalization is that if you score two things the same then you really just consider them equivalent and would prefer them to be merged into one choice. that's less realistic with incomparable choices, the two can't be "the same", and if that's really the case then you should *really* be voting at the constitutional level *above* these choices in order to rearrange them into a more logical shape
 
 
@@ -808,39 +1116,13 @@ but what if I mixed in different car models?
 
 different experiences are obviously different, eating ice cream is different, and incomparable, to riding in a car
 
-<!-- what I think the internal structure of welfare preferences is. -->
-
-difference between categorically comparable and incomparable options. different ice cream flavors can most likely be scored on a single scale together, since they're likely triggering a merely different degree of the same feeling. but comparing ice cream choices against models of car doesn't make sense, since they involve completely different aspects of experience and enjoyment. ice cream flavors and car models are in different clusters, different incomparable categories. this suggests we want something like range voting for comparable options and quadratic voting *across* groups of incomparable options. using rational numbers between 0-1 inclusive a system could model different gradations of preference with perfect accuracy, and using rational numbers that must add up to exactly 1 a system could model differences in preference intensity between options with perfect accuracy
-
 
 if you're trying to choose between a series of concrete outcomes for the same choice, the only way to signal your feelings with arbitrary accuracy is with a scoring system. the outer limits of the scoring range represent the absolutely best/worst case emotional outcomes.
 the reason this is true is because if you use a resource system you might have to split resources between nearly equivalent options. since options can actually possibly be equivalent, making you split resources between them would cause dilution of accuracy.
 
 but the important question here is: how do we determine how extreme those outer limits are? for people who aren't effected by/don't care about some decision, the outer limits are very low, and the opposite is true.
+-->
 
-
-score voting systems are very good at ensuring complete accuracy of preference alignment when weighing possibly equivalent options.
-resource voting systems are very good ensuring complete accuracy of relative concern when weighing incomparable options.
-
-so we can put the two paradigms together! it's pretty clear to me that *elections* are incomparable and are best measured with resource voting systems, and *candidates* within a single election can possibly be comparable and are best measured with score voting systems
-
-
-
-this exact combination of systems combines the strengths of range voting and quadratic voting.
-quadratic voting is used to describe the different in relative *concern* between different elections. so quadratic voting is used to signal differences between categorically incomparable things. this is useful because the options are very unlikely to have "clone splitting", all the things being compared aren't substitutable
-range voting is used to score options *within* an election, things that could be substitutable and are in the same category, so it allows conservation of accuracy even in the face of similar options
-
-the problem with using no nomination systems and simply allowing all options with weights is that of noise and selection. in such a system, the only way candidates can gain attention from potential voters is through their own marketing or outreach, which inherently favors those with access to outreach resources, whatever they may be
-we want it to be possible for genuinely good options to *gradually* gain the attention of the electorate through nothing but the ladder of attention from the lowest levels of excitement. once an option has genuine traction, we would like to present that option for everyone else's consideration, but only once its real. there would be too much noise otherwise.
-
-Nomination thresholds and noise reduction in resource voting elections
-Nomination thresholds should get more costly as:
-Voters in the electorate increases
-Voters in the election increases 
-Existing nominees increases
-Number of elections decreases?
-
-the power of nomination buckets is that it makes is *always possible* for even an obscure choice to make it into mainstream attention, it might just take a while!
 
 ---
 layout: chapter-title
@@ -848,27 +1130,82 @@ layout: chapter-title
 
 # 📖 partial common ownership
 
-or a brief rant about cumulative advantage, the wealth ratchet, and the inherent uselessness of landlording. should this section graze the ethical theory? if someone is born into a world where some small group has the legal right of ownership to almost everything, has this person really been born into a world where they can actually freely pursue their welfare and happiness to the same degree as others? ownership and control is an absolutely essential element of real freedom, but at the same time it's impossible for us to simply "calculate" how much everyone should have, since different people want different things. this is the single useful insight of market theory, but I think it's pretty easy to demonstrate that our ideas of property ownership, especially ownership of truly finite resources like land, both create inefficient markets and are inherently unethical. hint at future "libertarian hangover" talk
+the way we understand property isn't the most efficient or most ethical
+
+<!-- or a brief rant about cumulative advantage, the property ratchet, and the inherent uselessness of landlording. should this section graze the ethical theory? -->
 
 ---
 
-# partial common ownership
+if someone is born into a world where some small group owns almost all of a critical resource, and that ownership is unconditionally enforced, then is that society one where it is even *plausible* to say that all beings can equally pursue their individual welfare?
 
-##### the way we understand property isn't most efficient or most ethical
+---
+
+what if we lived in a world where almost all water sources were privately owned by a single company
+
+<!-- TODO picture of mad max -->
+
+can everyone equally compete in any market?
+
+such a water monopoly would amount to complete authoritarian control
+
+---
+
+# [fundamental theorems of welfare economics](https://en.wikipedia.org/wiki/Fundamental_theorems_of_welfare_economics)
+
+- there are no externalities
+- each actor has perfect price information
+- **no actor has market power**
+
+efficient competition is impossible in the presence of monopolies
+
+(even perfectly efficient competition doesn't imply a truly ethical situation)
+
+---
+
+what is necessary for a society to *truly* say that all beings within it have equal capacity to pursue their welfare?
+
+all beings must have equal capacity for *ownership and control* of society and all resources
+
+ownership and control is an absolutely essential element of real freedom
+
+---
+
+but at the same time...
+
+it's impossible for us to simply "calculate" how much everyone should have, since different people want different things
+
+this is the thing (possibly the only thing) that markets are useful for, distributing resources when different people value different things
+
+---
+
+the way we understand property isn't most efficient or most ethical
 
 <v-clicks>
 
 - we've enshrined the "dibs" rule as a sacred right
 - non-negotiable property makes big and small monopolies inevitable
-- reinforces cycles of cumulative advantage
+- reinforces cycles of cumulative advantage through the "property ratchet"
 
 </v-clicks>
 
 <v-click at="4">
 
-#### but we have no idea how to<br>manually redistribute property...
+## but we have no idea how to<br>manually redistribute property...
 
 </v-click>
+
+---
+
+# partial common ownership
+
+- all property must be taxed to prevent runaway cycles of cumulative advantage
+- tax money must allocated using democratic choice
+
+we already have property taxes
+
+**manually assessed property taxes are inefficient and easy to corrupt**
+
+<!-- since possibly fallible people have to manually assess property value -->
 
 ---
 layout: chapter-title
@@ -882,7 +1219,7 @@ achieves highest and best *financial* use for resources
 
 ---
 
-## Harberger Taxes
+# harberger taxes
 
 whoever values something most becomes the owner
 
@@ -890,7 +1227,7 @@ whoever values something most becomes the owner
 
 ---
 
-## Harberger Taxes
+# harberger taxes
 
 <v-clicks>
 
@@ -905,27 +1242,31 @@ whoever values something most becomes the owner
 layout: chapter-title
 ---
 
-# 📖 common resource taxes
+# 📖 common resource rights
 
-<!-- (common resource rights?), problems and mitigations -->
+truly co-equal ownership and control of society and its resources
 
-##### Harberger Taxes + Persistent Voting
+---
+
+# common resource rights
+
+## harberger taxes + Persistent Voting
 
 ![](/drawing-12-1-common-resource-taxes.png)
 
 ---
 
-## Common Resource Taxes
+# common resource rights
 
-##### Harberger Taxes + Persistent Voting
+## harberger taxes + Persistent Voting
 
 ![](/drawing-12-2-common-resource-taxes.png)
 
 ---
 
-## Common Resource Taxes
+# common resource rights
 
-##### Harberger Taxes + Persistent Voting
+## harberger taxes + Persistent Voting
 
 ![](/drawing-12-3-common-resource-taxes.png)
 
@@ -933,9 +1274,9 @@ layout: chapter-title
 
 ---
 
-## Common Resource Taxes
+# common resource rights
 
-##### benefits
+## benefits
 
 <v-clicks>
 
@@ -948,9 +1289,9 @@ layout: chapter-title
 
 ---
 
-## Common Resource Taxes
+# common resource rights
 
-#### would dramatically change society
+## would dramatically change society
 
 - billionaires wouldn't just buy everything
 - billionaires likely couldn't exist anymore
@@ -960,9 +1301,9 @@ layout: chapter-title
 
 ---
 
-## Common Resource Taxes
+# common resource rights
 
-##### possible problems?
+## possible problems?
 
 - only my left shoe was bought:<br>you can "bind together" property
 - national parks shouldn't be for sale:<br>constitutions can set aside some things
@@ -970,15 +1311,49 @@ layout: chapter-title
 
 ---
 
-## Common Resource Taxes
+# common resource rights
 
-#### a big change
-##### start with obvious truly finite things
+## a big change
+
+start with obvious truly finite things
 
 - land
 - domain names
 - electromagnetic spectrum
 - intellectual property
+
+---
+
+# common resource rights
+
+great for space governance!
+
+want to mine an asteroid?
+
+right now it's valued at $0, so you can claim it, state a valuation and begin paying taxes
+
+do we as a society want to prevent mining or development on the moon? we can mark that area as protected in the district constitution
+
+---
+
+# common resource rights
+
+I bet I can guess who in my audience doesn't like this idea...
+
+it's people who call themselves "libertarian"
+
+do you think this is socialist??
+
+harberger taxes create a *provably optimally efficient* market
+
+the purpose of markets is to create better welfare outcomes
+common resource rights *possibly* create a provably welfare optimal system
+
+libertarian ideology is very inconsistent and lacks rigor
+libertarian ideology *reinforces* cumulative advantage and wealth ratchets, which are provably incompatible with efficient markets
+seems to be a hodge-podge of beliefs that conveniently benefits groups that have already amassed substantial property and wealth
+
+I intend to crate a talk about "the myths of libertarianism"
 
 ---
 layout: chapter-title
@@ -992,7 +1367,7 @@ liquid democracy allows delegating votes
 
 ---
 
-## Comparison with Liquid Democracy
+# comparison with liquid democracy
 
 - would make *casual demagoguery* worryingly possible
 
@@ -1002,23 +1377,135 @@ liquid democracy allows delegating votes
 layout: chapter-title
 ---
 
+# 📖 persistent democracy logistics
+
+how would a country implement this?
+
+---
+
+not only countries would benefit
+
+democratically controlled private organizations also would
+
+---
+
+# fully digital voting?
+
+for private organizations where the stakes are low, sure
+
+for a country? in a fully digital automated system where the only thing necessary to vote is access to some credentials, it would be much cheaper and easier to bribe/coerce large numbers of people to give up their credentials to be directed by a single entity
+
+we just want to increase the cost of this sort of tampering
+if a voter can successfully lie about complying with a demand, it becomes impossible in practice to bribe/coerce them effectively
+if they make their voting changes in person and aren't allowed to record anything about their session, it's impossible to verify compliance
+not so if they can just give you credentials
+
+voting doesn't strictly have to be in person, but it does have to be mediated by real people verifying identity. in an era before live deep-fake video, online video chat could be an identity mediator. but over time we'll have to move closer and closer to in person
+
+---
+
+already have postal service mandate
+
+could leverage that existing system, flesh it out
+
+"voting service mandate"
+
+---
+
+# voting offices
+
+- democratically endorsed proctors check your identity
+- use voting computer to look at allocation of weights, browse elections, change votes
+- open all the time?
+
+votes must be stored/tabulated digitally
+
+but voting offices can have paper affordances for as long as they're considered necessary
+(proctor prints things out)
+
+---
+
+when you leave you are given a paper receipt with a cryptographic signature attesting to the changes you made
+
+you can use this cryptographic signature to verify your changes were recorded and aggregated correctly
+
+this system could very likely benefit from a "centralized but mirrored blockchain"
+(one of the few systems that would)
+
+---
+
+what about justice system?
+
+lots of fuzzier thoughts about that
+
+check out these things
+
+---
+
+what about expansion?
+
+persistent democracy could plausibly govern a global or even interstellar society
+
+how do you add more area without becoming an empire?
+
+what if persistent democracy didn't *expand*, but simply *merged*?
+
+---
+
+two societies can merge if and only if:
+
+- they have both *already* implemented persistent democracy, and both are broadly compatible (both have top level constitutions)
+- each has performed a recent commitment to choose inspectors to investigate that the other society has implemented persistent democracy honestly (a dictator isn't just pretending to have implemented it) and compatibly (should be easier with open source technology and practices)
+
+---
+
+if both agree they are compatible, they begin a "constitutional merge"
+
+- both add all the constitutional candidates of the other to their constitutional election
+- both separately track who is the constitutional winner both when including only their own weights and all collective weights
+- once the same constitution wins in both places individually then the societies merge officially!
+- all sub-districts are put together with the old *national* border becoming a *district* border which is now allowed to change
+
+---
+
+it makes sense to me to make this "mergeability" an inherent part of persistent constitutions (in the kernel)
+
+so you haven't really implemented persistent democracy if you can refuse a merge!
+
+---
+
+it's important that this process isn't framed as one entity annexing another, but two co-equals deciding to join together
+
+if a society wants to become a part of another persistently democratic one, they first have to become persistently democratic themselves
+
+of course they can accept help in this process, but it needs to be their initiative
+
+---
+layout: chapter-title
+---
+
 # 📖 provably optimal?
 
-<!-- maybe! point to wip proof sketches, say that I will release a talk version asap. I'm not a logician, and actually completing a fully rigorous proof is much more difficult than coming up with a convincing proof sketch. persistent democracy, a recap so far. we have systems of voting that can achieve theoretically perfect accuracy, allow people to input as much information as they want through nomination and document elections, fluidly fund arbitrary public goods, and efficiently decide ownership of all resources in a democratic way. looking pretty good! (internet thumbs up kid) -->
+maybe!
 
-<v-click>
+---
 
-#### maybe!
+have a proof sketch, working on a presentation
 
-I have a proof sketch, am working on a presentation of it
+**conjectures**
 
-</v-click>
+- persistent constitutions allow societies to maximize progress and minimize irreversible harm
+- persistent constitutions minimize coordination overhead
+- persistent voting + common resource rights best satisfy fundamental theorems of welfare economics
+- common resource rights satisfy the ethical principle of "subject anonymity"
 
-<v-clicks at="2">
+---
 
-##### even if it *does* turn out to be provably optimal...
+# even if it *does* turn out to be provably optimal...
 
-##### ... we still have to validate it in real applications
+<v-clicks>
+
+## ... we still have to validate it in real applications
 
 proof sketch is convincing enough for me to work on applications
 
@@ -1029,6 +1516,22 @@ layout: chapter-title
 ---
 
 # 📖 how to make this happen?
+
+first tools, then cooperatives, then governments
+
+---
+
+# persistent democracy recap
+
+- we have systems of voting that can achieve theoretically perfect accuracy
+- allow people to input as much information as they want through nomination and document elections
+- fluidly fund arbitrary public goods
+- efficiently decide ownership of all resources in a democratic way
+
+---
+
+looking pretty good!
+<!-- TODO internet thumbs up kid -->
 
 ---
 
@@ -1154,7 +1657,7 @@ layout: chapter-title
 
 # 📖 persistent democracy and Effective Altruism
 
-## most big problems require big coordination
+most big problems require big coordination
 
 ---
 
@@ -1188,7 +1691,7 @@ it's pretty obvious that most global health and development problems are really 
 
 pretty obvious relationship, these all require global coordination and new public goods
 
-persistent constitutions and common resource rights could very plausibly govern a global or multi-planet society. the fluidity of these systems would make it quite straightforward to decide how to divide space resources, either by placing them into shared public governance as is done with things like national parks, or simply using markets driven by common resource taxes to fluidly decide ownership.
+persistent constitutions and common resource rights could very plausibly govern a global or multi-planet society. the fluidity of these systems would make it quite straightforward to decide how to divide space resources, either by placing them into shared public governance as is done with things like national parks, or simply using markets driven by common resource rights to fluidly decide ownership.
 -->
 
 ---
@@ -1228,21 +1731,17 @@ layout: chapter-title
 
 # 📖 I need help!
 
----
-
-#### feedback
-#### funding
-#### allies
+feedback, funding, allies
 
 ---
 
-##### I'm an engineer, not a leader or a manager
+# I'm an engineer, not a leader or a manager
 
-##### I want to build things like Magmide, and other exciting engineering work
+I want to build things like Magmide, and other exciting engineering work
 
 [![magmide talk](https://img.youtube.com/vi/Lf7ML_ErWvQ/0.jpg)](https://www.youtube.com/watch?v=Lf7ML_ErWvQ)
 
-##### I'd love to do so in the context of a "startup-energy" cooperative
+I'd love to do so in the context of a "startup-energy" cooperative
 
 <style>
 .slidev-layout img {
@@ -1252,14 +1751,28 @@ layout: chapter-title
 
 ---
 
+- legal advice (formation of organizations)
+- academics (do fundamental research)
+- software engineers (help build software tools)
+- communicators (improve my explanations)
+- funding for all the above
+
+<v-click>
+
+- anyone else who has something to contribute!
+
+</v-click>
+
+---
+
 # Persistent Democracy
-#### =
+## =
 # Ownership and Control
 
 <v-click>
 
-#### a system doesn't work for us
+a system doesn't work for us
 
-#### unless it belongs to us
+unless it belongs to us
 
 </v-click>
