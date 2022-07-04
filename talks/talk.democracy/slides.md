@@ -359,12 +359,14 @@ layout: chapter-title
 
 (also called choose-one, first-past-the-post, etc)
 
+</v-clicks>
+
+---
+
 # Democracy ≠ Plurality Voting
 
 ## if we're trying to make a functional and prosperous democracy
 ## we're using the wrong tools
-
-</v-clicks>
 
 ---
 
@@ -383,6 +385,90 @@ layout: chapter-title
 ![](/drawing-2-5-voting-cycle.png)
 
 <!-- ![](https://unsplitthevote.org/wp-content/uploads/2019/04/plurality-voting_vote-splitting_cycle_yellow.png) -->
+
+---
+
+many people advocate Ranked Choice voting
+
+it seems better at first, but it doesn't even resolve the problems
+
+---
+
+Ranked Choice still has "spoiler effect"
+
+<!-- TODO pictures -->
+
+putting your favorite first in ranked choice is only safe when your candidate is very strong or has no chance at all
+putting your favorite first in ranked choice can cause your *least* favorite candidate to win
+
+in score voting systems you can never get a worse result by expressing the maximum support for your favorite
+
+*all rank-based voting systems will have this effect*
+
+this effect is mathematically removed in score voting systems
+
+and it has some even surprising and bizarre pathologies...
+
+---
+
+# drop out reversal pardox
+
+| # votes | ranking |
+|---------|---------|
+| 3       | A>D>C>B |
+| 3       | B>D>C>A |
+| 2       | C>D>A>B |
+| 2       | D>A>B>C |
+| 1       | A>C>B>D |
+| 1       | B>C>D>A |
+| 1       | C>B>D>A |
+| 1       | C>D>B>A |
+| 1       | D>B>C>A |
+
+- A wins this election. (First D is eliminated, then C, then B.)
+
+<!-- Thus IRV is saying that A is the best candidate, followed by B, C, and D in that order. -->
+
+- Suppose C drops out. Now the results are completely reversed: D wins, followed by B and A.
+- If B drops out, then D wins, followed by C and A.
+- If A drops out, then D wins, followed by C and B.
+
+<!-- In short, Instant Runoff says A>B>C>D – but if anybody besides D drops out, then it orders the candidates in exactly reversed order. IRV can say somebody is the best candidate, then turn around and say that same person is the worst. It must have been wrong at least one of those times. And the consequence can be that we elect the worst instead of the best candidate, which is very bad news for your country. -->
+
+---
+
+# winner = loser paradox
+
+| # votes | ranking |
+|---------|---------|
+| 9       | B>C>A   |
+| 8       | A>B>C   |
+| 7       | C>A>B   |
+
+- A wins after the IRV process eliminates C
+- If every voter reverses their preference order A still wins after B is eliminated!
+
+<!-- (i.e. they are now attempting to choose the worst candidate rather than the best). -->
+
+IRV contradicts itself
+
+<!-- IRV's unambiguously "best" candidate A is here the same as its "worst"! (Such embarrassing winner=loser reversal failures are, however, never exhibited in range, approval, Borda, Tideman Ranked Pairs, or Schulze beatpath voting, all of which are logically self-consistent in this respect.) -->
+
+---
+
+We can argue about the finer details of Ranked Choice and if these weird pathologies are realistic or even reasonable.
+
+But certainly you have to admit they're *surprising and unintuitive*
+
+---
+
+My bigger problem is that Ranked Choice *measures the wrong thing*.
+
+Elections aren't some "competition".
+
+We're trying to make the choice that will produce the most satisfaction or happiness for the group.
+
+We can do that very simply by using a system that *directly measures that*.
 
 ---
 layout: chapter-title
