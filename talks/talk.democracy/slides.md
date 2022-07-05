@@ -35,6 +35,7 @@ how is this talk structured?
 - geared toward Effective Altruists, but not exclusively
 - inspired by Glen Weyl and RxC, some review
 - ordered for ease of understanding by a newcomer
+- cycles between "big picture" and "nitty gritty"
 
 ---
 
@@ -262,11 +263,29 @@ why persistent democracy is necessary
 
 ---
 
+## AI Safety? Regulation? Laws?
+
+<!-- TODO -->
+
+---
+
 ## Space Governance?
 
 ["Problem profiles: Space governance" - 80000hours.org](https://80000hours.org/problem-profiles/space-governance/)
 
 ![](https://80000hours.org/wp-content/uploads/2022/02/nasa-7Cz6bWjdlDs-unsplash-2880x1650.jpg)
+
+---
+
+all of these problems amount to **coordination problems**
+
+it's *possible* for us to agree on solutions everyone finds *tolerable*
+
+but the *systems* we use to make decisions are too clunky
+
+- easily captured or corrupted concentrations of power
+- don't encourage finding consensus
+- don't allow us to give enough information
 
 ---
 
@@ -307,25 +326,25 @@ layout: chapter-title
 
 ---
 
-## logical systems are tools to cooperate at scale
+# we can use logical systems to cooperate at scale
 
-##### we can't find consensus socially with too many people
+can't find consensus socially with too many people
 
 ![](/drawing-1-noise.png)
 
 ---
 
-## logical systems are tools to cooperate at scale
+# we can use logical systems to cooperate at scale
 
-##### voting simplifies consensus-finding to an algorithm
+voting simplifies consensus-finding to an algorithm
 
 ![](/drawing-2-voting.png)
 
 ---
 
-## logical systems are tools to cooperate at scale
+# we can use logical systems to cooperate at scale
 
-#### voting systems<br>can be<br>studied mathematically
+## voting systems<br>can be<br>studied mathematically
 
 - it's possible to *prove* things about voting systems
 - systems can be provably *better than others*
@@ -365,22 +384,31 @@ layout: chapter-title
 
 # Democracy ≠ Plurality Voting
 
-## if we're trying to make a functional and prosperous democracy
-## we're using the wrong tools
+if we're trying to make a functional and prosperous democracy
+
+we're using the wrong tools
 
 ---
 
 # Plurality Voting is awful
 
-## irrational outcomes with 3+ options
+irrational outcomes with 3+ options
+most serious problem is the *spoiler effect*
 
 ![](https://d3n8a8pro7vhmx.cloudfront.net/ucer/pages/16/attachments/original/1613055360/SpoilerEffect.jpg?1613055360)
 
 ---
 
+there are other problems:
+
+- least amount of information from voters!
+- isn't flexible enough to solve voting "meta" problems (who gets on the ballot?)
+
+---
+
 # Plurality Voting is awful
 
-## incentivizes enforcement of two party system
+incentivizes enforcement of two party system
 
 ![](/drawing-2-5-voting-cycle.png)
 
@@ -388,22 +416,32 @@ layout: chapter-title
 
 ---
 
-many people advocate Ranked Choice voting
+# Ranked Choice voting?
 
-it seems better at first, but it doesn't even resolve the problems
+seems better at first...
 
 ---
 
-Ranked Choice still has "spoiler effect"
+Ranked Choice still has spoiler effect
+
+<!-- https://www.rangevoting.org/IrvPathologySurvey.html -->
 
 <!-- TODO pictures -->
 
-putting your favorite first in ranked choice is only safe when your candidate is very strong or has no chance at all
-putting your favorite first in ranked choice can cause your *least* favorite candidate to win
+---
 
-in score voting systems you can never get a worse result by expressing the maximum support for your favorite
+- putting your favorite first in ranked choice is only safe when your candidate is very strong or has no chance at all
+- putting your favorite first in ranked choice can cause your *least* favorite candidate to win
+- sometimes *not voting* is the best thing you can do for your candidate...
+
+with score voting systems you can never get a worse result by expressing the maximum support for your favorite
+
+---
 
 *all rank-based voting systems will have this effect*
+the spoiler effect still exists in ranked choice, **but it's more surprising and more difficult to predict**
+
+I might say that makes ranked choice *worse* than plurality, since at least plurality is still simple
 
 this effect is mathematically removed in score voting systems
 
@@ -411,7 +449,7 @@ and it has some even surprising and bizarre pathologies...
 
 ---
 
-# drop out reversal pardox
+# drop out reversal paradox
 
 | # votes | ranking |
 |---------|---------|
@@ -437,6 +475,10 @@ and it has some even surprising and bizarre pathologies...
 
 ---
 
+<!-- TODO jackie chan what? meme -->
+
+---
+
 # winner = loser paradox
 
 | # votes | ranking |
@@ -456,19 +498,25 @@ IRV contradicts itself
 
 ---
 
+<!-- TODO jackie chan what? meme -->
+
+---
+
+This topic deserves an entire talk of its own.
+
 We can argue about the finer details of Ranked Choice and if these weird pathologies are realistic or even reasonable.
 
 But certainly you have to admit they're *surprising and unintuitive*
 
 ---
 
-My bigger problem is that Ranked Choice *measures the wrong thing*.
+ranked choice *measures the wrong thing*
 
-Elections aren't some "competition".
+an election isn't a "tournament of gladiators"
 
-We're trying to make the choice that will produce the most satisfaction or happiness for the group.
+we're trying to make the choice that will produce the most satisfaction or happiness for the group
 
-We can do that very simply by using a system that *directly measures that*.
+we should use a system that *directly measures satisfaction*
 
 ---
 layout: chapter-title
@@ -480,24 +528,43 @@ layout: chapter-title
 
 <!-- approval voting and range voting, and how it's a good next step, but not good enough -->
 
-# Approval Voting is much better...
+# Approval Voting is much better!
 
 ## can always vote for all favorites
+
+*score voting systems directly measure the thing we actually care about*
 
 ![](https://i2.wp.com/californiaapproves.org/wp-content/uploads/2021/08/approval-ballot.png?fit=750%2C440&ssl=1)
 
 ---
 
-# ... but not good enough
+# more expressive forms of score voting allow a larger range
 
-## casual majorities can outvote passionate minorities
+<!-- TODO 0-10 score ballot -->
+
+---
+
+unfortunately there's a strategic incentive to "overstate" your support
+
+<!-- TODO -->
+
+---
+
+arrow theorem says it's impossible to create a voting system that is perfectly expressive and has no dishonest strategies
+
+we can only *minimize* strategy, not remove it
+
+---
+
+# score voting by itself isn't enough
+
+casual majorities can outvote passionate minorities
 
 ![](/drawing-3-casual-out-approves-passionate.png)
 
 <!-- importantly, the casual group isn't wrong or bad or irrational, they did the most rational thing from their perspective. if they slightly prefer some choice and it costs them nothing to support it, then they will -->
 
-score voting systems much more directly measure the thing we actually care about
-in contrast to ranking systems (which plurality voting is an example of) that only measure a flat contextless ranking, which is not what we want
+<!-- TODO picture where *happiness* determines the size of squares -->
 
 ---
 layout: chapter-title
@@ -507,19 +574,26 @@ layout: chapter-title
 
 ---
 
-# Resource voting systems are much better...
-
-##### can put more votes on things you care more about
+you can put more votes on things you care more about
 
 ![](/drawing-4-resource-voting.png)
 
 ---
 
-## Quadratic Voting
+# force a certain kind of strategic honesty
 
-##### Provably optimal!
+if you want to support something more, you have to support something else less
 
-it might be a good idea to blend it with other methods: "Quadratic Approval Voting"
+still strategy, but related to how "cheap" it is to cast important votes
+
+this is good! resource voting systems tend to incentivize revealing more "rare" preference information
+vote for candidates or situations where everyone else is less confident
+
+---
+
+# quadratic voting
+
+Provably optimal!
 
 | **voting credits spent** | **√** | **actual vote cast** |
 |----------------------|---|------------------|
@@ -532,9 +606,58 @@ it might be a good idea to blend it with other methods: "Quadratic Approval Voti
 
 ---
 
-## Quadratic Voting
+why quadratic?
 
-##### ... but there are still important problems
+the reasoning presented in the paper has to do with "linear cost curves"
+
+![](/linear-cost-curves.png)
+
+---
+
+I think this explanation is easier to understand (even if it isn't perfectly accurate)
+
+imagine there's a town where they've already used voting weights to decide the status quo
+assume this town has already settled into an equilibrium where everyone is satisfied enough with their allocation that they won't change it
+
+imagine this as a big tug of war where everyone is pulling on everyone else
+
+<!-- TODO picture -->
+
+---
+
+then a new person shows up! by definition whenever they allocate weights, they're pulling vote results away from what everyone else in the town wanted
+the harder you pull, the more it is an unwanted disturbance to the other voters
+if you count the number of possible relationships between all the people in this town, with `n` people it will be:
+
+```
+(n * (n - 1)) / 2
+```
+
+this number is *roughly* the size of `n²`
+"on the order of `n²`"
+
+so when you start pulling in this tug of war, the "cost" or "pain" you cause is roughly on the order of `n²`
+
+so quadratic voting is "compensating" everyone else or preventing you from pulling too hard on any one thing all by yourself
+
+---
+
+(this assumes the cost you impose increases linearly as you push linearly)
+
+<!-- TODO hand-waving pay no attention meme -->
+
+(I'd love to see more research on the nuances of this question)
+
+---
+
+quadratic voting will tend to:
+
+- encourage people to vote on more than one thing
+- choose options that genuinely have broad support
+
+---
+
+# quadratic voting still has important problems
 
 there are *savings strategies*: majorities can "bankrupt" minorities with repeated proposals
 
@@ -554,7 +677,6 @@ it's easy to flood an electorate with misinformation or propaganda in the strate
 
 this means that instead of options that have legitimate deep support in general winning, it's easy to game the system and make strategy the main decider of what happens
 
-
 ---
 layout: chapter-title
 ---
@@ -563,7 +685,7 @@ layout: chapter-title
 
 ---
 
-# Persistent Voting
+# persistent voting
 
 - resource voting system
 - voters *move around* "weights" instead of *spending* "credits"
@@ -571,11 +693,13 @@ layout: chapter-title
 - candidates can enter or exit an election at any time
 - current winner is determined by who has the most weights
 
-## could solve tons of problems!
+---
+
+# could solve tons of problems!
 
 <v-click>
 
-##### for it to work, need to:
+for it to work, need to:
 
 - prevent stress and overload
 - stabilize decisions
@@ -584,9 +708,9 @@ layout: chapter-title
 
 ---
 
-## Persistent Voting
+# persistent voting
 
-##### Update Schedule
+## update schedule
 
 it would be stressful for vote changes to be published/recalculated instantly
 
@@ -594,9 +718,9 @@ it would be stressful for vote changes to be published/recalculated instantly
 
 ---
 
-## Persistent Voting
+# persistent voting
 
-##### Update Schedule
+## update schedule
 
 publishing and recalculation should happen on a more human schedule
 
@@ -604,9 +728,9 @@ publishing and recalculation should happen on a more human schedule
 
 ---
 
-## Persistent Voting
+# persistent voting
 
-##### Stabilization
+## stabilization
 
 have to fill up a *stabilization bucket* before you actually win
 
@@ -614,7 +738,7 @@ have to fill up a *stabilization bucket* before you actually win
 
 ---
 
-## Persistent Voting
+# persistent voting
 
 <v-clicks>
 
@@ -635,9 +759,7 @@ layout: chapter-title
 
 ---
 
-<!-- talk about districts, budgets, specialized delegation weights, prioritization -->
-
-## Persistent Constitutions
+# persistent constitutions
 
 - can structure rules however voters want
 - can allow sub-constitutions for lower levels
@@ -647,9 +769,9 @@ layout: chapter-title
 
 ---
 
-## Persistent Constitutions
+# persistent constitutions
 
-##### flexible districts
+## flexible districts
 
 the borders of different districts (states, counties, cities, etc) can be chosen democratically
 
@@ -657,9 +779,9 @@ the borders of different districts (states, counties, cities, etc) can be chosen
 
 ---
 
-## Persistent Constitutions
+# persistent constitutions
 
-##### flexible districts
+## flexible districts
 
 the borders of different districts (states, counties, cities, etc) can be chosen democratically
 
@@ -667,9 +789,9 @@ the borders of different districts (states, counties, cities, etc) can be chosen
 
 ---
 
-## Persistent Constitutions
+# persistent constitutions
 
-##### flexible districts
+## flexible districts
 
 the borders of different districts (states, counties, cities, etc) can be chosen democratically
 
@@ -679,9 +801,12 @@ the borders of different districts (states, counties, cities, etc) can be chosen
 
 ---
 
-## Persistent Constitutions
+# persistent constitutions
 
-allowing constitutions to be defined democratically means the voters have *full* control. each of them can input an arbitrary amount of information into the system, since a constitutional document can define any rules imaginable
+- choosing an *entire* constitution makes it easy to choose something coherent
+- voters have *full* control over society
+- voters can input an *arbitrary* amount of information
+- elections are still not noisy
 
 ---
 layout: chapter-title
@@ -695,6 +820,8 @@ choosing the things we *don't* want to vote on
 
 the welfare consequences of most actions is hard to predict
 
+<!-- example someone wants to dig a mine in some area -->
+
 we often put these decisions to a vote or allow them be traded on markets
 
 ---
@@ -702,6 +829,8 @@ we often put these decisions to a vote or allow them be traded on markets
 occasionally we can pretty accurately predict the consequences of some actions
 
 we often don't think it would be useful to vote about these actions!
+
+<!-- example should we allow this person to be stabbed? -->
 
 if the actions are undesired, it might be because they're always negative, or they do something irreversible that we aren't sure is a good idea
 
@@ -720,319 +849,6 @@ when constitutions are defined democratically, the set of rights protected in th
 **rights are arbitrary and determined by the common preferences of the group**
 
 we can imagine crazy science fiction beings with dramatically different bodies/worlds than ours, and the rights they would define would be different!
-
----
-layout: chapter-title
----
-
-# 📖 persistent commitments
-
----
-
-## Persistent Commitments
-
-##### not all choices are reversible
-
-- budgets
-- public projects
-- court cases
-- administrative restructuring
-
-##### need to avoid deadline problems
-
----
-
-## Persistent Commitments
-
-##### basically just [Conviction Voting](https://miro.medium.com/max/1220/1*NTN1FVV6VpoxY1lR8ENY1w.jpeg)
-
-weight takes time to be fully applied, moves slowly
-
-![](/drawing-9-weight-transfer.png)
-
-<!-- ![](https://medium.com/giveth/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-aa746cfb9475) -->
-
----
-
-## Persistent Commitments
-
-![](/drawing-9-1-persistent-commitment.png)
-
----
-layout: chapter-title
----
-
-# 📖 public goods and cooperative goods
-
-things are better when we work together
-
----
-
-# public goods?
-
-classic definition
-
-|               | Excludable                                                                        | Non-Excludable                                                                                    |
-|---------------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| Rivalrous     | **Private goods**<br>food, clothing, cars, parking spaces                        | **Common-pool resources**<br>fish stocks, timber, coal, free public transport                    |
-| Non-Rivalrous | **Club goods**<br>cinemas, private parks, satellite television, public transport | **Public goods**<br>free-to-air television, air, national defense, free and open-source software |
-
----
-
-nothing is truly *non*-excludable, just impractically expensive to exclude
-both of these things are continuous dimensions rather than simple categories
-
-people argue about aspects of them all the time
-
-these are useful concepts, but I'm more interested in a more general category
-
----
-
-# cooperative goods
-
-happen when people combine their contributions into a single good and share its benefits
-
-individually their contributions would be worthless
-
-there's a "step change" at some point that makes their combined worth immense
-
-tend to be defined by *thresholds* of usefulness, situations where something is worthless if done at a smaller scale, but immensely valuable if done past a certain scale
-
----
-
-classic example is a pool
-
-- real pools are expensive
-- they're also *awesome*, especially if you live somewhere hot
-- one person doesn't use a pool much individually, so they're easy to share
-- many people can chip in a relatively small contribution
-
----
-
-each person gets more benefit than cost *because of sharing*
-
-<!-- TODO funny sharing is caring -->
-
----
-
-most public goods are also cooperative goods:
-<!-- in the sense that they *have* to be shared in order to be worth the cost -->
-
-- municipal water systems
-- public parks
-- community defense
-- environmental protection
-
-some public goods are only valuable *because* they are shared
-
-- roads
-- internet networks
-- languages
-
----
-
-some *can't* be made into club goods:
-<!-- because exclusion can't possibly be done by anything other than a government with a military -->
-
-- national parks
-- environmental protection
-
-others *shouldn't* be made into club goods:
-<!-- because there's inherent moral or societal value in giving everyone access -->
-
-- roads
-- public education
-- public parks
-- open source software
-- healthcare (hot take!!)
-
----
-
-**our society doesn't create enough cooperative goods**
-
-many more cooperative goods could be compatibly and usefully created, both public and private
-
-these cooperative goods would create immense prosperity and welfare for everyone in society
-
-these cooperative goods are missed opportunities
-
----
-
-its hard to coordinate the funding and control of cooperative goods
-
-but it doesn't have to be!
-
----
-layout: chapter-title
----
-
-# 📖 quadratic funding
-
----
-
-## Quadratic Funding
-
-##### Provably optimal!
-
-![](https://vitalik.ca/images/qv-files/quadratic_funding.png)
-
----
-
-## Quadratic Funding
-
-##### gives more money to projects with more small donors
-
-![](https://finematics.com/wp-content/uploads/2020/12/example-1024x554.png)
-
-<!-- TODO example -->
-
----
-
-## Quadratic Funding
-
-##### problems when:
-
-- matching pool isn't big enough
-- lots of spammy projects
-- it's difficult to draw a line between projects that create public good and those that don't (what happens when a large group of people try to get quadratic funding for an initiative that will only profit them?)
-
----
-layout: chapter-title
----
-
-# 📖 persistent funding
-
----
-
-## Persistent Funding
-
-Persistent Commitments + Quadratic Funding
-
-uses democratic weights make a *default* prioritization of projects
-
-persistent commitments allows the system to have *oversight*, so the quadratic matching algorithm doesn't turn into a mathematical dictator.
-the algorithm is useful but not perfect, so it's merely one input into a process that at the end of the day is purely democratic.
-
----
-
-## Persistent Funding
-
-- uses persistent commitments rounds
-- voters select a decision document
-- can remove spammy projects
-- can add extra money to the funding pool
-- can choose to fund nothing!
-
----
-
-## Persistent Funding
-
-can prioritize projects that achieve the most social good (have the most weight)<br>compared to how much they would cost to match
-
-![](/drawing-10-prioritization.png)
-
----
-layout: chapter-title
----
-
-# 📖 intellectual property and assurance contracts
-
-thinking about intellectual work as labor instead of a property right
-
----
-
-it makes sense to reward people for doing useful intellectual work
-
-but only if the benefits of that intellectual work are somehow shared with everyone
-
----
-
-our copyright and patent system gives intellectual creators monopoly over their work
-
-but intentionally only for a limited time. eventually the work becomes a pure public good
-
-the monopoly is only given in exchange for sharing the work
-
----
-
-does the concept of intellectual property best achieve our goal?
-
-we're ultimately trying to create as much general welfare as possible
-
-so we want to incentivize useful intellectual work that creates welfare
-
----
-
-in general someone will do useful intellectual work if their expected reward is greater than their perceived cost
-
-in general if we raise the expected reward even higher then more people will consider it worth doing, so the work will tend to get done faster and with higher quality
-
----
-
-notice that we only actually care about intellectual *work*
-
-it doesn't benefit society at all if people own intellectual *property*
-
-the hope of our current system is that the copyright and patent office is able to initially give deeds only to those people who have somehow made actual work happen
-
----
-
-**I think this is a pretty tenuous claim**
-
-as the value of intellectual work has done nothing but increase, I'm less and less convinced the "deeds" are ending up in the right hands
-
-<!-- TODO insulin example, other overpatenting examples -->
-
-a system of intellectual property will always more directly incentivize *holding property* rather than doing actual labor
-
-a persistently democratic society could possibly do this better, and have more oversight
-
-the common resource rights system would be another improvement
-
-but it's still always going to be tricky
-
----
-
-incentive systems that more directly reward *labor* would be better
-want to remove hangers-on the real creators have to deal with in order to gain, maintain, and enforce property rights
-
-the combination of persistent funding and something called *assurance contract* could possibly do so
-
----
-
-assurance contracts allow someone to sell intellectual work directly to society
-
-you promise to release your intellectual work freely to society if society pays you some amount
-
-can work both for projects that are finished and proposed work
-
-----
-
-when the intellectual work is *already done*:
-
-- a creator submits a description of work they've already done, sets a price, makes promises about what they've done
-- people pledge
-- if enough money is pledged then the promised work is released
-- a window where the pledgers can assert the work doesn't meet the promises, if they don't do this then the creator is given the money
-
-<!-- TODO picture -->
-
----
-
-when the intellectual work is *merely proposed*
-
-- creator submits their plan, including a monthly budget and a "prize" amount
-- people pledge
-- if enough money is pledged then the project begins, and every budget cycle the pledgers can assert the creators aren't meeting the commitments of the project plan. if they do so then the project is halted and all undisbursed money is refunded at a prorate
-- if the project runs past their budgeted plan, then the prize amount is eaten away. once the project is finished to the satisfaction of the pledgers then the prize amount is disbursed
-
-<!-- TODO picture -->
-
----
-
-persistent funding + assurance contracts = crowdfunding with democratic oversight
-
-could easily coexist with intellectual property
 
 ---
 layout: chapter-title
@@ -1209,6 +1025,347 @@ the reason this is true is because if you use a resource system you might have t
 but the important question here is: how do we determine how extreme those outer limits are? for people who aren't effected by/don't care about some decision, the outer limits are very low, and the opposite is true.
 -->
 
+---
+layout: chapter-title
+---
+
+# 📖 persistent commitments
+
+---
+
+# persistent commitments
+
+not all choices are reversible
+
+- budgets
+- public projects
+- court cases
+- administrative restructuring
+
+need to avoid deadline problems
+
+---
+
+# persistent commitments
+
+## basically just [Conviction Voting](https://miro.medium.com/max/1220/1*NTN1FVV6VpoxY1lR8ENY1w.jpeg)
+
+weight takes time to be fully applied, moves slowly
+
+![](/drawing-9-weight-transfer.png)
+
+<!-- ![](https://medium.com/giveth/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-aa746cfb9475) -->
+
+---
+
+# persistent commitments
+
+![](/drawing-9-1-persistent-commitment.png)
+
+---
+layout: chapter-title
+---
+
+# 📖 public goods and cooperative goods
+
+things are better when we work together
+
+---
+
+# public goods?
+
+classic definition
+
+|               | Excludable                                                                        | Non-Excludable                                                                                    |
+|---------------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| Rivalrous     | **Private goods**<br>food, clothing, cars, parking spaces                        | **Common-pool resources**<br>fish stocks, timber, coal, free public transport                    |
+| Non-Rivalrous | **Club goods**<br>cinemas, private parks, satellite television, public transport | **Public goods**<br>free-to-air television, air, national defense, free and open-source software |
+
+---
+
+nothing is truly *non*-excludable, just impractically expensive to exclude
+both of these things are continuous dimensions rather than simple categories
+
+people argue about aspects of them all the time
+
+these are useful concepts, but I'm more interested in a more general category
+
+---
+
+# cooperative goods
+
+happen when people combine their contributions into a single good and share its benefits
+
+individually their contributions would be worthless
+
+there's a "step change" at some point that makes their combined worth immense
+
+tend to be defined by *thresholds* of usefulness, situations where something is worthless if done at a smaller scale, but immensely valuable if done past a certain scale
+
+---
+
+classic example is a pool
+
+- real pools are expensive
+- they're also *awesome*, especially if you live somewhere hot
+- one person doesn't use a pool much individually, so they're easy to share
+- many people can chip in a relatively small contribution
+
+---
+
+each person gets more benefit than cost *because of sharing*
+
+<!-- TODO funny sharing is caring -->
+
+---
+
+most public goods are also cooperative goods:
+<!-- in the sense that they *have* to be shared in order to be worth the cost -->
+
+- municipal water systems
+- public parks
+- community defense
+- environmental protection
+
+some public goods are only valuable *because* they are shared
+
+- roads
+- internet networks
+- languages
+
+---
+
+some *can't* be made into club goods:
+<!-- because exclusion can't possibly be done by anything other than a government with a military -->
+
+- national parks
+- environmental protection
+
+others *shouldn't* be made into club goods:
+<!-- because there's inherent moral or societal value in giving everyone access -->
+
+- roads
+- public education
+- public parks
+- open source software
+- healthcare (hot take!!)
+
+---
+
+**our society doesn't create enough cooperative goods**
+
+many more cooperative goods could be compatibly and usefully created, both public and private
+
+these cooperative goods would create immense prosperity and welfare for everyone in society
+
+these cooperative goods are missed opportunities
+
+---
+
+its hard to coordinate the funding and control of cooperative goods
+
+but it doesn't have to be!
+
+---
+layout: chapter-title
+---
+
+# 📖 quadratic funding
+
+---
+
+# quadratic funding
+
+Provably optimal!
+
+![](https://vitalik.ca/images/qv-files/quadratic_funding.png)
+
+---
+
+# quadratic funding
+
+gives more money to projects with more small donors
+
+![](https://finematics.com/wp-content/uploads/2020/12/example-1024x554.png)
+
+<!-- TODO example -->
+
+---
+
+why quadratic again?
+
+it again has to do with "there are `n²` relationships in a society"
+
+---
+
+say you want some public good
+
+strict economic theory says the price you're willing to pay is only how much *you* stand to benefit
+(your willingness to pay purely self-interested)
+
+but if it's truly a public good, it will also benefit others!
+
+---
+
+the problem is that there's an incentive to "free-ride", to wait for *other* people to contribute
+
+your self-interested willingness to pay doesn't incorporate the difficulty of organizing people or the good it will do
+
+---
+
+so the quadratic matching system offers to match self-interested individual contributions *with the amount of good they'll do everyone else*
+
+more people supporting something means it will benefit everyone else more, so the match increases
+
+<!-- TODO example from radical markets -->
+
+---
+
+# quadratic funding
+
+problems when:
+
+- matching pool isn't big enough
+- lots of spammy projects
+- it's difficult to draw a line between projects that create public good and those that don't (what happens when a large group of people try to get quadratic funding for an initiative that will only profit them?)
+
+---
+layout: chapter-title
+---
+
+# 📖 persistent funding
+
+---
+
+# persistent funding
+
+Persistent Commitments + Quadratic Funding
+
+uses democratic weights make a *default* prioritization of projects
+
+persistent commitments allows the system to have *oversight*, so the quadratic matching algorithm doesn't turn into a mathematical dictator
+the algorithm is useful but not perfect, so it's merely one input into a process that at the end of the day is purely democratic
+
+---
+
+# persistent funding
+
+- uses persistent commitments rounds
+- voters select a decision document
+- can remove spammy projects
+- can add extra money to the funding pool
+- can choose to fund nothing!
+
+---
+
+# persistent funding
+
+can prioritize projects that achieve the most social good (have the most weight)<br>compared to how much they would cost to match
+
+![](/drawing-10-prioritization.png)
+
+---
+layout: chapter-title
+---
+
+# 📖 intellectual property and assurance contracts
+
+thinking about intellectual work as labor instead of a property right
+
+---
+
+it makes sense to reward people for doing useful intellectual work
+
+but only if the benefits of that intellectual work are somehow shared with everyone
+
+---
+
+our copyright and patent system gives intellectual creators monopoly over their work
+
+but intentionally only for a limited time. eventually the work becomes a pure public good
+
+the monopoly is only given in exchange for sharing the work
+
+---
+
+does the concept of intellectual property best achieve our goal?
+
+we're ultimately trying to create as much general welfare as possible
+
+so we want to incentivize useful intellectual work that creates welfare
+
+---
+
+in general someone will do useful intellectual work if their expected reward is greater than their perceived cost
+
+in general if we raise the expected reward even higher then more people will consider it worth doing, so the work will tend to get done faster and with higher quality
+
+---
+
+notice that we only actually care about intellectual *work*
+
+it doesn't benefit society at all if people own intellectual *property*
+
+the hope of our current system is that the copyright and patent office is able to initially give deeds only to those people who have somehow made actual work happen
+
+---
+
+**I think this is a pretty tenuous claim**
+
+as the value of intellectual work has done nothing but increase, I'm less and less convinced the "deeds" are ending up in the right hands
+
+<!-- TODO insulin example, other overpatenting examples -->
+
+a system of intellectual property will always more directly incentivize *holding property* rather than doing actual labor
+
+a persistently democratic society could possibly do this better, and have more oversight
+
+the common resource rights system would be another improvement
+
+but it's still always going to be tricky
+
+---
+
+incentive systems that more directly reward *labor* would be better
+want to remove hangers-on the real creators have to deal with in order to gain, maintain, and enforce property rights
+
+the combination of persistent funding and something called *assurance contract* could possibly do so
+
+---
+
+assurance contracts allow someone to sell intellectual work directly to society
+
+you promise to release your intellectual work freely to society if society pays you some amount
+
+can work both for projects that are finished and proposed work
+
+----
+
+when the intellectual work is *already done*:
+
+- a creator submits a description of work they've already done, sets a price, makes promises about what they've done
+- people pledge
+- if enough money is pledged then the promised work is released
+- a window where the pledgers can assert the work doesn't meet the promises, if they don't do this then the creator is given the money
+
+<!-- TODO picture -->
+
+---
+
+when the intellectual work is *merely proposed*
+
+- creator submits their plan, including a monthly budget and a "prize" amount
+- people pledge
+- if enough money is pledged then the project begins, and every budget cycle the pledgers can assert the creators aren't meeting the commitments of the project plan. if they do so then the project is halted and all undisbursed money is refunded at a prorate
+- if the project runs past their budgeted plan, then the prize amount is eaten away. once the project is finished to the satisfaction of the pledgers then the prize amount is disbursed
+
+<!-- TODO picture -->
+
+---
+
+persistent funding + assurance contracts = crowdfunding with democratic oversight
+
+could easily coexist with intellectual property
 
 ---
 layout: chapter-title
@@ -1233,6 +1390,12 @@ what if we lived in a world where almost all water sources were privately owned 
 can everyone equally compete in any market?
 
 such a water monopoly would amount to complete authoritarian control
+
+---
+
+this has already happened!
+
+<!-- example of aristocratic land owners -->
 
 ---
 
@@ -1362,7 +1525,7 @@ truly co-equal ownership and control of society and its resources
 
 # common resource rights
 
-## benefits
+benefits
 
 <v-clicks>
 
@@ -1609,10 +1772,10 @@ first tools, then cooperatives, then governments
 
 # persistent democracy recap
 
-- we have systems of voting that can achieve theoretically perfect accuracy
-- allow people to input as much information as they want through nomination and document elections
+- systems of voting that can achieve theoretically perfect accuracy
+- voters can give as much information as they want
 - fluidly fund arbitrary public goods
-- efficiently decide ownership of all resources in a democratic way
+- efficiently and democratically decide ownership of all resources
 
 ---
 
@@ -1625,17 +1788,18 @@ looking pretty good!
 
 # Can this be done?
 
-##### huge changes, lots of them risky
+huge changes, lots of them risky
 
 <v-clicks>
 
-#### How do you eat an elephant?
-#### One bite at a time.
+## How do you eat an elephant?
+## One bite at a time.
 
-- have to validate in low-risk contexts
-- have to build up incrementally
-- nice if experiments aren't just experiments
-- not going to wait for permission
+validate in low-risk contexts and build up incrementally
+
+nice if experiments aren't just experiments
+
+**not going to wait for permission**
 
 </v-clicks>
 
@@ -1649,26 +1813,47 @@ looking pretty good!
 
 ---
 
-## My tentative plan
+# My tentative plan
 
-#### Persistent Democracy Labs
+## Persistent Democracy Labs
 
 - evolve and prove theoretical claims
-- resolve open questions (anti-noise nomination method?)
+- resolve open questions (precise bucket scaling?)
 - study persistently democratic organizations in practice
 - build reusable tools like software and legal documents
 
 <v-click>
 
-##### need to build systems before organizations
+need to build systems before organizations
 
 </v-click>
 
 ---
 
-## My tentative plan
+a persistent voting server
 
-#### Persistently Democratic Political Party
+- create new voters
+- define elections from constitution tree
+- add new candidates to elections
+- change weight allocations and votes
+- update state according to update cycle
+
+centralized blockchain for cryptographic transparency?
+
+very early work-in-progress
+
+contribute!
+<!-- TODO github link -->
+
+---
+
+voting frontend
+
+---
+
+# My tentative plan
+
+## Persistently Democratic Political Party
 
 - members pay dues and therefore get voting weights
 - members select the constitution at all levels
@@ -1676,17 +1861,17 @@ looking pretty good!
 
 <v-click>
 
-##### easier to get going than a cooperative
+easier to get going than a cooperative
 
 </v-click>
 
 ---
 
-## My tentative plan
+# My tentative plan
 
-#### Persistently Democratic Cooperative
+## Persistently Democratic Cooperative
 
-##### this is how we really start to change things
+this is how we really start to change things
 
 <v-clicks>
 
