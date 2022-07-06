@@ -247,6 +247,22 @@ why persistent democracy is necessary
 
 ---
 
+## Mis/Disinformation
+
+["Americans agree misinformation is a problem, poll shows" - apnews.com](https://apnews.com/article/coronavirus-pandemic-technology-business-health-misinformation-fbe9d09024d7b92e1600e411d5f931dd)
+
+![](https://apnews.com/article/coronavirus-pandemic-technology-business-health-misinformation-fbe9d09024d7b92e1600e411d5f931dd/gallery/f86681ab0ef74b20b6e1b940e30ea53d)
+
+---
+
+## Bad Media Incentives
+
+["Manufacturing Consent: The Political Economy of the Mass Media"](https://en.wikipedia.org/wiki/Manufacturing_Consent)
+
+![](https://images-na.ssl-images-amazon.com/images/I/81hlE0zwKuL.jpg)
+
+---
+
 ## Institutional/Market Failure
 
 ["64% of Americans say social media have a mostly negative effect on the way things are going in the U.S. today" - pewresearch.org](https://www.pewresearch.org/fact-tank/2020/10/15/64-of-americans-say-social-media-have-a-mostly-negative-effect-on-the-way-things-are-going-in-the-u-s-today/)
@@ -265,7 +281,9 @@ why persistent democracy is necessary
 
 ## AI Safety? Regulation? Laws?
 
-<!-- TODO -->
+["AI safety technical research" - 80000hours.org](https://80000hours.org/career-reviews/ai-safety-researcher/)
+
+![](https://80000hours.org/wp-content/uploads/2021/10/41578_2018_17_Figa_HTML-1255x830.jpeg)
 
 ---
 
@@ -284,7 +302,7 @@ it's *possible* for us to agree on solutions everyone finds *tolerable*
 but the *systems* we use to make decisions are too clunky
 
 - easily captured or corrupted concentrations of power
-- don't encourage finding consensus
+- don't incentivize finding consensus
 - don't allow us to give enough information
 
 ---
@@ -675,7 +693,7 @@ and of course all voting systems have the "deadline problem"
 
 it's easy to flood an electorate with misinformation or propaganda in the strategic window right before an election deadline
 
-this means that instead of options that have legitimate deep support in general winning, it's easy to game the system and make strategy the main decider of what happens
+this means that instead of options with legitimate deep support in general winning, it's easy to game the system and make strategy the main decider of what happens
 
 ---
 layout: chapter-title
@@ -832,7 +850,7 @@ we often don't think it would be useful to vote about these actions!
 
 <!-- example should we allow this person to be stabbed? -->
 
-if the actions are undesired, it might be because they're always negative, or they do something irreversible that we aren't sure is a good idea
+if the actions are undesired, it might be because they're always negative, or they do something irreversible we aren't sure is a good idea
 
 ---
 
@@ -908,7 +926,7 @@ great for choosing between options that are *unlikely to be equivalent*
 
 (choosing between incomparable or "apples and oranges" things)
 
-<!-- a big part of the reason quadratic voting is so useful is that it compensates for this kind of accuracy dilution by making splitting resources less truly costly -->
+<!-- a big part of the reason quadratic voting is so useful is it compensates for this kind of accuracy dilution by making splitting resources less truly costly -->
 
 ---
 
@@ -991,7 +1009,7 @@ should be possible for genuinely good options to *gradually* gain attention. onc
 
 ---
 
-the power of nomination buckets it that it's *always possible* for even an obscure choice to gain mainstream attention
+the power of nomination buckets: it's *always possible* for even an obscure choice to gain mainstream attention
 
 it just might take a while!
 
@@ -1152,7 +1170,7 @@ others *shouldn't* be made into club goods:
 
 ---
 
-**our society doesn't create enough cooperative goods**
+# our society doesn't create enough cooperative goods
 
 many more cooperative goods could be compatibly and usefully created, both public and private
 
@@ -1397,6 +1415,12 @@ this has already happened!
 
 <!-- example of aristocratic land owners -->
 
+market competition doesn't incentivize a cartel to be fair
+
+*why compete for the business of those who have nothing of value?*
+
+"class oligopoly" removes the bottom rungs from the social ladder
+
 ---
 
 # [fundamental theorems of welfare economics](https://en.wikipedia.org/wiki/Fundamental_theorems_of_welfare_economics)
@@ -1407,11 +1431,32 @@ this has already happened!
 
 efficient competition is impossible in the presence of monopolies
 
-(even perfectly efficient competition doesn't imply a truly ethical situation)
+---
+
+even perfectly efficient competition doesn't imply a truly ethical situation!
+
+the theorems of welfare economics, even when satisfied, only guarantee *Pareto efficiency*
+
+all actors will trade until none want to make any further trades
+(any trade they could make would only make them value their situation less)
+
+this includes situations where a large group of actors have *nothing of value to trade*
+
+since they have nothing to trade, those who *do* won't trade with them!
+
+they will always continue to have nothing, even with perfect competition
 
 ---
 
-what is necessary for a society to *truly* say that all beings within it have equal capacity to pursue their welfare?
+a large group of people can deeply value something
+
+but if they don't have something of sufficient value to trade to the owner, who might only value it *a tiny bit*, a trade that *on net* would make the group much happier won't happen
+
+in other words, a perfectly efficient market still isn't *welfare optimal*
+
+---
+
+what is necessary for a society to *truly* say all beings within it have equal capacity to pursue their welfare?
 
 all beings must have equal capacity for *ownership and control* of society and all resources
 
@@ -1423,7 +1468,7 @@ but at the same time...
 
 it's impossible for us to simply "calculate" how much everyone should have, since different people want different things
 
-this is the thing (possibly the only thing) that markets are useful for, distributing resources when different people value different things
+this is the thing (possibly the only thing) markets are useful for, distributing resources when different people value different things
 
 ---
 
@@ -1581,7 +1626,9 @@ want to mine an asteroid?
 
 right now it's valued at $0, so you can claim it, state a valuation and begin paying taxes
 
-do we as a society want to prevent mining or development on the moon? we can mark that area as protected in the district constitution
+do we as a society want to prevent mining or development on the moon?
+
+we can mark that area as protected in the district constitution
 
 ---
 
@@ -1600,7 +1647,7 @@ common resource rights *possibly* create a provably welfare optimal system
 
 libertarian ideology is very inconsistent and lacks rigor
 libertarian ideology *reinforces* cumulative advantage and wealth ratchets, which are provably incompatible with efficient markets
-seems to be a hodge-podge of beliefs that conveniently benefits groups that have already amassed substantial property and wealth
+seems to be a hodge-podge of beliefs that conveniently benefits groups who already have substantial property and wealth
 
 I intend to crate a talk about "the myths of libertarianism"
 
@@ -1704,7 +1751,7 @@ what if persistent democracy didn't *expand*, but simply *merged*?
 two societies can merge if and only if:
 
 - they have both *already* implemented persistent democracy, and both are broadly compatible (both have top level constitutions)
-- each has performed a recent commitment to choose inspectors to investigate that the other society has implemented persistent democracy honestly (a dictator isn't just pretending to have implemented it) and compatibly (should be easier with open source technology and practices)
+- each has performed a recent commitment to choose inspectors to investigate the other society has implemented persistent democracy honestly (a dictator isn't just pretending to have implemented it) and compatibly (should be easier with open source technology and practices)
 
 ---
 
@@ -1723,7 +1770,7 @@ so you haven't really implemented persistent democracy if you can refuse a merge
 
 ---
 
-it's important that this process isn't framed as one entity annexing another, but two co-equals deciding to join together
+it's important this process isn't framed as one entity annexing another, but two co-equals deciding to join together
 
 if a society wants to become a part of another persistently democratic one, they first have to become persistently democratic themselves
 
@@ -1830,7 +1877,7 @@ need to build systems before organizations
 
 ---
 
-a persistent voting server
+persistent voting server
 
 - create new voters
 - define elections from constitution tree
@@ -1840,14 +1887,26 @@ a persistent voting server
 
 centralized blockchain for cryptographic transparency?
 
-very early work-in-progress
+basically nothing there yet, but here's where the work *will* be
 
 contribute!
 <!-- TODO github link -->
 
 ---
 
-voting frontend
+persistent voting frontend
+
+lots of interesting UI design questions
+
+---
+
+Magmide?
+
+---
+
+computable governance language?
+
+https://github.com/blainehansen/hopeful-pathway/blob/main/book:next/computable-governance-code.md
 
 ---
 
@@ -1871,7 +1930,7 @@ easier to get going than a cooperative
 
 ## Persistently Democratic Cooperative
 
-this is how we really start to change things
+cooperatives are the way we can **really** change things
 
 <v-clicks>
 
@@ -1890,15 +1949,13 @@ layout: chapter-title
 
 <!-- the way the whole economy should be structured. democracy + markets, just the good parts. talk about history of cooperatives and why they haven't lived up to their full potential because of inefficient voting systems and seemingly intentional honey pot regulation. hint at the things we could cooperativize -->
 
-cooperatives only have one big disadvantage, and only in an inefficiently profit-focused economy like ours: comparative difficulty raising *startup* capital. once a cooperative is operating at scale it can much more plausibly fund initiatives with saved capital from members or even through debt financing. but when it's very small that isn't as true. 
-in an economy/society like ours where profit-seekers control almost all of the capital and only wish to deploy that capital to seek further profits (rather than creating true market value in the form of consumer surplus or prosperity or progress) it will be difficult to get some of that capital to create cooperatives that could out-compete profit-seeking companies.
-it seems fairly obvious to me this isn't an *inherent* structural disadvantage of the cooperative model, but one that only exists in societies like ours that don't properly tax property and don't properly provision public goods. in a society that properly provisions public goods and prevents property-based wealth ratchet, there will be lots of capital in public hands ready to use to create new startup cooperatives, for example using something like persistent funding.
+big change without waiting for permission
 
-cooperative bonds? what are the regulatory difficulties in raising debt capital?
+---
 
-#### Persistently Democratic Cooperative
+# Persistently Democratic Cooperative
 
-##### Cooperative?
+Cooperative?
 
 <v-clicks>
 
@@ -1910,17 +1967,152 @@ cooperative bonds? what are the regulatory difficulties in raising debt capital?
 
 ---
 
-#### Persistently Democratic Cooperative
+# cooperatives are private companies owned by their members
 
-- journalism and news media?
-- social media?
-- cloud computing?
-- ecommerce?
-- media streaming?
-- internet service?
-- manufacturing?
+cooperatives are powerful *because* they're owned by members
 
-- surveillance and recommender systems. the social problems created by large tech firms, especially those related to media and information, have become pressing and obvious. many people discuss how to solve these problems by somehow reforming the companies or regulations, but I think the *real* solution to these problems is quite obvious, cooperative ownership. the real problem at the heart of problematic companies of all kinds (not only tech companies) is that the incentives of the companies aren't aligned with those of their customers or society at large. cooperative ownership directly solves the problem of alignment with customers (since they are the owning decision-makers), and obliquely solves the problem of alignment with society since membership in a cooperative is open.
+aligns incentives of organization with incentives of members
+
+removes antagonistic relationship between producer and consumer
+
+---
+
+# cooperatives are private companies owned by their members
+
+allows members to benefit from vertical integration
+
+<v-clicks>
+
+if a company is democratically owned and has open membership, is it even *possible* for it to be defined as a monopoly?
+
+**especially in a world with common resource rights!!**
+
+</v-clicks>
+
+---
+
+# cooperatives are a proven model
+
+<v-clicks>
+
+- credit unions
+- rural electrification
+
+works for profit-seeking companies!
+
+- vanguard mutual fund
+- sunkist
+- ocean spray
+- land o'lakes
+- best western
+- the associated press
+- welch's
+- western family
+
+historically
+
+- visa ([IPO in 2008](https://www.reuters.com/article/ousivMolt/idUSN0938404720071109?pageNumber=1)) (visa europe is still a cooperative)
+- new york stock exchange ([IPO in 2006](https://www.nyse.com/history-of-nyse))
+
+<v-clicks>
+
+---
+
+# haven't lived up to their potential
+
+- every organization has principal-agent problems
+- democratic organizations have had them more because of inefficient democratic systems
+
+persistent democracy could solve that
+
+---
+
+# startup capital disadvantage
+
+only in profit-focused economies like ours
+
+if most capital is held by profit seekers, most capital will be deployed for profit seeking
+
+fine once operating at scale
+
+wouldn't be a problem in a society with effective public goods systems
+
+<!--
+cooperatives only have one big disadvantage, and only in an inefficiently profit-focused economy like ours: comparative difficulty raising *startup* capital. once a cooperative is operating at scale it can much more plausibly fund initiatives with saved capital from members or even through debt financing. but when it's very small that isn't as true.
+in an economy/society like ours where profit-seekers control almost all of the capital and only wish to deploy that capital to seek further profits (rather than creating true market value in the form of consumer surplus or prosperity or progress) it will be difficult to get some of that capital to create cooperatives that could out-compete profit-seeking companies.
+it seems fairly obvious to me this isn't an *inherent* structural disadvantage of the cooperative model, but one that only exists in societies like ours that don't properly tax property and don't properly provision public goods. in a society that properly provisions public goods and prevents property-based wealth ratchet, there will be lots of capital in public hands ready to use to create new startup cooperatives, for example using something like persistent funding.
+
+cooperative bonds? what are the regulatory difficulties in raising debt capital?
+-->
+
+---
+
+# Persistently Democratic Cooperative
+
+- "startup energy", tech forward
+- aggressively innovative
+- aggressively expansionary
+- begin with online credit union?
+
+---
+
+# journalism and news media
+
+have no reason to be concerned with audience welfare
+
+real customers are advertisers
+
+coverage will *never* align with audience
+
+cooperative ownership solves that problem
+
+---
+
+# social media
+
+have no reason to be concerned with user welfare
+
+real customers are advertisers
+
+algorithms and governance will *never* align with users
+
+cooperative ownership solves that problem
+
+<!--
+surveillance and recommender systems. the social problems created by large tech firms, especially those related to media and information, have become pressing and obvious. many people discuss how to solve these problems by somehow reforming the companies or regulations, but I think the *real* solution to these problems is quite obvious, cooperative ownership. the real problem at the heart of problematic companies of all kinds (not only tech companies) is the incentives of the companies aren't aligned with those of their customers or society at large. cooperative ownership directly solves the problem of alignment with customers (since they are the owning decision-makers), and obliquely solves the problem of alignment with society since membership in a cooperative is open.
+-->
+
+---
+
+# grocery stores/junk food producers
+
+have no reason to be concerned with customer welfare
+
+no reason not to leverage psychological weaknesses
+
+cooperative ownership solves that problem
+
+---
+
+# planned obsolescence
+
+have no reason to be concerned about waste and annoyance
+
+no reason not to leverage bias for convenience and market powerlessness
+
+cooperative ownership solves that problem
+
+---
+
+# internet service providers
+
+networks naturally form geographic monopolies
+
+companies capture local government officials/contracts
+
+no reason to be concerned with customer satisfaction
+
+cooperative ownership solves that problem
 
 ---
 layout: chapter-title
@@ -1958,7 +2150,7 @@ most big problems require big coordination
 </v-click>
 
 <!--  
-it's pretty obvious that most global health and development problems are really just examples of coordination failure and resource inequality, and it should be pretty obvious that the only truly robust and scalable solutions to those problems are ones that allow the effected people to coordinate to solve the problems themselves.
+it's pretty obvious most global health and development problems are really just examples of coordination failure and resource inequality, and it should be pretty obvious the only truly robust and scalable solutions to those problems are ones that allow the effected people to coordinate to solve the problems themselves.
 
 pretty obvious relationship, these all require global coordination and new public goods
 
@@ -1989,7 +2181,7 @@ persistent constitutions and common resource rights could very plausibly govern 
 - scaled cooperatives are self-sustaining
 
 <!-- 
-cooperatives have the potential to indirectly solve many other societal problems. wealth inequality and corporate misalignment have many knock-on effects in terms of how they negatively impact culture and deliberation and values and global health. for example, a facet of problems like obesity is the fact that food manufacturers have misaligned incentives.
+cooperatives have the potential to indirectly solve many other societal problems. wealth inequality and corporate misalignment have many knock-on effects in terms of how they negatively impact culture and deliberation and values and global health. for example, a facet of problems like obesity is the fact food manufacturers have misaligned incentives.
 
 this is where EA organizations (or any altruistic organizations) have the opportunity to step in. if we can get a critical mass of cooperatives to the point where they're operating at scale, then we can be fairly confident they can take it from there. this means grants or low or zero interest loans to scaling cooperatives is a very good impact investment
 in general I think persistent democracy is a very convincing EA initiative. EA has generally centered around utilitarian ethics and a desire to maximize welfare, and I can think of few better ways to do so than to improve coordination efficiency in a way that allows any person to fairly express their preferences.
@@ -2022,7 +2214,7 @@ I'd love to do so in the context of a "startup-energy" cooperative
 
 ---
 
-- legal advice (formation of organizations)
+- legal advisors (formation of organizations)
 - academics (do fundamental research)
 - software engineers (help build software tools)
 - communicators (improve my explanations)
