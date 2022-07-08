@@ -2,12 +2,12 @@
 	"name": "persistent-democracy-talk",
 	"private": true,
 	"scripts": {
+		"democracy-dev": "slidev talk.democracy/test.md --open",
 		"democracy-build": "slidev build talk.democracy/slides.md",
-		"democracy-dev": "slidev talk.democracy/slides.md",
 		"democracy-export": "slidev export --with-clicks talk.democracy/slides.md",
 
+		"theory-dev": "slidev talk.theory/slides.md --open",
 		"theory-build": "slidev build talk.theory/slides.md",
-		"theory-dev": "slidev talk.theory/slides.md",
 		"theory-export": "slidev export --with-clicks talk.theory/slides.md"
 	},
 	"dependencies": {

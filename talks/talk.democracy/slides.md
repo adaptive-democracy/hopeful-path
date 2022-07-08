@@ -1,5 +1,5 @@
 ---
-theme: apple-basic
+theme: ./
 highlighter: prism
 lineNumbers: false
 drawings:
