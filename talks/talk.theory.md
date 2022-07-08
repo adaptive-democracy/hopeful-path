@@ -1,10 +1,10 @@
 ---
 theme: apple-basic
-# class: text-center
 highlighter: prism
 lineNumbers: false
 drawings:
   persist: false
+layout: cover
 ---
 
 # Persistent Democracy

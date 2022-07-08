@@ -1,0 +1,68 @@
+/* small chapter marker  */
+/*.chapter-marker {
+	@apply absolute top-2 right-2 !m-0 text-gray-500;
+	opacity: 0.5;
+}*/
+
+
+.slidev-layout.cover {
+	@apply h-full grid;
+
+	h1 {
+		@apply text-7xl font-700 leading-20;
+	}
+
+	h1 + p {
+		@apply text-5xl font-thin;
+	}
+}
+
+.slidev-layout {
+	ul, h2 {
+		@apply mt-2 !important;
+	}
+
+	ul {
+		@apply text-2xl;
+	}
+
+	li > ul {
+		@apply !mt-0;
+	}
+
+	img {
+		max-height: 38vh;
+		@apply mx-auto;
+	}
+
+	/* banner */
+	h1 {
+		@apply text-7xl;
+	}
+
+	/* title  */
+	h2 {
+		@apply text-3xl;
+	}
+
+	/* h3 is too broken */
+	h3 {
+		/*  */
+	}
+
+	/* subtitle */
+	h4 {
+		@apply text-5xl !font-light my-5;
+	}
+
+	/* subtitle */
+	h5 {
+		@apply text-2xl !font-light my-3;
+	}
+
+	:not(pre) > code::before, :not(pre) > code::after {
+		content: '';
+		opacity: inherit;
+		@apply px-1;
+	}
+}

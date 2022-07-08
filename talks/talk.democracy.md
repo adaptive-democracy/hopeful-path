@@ -1,5 +1,5 @@
 ---
-theme: ./
+theme: apple-basic
 highlighter: prism
 lineNumbers: false
 drawings:
@@ -20,7 +20,7 @@ things will be a little different in the theory theme?
 
 # Persistent Democracy
 
-## The governmental structure<br>that can fix...<br>everything?
+The governmental structure<br>that can fix...<br>everything?
 
 <!-- My best bet for how we can fix everything. -->
 
@@ -2014,7 +2014,7 @@ historically
 - visa ([IPO in 2008](https://www.reuters.com/article/ousivMolt/idUSN0938404720071109?pageNumber=1)) (visa europe is still a cooperative)
 - new york stock exchange ([IPO in 2006](https://www.nyse.com/history-of-nyse))
 
-<v-clicks>
+</v-clicks>
 
 ---
 
