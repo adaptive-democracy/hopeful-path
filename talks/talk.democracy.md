@@ -120,8 +120,6 @@ and they're all related to coordination failure
 layout: statement
 ---
 
-<!-- TODO put slides about problems here, add our poor pandemic response and probability of future pandemics, democratic gridlock -->
-
 # humanity has some<br>huge problems ahead
 
 ---
@@ -256,7 +254,9 @@ layout: statement
 
 ## global poverty
 
-<!-- TODO -->
+["Global Extreme Poverty" - ourworldindata.org](https://ourworldindata.org/extreme-poverty)
+
+![](https://ourworldindata.org/exports/share-of-population-in-extreme-poverty-b7667908561ac6deaf8953961733ffc8_v15_850x600.svg)
 
 ---
 
@@ -439,114 +439,16 @@ layout: statement
 
 seems better at first...
 
----
-
-## Ranked Choice still has spoiler effect
-
-<!-- https://www.rangevoting.org/IrvPathologySurvey.html -->
-
-<!-- TODO pictures -->
-
----
-
-# Ranked Choice has nasty *surprises*
-
-- putting your favorite first in ranked choice is only safe when your candidate is very strong or has no chance at all
-- putting your favorite first in ranked choice can cause your *least* favorite candidate to win
-- sometimes *not voting* is the best thing you can do for your candidate...
-
-with score voting systems you can never get a worse result by expressing the maximum support for your favorite
+- still has spoiler effect
+- lots of other weird pathologies
+  - winner = loser paradox
+  - drop out reversal paradox
+  - violates later-no-harm criterion
+- generally subtle and confusing and surprising
 
 ---
 
-# rank-based voting systems<br>will *always* have the spoiler effect
-
-the spoiler effect still exists in ranked choice, **but it's more surprising and more difficult to predict**
-
-I might say that makes ranked choice *worse* than plurality, since at least plurality is still simple
-
-this effect is mathematically removed in score voting systems
-
-and it has some even surprising and bizarre pathologies...
-
----
-layout: two-cols
-class: dense
----
-
-# drop out reversal paradox
-
-::left::
-
-| # votes | ranking |
-|---------|---------|
-| 3       | A>D>C>B |
-| 3       | B>D>C>A |
-| 2       | C>D>A>B |
-| 2       | D>A>B>C |
-| 1       | A>C>B>D |
-| 1       | B>C>D>A |
-| 1       | C>B>D>A |
-| 1       | C>D>B>A |
-| 1       | D>B>C>A |
-
-::right::
-
-- A wins this election. (First D is eliminated, then C, then B.)
-
-<!-- Thus IRV is saying that A is the best candidate, followed by B, C, and D in that order. -->
-
-- Suppose C drops out. Now the results are completely reversed: D wins, followed by B and A.
-- If B drops out, then D wins, followed by C and A.
-- If A drops out, then D wins, followed by C and B.
-
-<!-- In short, Instant Runoff says A>B>C>D – but if anybody besides D drops out, then it orders the candidates in exactly reversed order. IRV can say somebody is the best candidate, then turn around and say that same person is the worst. It must have been wrong at least one of those times. And the consequence can be that we elect the worst instead of the best candidate, which is very bad news for your country. -->
-
----
-
-<!-- TODO jackie chan what? meme -->
-
----
-layout: two-cols
-class: dense
----
-
-# winner = loser paradox
-
-::left::
-
-| # votes | ranking |
-|---------|---------|
-| 9       | B>C>A   |
-| 8       | A>B>C   |
-| 7       | C>A>B   |
-
-::right::
-
-- A wins after the IRV process eliminates C
-- If every voter reverses their preference order A still wins after B is eliminated!
-
-<!-- (i.e. they are now attempting to choose the worst candidate rather than the best). -->
-
-IRV contradicts itself
-
-<!-- IRV's unambiguously "best" candidate A is here the same as its "worst"! (Such embarrassing winner=loser reversal failures are, however, never exhibited in range, approval, Borda, Tideman Ranked Pairs, or Schulze beatpath voting, all of which are logically self-consistent in this respect.) -->
-
----
-
-<!-- TODO jackie chan what? meme -->
-
----
-
-# this deserves an entire talk
-
-we can argue about the finer details of Ranked Choice and if these weird pathologies are realistic or even reasonable
-
-but you certainly have to admit they're *surprising and unintuitive*
-
----
-
-# Ranked Choice<br>*measures the wrong thing*
+## Ranked Choice *measures the wrong thing*
 
 elections aren't "tournaments of gladiators"
 
@@ -560,9 +462,9 @@ layout: chapter-title
 
 # 📖 score voting systems
 
----
+directly measure satisfaction
 
-<!-- approval voting and range voting, and how it's a good next step, but not good enough -->
+---
 
 ## Approval Voting is much better!
 
@@ -572,15 +474,15 @@ can always vote for all favorites
 
 ---
 
-## more expressive forms of score voting allow a larger range
+## more expressive forms allow a larger range
 
-<!-- TODO 0-10 score ballot -->
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Completed_Score_Voting_Ballot_version2.png/400px-Completed_Score_Voting_Ballot_version2.png)
 
 ---
 
-## strategic incentive to "overstate" your support
+## strategic incentive to "min/max" scores
 
-<!-- TODO -->
+doesn't cost you anything...
 
 ---
 
@@ -612,7 +514,7 @@ casual majorities can outvote passionate minorities
 
 casual majorities can outvote passionate minorities
 
-<!-- TODO picture where *happiness* determines the size of squares -->
+![](/drawing-3-casual-out-approves-passionate-points.png)
 
 ---
 layout: chapter-title
@@ -663,40 +565,45 @@ paper has to do with "linear cost curves"
 
 ---
 
-## think of a tug-of-war
+## imagine a voting tug-of-war
 
-imagine there's a town where they've already used voting weights to decide the status quo
+<!-- imagine there's a town where they've already used voting weights to decide the status quo -->
 
-assume this town has already settled into an equilibrium where everyone is satisfied enough with their allocation that they won't change it
+<!-- assume this town has already settled into an equilibrium where everyone is satisfied enough with their allocation that they won't change it -->
 
-imagine this as a big tug of war where everyone is pulling on everyone else
+<!-- imagine this as a big tug of war where everyone is pulling on everyone else -->
 
-<!-- TODO picture -->
+![](/drawing-4-tug-of-war.png)
 
----
+<v-click>
 
-then a new person shows up! by definition whenever they allocate weights, they're pulling vote results away from what everyone else in the town wanted
-the harder you pull, the more it is an unwanted disturbance to the other voters
-if you count the number of possible relationships between all the people in this town, with `n` people it will be:
+roughly `n²` possible relationships between `n` people
 
-```
-(n * (n - 1)) / 2
-```
-
-this number is *roughly* the size of `n²`
-"on the order of `n²`"
-
-so when you start pulling in this tug of war, the "cost" or "pain" you cause is roughly on the order of `n²`
-
-so quadratic voting is "compensating" everyone else or preventing you from pulling too hard on any one thing all by yourself
+</v-click>
 
 ---
 
-(this assumes the cost you impose increases linearly as you push linearly)
+<!-- then a new person shows up! by definition whenever they allocate weights, they're pulling vote results away from what everyone else in the town wanted -->
+<!-- the harder you pull, the more it is an unwanted disturbance to the other voters -->
+<!-- if you count the number of possible relationships between all the people in this town, with `n` people it will be: -->
 
-<!-- TODO hand-waving pay no attention meme -->
+## pulling harder causes "pain" of roughly `n²`
 
-(I'd love to see more research on the nuances of this question)
+`(n * (n - 1)) / 2` to be exact
+
+quadratic voting "compensates" everyone else for your vote
+
+---
+
+*(this assumes the cost you impose increases linearly as you push linearly)*
+
+*(I'd love to see more research on the nuances of this question)*
+
+<v-click>
+
+![](https://thumbs.gfycat.com/ActiveAntiqueLemming-size_restricted.gif)
+
+</v-click>
 
 ---
 
@@ -947,10 +854,6 @@ great for choosing between options that can *possibly be equivalent*
 
 ---
 
-<!-- TODO picture showing possibly equivalent options and accuracy to human preferences -->
-
----
-
 # score voting systems
 
 *not* great at:
@@ -975,10 +878,6 @@ great for choosing between options that are *unlikely to be equivalent*
 <!-- (if allocations are given as rational numbers composed of infinite integers, which all must sum to less than 1) -->
 
 <!-- a big part of the reason quadratic voting is so useful is it compensates for this kind of accuracy dilution by making splitting resources less truly costly -->
-
----
-
-<!-- TODO picture showing incomparable options and how you would divide weights  -->
 
 ---
 
@@ -1014,7 +913,9 @@ great for choosing between options that are *unlikely to be equivalent*
 
 ---
 
-<!-- TODO picture showing three example voters for an election, with negative/positive, positive, negative ballots, and different weights on each -->
+## quadratic range voting
+
+![](/drawing-quadratic-range-voting.png)
 
 ---
 
@@ -1198,7 +1099,7 @@ tend to have "thresholds" of usefulness
 
 ## each person gets more benefit than cost *because of sharing*
 
-<!-- TODO funny sharing is caring -->
+![](https://memegenerator.net/img/instances/62552873.jpg)
 
 ---
 
@@ -1285,7 +1186,11 @@ gives more money to projects with more small donors
 
 # quadratic funding
 
-<!-- TODO example -->
+|            | Alice | Betty | Charlie | Dave | *total* | *sum squares squared* | **match** |
+|------------|-------|-------|---------|------|---------|-----------------------|-----------|
+| cell tower | $10   |       |         |      | *$10*   | *$10*                 | **$0**    |
+| playground |       | $2    | $4      | $2   | *$8*    | *$16*                 | **$8**    |
+| theater    |       | $4    | $9      |      | *$13*   | *$25*                 | **$12**   |
 
 ---
 
@@ -1299,19 +1204,17 @@ incentive to "free-ride", to wait for *other* people to contribute
 
 <v-click>
 
-but public goods also benefit others!
+public goods also benefit others!
 
 </v-click>
 
 ---
 
-## self-interested contributions for group-interest goods
+## self-interested contributions for group-interested goods?
 
 matches self-interested contributions *according to expected public benefit*
 
 more contributions = more expected public benefit
-
-<!-- TODO example from radical markets -->
 
 ---
 
@@ -1418,9 +1321,11 @@ layout: statement
 
 ---
 
-## easy to abuse
+# easy to abuse
 
-<!-- TODO picture of insulin scientist, story -->
+![](https://penntoday.upenn.edu/sites/default/files/2021-07/Insulin%20at%20100-Banting-Best-2.jpg)
+
+<!-- Charles Best and Frederick Banting (James Collip) (J.R.R. McLeod) -->
 
 ---
 
@@ -1450,27 +1355,41 @@ promise to release work freely if you're paid some amount
 
 useful for both finished and merely proposed work
 
-----
+---
+layout: two-cols
+---
 
-# finished work
+## finished work
+
+::left::
 
 - creator submits description, price, promises
 - people pledge
 - promised work is released if enough money is pledged
 - "accountability window" where pledgers can assert the work doesn't meet the promises
 
-<!-- TODO picture -->
+::right::
+
+![](/drawing-assurance-contract-finished-work.png)
 
 ---
+layout: two-cols
+class: dense
+---
 
-# proposed work
+## proposed work
 
-- creator submits their plan, including a monthly budget and a "prize" amount
+::left::
+
+- creator submits plan, including monthly budget and "prize" amount
 - people pledge
-- if enough money is pledged then the project begins, and every budget cycle the pledgers can assert the creators aren't meeting the commitments of the project plan. if they do so then the project is halted and all undisbursed money is refunded at a prorate
-- if the project runs past their budgeted plan, then the prize amount is eaten away. once the project is finished to the satisfaction of the pledgers then the prize amount is disbursed
+- project begins when budget and prize amount are raised
+- every budget cycle pledgers can assert creator isn't meeting commitments
+- creator is given whatever budget and prize remains after pledgers assert project is done
 
-<!-- TODO picture -->
+::right::
+
+![](/drawing-assurance-contract-proposed-work.png)
 
 ---
 layout: statement
@@ -1501,8 +1420,6 @@ can everyone equally compete in any market?
 water monopoly = complete authoritarian control
 
 </v-clicks>
-
-<!-- if someone is born into a world where some small group owns almost all of a critical resource, and that ownership is unconditionally enforced, then is that society one where it is even *plausible* to say that all beings can equally pursue their individual welfare? -->
 
 ---
 
@@ -1551,18 +1468,18 @@ all actors will trade until none mutually agree on further trades
 </v-clicks>
 
 ---
+layout: two-cols
+---
 
 # the lazy monopolist
 
-trade doesn't balance relative valuations
+::left::
 
-<!-- TODO picture
-a large group of people can deeply value something
-but if they don't have something of sufficient value to trade to the owner, who might only value it *a tiny bit*, a trade that *on net* would make the group much happier won't happen
+mere trade doesn't balance relative valuations
 
-purple actor wants the purple good, which is entertainment, and gets a tiny bit of entertainment from his vast fountains and lakes
-millions of blue actors want the blue good, which is water, which they desperately need, they value it much more highly than purple actor
--->
+::right::
+
+![](/drawing-lazy-monopolist.png)
 
 ---
 layout: statement
@@ -1964,10 +1881,13 @@ first tools, then cooperatives, then governments
 - fluidly fund arbitrary public goods
 - efficiently and democratically decide ownership of all resources
 
----
+<v-click>
 
-## looking pretty good!
-<!-- TODO internet thumbs up kid -->
+## pretty good!
+
+![](https://c.tenor.com/A-ozELwp694AAAAM/thumbs-thumbs-up-kid.gif)
+
+</v-click>
 
 ---
 
