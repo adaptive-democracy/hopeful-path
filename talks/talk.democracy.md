@@ -117,12 +117,6 @@ and they're all related to coordination failure
 </v-clicks>
 
 ---
-layout: statement
----
-
-# humanity has some<br>huge problems ahead
-
----
 
 ## climate change
 
@@ -386,15 +380,13 @@ toxin or cancer?
 
 (also called choose-one, first-past-the-post, etc)
 
-</v-clicks>
-
----
-
-# democracy ≠ Plurality Voting
+## democracy ≠ Plurality Voting
 
 if we're trying to make a functional and prosperous democracy
 
 we're using the wrong tools
+
+</v-clicks>
 
 ---
 
@@ -403,13 +395,6 @@ we're using the wrong tools
 irrational outcomes with 3+ options
 
 ![](https://d3n8a8pro7vhmx.cloudfront.net/ucer/pages/16/attachments/original/1613055360/SpoilerEffect.jpg?1613055360)
-
----
-
-# there are other problems
-
-- least amount of information from voters!
-- can't solve "meta" voting problems (who gets on the ballot?)
 
 ---
 
@@ -422,20 +407,27 @@ incentivizes enforcement of two party system
 <!-- ![](https://unsplitthevote.org/wp-content/uploads/2019/04/plurality-voting_vote-splitting_cycle_yellow.png) -->
 
 ---
+
+# there are other problems
+
+- least amount of information from voters!
+- can't solve "meta" voting problems (who gets on the ballot?)
+
+---
 layout: statement
 ---
 
-<v-clicks>
-
 ## Plurality Voting is awful *because*<br>of its mathematical structure
+
+<v-click>
 
 ## structure = function
 
-</v-clicks>
+</v-click>
 
 ---
 
-# Ranked Choice?
+# ranked choice?
 
 seems better at first...
 
@@ -448,7 +440,7 @@ seems better at first...
 
 ---
 
-## Ranked Choice *measures the wrong thing*
+## ranked choice measures the wrong thing
 
 elections aren't "tournaments of gladiators"
 
@@ -474,7 +466,7 @@ can always vote for all favorites
 
 ---
 
-## more expressive forms allow a larger range
+## can use larger range
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Completed_Score_Voting_Ballot_version2.png/400px-Completed_Score_Voting_Ballot_version2.png)
 
@@ -559,7 +551,7 @@ provably optimal!
 
 ## why square root?
 
-paper has to do with "linear cost curves"
+has to do with "linear cost curves"
 
 ![](/linear-cost-curves.png)
 
@@ -582,6 +574,8 @@ roughly `n²` possible relationships between `n` people
 </v-click>
 
 ---
+class: small-image
+---
 
 <!-- then a new person shows up! by definition whenever they allocate weights, they're pulling vote results away from what everyone else in the town wanted -->
 <!-- the harder you pull, the more it is an unwanted disturbance to the other voters -->
@@ -593,17 +587,15 @@ roughly `n²` possible relationships between `n` people
 
 quadratic voting "compensates" everyone else for your vote
 
----
+<v-clicks>
 
-*(this assumes the cost you impose increases linearly as you push linearly)*
+*(assumes pain increases linearly as you pull linearly)*
 
-*(I'd love to see more research on the nuances of this question)*
-
-<v-click>
+*(love to see more research on nuances)*
 
 ![](https://thumbs.gfycat.com/ActiveAntiqueLemming-size_restricted.gif)
 
-</v-click>
+</v-clicks>
 
 ---
 
@@ -906,7 +898,6 @@ great for choosing between options that are *unlikely to be equivalent*
 
 # quadratic range voting
 
-- election between A, B, C, D
 - if you approve of some candidates, use weights to place a *positive* ballot
 - if you disapprove of others, use *separate* weights to place a *negative* ballot
 - number of weights multiplies scores
@@ -1202,19 +1193,17 @@ your willing price roughly equals your expected benefit
 
 incentive to "free-ride", to wait for *other* people to contribute
 
-<v-click>
+<v-clicks>
 
 public goods also benefit others!
 
-</v-click>
-
----
-
-## self-interested contributions for group-interested goods?
+## self-interested contributions for group-interested goods
 
 matches self-interested contributions *according to expected public benefit*
 
 more contributions = more expected public benefit
+
+</v-clicks>
 
 ---
 
@@ -1280,11 +1269,11 @@ intellectual *labor*, not intellectual *property*
 layout: statement
 ---
 
-## society should reward intellectual contributions...
+## society should reward intellectual labor...
 
 <v-click>
 
-## ... to society
+## ... when it contributes to society
 
 </v-click>
 
@@ -1415,8 +1404,6 @@ should our society have any landlords?
 
 <v-clicks>
 
-can everyone equally compete in any market?
-
 water monopoly = complete authoritarian control
 
 </v-clicks>
@@ -1435,7 +1422,7 @@ tenants live at the whims of landlords
 
 ---
 
-# markets can't incentivize a cartel
+# markets won't disrupt a cartel
 
 why compete for the business of those who have nothing of value?
 
@@ -1667,11 +1654,13 @@ harberger taxes create a *provably optimally efficient* market
 
 common resource rights *could* create a provably welfare optimal system
 
-<v-click>
+<v-clicks>
+
+working on theory and proof sketches
 
 working on "myths of libertarianism" talk
 
-</v-click>
+</v-clicks>
 
 <!-- libertarian ideology is very inconsistent and lacks rigor
 libertarian ideology *reinforces* cumulative advantage and wealth ratchets, which are provably incompatible with efficient markets
@@ -1691,7 +1680,7 @@ layout: chapter-title
 
 ---
 
-# lazy demagoguery?
+# lazy demagoguery
 
 do we want youtubers and rock stars to have all the votes?
 
@@ -1730,9 +1719,9 @@ for a country?
 
 <v-clicks>
 
-need to increase cost of tampering
+need to increase cost of bribery/coercion
 
-- impossible to verify compliance at scale
+- make it impossible to verify compliance at scale
 - in person without recording is easiest
 - require verified identity
 
@@ -1750,9 +1739,9 @@ already have postal service mandate
 
 could leverage that existing system
 
----
+<v-clicks>
 
-# voting offices
+voting offices!
 
 - democratically endorsed proctors check your identity
 - use voting computers to:
@@ -1760,6 +1749,8 @@ could leverage that existing system
   - browse elections
   - change votes
 - open all the time?
+
+</v-clicks>
 
 ---
 
@@ -1795,7 +1786,7 @@ some fuzzy thoughts:
 
 ---
 
-# expansion?
+# expanding persistent democracy?
 
 persistent democracy could plausibly govern an interstellar society!
 
@@ -1850,7 +1841,7 @@ maybe!
 - persistent constitutions minimize coordination overhead
 - persistent voting + common resource rights best satisfy fundamental theorems of welfare economics
 - persistent voting + common resource rights achieve optimal welfare use of resources
-- common resource rights satisfy the ethical principle of "subject anonymity"
+- common resource rights satisfy "veil of ignorance"
 
 ---
 
@@ -1944,7 +1935,7 @@ need to build systems before organizations
 
 <v-clicks>
 
-[`persistent-democracy-tools`](https://github.com/blainehansen/persistent-democracy-tools)
+[`github.com/blainehansen/persistent-democracy-tools`](https://github.com/blainehansen/persistent-democracy-tools)
 
 basically nothing there yet!
 
@@ -2002,7 +1993,7 @@ easier to start than a cooperative
 
 # Persistently Democratic Cooperative
 
-cooperatives are central to my theory of change
+## cooperatives are central to my theory of change
 
 ---
 layout: chapter-title
@@ -2012,7 +2003,7 @@ layout: chapter-title
 
 <!-- the way the whole economy should be structured. democracy + markets, just the good parts. talk about history of cooperatives and why they haven't lived up to their full potential because of inefficient voting systems and seemingly intentional honey pot regulation. hint at the things we could cooperativize -->
 
-big change without waiting for permission
+progress without permission
 
 ---
 
@@ -2030,17 +2021,15 @@ big change without waiting for permission
 
 ## cooperatives are private companies owned by their members
 
-cooperatives are powerful *because* they're owned by members
-
-aligns incentives of organization with incentives of members
-
-removes antagonistic relationship between producer and consumer
+- cooperatives are powerful *because* they're owned by members
+- aligns incentives of organization with incentives of members
+- removes antagonistic relationship between producer and consumer
 
 ---
 
 ## cooperatives are private companies owned by their members
 
-allows members to benefit from vertical integration
+allow members to benefit from vertical integration
 
 <v-clicks>
 
@@ -2061,9 +2050,7 @@ if a company is democratically owned and has open membership, is it even *possib
 layout: two-cols
 ---
 
-## cooperatives are a proven model
-
-even works for profit-seeking companies!
+## even works for profit-seeking companies!
 
 ::left::
 
@@ -2104,7 +2091,6 @@ persistent democracy could solve that
 <v-clicks>
 
 - can prioritize member welfare over maximizing profit
-- only need to remain solvent
 - no danger of artificial scarcity, monopoly, planned obsolescence, or psychological hacking
 - no incentive to oversaturate markets and push wasteful consumption
 - can afford to fail
@@ -2125,13 +2111,13 @@ persistent democracy could solve that
 
 # startup capital disadvantage
 
-only in profit-focused economies like ours
+<v-clicks>
 
-if most capital is held by profit seekers, most capital will be deployed for profit seeking
+- wouldn't be a problem in a society with effective public goods systems
+- if most capital is held by profit seekers, most capital will be deployed for profit seeking
+- fine once operating at scale
 
-fine once operating at scale
-
-wouldn't be a problem in a society with effective public goods systems
+</v-clicks>
 
 <!--
 cooperatives only have one big disadvantage, and only in an inefficiently profit-focused economy like ours: comparative difficulty raising *startup* capital. once a cooperative is operating at scale it can much more plausibly fund initiatives with saved capital from members or even through debt financing. but when it's very small that isn't as true.
@@ -2222,16 +2208,14 @@ most big problems require big coordination
 
 ## persistent democracy as a force multiplier
 
-comparable to other infrastructural/community building efforts in terms of expected impact
-
-- persistent democracy is very compatible with EA
+- comparable to other "meta" efforts in terms of expected impact
+- better coordination systems help solve every other problem
+- democratic ethics are very compatible with EA
 - bootstrapping cooperatives should receive EA funding
 
 ---
 
-## persistent democracy is very compatible with EA
-
-could be a valuable tool in achieving EA goals
+## better coordination systems help solve every other problem
 
 - global health and development (improve governance and coordination)
 - climate change, biosecurity and pandemic prevention, nuclear security (global coordination and new public goods)
@@ -2257,7 +2241,7 @@ persistent constitutions and common resource rights could very plausibly govern 
 
 ## automation precipice
 
-- quite weak AI could still render most people economically useless and militarily powerless
+- even weak AI could still render most people economically useless and militarily powerless
 - concentration of this power in too few hands could cause many problems
 - ethically precarious for many reasons
 
@@ -2272,7 +2256,7 @@ persistent constitutions and common resource rights could very plausibly govern 
 
 ## cooperative bootstrapping should receive EA funding
 
-- grants for research or infrastructure
+- grants for research and infrastructure
 - low or zero interest loans for scaling
 - scaled cooperatives are self-sustaining
 
@@ -2306,7 +2290,7 @@ I'd love to do so in the context of a "startup-energy" cooperatives
 
 ---
 
-# anticipated need
+# immediate needs
 
 - legal advisors (formation of organizations)
 - academics (do fundamental research)
