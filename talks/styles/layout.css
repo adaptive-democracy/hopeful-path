@@ -12,19 +12,64 @@
 		@apply text-7xl font-700 leading-20;
 	}
 
-	h1 + p {
-		@apply text-5xl font-thin;
+	p {
+		@apply text-5xl font-light;
+	}
+}
+
+.slidev-layout.chapter-title {
+	h1 {
+		@apply text-5xl font-normal;
+	}
+	p {
+		@apply text-4xl font-normal;
+	}
+}
+
+.slidev-layout.dense {
+	ul, p {
+		@apply text-lg;
+	}
+}
+
+.slidev-layout.statement {
+	@apply text-left !important;
+	* + * {
+		@apply pt-6;
+	}
+	h1 {
+		@apply text-7xl font-medium;
+	}
+	h2 {
+		@apply text-5xl font-normal;
 	}
 }
 
 .slidev-layout {
-	ul, h2 {
-		@apply mt-2 !important;
+	h1 {
+		@apply text-5xl font-bold;
 	}
-
-	ul {
+	h2 {
+		@apply text-3xl font-bold;
+	}
+	h1 + h2, h1 + p, h2 + p, ul,  {
+		@apply mt-2;
+	}
+	ul, p {
 		@apply text-2xl;
 	}
+
+	/* h3 {
+		@apply text-sm pt-2 uppercase tracking-widest font-500 -ml-[0.05em];
+	} */
+
+	/* h4 {
+		@apply text-5xl !font-light my-5;
+	}
+
+	h5 {
+		@apply text-2xl !font-light my-3;
+	} */
 
 	li > ul {
 		@apply !mt-0;
@@ -33,31 +78,6 @@
 	img {
 		max-height: 38vh;
 		@apply mx-auto;
-	}
-
-	/* banner */
-	h1 {
-		@apply text-7xl;
-	}
-
-	/* title  */
-	h2 {
-		@apply text-3xl;
-	}
-
-	/* h3 is too broken */
-	h3 {
-		/*  */
-	}
-
-	/* subtitle */
-	h4 {
-		@apply text-5xl !font-light my-5;
-	}
-
-	/* subtitle */
-	h5 {
-		@apply text-2xl !font-light my-3;
 	}
 
 	:not(pre) > code::before, :not(pre) > code::after {
