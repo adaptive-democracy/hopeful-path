@@ -7,24 +7,9 @@ drawings:
 layout: cover
 ---
 
-<!--
-I'm going to steal the apple basic theme stuff, fix some of the annoying things, and make my own layouts
-
-layouts
-- cover, the first slide
-- chapter-title, where # is big, ## is subtitle, paragraph is big but just normal description
-- the normal default layout, for normal slides, which will need some "hook" for the chapter marker. this layout needs to be able to handle normal images
-
-things will be a little different in the theory theme?
--->
-
 # Persistent Democracy
 
-The governmental structure<br>that can fix...<br>everything?
-
-<!-- My best bet for how we can fix everything. -->
-
-<!-- introduce yourself, and talk about what persistent democracy is: your best bet -->
+The way to fix...<br>everything?
 
 ---
 
@@ -39,7 +24,7 @@ The governmental structure<br>that can fix...<br>everything?
 
 ---
 
-# answer these questions:
+# answers these questions
 
 - why do we need Persistent Democracy?<br>
   *(most global problems are coordination problems)*
@@ -55,6 +40,8 @@ The governmental structure<br>that can fix...<br>everything?
 
 # Persistent Democracy
 
+<v-clicks>
+
 instead of elections being discrete events with a deadline
 
 voters can update their choices at any time
@@ -63,7 +50,9 @@ voters can update their choices at any time
 - range voting 🡒 quadratic range voting
 - conviction voting 🡒 persistent commitments
 - quadratic funding 🡒 persistent funding
-- harberger taxes 🡒 common resource rights
+- Harberger taxes 🡒 common resource rights
+
+</v-clicks>
 
 ---
 layout: two-cols
@@ -82,15 +71,15 @@ class: dense
 - 📖 persistent voting
 - 📖 persistent constitutions
 - 📖 rights and constitutions
+- 📖 quadratic range voting
 - 📖 persistent commitments
 - 📖 public goods and cooperative goods
 - 📖 quadratic funding
-- 📖 persistent funding
 
 ::right::
 
+- 📖 persistent funding
 - 📖 intellectual property and assurance contracts
-- 📖 quadratic range voting
 - 📖 partial common ownership
 - 📖 Harberger taxes
 - 📖 common resource rights
@@ -1180,7 +1169,7 @@ gives more money to projects with more small donors
 |            | Alice | Betty | Charlie | Dave | *total* | *sum squares squared* | **match** |
 |------------|-------|-------|---------|------|---------|-----------------------|-----------|
 | cell tower | $10   |       |         |      | *$10*   | *$10*                 | **$0**    |
-| playground |       | $2    | $4      | $2   | *$8*    | *$16*                 | **$8**    |
+| playground |       | $1    | $4      | $1   | *$6*    | *$16*                 | **$10**   |
 | theater    |       | $4    | $9      |      | *$13*   | *$25*                 | **$12**   |
 
 ---
@@ -1314,7 +1303,7 @@ layout: statement
 
 ![](https://penntoday.upenn.edu/sites/default/files/2021-07/Insulin%20at%20100-Banting-Best-2.jpg)
 
-<!-- Charles Best and Frederick Banting (James Collip) (J.R.R. McLeod) -->
+Charles Best and Frederick Banting<br>James Collip and J.R.R. McLeod not shown
 
 ---
 
@@ -1519,7 +1508,7 @@ we already have property taxes
 layout: chapter-title
 ---
 
-# 📖 harberger taxes
+# 📖 Harberger taxes
 
 ---
 
@@ -1535,7 +1524,7 @@ layout: chapter-title
 
 ---
 
-# harberger taxes
+# Harberger taxes
 
 <v-clicks>
 
@@ -1554,19 +1543,19 @@ layout: chapter-title
 
 ---
 
-## harberger taxes + Persistent Voting
+## Harberger taxes + Persistent Voting
 
 ![](/drawing-12-1-common-resource-taxes.png)
 
 ---
 
-## harberger taxes + Persistent Voting
+## Harberger taxes + Persistent Voting
 
 ![](/drawing-12-2-common-resource-taxes.png)
 
 ---
 
-## harberger taxes + Persistent Voting
+## Harberger taxes + Persistent Voting
 
 ![](/drawing-12-3-common-resource-taxes.png)
 
@@ -1650,7 +1639,7 @@ I bet I can guess who doesn't like this idea...
 # markets are for people
 # not the other way around
 
-harberger taxes create a *provably optimally efficient* market
+Harberger taxes create a *provably optimally efficient* market
 
 common resource rights *could* create a provably welfare optimal system
 
@@ -2195,6 +2184,18 @@ companies capture local government officials/contracts
 no reason to be concerned with customer satisfaction
 
 cooperative ownership solves that problem
+
+---
+
+## open source software cooperatives?
+
+an evolution of [sponsorware system](https://calebporzio.com/sponsorware)
+
+- software is fully open source
+- only sponsors and contributors can:
+  - durably file issues
+  - vote on feature roadmap
+  - vote on maintainer list
 
 ---
 layout: chapter-title
