@@ -12,7 +12,7 @@ div
 
 <script lang="ts">
 import { IContentDocument } from '@nuxt/content/types/content'
-import { PropType, defineComponent } from '@vue/composition-api'
+import { PropType, defineComponent } from 'vue'
 
 export default defineComponent({
 	props: {

@@ -5,34 +5,45 @@ div
 
 	NuxtContent(:document="chapter")
 
-	.mt-12
+	.mt-12(v-if="prev || next")
 		ChapterNav(v-if="prev", :link="prev", type="prev")
 		ChapterNav(v-if="next", :link="next", type="next")
+
+	ChapterListing(v-if="isMain")
+	NuxtLink(v-else, to="/contents")
 
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import { IContentDocument } from '@nuxt/content/types/content'
-import { ChapterLink, processSlug } from '@/plugins/utils'
+import { ChapterLink, processSlug, isMainChapter } from '@/plugins/utils'
 
 export default Vue.extend({
 	async asyncData({ $content, params }) {
 		const chapterSlug = params.chapter
-		const [introduction, ...chapters] = await $content().sortBy('path').fetch() as IContentDocument[]
+		const [introduction, ...chapters] = (await $content().sortBy('path').fetch() as IContentDocument[])
+
 		for (let index = 0; index < chapters.length; index++) {
 			const chapter = chapters[index]
 			if (processSlug(chapter.slug) !== chapterSlug)
 				continue
 
-			const prev = index > 0
-				? ChapterLink(chapters[index - 1])
-				: ChapterLink(introduction)
-			const next = index + 1 < chapters.length
-				? ChapterLink(chapters[index + 1])
+			const prevIndex = index - 1
+			const prev = prevIndex < 0
+				? ChapterLink(introduction)
+				: isMainChapter(chapters[prevIndex])
+					? ChapterLink(chapters[prevIndex])
+					: null
+
+			const nextIndex = index + 1
+			const next = nextIndex < chapters.length && isMainChapter(chapters[nextIndex])
+				? ChapterLink(chapters[nextIndex])
 				: null
 
-			return { chapter, prev, next }
+			const isMain = isMainChapter(chapter)
+
+			return { chapter, isMain, prev, next }
 		}
 
 		throw new Error(`couldn't find ${chapterSlug}`)

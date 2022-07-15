@@ -1,7 +1,7 @@
 <template lang="pug">
 
 NuxtLink(:to="link.slug")
-	.btn.px-4.py-4.mb-2.flex.items-center(:class="classes")
+	.btn.px-4.py-4.mb-2.flex.items-center(:class="yo")
 		Arrow.transform.w-6.h-6.flex-none(:class="[type === 'prev' ? 'mr-2 rotate-180' : 'ml-2']")
 		span {{ link.title }}
 
@@ -9,7 +9,7 @@ NuxtLink(:to="link.slug")
 
 <script lang="ts">
 import { ChapterLink } from '@/plugins/utils'
-import { PropType, defineComponent, computed } from '@vue/composition-api'
+import { PropType, defineComponent, computed } from 'vue'
 
 export default defineComponent({
 	props: {
@@ -18,14 +18,14 @@ export default defineComponent({
 	},
 
 	setup(props) {
-		const classes = computed(() => {
+		const yo = computed(() => {
 			switch (props.type) {
 				case 'prev': return 'flex-row'
 				case 'next': return 'flex-row-reverse'
 				case 'top': return 'flex-row-reverse'
 			}
 		})
-		return { classes }
+		return { yo }
 	},
 })
 
