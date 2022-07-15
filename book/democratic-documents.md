@@ -1,7 +1,3 @@
----
-title: "Persistent Documents"
----
-
 It is common to hear complaints that our legal codes are arcane or inconsistent or foolish, or our elected representatives focus more on reelection than representing their constituents. When using inefficient and unscalable voting methods, it's difficult to imagine any real solution to this problem. We've always needed a representative class to manage legislative decisions, since doing otherwise was simply intractable.
 
 Persistent Voting allows us to directly author our legislative documents, such as those for legal codes, budgets, tax codes, zoning codes, and even constitutions. With the right boundaries and clarifications, and some design patterns from the open source software community, we can place this important power directly in the hands of the citizenry.

@@ -2,6 +2,39 @@
 title: "Democratic Adjudication"
 ---
 
+
+
+
+Although Persistent Voting allows a group to directly author legislative documents rather than using representatives, and it makes selecting candidates in *single winner* elections very straightforward, there are sometimes situations where it makes sense for a group to select *multiple* people to perform some function. These elections are called multi-winner elections, and are usually used to fill a parliamentary body with a fixed number of seats. Many countries around the world choose methods that guarantee proportional representation for these bodies.
+
+Since parliamentary bodies aren't needed in a Persistent Democracy, I won't focus on that case. In a future chapter I'll apply this method to a particular use case, but for now I'll just describe it in the abstract.
+
+### Description
+
+Quadratic Voting is very well suited to multi-winner elections, since Quadratic Weights can simply be placed on candidates. Although it doesn't structurally guarantee proportional representation, it does guarantee representation proportional to *concern*, which I hold is a more important measure.
+
+Let's say some polity wants to fill some number of seats. Any citizen could place Quadratic Weights on any eligible person to both nominate and vote for them, or to negatively vote against them. Depending on the nature of the position there might be additional qualification requirements, and it might not be allowed for someone to place weights on themselves. The strength of these weights is measured in the normal quadratic fashion. The weight value is used to rank all candidates, and the top number of them are selected to fill the seats.
+
+Candidates with an overall zero or negative vote value won't be given a seat, even if they're ranked within the top number of seats. This means some number of seats can remain unfilled.
+
+Since these elections are persistent, candidates can be displaced by other candidates at any time. However we still need some kind of stabilization mechanism. Any time a candidate gains enough votes to enter the body of seats, they don't officially take a seat from the lowest ranked member of the body until they maintain that qualification for a period of time inversely proportional to the vote advantage compared to the lowest ranked member. So for example if their vote is only barely greater than the lowest ranked member, they will have to maintain that advantage longer than if it was much larger.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Any society with some set of defined rules needs methods to adjudicate disagreements or accusations of wrongdoing. Although this of course applies to governments in the form of crime and punishment, societies such as companies or cooperatives also need these methods.
 
 Our existing justice system relies heavily on the appointment of judges, who are largely unaccountable to the public and have immense unilateral discretion when interpreting the law and giving sentences. Similarly, criminal charges can typically only be filed by some governmental body, and never by citizens, often allowing serious crimes to go completely unscrutinized. I feel this system is dangerous, undemocratic, extremely susceptible to corruption and abuse, and prioritizes the discretion and priorities of authorities over the rights of citizens.

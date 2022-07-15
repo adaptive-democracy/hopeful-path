@@ -2,6 +2,36 @@
 title: "Democratic Districts"
 ---
 
+incorporate constitutional merging?
+
+
+
+
+rights and constitutions? from talk?
+
+
+
+
+Interestingly, groups could choose to create portions of their constitution *that can't be changed*, or that can only be changed with a more difficult persistent commitment. We call these portions "constitutional kernels", and they essentially make it impossible or very difficult to change those rules without throwing away the existing system and creating a new one.
+
+To understand why you might do this, let's ask this question: if you have a constitution selected with persistent voting, should it be possible to change *the fact that the constitution is selected with persistent voting*? Doing so could potentially make it impossible to go back to what you had before. We're not sure if kernels would be a good idea for governments, but they could make sense for certain kinds of private organizations. Visit [the theory page](TODO) if you're interested in the fine details of questions like this.
+
+
+
+
+This nesting gives us a natural way to decide how big things like stabilization buckets should be. Decisions that effect more people should have larger stabilization buckets and so be more difficult to change. Oppositely, if a constitution allows more directly democratic decisions, then each individual decision should have a smaller stabilization bucket and so be easier to change, since the group is deciding that each person is effectively delegating more decisions to other people.
+
+These rules lead to very intuitively reasonable situation, visit [the theory page](TODO) for more details:
+
+- Decisions such as a top level constitution effect more people and are the only decision at their level, so they're more difficult to change.
+- Lower level decisions involve fewer people and have more "sibling" decisions at their same level, to they're easier to change.
+
+
+
+
+
+
+
 Public administration is an immense task, and it makes sense to divide areas into different administrative districts to simplify and delegate responsibility. They also allow different areas to set different administrative parameters, since different areas have different concerns. Polities in deserts must treat water rights and access much more cautiously than those in rainforests, and dense cities with developed transit systems are much better suited for high fuel taxes than remote rural areas.
 
 However borders of administrative districts are often extremely arbitrary and inefficient, almost always decided by far-off officials with little understanding of the areas in question, or during a historical period with completely different social and economic realities.
@@ -28,8 +58,8 @@ Notably, the existing problem of [gerrymandering](https://en.wikipedia.org/wiki/
 
 - Could lead to decreased unity, since different people no longer have to work together as much. I don't think this would be a great issue, since as alluded to in the last point, they still must cooperate to define rights, justice systems, and legislation. Also, even very culturally distinct areas aren't monolithic.
 - Could lead to confusing complexity. I have two thoughts on this:
-	- This is actually unlikely since democratic documents encourage acceptable consensus and gradual convergence toward better options.
-	- Even if it does end up being confusingly complex in some situations, since it was democratically selected it is likely that complexity reflects real concerns of the citizenry and improves their quality of life.
+  - This is actually unlikely since democratic documents encourage acceptable consensus and gradual convergence toward better options.
+  - Even if it does end up being confusingly complex in some situations, since it was democratically selected it is likely that complexity reflects real concerns of the citizenry and improves their quality of life.
 
 ## Open Questions
 

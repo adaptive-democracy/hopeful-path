@@ -37,3 +37,35 @@ Any problems with persistent commitments will be felt in this system.
 ## Open Questions
 
 Groups won't only want to fund one-time projects, but also ongoing work such as that funded using websites like [patreon.com](https://en.wikipedia.org/wiki/Patreon). There could be many slightly different ways to fit that kind of funding into this system, and I haven't yet puzzled out what might be best.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Persistent Funding
+
+You've probably encountered the idea of donation matching, when some large donor promises to match donations made by other people for some cause. The reason matching is useful is because it gives large donors a way to figure out the best places to donate money by just donating to whatever other people think is important enough to donate to.
+
+However simple matching systems like one-to-one or other ideas give a lot of power to other large donors, and don't have any basis in rigorous logic. [Quadratic Funding](https://www.radicalxchange.org/concepts/quadratic-funding/) solves that and many other problems. I'll just quote the explanation given in that linked page:
+
+> Quadratic Funding optimizes matching funds by prioritizing projects based on the number of people who contributed. This way, funds meant to benefit the public go towards projects that really benefit a broad public, instead of things that only have a few wealthy backers. ... Quadratic Funding strongly encourages people to make contributions, no matter how small, and ensures a democratic allocation of funds meant to benefit the public.
+
+Quadratic Funding has been mathematically proven to match funds in a way that will maximize the shared public good created by donations. The short way to explain it is that it gives more matching money to projects with many small donors than those with a few large donors. If you want to get deeper into the math behind the system, [read this post](https://vitalik.ca/general/2019/12/07/quadratic.html).
+
+The biggest problem with Quadratic Funding is that it demands really high amounts of matching funds to work as promised. Since the amount of donations coming in will almost always demand more matching funds than are actually available, we either have to not give projects the full optimal funding specified by the system, or we have to have a way to decide which projects to fund first. We can figure out this ordering, and solve some other issues, by using persistent weights to prioritize projects in a cycle of persistent commitments.
+
+Let's say a cooperating group sets aside some percentage of their recurring budget to a quadratic funding pool. This means at any time the pool has some amount of money, and regularly receives more from the budget. We want a system to decide how this money should be used for quadratic matching that isn't arbitrary and gives projects the full optimal amount. We would also like to avoid funding scammy nuisance projects, or projects that aren't relevant to the cooperating group.
+
+Anyone can use their weights to either vote for or against some project, and by default the system can just fund the projects in order of the *ratio* of weights against how much matching money it would take to fund them. So if a project has lots of weight and wouldn't take very much public money to fund, that project is a better social investment than a project with less weight that would take a lot of public money to fund.
+
+Funding also happens in a cycle of persistent commitments, so weights can be used to choose decision documents that do something more complicated than just funding projects in order. They could choose to guarantee the funding of large or urgent projects, add one-time lump sums to the funding pool, remove nuisance projects, or even do nothing for that cycle. This system gives groups the chance to intervene in each cycle rather than blindly trust this simple formula.

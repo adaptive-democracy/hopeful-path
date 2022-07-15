@@ -1,6 +1,43 @@
 ---
-title: "In Defense of Pure Logic"
+title: "Verified Software"
 ---
+
+# Preamble
+
+Software is an increasingly critical component of our society, underpinning almost everything we do. It's also extremely vulnerable and unreliable. There are many areas where software *could* make society more efficient, transparent, and democratic, but because it is so insecure and fragile many are understandably resistant to rely on it for essential functions.
+
+# Description
+
+Using the same theoretical methods that underpin logic and mathematics, the field of formal verification seeks to find ways to prove that software has arbitrary logical qualities. Since software is complex and proving logical theorems can be difficult, the field has been mostly confined to academics verifying a few types of software. However recent advancements in the field promise to make it easier to verify software in its full complexity.
+
+I've started work on a programming language called [Magmide](https://github.com/magmide/magmide) that intends to combine recent advancements in formal verification with the existing state-of-the-art in programming language design, and I hope we can use it to improve our software infrastructure enough to feel confident relying on it in our democratic processes.
+
+When the project has matured, I hope it will allow us to:
+
+- Write software that is provably secure, making expensive hacks or privacy breaches a historical oddity. In our world, hackers search for new *vectors* of attack that utilize known vulnerabilities or attack types. In a world of verified software a hacker would have to invent an entirely new *type* of attack that was still possible despite the target software being verified against a narrow specification. This would substantially raise the difficulty to perform any hack, from a small amount of online research and computer savvy, to years of dedicated expert research.
+- Write software that is provably correct, making software much more reliable. Not all software requires perfect correctness, but there is a lot of foundational infrastructural software that everything else relies on and should absolutely be fully verified. Right now we live in a world where *no* software even has the *potential* to be fully verified.
+- Make software more useful. When software is easier to make reliable and correct, it can become much more ambitious.
+
+The project is obviously deeply technical, but if you are curious to learn more you can [visit the project's source code repository](https://github.com/magmide/magmide).
+
+# Benefits
+
+I believe all these goals are absolutely possible, and will just require a lot of hard work.
+
+Software is basically the only thing in our world that could actually be provably correct. A computer program isn't really a physical object, it's just *information*, but it can still encode physical actions to take place in the real world. A computer program is a *logical machine*, so in the same way that it's possible to prove that `2 + 2 = 4`, we can prove that a computer program won't accidentally reveal passwords, or allow unauthorized access, or allow malicious programs to be executed, or *any other provable quality*.
+
+# Potential Objections
+
+Provably secure software doesn't solve all problems. Software often acts through physical objects such as motors or lights, and those are fallible in the same way all physical objects are. Also in many situations we still rely on potentially fallible human beings to act correctly on information given to them by computer programs.
+
+# Open Questions
+
+I actually feel there is very little unknown ahead of this project, at least from a technical perspective. Persistence and experimentation can guide us to the best way to build this language and encourage its widespread adoption.
+
+
+
+
+<!--
 
 To defend the ideas in this book, I almost exclusively point to [proofs of purely logical theorems](https://en.wikipedia.org/wiki/Theorem) rather than experimental observation. I wanted to explain why, and try to convince you logical proofs are one of the best forms of evidence we can hope for.
 
@@ -11,7 +48,6 @@ I have a sense many people believe math and logic are "imaginary" or "fake". Som
 But it's also true we can't *only* rely on pure logic. Logic is only capable of *modeling* the real world, and can't prove anything about the real world directly. On the other hand, experimental observation is only capable of knowing things *it's already seen*, and has no way to imagine *potential* truths. Logic and observation then are two necessary and irreplaceable parts of a whole.
 
 Logical models are to reality what maps are to terrain. When you hold a map, you are necessarily holding a mere model of the real terrain, a fuzzy and imperfect approximation of the real thing. But without a map it would be impossible to navigate somewhere you haven't already traveled to before, even if that "map" comes in the form of directions given to you by a friend. So the best you can do is try to verify the map was made diligently and accurately, and then trust it to guide you. The best we can do is reduce uncertainty in our models and their predictions.
-<!-- And when you add up all the distances along your path to find out how many miles you'll travel, you again implicitly trust the diligence and accuracy of mathematicians and geometers to find the right numbers. -->
 
 When you use a map, you're relying on an *axiom*, a logical definition that isn't proven, but merely assumed. All logical systems must use arbitrary axioms as their foundation, since they can't directly use the real world as a foundation. Experimental observation is then used to decide which axioms to define and trust. The entire process of human intellectual discovery involves first defining some arbitrary set of logical axioms we gamble correctly model the real world, proving theorems using those axioms to use as predictions, and then testing those predictions in order to verify the axioms.
 
@@ -65,7 +101,10 @@ We unfortunately can't use logic to completely figure out our world. It's imposs
 
 In the chapters ahead I'll frequently hint at the work I'm slowly doing to verify my ideas in the Coq proof assistant. I intend in the coming years to attempt to formalize a theory of consciousness, experience, and utilitarian ethics I can prove is humanity's best wager for a just and prosperous society, and to root systems for rights and voting and justice in that theory. For now I can only make guesses and conjectures, and hope others can point me in the right direction before I go astray. After they've been verified we can begin to test them in the real world, hopefully finding they're effective and beneficial for all.
 
-<!--
+
+
+
+
 this I think is my main attempt at a contribution to epistemics, the "wager" or "usefulness" criterion. since it is absolutely impossible for us to truly know *anything*, the best we can do is define our absolutely basic axioms of existence and consciousness, including our assumptions about the nature of logic and our minds,
 
 is it then true to say our basic axioms of logical systems themselves are in effect our "bets" about the causal or inferential nature of reality?
@@ -83,4 +122,6 @@ https://www.sciencedirect.com/science/article/pii/S0049237X08708243
 https://plato.stanford.edu/entries/goedel-incompleteness/
 https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems
 https://www.quantamagazine.org/how-godels-incompleteness-theorems-work-20200714/
- -->
+
+
+-->

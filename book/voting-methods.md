@@ -1,3 +1,319 @@
+---
+title: "Why is our democracy broken?"
+subtitle: "An introduction to voting methods and their rippling consequences."
+stub: true
+---
+
+So hopefully you're convinced that our current voting system, [Plurality Voting](TODO point to that section in intro) is awful, and possibly the root cause of many of our political and social problems.
+
+Persistent Voting is a new *way* of thinking about voting,
+
+
+
+---
+layout: chapter-title
+---
+
+# 📖 score voting systems
+
+directly measure satisfaction
+
+---
+
+## Approval Voting is much better!
+
+can always vote for all favorites
+
+![](https://i2.wp.com/californiaapproves.org/wp-content/uploads/2021/08/approval-ballot.png?fit=750%2C440&ssl=1)
+
+---
+
+## can use larger range
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Completed_Score_Voting_Ballot_version2.png/400px-Completed_Score_Voting_Ballot_version2.png)
+
+---
+
+## strategic incentive to "min/max" scores
+
+doesn't cost you anything...
+
+---
+
+# impossible to remove<br>strategic dishonesty
+
+[Arrow's impossibility theorem](https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem)
+
+[Gibbard's theorem](https://en.wikipedia.org/wiki/Gibbard%27s_theorem)
+
+<v-click>
+
+we can only *minimize* strategy, not remove it
+
+</v-click>
+
+---
+
+## score voting by itself isn't enough
+
+casual majorities can outvote passionate minorities
+
+![](/drawing-3-casual-out-approves-passionate.png)
+
+<!-- importantly, the casual group isn't wrong or bad or irrational, they did the most rational thing from their perspective. if they slightly prefer some choice and it costs them nothing to support it, then they will -->
+
+---
+
+## score voting by itself isn't enough
+
+casual majorities can outvote passionate minorities
+
+![](/drawing-3-casual-out-approves-passionate-points.png)
+
+---
+layout: chapter-title
+---
+
+# 📖 resource voting systems
+
+---
+
+## more votes on things you care more about
+
+![](/drawing-4-resource-voting.png)
+
+---
+
+# force a certain kind of strategic honesty
+
+support one thing more = support another thing less
+
+strategy relates to how "cheap" pivotal votes are
+
+this is good! incentivizes revealing more "rare" preference information
+
+voting for candidates or situations where everyone else is less confident
+
+---
+
+## quadratic voting
+
+provably optimal!
+
+| **voting credits spent** | **√** | **actual vote cast** |
+|----------------------|---|------------------|
+| 1                    | → | 1                |
+| 2                    | → | 1.4142           |
+| 3                    | → | 1.7320           |
+| 4                    | → | 2                |
+| ...                  |   | ...              |
+| 9                    | → | 3                |
+
+---
+
+## why square root?
+
+has to do with "linear cost curves"
+
+![](/linear-cost-curves.png)
+
+---
+
+## imagine a voting tug-of-war
+
+<!-- imagine there's a town where they've already used voting weights to decide the status quo -->
+
+<!-- assume this town has already settled into an equilibrium where everyone is satisfied enough with their allocation that they won't change it -->
+
+<!-- imagine this as a big tug of war where everyone is pulling on everyone else -->
+
+![](/drawing-4-tug-of-war.png)
+
+<v-click>
+
+roughly `n²` possible relationships between `n` people
+
+</v-click>
+
+---
+class: small-image
+---
+
+<!-- then a new person shows up! by definition whenever they allocate weights, they're pulling vote results away from what everyone else in the town wanted -->
+<!-- the harder you pull, the more it is an unwanted disturbance to the other voters -->
+<!-- if you count the number of possible relationships between all the people in this town, with `n` people it will be: -->
+
+## pulling harder causes "pain" of roughly `n²`
+
+`(n * (n - 1)) / 2` to be exact
+
+quadratic voting "compensates" everyone else for your vote
+
+<v-clicks>
+
+*(assumes pain increases linearly as you pull linearly)*
+
+*(love to see more research on nuances)*
+
+![](https://thumbs.gfycat.com/ActiveAntiqueLemming-size_restricted.gif)
+
+</v-clicks>
+
+---
+
+# quadratic voting
+
+- encourages people to vote on more than one thing
+- picks winners that genuinely have broad support
+
+---
+
+## quadratic voting still has important problems
+
+*savings strategies*: majorities can "bankrupt" minorities with repeated proposals
+
+| **horrifying<br>proposal<br>prevented?** | **large group<br>votes remaining** | **small group<br>votes remaining** |
+|--------------------------------|-----------------------------|-----------------------------|
+| ✅                              | 1,000,000                   | 40,000                      |
+| ✅                              | 950,000                     | 30,000                      |
+| ✅                              | 900,000                     | 20,000                      |
+| ✅                              | 850,000                     | 10,000                      |
+| 💥                              | 800,000                     | 0                           |
+
+---
+
+# deadline problem
+
+period right before election is a "strategic window"
+
+cheap to flood the electorate with misinformation and propaganda
+
+**strategic marketing** beats **genuine deep support** 😞
+
+
+
+# ranked choice?
+
+seems better at first...
+
+- still has spoiler effect
+- lots of other weird pathologies
+  - winner = loser paradox
+  - drop out reversal paradox
+  - violates later-no-harm criterion
+- generally subtle and confusing and surprising
+
+---
+
+## ranked choice measures the wrong thing
+
+elections aren't "tournaments of gladiators"
+
+want choices that produce the most satisfaction or happiness for the group
+
+we should use a system that *directly measures satisfaction*
+
+
+
+
+<!--
+# An Introduction to Voting Theory, and Hope that We Can Fix Everything
+
+here's what we generally use today, it's called plurality voting, and it sucks
+it only makes sense when choosing between only two candidates, and if there are more really obvious problems like vote splitting start to happen
+I genuinely believe plurality voting is the core reason why our society is so broken. it structurally enforces a two party system, which inherently incentivizes polarization and extremism, which creates an environment where political activism and news media will always tend to be irrational
+
+approval voting is a better alternative, it solves all these problems
+it chooses candidates who are approved by the most people (duh!), so they tend to be safe consensus candidates
+we definitely shouldn't use ranked choice! here's a separate talk/essay about that
+
+however as great as approval is, it still has some problems
+imagine a situation where most people casually prefer some option, but a relatively small group deeply dislike that option. in an approval election they're certainly better off than a plurality election, but I think we can all agree that option probably shouldn't be chosen
+
+that's where resource voting systems come in. they allow you to use some finite number of votes to give more support to some options than others. this means you can put more votes on things you care more about. problems like the one above go away in these situations, since if the majority only casually prefers some option, they probably won't put many votes on that option and so the deeply concerned minority will win.
+
+quadratic voting is a specific version of resource voting, and it's actually been mathematically proven to be optimal. the proof is complex, check out this post to understand it better
+
+however even a resource voting system has problems, which mostly come down to the concept of "spending" the votes. that's where persistent democracy, the core idea of this book, comes in
+-->
+
+
+
+
+
+Persistent Voting fundamentally alters the dynamics of group decision making. Persistent Voting however only addresses the schedule in which elections are conducted, but not how the votes are solicited or counted. This means Persistent Voting is merely a container for some other "inner" voting method, which we also must select intelligently, taking care to make sure it optimally interacts with the persistent schedule.
+
+My best idea so far for an optimal method is one I've named Quadratic Range Voting.
+
+## Description
+
+Quadratic Range Voting is simply a combination of [Quadratic Voting](https://en.wikipedia.org/wiki/Quadratic_voting) and [Range Voting](https://en.wikipedia.org/wiki/Score_voting) (and its simplest variant [Approval Voting](https://electionscience.org/approval-voting-101/)).
+
+- At any time, a polity would have some set of elections, and each voter some finite number of Quadratic voting "weights". I call them weights rather than credits since the persistent schedule means voters *allocate* weights rather than *spending* them, so they always have the same fixed amount at any time.
+- To cast a vote in an election, they must place at least one weight on that *election*, which allows them to cast a traditional range ballot in that election, giving some candidates a score on a positive fixed scale (such as from 0 to 10). Separately, they can place another weight to cast a *negative* range ballot to give candidates negative scores on the same fixed scale. Requiring separate weights for positive and negative weights is done to neutralize a potential strategy I'll discuss later.
+- The final amount of votes given to any candidate for any ballot is defined as: `votes = score * sqrt(weights)`. This means the voter can increase the strength of all the scores on their ballot for an election by placing more weights on that ballot, but in a quadratically limited way. This is done separately for positive and negative ballots.
+- At any time, voters could place "nomination" weights on specific individual candidates to nominate them for a particular election, with some as yet undetermined rule for how much weight a candidate would need to enter the election. Voters could also place "anti-nomination" weights that count *against* an individual candidate, potentially causing them to be removed from the election if they at any time fall below the entry threshold.
+
+## Benefits
+
+- This voting method quite nicely combines the expressiveness and resistance to voter strategy of Range Voting with the balancing of preference intensity of Quadratic Voting. Range Voting is intentionally chosen because of its "consensus candidate" bias, with the intent on producing welfare-optimizing and democratically legitimate outcomes.
+- Separating negative votes both in nomination and scoring retains the high expressiveness of Quadratic Voting without incentivizing highly strategic votes in which a voter marks even neutral candidates as negative.
+- The weighted nomination process keeps elections from becoming noisy and crowded, and likely discourages some potential instability which could arise in persistent voting.
+- Separating nomination and scoring likely nicely mirrors the real patterns of voter behavior. Issues almost always have a small number of activists and a much larger number of less passionate voters who merely wish to express which candidates they find acceptable. Only occasionally do voters have positive or negative outliers.
+
+## Potential Objections
+
+- The method is quite complicated, partially due to the persistent schedule, but also merely by itself.
+- Mixing a more "honest" method with Quadratic Voting might be unnecessary, since the entire statement of Quadratic Voting embraces a voter's strategic thinking to guide them towards decisions where their input is more likely to be pivotal, making the mechanism more market-like. However I feel for democratic legitimacy and consensus building reasons, a more expressive method would fare better with a real electorate.
+
+## Open Questions
+
+- Is a nomination threshold actually beneficial? If so, what rule can we select that won't be arbitrary? How do the candidate incentives of the election change with different nomination rules? If we use a nomination threshold, should nomination votes in excess of the threshold count toward a candidate's votes? Should they be scaled in some way? In what direction? By how much? To balance the strength of nomination weights relative to those placed on score ballots, should they be scaled in some way, or required to remain "locked" for some period of time where they can't be moved?
+- What voting strategy is optimal for voters in this system?
+- What types of result will elections tend to converge toward, if any?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 score voting systems and directly measuring what we care about
 
 

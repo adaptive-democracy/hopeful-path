@@ -1,4 +1,8 @@
-# Blockchains aren't going to fix society, but persistent democracy and cooperatives could
+---
+title: Blockchains aren't going to fix society.
+subtitle: But persistent democracy and cooperatives could.
+incomplete: true
+---
 
 Many of us have identified the problem of large concentrations of power in our society, and are trying to fix that problem. One of the solutions receiving attention is to use trustless consensus networks or blockchain technology to enable decentralized collaboration, coordination, ownership, and governance. There are many proposed applications of this technology, from DAOs (Decentralized Autonomous Organizations), NFTs (Non-Fungible Tokens), and of course the idea that started it all, cryptocurrencies.
 

@@ -1,7 +1,3 @@
----
-title: "The Crowdsell Mechanism and Intellectual Property"
----
-
 Our system of intellectual property law is extremely arbitrary and easy to manipulate, and slows progress by disguising upfront labor costs (research, engineering, design) as marginal costs (increased prices on goods). Patents are granted for arbitrary amounts of time, and are frequently [abused by corporations to maximize profits even when obvious harm is caused to society](https://www.vox.com/2019/4/3/18293950/why-is-insulin-so-expensive). Many innovations end up locked in patents and take much longer than necessary to fulfill their social potential. Value from innovations is diverted by corporations or other bodies who add little value, but have the legal resources to enforce patents. Through these machinations immense public good is lost.
 
 For many technical and creative works, the value to society is quite clear even before the work is distributed, and can be paid for directly without the need to involve complex legal machinery.

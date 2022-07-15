@@ -471,3 +471,338 @@ this means this moral theory isn't a consequentialist one, at least in the stric
 
 
 This theory rejects the idea that we have to be able to assign moral value to states of affairs where the set of beings varies, and instead posits that moral value is derived from the fairness of the actions taken, or the coordination function.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Many of our basic political conflicts center around the question of what rights we truly possess. In the United States, we have the Bill of Rights which attempts to lay out an initial list, but it's obvious after brief thought it's woefully incomplete and doesn't address many rights we would quickly agree should be protected. It's also clear some rights we grant are perhaps *too strong*, and can be easily captured and abused, such as in the case of intellectual property rights. Even our simplistic assumptions about land ownership could be much too strong, since those rights could in theory allow small groups to hold unreasonable amounts of control for unreasonable amounts of time.
+
+There have been attempts to define a more complete set of rights, such as those by [Franklin Delano Roosevelt](https://en.wikipedia.org/wiki/Second_Bill_of_Rights) or the [United Nations](https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights). However these lists are still frustratingly arbitrary, and we don't have a rigorous framework to evaluate them and understand their trade offs.
+
+I propose in this chapter just such a framework. I've attempted to make it as general and rule-based as possible. The position of any right in this framework has direct consequences on what kinds of public action can be taken regarding it, and how it is balanced with other rights.
+
+In the future I intend to formally specify and verify this framework in a proof assistant, so at that stage it will necessarily become fully detailed and logically precise. However for now I hope you'll forgive me for only laying out some loose descriptions and conjectures for what I intend to prove and how I intend to prove it.
+
+## A model of experiential being.
+
+Rights are all about understanding how different beings interact with one another, deciding what kinds of interactions should be disallowed, and how we should disallow them. We need a model for what a Being is, how it can act individually, and how multiple Beings interact.
+
+We might be tempted to make a full model of the entire physical universe and the full complexity of human biology and psychology, but luckily we don't need to. It's very often useful to describe complex components in a logical model with "abstractions", a sort of behavioral shell, and not concern ourselves with *why* that shell exhibits the behaviors it does. We can ignore all internal details, and simply treat the shell as a "black box" that we can act upon and see outputs from. It's safe to do this when the inputs and outputs to a component are the only thing we care about, such that our analysis wouldn't change *even if* we completely understood every internal detail.
+
+My basic model of a Being has these properties:
+
+- It has some internal [Qualia](https://en.wikipedia.org/wiki/Qualia) value, or what it feels like to be alive, which fuzzily aggregates sensory experiences, thoughts, memory, imagination, etc.
+- It feels some Welfare attached to every experience, describing whether it prefers or disprefers that experience, and to what degree.
+- It can apply some "force of will" to itself and therefore whatever world exists around it.
+
+With this very simple definition, we can build up some more useful abstractions:
+
+- Memory is just a momentary sampling of the portion of Qualia the Being perceives as encoding experiences that happened in the past. Some of these encoded experiences seem to have been before others, and some more so than others.
+- Measurements are momentary samplings of the portion of Qualia the Being perceives as representing sensory experiences. These allow them to build a "mental map" of the world around them, and create their own internal models of how the world works.
+- Actions are individual applications of force of will at a specific time.
+- Predictions are imagined future experiences that could come about as a result of Actions.
+- Concerned Error is the difference between a Prediction and a real experiential outcome, but only considering the dimensions the Being is concerned about, or that they made a Prediction about.
+- Plans specify some intended path of Actions to achieve some final Prediction. A Plan is a function with a starting Action that will continually measure the experiential outcome of each Action and choose the next Action in order to get closer to the intended final outcome, or discontinue the plan.
+
+All these abstractions only concern a single Being, and make no assumptions about the nature of the world they exist in. Since the Qualia and Welfare of Beings is entirely internal to them and can't be experienced directly by others, Actions are the only way that internal state can manifest itself.
+
+In order to usefully model interactions between Beings, we need to assume they exist in a shared, durable, consistent universe. We can model multiple Beings existing in such a universe by describing the whole system as a "loop", where each cycle of the loop goes through these steps:
+
+- The universe has some state which is perceived by each Being as an update to their Qualia and Welfare.
+- Each Being makes Predictions about what Welfare will result from all their possible Actions, and chooses some Action to perform.
+- All Actions of all Beings are added together to make a single update to the state of the universe.
+- The loop begins again.
+
+Since the actions of all Beings are added together and effect the same universal state, this implies Beings can coordinate with one another by incrementally building up shared [information theoretical codes](https://en.wikipedia.org/wiki/Information_theory) to communicate arbitrarily complex ideas to one another.
+
+<!-- It's also obvious each of these Beings will seek to pursue greater Welfare values at all times, as is assumed in Economics. I'm not concerned here with figuring out any kind of personal moral code, just how we should structure our societal rules. -->
+
+## What does it mean to maximize Welfare?
+
+Welfare is the only part of our model that structurally assumes any kind of preference or "goodness", and is just another term for the concept of utility from [Utilitarianism](https://en.wikipedia.org/wiki/Utilitarianism), an ethical philosophy stating that we should seek to create the greatest amount of subjective happiness or freedom from pain for the greatest amount of people. Since Utilitarianism is simple and relies on very few assumptions about the nature of consciousness and reality, it's a perfect fit for developing a theory of minimum necessary rights. However it often becomes *very* controversial when people discuss how to put it into practice.
+
+Utilitarian philosophers often discuss different ethical thought experiments, such as the famous trolley car problem. These thought experiments often try to determine what kinds of decisions are ethically justified when some group of people must be harmed for the benefit of another group of people. Simplistic representations of utilitarian thought then sometimes try to perform "calculations" about the aggregate utility of many different people to decide how to make decisions on their behalf. However our model points to a potential problem with these kinds of utility calculations.
+
+We've made very few assumptions about the nature of Welfare for a very good reason. Every Being might have a completely unique experience of Welfare, and might prefer completely different experiences! This makes it unrepresentable to simply "add up" the Welfare values of different Beings. Further, since Qualia fuzzily contains all the past experiences and memories and internal ideas of a Being, even if their Welfare type was the same as ours, we can't completely predict or understand their current internal Qualia. This means it's impossible for us to predict what Welfare some other being will experience from any Action we take, we can only guess.
+
+But even if it's impossible for us to predict what a Being's Welfare for *any arbitrary* Action might be, we can always communicate to them some *finite list* of possible Actions, and give them a way to signal to us what Welfare they predict they will experience from those Actions relative to one another. There's still imperfection here, and each step of communication and prediction introduces possible error or inaccuracy. But at least we have a principled approach, and can work to gradually remove uncertainty from each of these steps. Voting is simply a way to apply this principle when making decisions in a group.
+
+With this realization in hand we can state a useful principle:
+
+- It is impossible to compare the Welfare value of Actions without first soliciting those values from possibly effected Beings.
+
+## Interference, cooperation, and Coordination Plans.
+
+With any group of Beings seeking to maximize their own personal Welfare, it's obvious they will routinely interfere with one another. Let's define interference as a situation where a Being makes a Prediction about the results of some Action, takes that Action, but as a result of Actions taken by other Beings the final perceived state of the universe will differ from their Prediction such that they don't achieve the Welfare they were intending. The opposite will also routinely be true! Sometimes the Actions of other Beings will actually help some Being experience *more* Welfare than they expected, which we'll define as cooperation.
+
+Both interference and cooperation effect the Welfare experienced by all Beings in a group, so it will often be rational for them to choose some Coordination Plan, a function intended to minimize interference and maximize cooperation between them to generally help each best maximize their Welfare. A Coordination Plan takes as input the Actions of the coordinating Beings, and outputs for each Being either some new Plan specifying what they should do next, or no Plan if nothing is asked of them. Of course any Being may choose to ignore a specifying Plan, but let's discuss that later.
+
+Let's consider some examples of Coordination Plans to get a better grasp of this idea:
+
+- **The Degenerate Plan**: a Plan that never gives any specification to anyone regardless of what they do. Equivalent to having no Plan at all, so it obviously won't be an improvement.
+- **The Dictatorship**: a Plan that is under the complete control of one specific member of the coordinating group, giving as output anything they wish. This obviously doesn't seem great since it treats some members of the group differently than others, but we'll try to be more precise about this issue later.
+- **The Totalitarian Democracy**: a Plan that requires every Action by every member to be voted on before it is allowed. Although we certainly would decrease interference with this Plan, it seems tedious and inefficient.
+
+These are three extreme examples that illustrate some potential problems we need to avoid. They bring an important question into sharp relief: how do we decide if a Coordination Plan is optimal?
+
+Here's my conjecture:
+
+- A Coordination Plan is optimal if and only if, for any group of Beings in any universe state, if you add another Being to that group without letting them know what starting state they will be in, they would choose this Coordination Plan to maximize their Welfare above any other Coordination Plan.
+
+Let's call this the [Original Position property](https://en.wikipedia.org/wiki/Original_position). The Original Position property seems equivalent to this restatement:
+
+- A Coordination Plan is optimal if and only if, for any group of Beings in any universe state, if you tell one of the Beings they will have their state flipped with a random unknown other member of the group, they would choose this Coordination Plan to maximize their Welfare above any other Coordination Plan.
+
+For fun, let's call this the [Trading Places property](https://en.wikipedia.org/wiki/Trading_Places).
+
+This is an interesting property, since it implies such a Coordination Plan will both be the most rational choice for most Beings most of the time, and is the best choice to make on behalf of *those who can't signal their preferences to us*. This includes future not-yet-existent Beings, or any Being who is sufficiently distant from us in some way. The latter implication strongly suggests such a Coordination Plan is the most ethical one we could choose.
+
+But how do we design such a Plan?
+
+## Equality of Preference Strength principle.
+
+It seems intuitive that in order to maintain the Original Position property, a Coordination Plan must inherently consider the preferences of different Beings equally. The Plan might make decisions that give more control to different Beings, but only *after all aggregate preferences have been considered*. The root preferences must be considered equally.
+
+## Outcome classifications, substitutability, and consent.
+
+Let's classify different outcomes of Actions based on their Welfare results:
+
+- Strict Improvement: some Beings perceive greater Welfare, and the rest are unchanged. This is very similar to [Pareto efficiency](https://en.wikipedia.org/wiki/Pareto_efficiency).
+- Mixed Change: some Beings perceive greater Welfare, others perceive worse Welfare, and the rest are unchanged.
+- Strict Decline: some Beings perceive worse Welfare, and the rest are unchanged.
+
+It should be obvious an optimal Plan will prefer both Strict Improvements and Mixed Changes over Strict Declines, and should always encourage Strict Improvements and discourage Strict Declines. But when trying to decide between outcomes where neither of those rules applies, we need more complex rules:
+
+- For any Mixed Change, if there exists a Strict Improvement that gives roughly equivalent Welfare improvements without the Welfare declines, that Strict Improvement should always be preferred over the Mixed Change. We call this a Mixed Change substitution.
+- For all other sets of outcomes, we can only choose between them after soliciting preferences, or in other words, voting. As surprising as it may seem, some Mixed Changes might be sufficiently preferred by some group to outweigh preferences for some other weaker Strict Improvement.
+
+Obviously voting is one way we can gather relative preference strengths for outcomes, but there's another: direct communication of consent! If a Being gives their voluntary consent to some Action, that necessarily implies they consider that Action to be among their best options for Welfare improvement. This is one way we can discern between Strict Improvements and Mixed Changes without having to conduct a vote.
+
+- If a group of Beings voluntarily consents to some Action, then if that Action doesn't decrease Welfare for other non-consenting Beings, it is a Strict Improvement and should be categorically allowed.
+
+But how can we know if the Actions of a consenting group will interfere with other Beings?
+
+## Interference predictions, Coordination Efficiency, and mutually excludable ownerships.
+
+The only way to know with certainty that some Action won't interfere with other Beings is to somehow solicit their preferences, either through consent or a vote. However it's obviously inefficient to do this for every single potential Action, since the effort spent conducting a vote itself creates changes in Welfare. If the Welfare cost of conducting a vote routinely outweighs the possible Welfare increase gained from the coordination of the vote, that vote does more harm than good. I'll call this idea Coordination Efficiency, or how well a particular vote is able to improve outcomes compared to its cost.
+
+So we need some way of improving Coordination Efficiency. To do this it's useful pre-classify Actions into categories depending on their predicted outcome:
+
+- **Interference not predicted**: some Actions are predicted to either produce no or negligible interference, or cooperative benefit. Because of this prediction, the Actions are strictly allowed since they are likely to produce Strict Improvement outcomes.
+- **Interference possible**: some Actions reliably produce interference, and so those wishing to perform them must solicit preferences somehow.
+
+Of course these classifications are still floating in the air: how do we actually draw the line between them? And even then, it will still be inefficient to conduct a vote for all the potentially interfering Actions.
+
+These dual classifications suggest a very efficient concept we already routinely use: mutually excludable ownerships. An ownership is a classification of an abstract space of Actions, and a designation of an Owner of that space.
+
+- The Owner may act freely within the space without gaining consent from anyone.
+- Anyone else wishing to act within the space must gain consent from the Owner after giving the Owner all predictably material information about the intended Action so the Owner can make an accurate prediction about their expected Welfare change. The requirement to give this material information prevents fraud and makes the consent properly informed.
+
+Ownerships delegate voting power to an Owner. The Owner is given sole deciding power within their ownership, representing some kind of prediction by everyone else that such a delegation will produce Strict Improvements. The group is essentially deciding that any vote conducted about any Action in that space would almost always simply defer to the wishes of the Owner. It also represents a judgment that any Mixed Change Action within that space could be substituted for a Strict Improvement, so the group simply disallows Mixed Changes within the ownership and instead requires any potential actor to find a different but similar Owner willing to give consent.
+
+A group choosing to designate some list of ownerships is in a very real way still giving every member of the group the power to signal their preferences for every possible Action by all other members. They are simply doing so indirectly and in advance.
+
+Ownerships can even be useful to decide when votes must be conducted. Obviously votes must be conducted to define the nature of ownerships, but a dividing line between public and private ownerships can do the rest. The Owner of a public ownership is the entire group, so a vote must be conducted; whereas the Owner of a private ownership is an individual or group of individuals, so consent must be gained.
+
+Ownerships are very efficient, but they still must be assigned in a principled way. All people must have the same capabilities for ownership, ownerships must not collide with one another, and they should structurally imply the necessary predictions of interference.
+
+## What ownerships to define?
+
+What sources does Welfare come from? It's useful to understand these sources, since they structurally imply production of Welfare, and so likely define efficient ownership boundaries.
+
+- Qualia. Existence is necessary to even experience Welfare.
+- Force of Will. Being able to act to pursue Welfare, even if only in the form of "internal" action such as imagination or reminiscence.
+- The Universe. Qualia is updated in response to the Universe, and Action is performed within and upon the Universe.
+
+Nicely, these sources align with [John Locke's concepts of Life, Liberty, and Property](https://plato.stanford.edu/entries/locke-political/), although not intentionally or perfectly.
+
+These sources suggest two different essential ownerships, which I'll show soon are efficient:
+
+- Ownership of Body. When a Being owns themselves. Owning a Body means one can perform any Action that doesn't infringe on some other ownership, and others must gain consent before acting on that Body.
+- Ownership of Universe. When a Being owns some portion of the Universe. It should be obvious that Ownership of Body necessarily implies some innate degree of Ownership of Universe, since a Body must have some capability to occupy habitable space and access resources to sustain itself.
+
+Let's also define a concept of Exclusion, where the possession of some ownership necessarily decreases the potential ownerships of all other Beings. This is a useful concept because it points toward how ownerships relate to Strict Improvements and Mixed Change substitutions. If we can grant some ownership to everyone equally without producing exclusion we should do so, since such ownerships will maximize improvements.
+
+Ownership of Body is immediate and intrinsic. Every person is granted ownership of their Body when they are born, and don't have to do anything to qualify for it. A Body is equivalent to having Qualia and Force of Will. If someone didn't own their Body, they could still experience negative Welfare and would have no inherent capability for non-interfering Action. This is obviously an inefficient situation where potential Strict Improvements aren't structurally allowed and Mixed Change substitutions not required. Ownership of Body is also not exclusionary, since we can give every person ownership of *themselves* equally without taking an inherent source of Welfare from anyone.
+
+Ownership of Universe however is necessarily exclusionary! This means any ownership of Universe must be mediated in some way to push toward Strict Improvements and Mixed Change substitutions. Since the essential Ownership of Body implies some small degree of Ownership of Universe, it's not difficult to arrive at some kind of principle of universal common ownership, requiring that all exclusionary ownership of the Universe must in some way compensate all other Beings for that ownership. In future chapters I'll discuss how the combination of a novel Common Resource Tax and normal private markets achieves that goal.
+
+## How does a Coordination Plan achieve all these goals?
+
+Finally we can address this important question: why will any individual Being follow a Coordination Plan when it isn't in their personal interest to do so? Simply put, the Coordination Plan is equivalent to a body of laws! To create a Coordination Plan protecting rights in the form of ownerships, we make the Plan accept inputs in the form of accusations of rights infringements, and the Plan decides on some response to those infringements. These responses can be anything, from restorative mediation, to deterrent punishments, to required restitutions. In creating these responses, we want to know what restrictions we should place on ourselves. How can we in a principled way decide on responses that won't themselves destroy more Welfare than they protect?
+
+It's useful to pull apart our two essential ownerships, and be more specific about how they're defined. The first thing to notice is how the aspects of the ownerships relate to possible interference.
+
+- No interference possible: Ownership of Body doesn't even allow interference without including the possibility of Action or Ownership of Universe. Merely existing and experiencing Qualia can't ever interfere with anyone. If I could grant consciousness to a statue but give it no capability to act, its only interference would be in the form of its occupation of space, not its internal life. This means we necessarily have no reason to control any aspect of the purely "internal" aspects of Ownership of Body.
+- Interference possible: Ownership of Body however does allow a Being to act. Although they may act in any way that doesn't interfere with other ownerships, we still need to precisely define what kinds of Actions constitute infringement. This means we necessarily must be able to control Action, both to prevent harm and to define what constitutes harm.
+- Interference necessary: Ownership of Universe necessarily interferes, as I've already discussed.
+
+It's also interesting to note that the rough categories of Life, Liberty, and Property seem to transitively depend on one another. Liberty and Property cannot give Welfare without Life, and Property is rendered moot without Liberty. Combining the interference aspects with this dependence order, I propose the following matrix as defining the different categories of ownership.
+
+|          | Necessary Interference             | Possible Interference      | No Interference           |
+|----------|------------------------------------|----------------------------|---------------------------|
+| **Life**     | Resources for Life (universe)      | Action for Life (body)     | Mind and Body (body)      |
+| **Liberty**  | Resources for Liberty (universe)   | Public Action (body)       | Private Action (body)     |
+| **Property** | Finite Common Resources (universe) | Dangerous Items (universe) | Personal Items (universe) |
+
+The ownerships of Private Action, Personal Items, and Dangerous Items are in more protected categories than is strictly necessary, since their possible interference was less severe than the category they strictly belong to. Whether to use these exact categories or others would be up to the group defining their system of rights.
+
+<!-- https://www.tablesgenerator.com/markdown_tables -->
+
+Columns designating interference possibility determine what ownerships can be regulated or taxed:
+
+- "No Interference" ownerships are inviolable in all circumstances. No law can regulate them or tax levied on them.
+- "Possible Interference" ownerships can be regulated and taxed, but only when they have been determined to create interference.
+- "Necessary Interference" ownerships *must* be regulated and taxed to uphold the principle of universal common ownership.
+
+Rows determine what ownerships can be suspended as punishment for infringement:
+
+- "Life" ownerships may not be suspended for any reason, implying they also can't be regulated or taxed. This disallows the death penalty and torture of all kinds, including starvation, intentional sleep deprivation, continuous restraint, or cruel confinement. It's important to note however that these restrictions regard *Action*, not scarcity. Resources are owned excludably, and necessarily therefore are owned commonly by all in some way. Situations of true scarcity allow groups to make necessary life or death decisions about allocation of resources, but this is driven by the scarcity, not by allowing Actions.
+- "Liberty" and "Property" ownerships can be suspended only in an equal or higher row than an infringement.
+
+<!--
+Similarly, if we place a right lower in the dependent ordering, even if it's still interfering that means it's more available for punishment, and whatever rights it's placed alongside *can also be used as punishment for crimes using that right*. For example, if property crimes were placed in the same strata as crimes of the body, then people who commit crimes towards *or using* property (both white-collar crime and vandalism are in this category) can be punished with the same severity as those who commit crimes of the body. This again applies pressure to put the category of rights in the correct strata.
+
+
+If a good is very cheap but required the violation of someone's rights to be that cheap, then the price isn't real. Laws and regulations that add cost but protect rights aren't artificially raising prices, they're revealing true prices
+
+Taxation on non externality goods isn't justifiable not because others don't have a claim of partial ownership, but because it would imply double taxation. The resources used to create the good came from land that itself was taxed through partial ownership, and the value of those resources was figured into the self assessed price. If someone is able to take resources of some value and transform them into goods that are more valuable then others made with the same resources, that's a strict good shouldn't interfere with
+
+
+This definition of rights also makes clear why ability to use democratic weights to signal for common resources makes sense. Since it is impossible to determine how to forcibly divide resources to give people utility (incomparable utility types), we simply give them equal weight in signaling for these capabilities, and require common resource taxes to make someone's monopolization of a common resource something they must compensate everyone else for. This gives everyone in principle equal claim to the universe and their non-interfering rights.
+
+The interesting consequence of defining a right as non-interfering is that it is available for punishment or can be taxed or regulated. If you say that someone can be executed, you are also saying that the mere act of living is interfering, which must mean the mere act of living can be taxed or regulated. That is a very difficult logical justification to make.
+-->
+
+<!-- It's important to remember how important voting method efficiency is when making these decisions! In a resource-like voting method such as Quadratic Voting, groups can essentially perform "trades" across different decisions. A group may accept some negative outcome in one area in order to get a more strongly preferred positive outcome in another! From the perspective of the entire group, that trade is still a Strict Improvement since each group has greater overall Welfare as evidenced by their willingness to make the trade. -->
+
+<!--
+perhaps we can prove that any optimal action plan must preserve certain properties in order to maximize utility, like
+self-determination
+any non-interfering action should be allowed
+all interfering action must be mediated
+all people are treated equally by the system, it can't intrinsically tell the difference between them
+-->
+
+
+## Infringement severity.
+
+Finally we need to somehow define how severe an infringement is. It should be obvious that we should respond to any infringement proportionally to the infringement's severity, so a brutal assault shouldn't receive the same response as a light scratch on the finger.
+
+I'll have more to say about this in the future, but for now I'll simply suggest a few spectra we can combine to determine severity.
+
+- Permanence: has this infringement created a permanent change? Can the owned Welfare source recover? How quickly can it recover?
+- Duration: for how much time did the infringement occur?
+- Intensity: how much Welfare was destroyed? Was mere potential for positive Welfare removed? Or was negative Welfare experienced?
+- Intent: what was the intent of the infringing Beings? Although it doesn't precisely relate to the infringement in question, it might be useful to predict these Beings' potential future Actions. Here's a proposed spectrum of intent, from least severe to most severe, and a rough degree of punishment for the infringing Beings:
+  - Unpredictable accident or dire self-defense (must only make amends, possibly with help from society).
+  - Negligent accident (must make restitution and receive a slight deterrent punishment).
+  - Callous self-interest (must make restitution and receive a harsher deterrent punishment, possibly imprisonment to protect others).
+  - Psychopathic enjoyment (must be imprisoned to protect others).
+
+## Conclusion
+
+We desperately need a more precise framework for reasoning about rights. I hope this theory could be a foundation for further work.
+
+<!--
+an interesting little idea: could temporarily trading away some portion of an actor's *democratic weights* to their victims be a reasonable punishment? this is potentially dangerous territory, since we're essentially taking away the right to vote, something I've previously said was completely inviolable.
+-->
+
+
+<!--
+https://plato.stanford.edu/entries/rights/
+https://www.sfu.ca/~aheard/intro.html
+https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/rights-theory
+-->
+
+
+<!--
+# Insane science fiction realities
+
+To consider the true generality of this framework of rights, it's interesting to consider other realities.
+
+- Vampires exist and live in constant agony without some steady supply of human blood. Since blood is divisible there's probably a tolerable set of rights here, where both humans and vampires are given ownership of their bodies, but both humans and vampires have some "ration duty" they must fulfill whereby they labor in some way to support the existence of both. Beings could apply for either a guaranteed ration of food (in which case they must donate blood on some reasonable schedule) or a ration of blood and food (in which case they must labor in some kind of shared food production infrastructure).
+- "Annoyance" vampires exist who live in pain without somewhat regularly causing humans irritation, by making a high pitched sound that is somewhat painful but mostly irritating. If it's something like every human only has to experience this irritation once every few days, that's absolutely tolerable.
+- "Trauma" vampires exist who live in constant agony without regularly causing humans genuine pain and trauma. This doesn't seem tolerable! Pain and trauma necessarily interfere with the intrinsic utility function, and without some way to divisibly provide that (such as perhaps with computer simulations or synthetic pheromones) it actually seems the *best world state* is for the two to conflict until one or the other is annihilated. A vote is merely a consensus building tool, and it essentially simulates warfare. If the result of a vote is sufficiently unacceptable to any side that they can't tolerate the result and would prefer violent conflict, then that's what they must do.
+
+The interesting thing about these examples is whether they hinge on actual negative utility, or merely some artifact usually produced by negative utility. In most real world situations the latter would be true, so a tolerable existence could be formed.
+Another is whether the actors possibly creating negative utility are doing so to merely gain positive utility or to avoid negative utility. The latter is the more interesting, and honestly if it's unavoidable to not cause negative utility, especially intense negative utility, then that's just a "psychotic" being that we shouldn't concern ourselves with???? in the former just disallow seeking of positive utility without consent.
+
+
+- A space vessel that's running out of air. This is the most essential way we can test the interference of freedoms from against freedoms to. In this case a freedom from is necessarily entangled with freedoms to. So it can be disallowed from a rights perspective for anyone to forcibly kill another crewmember, but not for the whole crew to have a weighted vote deciding who should be jettisoned from the vessel or otherwise most humanely killed. This is a classic democratic commitment! The crew can set a deadline and begin accepting proposals for how to proceed.
+
+And of course there's a difference between these examples where there's time for a decision to be made versus ones where there isn't. Those are just called tragedies, and we can only interrogate people's choices after the fact for intention and best effort.
+-->
+
+<!--
+First we want to establish the truly minimal axioms, things that are so certain to us there's absolutely no point bothering to doubt them.
+
+As a human being, each of us is consciously experiencing our life. We can't actually be sure *other* people are also conscious, but each of us is trivially certain we exist and are conscious. We can't be sure our perceptions or experiences in any way reflect the truth of reality, but we are certain we are experiencing *something*. This makes the first axiom:
+
+- **Axiom of Consciousness**: I exist and have conscious experience.
+
+We are also certain our experience is made up of our "senses", our different dimensions of feeling. Our sensory experiences can be compared to each other, and some are more similar than others. We can't be certain other people have the same sense types as us, or that our senses have always been or will always be of the same types, but we are certain we experience our consciousness through our senses.
+
+- **Axiom of Sense**: I experience consciousness through senses, which are multi-dimensional and can be compared in a multi-dimensional space.
+
+We also are completely certain we have memory, some of which we perceive to be older than others, and our memories are of the same types as our current senses. We can't be certain our memories are real or correct, but we are certain we experience them.
+
+- **Axiom of Memory**: I have memories of previous sensory experiences, some of which seem older to me than others.
+
+We are certain we experience "utility" from our experiences, some kind of subjective feeling of "goodness" or "badness". Our feelings of utility don't exist on a simple line between good and bad, but have many different dimensions and complexities. We can compare them much like our experiences, and consider some to be farther apart than others. Some of them we prefer and others we would like to avoid. Every time we have a new sensory experience we also have some responding experience of utility. The utility doesn't only depend on the experience itself, but relies on both the experience itself and all our current memories. We can't be sure other people experience utility at all, much less the same type of utility, but we are certain we experience it.
+
+- **Axiom of Utility**: I have feelings of utility, which can be compared with one another, some of which I prefer and others I would like to avoid.
+
+And as the final axiom, we are certain we can take some kind of action that changes our experiences. We have some idea that at any moment we can "issue commands" from our consciousness that seem to change our bodily sensory experiences in a consistent manner. We can't be sure other people have this feeling, but we are certain we have it.
+
+Very importantly, we can't be sure these commands actually originate from our consciousness or represent some kind of internal free will. However if we *don't* have at least some degree of free will, we can't really make any useful progress towards a theory of ethics, since if an ethical system states that some actions *should* be taken over others, it presupposes it's actually possible to choose between actions. This is a deeper topic I intend to explore more fully in the future, but for now we'll simply include free will in our axioms.
+
+- **Axiom of Action**: I have some degree of free will to issue commands to take actions that effect my sensory experience.
+
+These are the minimal axioms of being, the things each of us is individually absolutely certain is true, and if they aren't true there's barely any point reasoning about life.
+
+Note that each of these axioms uses the first person "I". The nature of our consciousness is such that we can't actually be sure other consciousnesses exist or share our same characteristics!
+
+However it's obvious there's still a lot missing here! All of these axioms only pertain to one isolated consciousness, and tell us nothing about *groups* of people. To really reason usefully about society and ethics, we need more.
+
+The problem is we can't rigorously just add more assumptions to our theory. Every axiom we add increases the risk our theory is inconsistent or doesn't align with reality.
+
+However we can use some ideas from other logical areas such as computer science and economics to bridge the gap.
+
+In order for our free will to be at all useful for gaining utility, we have to be able to make predictions about what kinds of sensory experiences will result from different possible actions. If the universe is inconsistent, then there aren't *any* kinds of patterns in what effects result from our actions, and so we can't in any way discover any kind of rules about which actions we should take at any time. In other words, it is pointless to reason about systems for action choice in such a reality.
+
+- **Wager of Consistency**: The reality I perceive through my senses is consistent and deterministic.
+
+- **Wager of Commonality**: Other humans are also conscious beings of the same type as me, have the same types of senses and actions as I do, but have different Qualia types and different utility functions.
+
+
+- **Theorem of Incomparable Utility**: It is impossible to externally determine the internal qualia or utilities of other people, we can only roughly infer their utility from their actions. For this reason it is impossible to correctly compare or predict the utility effects our actions could have on others.
+-->
