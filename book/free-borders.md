@@ -1,5 +1,6 @@
 ---
 title: "Free Borders"
+incomplete: true
 ---
 
 This chapter isn't proposing a novel mechanism for defining borders, but is simply making a claim I believe is obvious once you actually stop to consider it:

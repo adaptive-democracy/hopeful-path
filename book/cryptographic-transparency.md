@@ -1,3 +1,8 @@
+---
+title: "Cryptographic Transparency"
+incomplete: true
+---
+
 - All votes must be individually verifiable, so any voter can check their own vote was counted correctly.
 - All votes must be secret, so it's impossible for anyone, including election officials, to know what vote any individual cast.
 - All votes must be auditable, so any outside party can check vote results.

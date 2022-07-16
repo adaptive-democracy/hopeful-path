@@ -1,4 +1,7 @@
-# Proof of social trust
+---
+title: "Proof of social trust"
+incomplete: true
+---
 
 in decentralized technologies, both unique personhood and consensus are the really big *core* problems. this idea attempts to use them to solve *each other*. proof of work is disastrous, proof of stake still prizes money holding and therefore creates plutocracy
 

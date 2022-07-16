@@ -1,5 +1,6 @@
 ---
 title: "Persistent Prioritization"
+incomplete: true
 ---
 
 Often we're confronted with situations where some finite amount of public resources must be allocated or prioritized across a group. Market fundamentalists often argue these situations should be handled by private markets, where prices and willingness to pay can act as the system for prioritization. However, this is often an ethically fraught idea, since the inherent inequality of private markets subverts the entire goal of public goods.

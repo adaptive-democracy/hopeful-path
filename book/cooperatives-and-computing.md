@@ -1,3 +1,9 @@
+---
+title: "Cooperatives and Computing"
+incomplete: true
+---
+
+
 The internet, and computing in general, have a few problems
 
 zero-knowledge computation is very cool, but given how insanely more expensive it is, wouldn't it be better for people to just control machines? or have legal control over an institution and have real capability to seek legal redress if officers of that institution break the rules?

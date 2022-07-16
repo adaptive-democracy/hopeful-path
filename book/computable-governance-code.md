@@ -1,4 +1,6 @@
-# Computable Governance Code
+---
+title: "Computable Governance Code"
+---
 
 Laws and other governance documents are typically written in natural language, which is necessarily vague and imprecise. This is problematic in many ways, since the law is literally just a "code", instructions about governance action that are intended to be as precise as possible. In a very real way, legal codes are just like computer programs, except instead of being executed by computers they are executed by people and institutions. Very often legal codes literally just describe algorithms, step-by-step instructions intended to produce specific defined outcomes. But fuzzy and imprecise natural languages are a very poor fit for this job.
 

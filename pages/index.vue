@@ -7,6 +7,7 @@ div
 		ChapterNav.w-full.md_ml-auto.md_w-1by2(:link="firstChapter", type="top")
 
 	ChapterListing(v-bind="listingProps")
+	NuxtLink.flex.justify-end.mb-4(to="/contents") Table of Contents
 
 </template>
 

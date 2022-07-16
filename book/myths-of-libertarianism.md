@@ -1,5 +1,6 @@
 ---
-title: "Markets and Rights"
+title: "The Myths of Libertarianism"
+incomplete: true
 ---
 
 After describing a framework for understanding rights, it's natural to ask how those rights interact with existing ideas about markets. The framework interacts very cleanly with markets, and in fact solves many of the possible problems economists have identified in markets. It isn't however immediately obvious why, and that's what this chapter will focus on.

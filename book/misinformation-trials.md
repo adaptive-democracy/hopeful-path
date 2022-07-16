@@ -1,5 +1,6 @@
 ---
 title: "Misinformation Trials"
+incomplete: true
 ---
 
 The problem of quickly spreading misinformation is a critical issue of our time. Although we have slander and libel laws protecting entities from injurious and unsubstantiated claims regarding them specifically, we don't have any protections for speech that doesn't injure any particular person but still harms society generally. This is a classic example of the type of wicked externality we discussed in an earlier chapter.

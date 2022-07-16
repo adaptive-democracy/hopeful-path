@@ -1,5 +1,6 @@
 ---
 title: "Persistent Logistics"
+incomplete: true
 ---
 
 incorporate constitutional merging

@@ -1,3 +1,8 @@
+---
+title: "What is Quadratic Voting/Funding, and why does it work?"
+incomplete: true
+---
+
 quadratic scaling
 resource voting systems
 

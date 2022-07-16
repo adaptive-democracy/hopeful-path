@@ -1,7 +1,7 @@
 ---
 title: "Why is our democracy broken?"
 subtitle: "An introduction to voting methods and their rippling consequences."
-stub: true
+incomplete: true
 ---
 
 So hopefully you're convinced that our current voting system, [Plurality Voting](TODO point to that section in intro) is awful, and possibly the root cause of many of our political and social problems.
