@@ -9,7 +9,7 @@ NuxtLink(:to="link.slug")
 
 <script lang="ts">
 import { ChapterLink } from '@/plugins/utils'
-import { PropType, defineComponent, computed } from '@vue/composition-api'
+import { PropType, defineComponent, computed } from 'vue'
 
 export default defineComponent({
 	props: {

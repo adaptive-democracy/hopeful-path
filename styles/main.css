@@ -27,7 +27,7 @@ body {
 	overflow-x: hidden;
 }
 .nuxt-content {
-	@apply prose max-w-none prose-sm lg_prose xl_prose-lg;
+	@apply prose max-w-none prose-sm lg_prose xl_prose-lg mb-6;
 }
 .nuxt-content pre, .nuxt-content table {
 	display: block;

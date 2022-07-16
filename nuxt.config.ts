@@ -2,11 +2,11 @@ import { NuxtConfig } from '@nuxt/types'
 
 const config: NuxtConfig = {
 	head: {
-		title: 'A Hopeful Pathway for Humanity',
+		title: 'Persistent Democracy: a hopeful path for humanity',
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
-			{ hid: 'description', name: 'description', content: 'A Hopeful Pathway for Humanity' }
+			{ hid: 'description', name: 'description', content: 'Persistent Democracy: a hopeful path for humanity' }
 		]
 	},
 
@@ -17,7 +17,6 @@ const config: NuxtConfig = {
 
 	modules: ['@nuxt/content'],
 	buildModules: ['@nuxt/typescript-build', '@nuxtjs/tailwindcss'],
-	plugins: ['@/plugins/index.ts'],
 	server: {
 		port: 8080,
 	},
@@ -132,6 +131,9 @@ const config: NuxtConfig = {
 									color: theme('colors.gray.900'),
 									textDecoration: 'underline',
 									fontWeight: theme('fontWeight.medium'),
+								},
+								'h1:not(:first-child)': {
+									marginBottom: theme('spacing.2'),
 								},
 								// 'h1, h2, h3': {
 								// 	fontWeight: '800',
