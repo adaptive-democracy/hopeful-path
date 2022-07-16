@@ -1,4 +1,4 @@
-import { IContentDocument } from '@nuxt/content/types/content'
+import { IContentDocument, contentFunc } from '@nuxt/content/types/content'
 
 const mainSlugRegex = /^\d\d./
 export function processSlug(slug: string) {
@@ -17,5 +17,17 @@ export function isMainChapter({ slug }: IContentDocument) {
 }
 
 export function isDetailChapter(document: IContentDocument) {
-	return !isMainChapter(document)
+	return !isMainChapter(document) && document.incomplete !== true
+}
+
+export async function makeListingProps($content: contentFunc, listingType: 'main' | 'detail') {
+	const [listingHeader, listingFilter] = listingType === 'main'
+		? ['Main Chapters', isMainChapter]
+		: ['Detail Chapters', isDetailChapter]
+
+	const chapters = (await $content().sortBy('path').fetch() as IContentDocument[])
+		.filter(listingFilter)
+		.map(ChapterLink)
+
+	return { listingHeader, chapters }
 }

@@ -3,7 +3,9 @@
 div
 	nav.w-full.border-b.border-gray-200
 		.container.py-4.md_py-0.flex.flex-col.md_flex-row.md_h-16.items-center
-			NuxtLink.no-underline.text-xl.mr-auto(to="/") A Hopeful Pathway for Humanity
+			NuxtLink.no-underline.mr-auto(to="/")
+				span.text-xl Persistent Democracy
+				span.text-lg.text-gray-500.ml-2 a hopeful path for humanity
 
 	Nuxt.pt-6.container
 

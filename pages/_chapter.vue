@@ -9,7 +9,7 @@ div
 		ChapterNav(v-if="prev", :link="prev", type="prev")
 		ChapterNav(v-if="next", :link="next", type="next")
 
-	ChapterListing(v-if="isMain")
+	ChapterListing(v-if="chapterListing", v-bind="chapterListing")
 	NuxtLink(v-else, to="/contents")
 
 </template>
@@ -17,7 +17,7 @@ div
 <script lang="ts">
 import Vue from 'vue'
 import { IContentDocument } from '@nuxt/content/types/content'
-import { ChapterLink, processSlug, isMainChapter } from '@/plugins/utils'
+import { ChapterLink, processSlug, isMainChapter, makeListingProps } from '@/plugins/utils'
 
 export default Vue.extend({
 	async asyncData({ $content, params }) {
@@ -41,9 +41,9 @@ export default Vue.extend({
 				? ChapterLink(chapters[nextIndex])
 				: null
 
-			const isMain = isMainChapter(chapter)
+			const chapterListing = isMainChapter(chapter) ? await makeListingProps($content, 'main') : null
 
-			return { chapter, isMain, prev, next }
+			return { chapter, chapterListing, prev, next }
 		}
 
 		throw new Error(`couldn't find ${chapterSlug}`)

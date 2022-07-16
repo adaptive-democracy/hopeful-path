@@ -6,20 +6,21 @@ div
 	.flex.flex-col.md_flex-row.mt-12
 		ChapterNav.w-full.md_ml-auto.md_w-1by2(:link="firstChapter", type="top")
 
-	ChapterListing(type="main")
+	ChapterListing(v-bind="listingProps")
 
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import { IContentDocument } from '@nuxt/content/types/content'
-import { ChapterLink } from '@/plugins/utils'
+import { ChapterLink, makeListingProps } from '@/plugins/utils'
 
 export default Vue.extend({
 	async asyncData({ $content }) {
 		const [introduction, rawFirstChapter, ] = await $content().sortBy('path').fetch() as IContentDocument[]
 		const firstChapter = ChapterLink(rawFirstChapter)
-		return { introduction, firstChapter }
+		const listingProps = await makeListingProps($content, 'main')
+		return { introduction, firstChapter, listingProps }
 	},
 })
 </script>
