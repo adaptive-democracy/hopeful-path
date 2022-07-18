@@ -223,9 +223,9 @@ The preconditions for Pareto optimal exchange have still been maximally fulfille
 <!-- Persistent voting partially avoids this problem by making -->
 
 
-we can do this by appeal to the , since this structure gives all beings equal market power since all rights and goods in the universe can have their fundamental ownership structures changed in the constitution which all beings can equally vote for, allows them to arbitrarily tamp down externalities since they can set rules about the entire universe, and best compensates for the presence of imperfect information by both allowing perfect price information through common partial ownership and allowing stabilization periods that can help correct valuations.
+we can do this by appeal to the , since this structure gives all beings equal market power since all rights and goods in the universe can have their fundamental ownership structures changed in the constitution which all beings can equally vote for, allows them to arbitrarily tamp down externalities since they can set rules about the entire universe, and best compensates for the presence of imperfect information by both allowing perfect price information through parital common ownership and allowing stabilization periods that can help correct valuations.
 
-<!-- but the combination of common partial ownership and stabilization periods minimizes avoidable valuation error, since common partial ownership provably optimizes valuation honesty and maximizes allocative efficiency, and because stabilization periods allow beings to reflect and correct their valuations instead of merely incurring loss. -->
+<!-- but the combination of parital common ownership and stabilization periods minimizes avoidable valuation error, since parital common ownership provably optimizes valuation honesty and maximizes allocative efficiency, and because stabilization periods allow beings to reflect and correct their valuations instead of merely incurring loss. -->
 
 <!-- - Negative externalities can be arbitrarily identified and removed within the limits of technological possibility since the entire universe is owned by the cooperating group, meaning they can make rules about any aspect of the universe that they can democratically agree to. -->
 
@@ -313,7 +313,7 @@ democracy can only maximize *predicted* welfare. its the job of experimentation 
 
 
 
-this is as far as I want to go downward in the coordination function. with the presence of an arbitrary persistent constitution, beings are just left to argue about what the most optimal *next* constructions are, and of course we'll argue for further instantiations of common partial ownership and persistent democracy. since these persistent constitutions control the entire universal coordination function, they have the authority to instantiate any structure, such as common resource taxes, that the beings consider optimal.
+this is as far as I want to go downward in the coordination function. with the presence of an arbitrary persistent constitution, beings are just left to argue about what the most optimal *next* constructions are, and of course we'll argue for further instantiations of parital common ownership and persistent democracy. since these persistent constitutions control the entire universal coordination function, they have the authority to instantiate any structure, such as common resource taxes, that the beings consider optimal.
 
 
 
