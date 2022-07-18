@@ -10,21 +10,98 @@
 	command = "npm run build"
 
 [[redirects]]
-	from = "https://www.hopefulpathway.blainehansen.me/*"
-	to = "https://hopefulpathway.blainehansen.me/:splat"
-	status = 301
-	force = true
-
-[[redirects]]
-	# Optional: Redirect default Netlify subdomain to primary domain
+	# Redirect default Netlify subdomain to primary domain
 	from = "https://hopefulpathway.netlify.com/*"
-	to = "https://hopefulpathway.blainehansen.me/:splat"
+	to = "https://persistentdemocracy.org/:splat"
 	status = 301
 	force = true
 
 [[redirects]]
 	from = "https://hopefulpathway.netlify.app/*"
-	to = "https://hopefulpathway.blainehansen.me/:splat"
+	to = "https://persistentdemocracy.org/:splat"
+	status = 301
+	force = true
+
+
+[[redirects]]
+	from = "https://www.hopefulpathway.blainehansen.me/*"
+	to = "https://persistentdemocracy.org/:splat"
+	status = 301
+	force = true
+
+[[redirects]]
+	from = "https://hopefulpathway.blainehansen.me/*"
+	to = "https://persistentdemocracy.org/:splat"
+	status = 301
+	force = true
+
+
+[[redirects]]
+	from = "https://www.persistentdemocracy.org/*"
+	to = "https://persistentdemocracy.org/:splat"
+	status = 301
+	force = true
+
+
+[[redirects]]
+	from = "https://www.persistentdemocracy.com/*"
+	to = "https://persistentdemocracy.org/:splat"
+	status = 301
+	force = true
+
+[[redirects]]
+	from = "https://persistentdemocracy.com/*"
+	to = "https://persistentdemocracy.org/:splat"
+	status = 301
+	force = true
+
+
+[[redirects]]
+	from = "https://www.wecanfixeverything.com/*"
+	to = "https://persistentdemocracy.org/:splat"
+	status = 301
+	force = true
+
+[[redirects]]
+	from = "https://wecanfixeverything.com/*"
+	to = "https://persistentdemocracy.org/:splat"
+	status = 301
+	force = true
+
+[[redirects]]
+	from = "https://www.wecanfixeverything.org/*"
+	to = "https://persistentdemocracy.org/:splat"
+	status = 301
+	force = true
+
+[[redirects]]
+	from = "https://wecanfixeverything.org/*"
+	to = "https://persistentdemocracy.org/:splat"
+	status = 301
+	force = true
+
+
+[[redirects]]
+	from = "https://www.hopefulpathway.com/*"
+	to = "https://persistentdemocracy.org/:splat"
+	status = 301
+	force = true
+
+[[redirects]]
+	from = "https://hopefulpathway.com/*"
+	to = "https://persistentdemocracy.org/:splat"
+	status = 301
+	force = true
+
+[[redirects]]
+	from = "https://www.hopefulpathway.org/*"
+	to = "https://persistentdemocracy.org/:splat"
+	status = 301
+	force = true
+
+[[redirects]]
+	from = "https://hopefulpathway.org/*"
+	to = "https://persistentdemocracy.org/:splat"
 	status = 301
 	force = true
 
