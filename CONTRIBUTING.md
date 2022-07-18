@@ -2,7 +2,7 @@
 
 The book chapters are located in the [`book` folder](/book) of this repository. The files are written in [markdown](https://www.markdownguide.org/getting-started/), a plain text format for writing webpage content.
 
-To suggest a change to a chapter, find it in the folder above, and [use the edit button](https://docs.github.com/en/github/managing-files-in-a-repository/managing-files-on-github/editing-files-in-your-repository) to make changes and suggest them to me in a pull request. The Github interface should be able to guide you through everything else.
+To suggest a change to a chapter, find it in the folder above, and [use the edit button](https://docs.github.com/en/github/managing-files-in-a-repository/managing-files-on-github/editing-files-in-your-repository) to make changes and suggest them as a pull request. The Github interface should be able to guide you through everything else.
 
 If you'd like to better understand what git and Github are, check out these two pages:
 
