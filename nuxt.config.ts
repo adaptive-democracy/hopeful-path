@@ -16,6 +16,7 @@ const config: NuxtConfig = {
 	},
 
 	modules: ['@nuxt/content'],
+	plugins: ['~/plugins/chapters.ts'],
 	buildModules: ['@nuxt/typescript-build', '@nuxtjs/tailwindcss'],
 	server: {
 		port: 8080,

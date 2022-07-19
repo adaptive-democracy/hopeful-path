@@ -19,7 +19,7 @@ div
 		ChapterNav(v-if="prev", :link="prev", type="prev")
 		ChapterNav(v-if="next", :link="next", type="next")
 
-	ChapterListing(v-if="chapterListing", v-bind="chapterListing")
+	ChapterListing(v-if="isMain", type="main")
 	NuxtLink.flex.justify-end.mb-4(to="/contents") Table of Contents
 
 </template>
@@ -27,7 +27,7 @@ div
 <script lang="ts">
 import Vue from 'vue'
 import { IContentDocument } from '@nuxt/content/types/content'
-import { ChapterLink, processSlug, isMainChapter, makeListingProps } from '@/plugins/utils'
+import { ChapterLink, processSlug, isMainChapter } from '@/plugins/chapters'
 
 export default Vue.extend({
 	async asyncData({ $content, params }) {
@@ -51,12 +51,12 @@ export default Vue.extend({
 				? ChapterLink(chapters[nextIndex])
 				: null
 
-			const chapterListing = isMainChapter(chapter) ? await makeListingProps($content, 'main') : null
+			const isMain = isMainChapter(chapter)
 
 			// const editLink = `https://github.com/blainehansen/hopeful-pathway/edit/main/book/${chapter.slug}.md`
 			const chapterLink = `https://github.com/blainehansen/hopeful-pathway/blob/main/book/${chapter.slug}.md`
 
-			return { chapter, chapterListing, prev, next, chapterLink }
+			return { chapter, isMain, prev, next, chapterLink }
 		}
 
 		throw new Error(`couldn't find ${chapterSlug}`)

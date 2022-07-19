@@ -1,5 +1,6 @@
 ---
-title: "Verified Software"
+title: "Provably correct software is possible and necessary"
+subtitle: "Every part of our society relies on software. It can't continue to be unsafe and unreliable."
 incomplete: true
 ---
 

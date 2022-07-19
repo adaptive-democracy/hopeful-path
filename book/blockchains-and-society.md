@@ -1,6 +1,6 @@
 ---
-title: Blockchains aren't going to fix society.
-subtitle: But persistent democracy and cooperatives could.
+title: "Blockchains aren't going to fix society..."
+subtitle: but Persistent Democracy and cooperatives could.
 incomplete: true
 ---
 

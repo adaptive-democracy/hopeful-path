@@ -12,13 +12,22 @@ section.w-full.mt-2.py-4
 
 <script lang="ts">
 import Vue, { PropType } from 'vue'
-import { ChapterLink } from '@/plugins/utils'
+import { Chapters } from '@/plugins/chapters'
 
 export default Vue.extend({
 	props: {
-		listingHeader: { type: String, required: true },
-		chapters: { type: Array as PropType<ChapterLink[]>, required: true },
+		type: { type: String as PropType<'main' | 'detail'>, required: true },
 	},
+
+	data() {
+		const { mainChapters, detailChapters } = (this as unknown as Chapters).$chapters
+
+		const [listingHeader, chapters] = this.type === 'main'
+			? ['Main Chapters', mainChapters]
+			: ['Detail Chapters', detailChapters]
+
+		return { listingHeader, chapters }
+	}
 })
 
 </script>
