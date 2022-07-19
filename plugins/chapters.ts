@@ -11,7 +11,7 @@ const puncuatedRegex = /[\.\?]$/
 export function ChapterLink({ title, subtitle, slug: rawSlug }: IContentDocument): ChapterLink {
 	const slug = processSlug(rawSlug)
 	const isMain = slug !== rawSlug
-	const combinedTitle = !isMain
+	const combinedTitle = !isMain && subtitle
 		? puncuatedRegex.test(title)
 			? `${title} ${subtitle}`
 			: `${title} - ${subtitle}`
