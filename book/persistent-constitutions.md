@@ -1,5 +1,5 @@
 ---
-title: "Democratic Districts"
+title: "Persistent Constitutions and Democratic Districts"
 incomplete: true
 ---
 

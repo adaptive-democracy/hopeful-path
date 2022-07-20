@@ -1,5 +1,5 @@
 ---
-title: "Toward Verified Foundations for Ethics, Action, and Coordination"
+title: "Toward Verified Foundations for Ethics and Democratic Coordination"
 incomplete: true
 ---
 
