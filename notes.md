@@ -1,3 +1,126 @@
+https://www.netinterest.co/p/from-co-ops-to-daos-a12
+
+
+
+
+In the capitalist imagination, promising a financial return is supposed to turn on rigorous thinking and skin in the game style incentives. It seems in reality it more often turns off thinking entirely and unleashes wishful striving
+
+
+
+
+your reputation/voice should be harmed if you bump something that ends up being divisive or noisy or untrue, even if you didn't realize. rewarding rigor and caution is the whole point. if you aren't *sure* about something, you shouldn't support it.
+
+
+
+
+
+
+
+
+
+
+economic activism, fixing our economy without first waiting for legal permission, member cooperatives and the labor/capital divide
+
+cooperatives as an institutionalized form of mutual aid
+
+power comes from getting things done. solving problems and improving people's welfare
+capitalist culture lies about doing that in many ways, since it is inherently adversarial.
+
+
+
+we don't need profit-seekers as much as we think we do
+member cooperatives shift profit-seeking away from the supply side in the form of a monetary margin, and toward demand side in the form of increased consumer surplus.
+with the member cooperative model in hand, only "uncertain" economic domains really make sense as the realm of profit-seekers. the very first portion of economic progress, the part that involves charting completely new and entirely unknown territory, need be left to them. everything after that, all the relatively boring management, can be left to member cooperatives.
+We don't need *de*-regulation, we need *democratic* regulation. if regulation is *actually* democratic, and rooted in consistently defensible frameworks of rights, then it will be efficient in regards to *social* welfare, which is more important than being efficient in regards to growth or wealth.
+Member cooperatives are the model that can make a world with less regulation sane, since the business itself is owned by its customers there isn't as much need for the government to protect them.
+
+
+
+
+
+
+it should be obvious that any improvements we can make to our society without having to change the government we should attempt to make. we don't have to get anyone's permission, and we don't have to wait around for everyone to agree with us. we can build a lot of civic power and get a lot done.
+but we have to watch out: we can't just fall back on profit-seeking, and not just build new systems of extraction and inequality.
+and of course, private action isn't going to be enough, we'll have to tackle the government at some point.
+in this section, we include discussions of the internet and robust software.
+
+- member cooperatives as a way to take back economic power from capitalists, be a perfect synthesis of markets and cooperation, and slowly build societal competence for democratic cooperation and institutions, allowing us to in the limit have a post-scarcity society where jointly owned assets form the basis of an incredibly solid standard of living floor.
+  it seems cooperation is *always* more efficient than competition when the costs of cooperation are outweighed, and the costs are lower than people think. if you can form a company to cooperate on some task, then *inherently* that cooperation is worth it. why should that company compete with others? ironically, capitalists have always understood this, which is why monopolistic mergers, oligopoly, regulatory capture, and other forms of capitalist collusion have existed for such a long time. (capitalists don't just have their interests aligned by more obviously "rational" material concerns, but also by cultural and idealogical ones. capitalists *believe* that their class is superior, and they share an emotional dislike of the labor class. that aligns them to collude just as much as the profit motive, since they identify each other as members of an ingroup). a method of "componentized generalization" can always be more efficient than pure duplicative competition (and when it's controlled democratically and therefore non-antagonistic the consolidation isn't a problem), since even if two groups are working towards slightly different final goals, finding the components of their systems that can be generalized to serve all compatible needs and then used flexibly to achieve the incompatible needs can always in theory be more efficient.
+  the principle of competition in markets isn't really about efficiency, it's about non-coercion. the presence (or theoretical presence) of competition implies non-coercion.
+  the other thing about markets that makes them powerful is that seemingly by definition they include mechanisms that are dynamically self-balancing. an equilibrium is always maintained.
+  non-coercion and dynamic equilibrium are the actual things that make markets what they are. market fundamentalists incorrectly subsume the profit motive into the virtues of markets, creating the greed is good mindset, but they haven't considered that a group's desire to prosper and cooperate is itself a form of "profit". By conflating incentive (which can come from innumerable sources) with the profit-motive they've formed a blindly narrow idea of how our economy can work.
+
+- co-housing as a way to both increase the efficiency and utility and abundance of housing and all domestic utility in general (enabled financially by the democratically owned cooperative credit unions above), as well as increase social cohesion, heal social wounds, decrease loneliness, and give everyone the *option* of joining and thriving in a tribe.
+
+- "nomad mortgages" and frictionless property sales, allowing people to move around while still building equity and wealth.
+
+(If I was to come up with a comprehensive economic theory, it would probably be called Cooperative Economics or something)
+
+- creating a fully logical assembly language that enables us to create technology that is truly robust enough to be used for these essential societal functions.
+
+- decentralizing the internet, but in a more pragmatic way then requiring fully blockchain-enabled abstract computers. better/more reliable languages enable a host of simple devices like small home servers that can act as the new backbone of a decentralized web. a consensus algorithm based on social trust rather than only cryptography. a public cloud company owned as a member cooperative to fill that gap. a universal typed messaging protocol with proof capabilities built in that enables arbitrarily powerful linking of everything. intentionally low-tech mobile devices that are open-source and were created by the crowdsell mechanism, enabling them to be fully in our control, and they use the universal typed protocol to have fully capability while still being very low-power and undistracting.
+
+- using member cooperatives and the above decentralized internet to bring data *sovereignty* rather than dignity (which is just taking the current status quo as a given). machine learning algorithms should be deployed *by* the people in order to create value *for* them, not by some corporation seeking to extract value.
+
+- maybe solving the disinformation problem with a more decentralized internet + data sovereignty + creating democratically controlled aggregation networks (or something) that use the same quadratic principles to limit noise and increase the *quality* of information and almost certainly therefore *massively decrease* the quantity of information. this one's tricky because we want to slowly reward people for doing good work and espousing reasonable things, and give them more voice, but it's difficult to figure out how this can happen without enabling demagogues.
+  this is interesting, but I can't help disagree with it a little bit. in a way he's saying something obvious, that we should be aware of and engage in all levels of information, but in way that we're in control of. I do think he understates how much the firehose is the fault of corporations though, since part of the reason there's too much information is that they've made it so easy and low friction not just to create low quality information but to spread it world-wide. information can be *both* low latency and important, like important current events, or a fast-moving conversation between interesting well-informed people about something useful. the genuine usefulness of *some* low latency information doesn't justify the *existence* of the rest of the garbage low latency information, just like low-quality high-latency information like garbage books don't get a pass just because they're high-latency.
+  also, the simplification of the global internet computer is anti-humanist. we don't need a weird metaphor, we can say the real thing. when people inhale information and exhale useful information, they're doing the same kind of knowledge work that has formed the basis of human knowledge acquisition forever. it's a connected peer network, just like it always has been. just because it's faster doesn't mean its suddenly subsumed the intrinsic value of each person.
+  https://breakingsmart.substack.com/p/against-waldenponding
+
+  also https://www.robinsloan.com/notes/orthographic/ and https://platforms.fyi/
+
+  weights can be used to lower the cost of inducting someone or to harvest ephemeral points used in burning actions or to place weight on *documents* instead of more scarce things like people or namespaces
+  *contextual scaling factors*, essentially a way to allow reputation to gather in a subcommunity
+  the cost of "posting" in a space should increase with the number of people following that space, and increase as the moderation capacity goes down. a "global" space like a hashtag has no moderators, it's inherently a commons, so it's different than something like a namespaced "message board" where some group controls it. I still can't quite unravel exactly how
+  should people be able to use their weights to control the scaling factor of a shared commons like that above? or should each follower simply be able to set their own personal scaling factor? how does decentralized reputation work in a democratic market like this?
+  we're basically trying to create some kind of democratic market layer on top of ipfs. ipfs allows for documenting editing and linking, so this is about moderating the commons of public attention in a fair democratic way
+  layering in ideas about a universal typed protocol makes this even more powerful. people can create arbitrary linked applications simply by producing datatypes, actions that manipulate those datatypes, and prices/mechanisms that moderate those actions
+
+  one of the things we're really trying to do with an economic system like this is *merely mirror the effective aspects of trust in human societies*, while allowing them to scale up and have a computational measure. keeping that kind of simplicity and naturality is important to making it really catch on and for normal people to bother. also it has to be useful so that people care about joining.
+
+A social network is mostly working when the reputation and trust embedded in the real life peer network is simply replicated by the application. We do have the chance to go a step further though and add corroborative tools
+The faster something is spreading, then possibly the slower we should allow it to
+Unlimited network spread of information is likely harmful for these reasons
+Commodification of social ties, especially through the influencer dynamic, and the psychological hijacking of tools that are supposed to be mundane and are best when they're mundane into tools of personal brand creation and fame fishing
+Misinformation obviously
+The hard part is to allow intentional networks without still allowing out of control memes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # How do we fix everything?
