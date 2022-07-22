@@ -133,8 +133,9 @@ const config: NuxtConfig = {
 									textDecoration: 'underline',
 									fontWeight: theme('fontWeight.medium'),
 								},
-								'h1:not(:first-child)': {
-									marginBottom: theme('spacing.2'),
+								'h1:not(:first-child), h2, h3': {
+									marginTop: theme('spacing.4'),
+									marginBottom: theme('spacing.4'),
 								},
 								// 'h1, h2, h3': {
 								// 	fontWeight: '800',

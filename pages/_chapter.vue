@@ -4,7 +4,7 @@ div
 	h1.text-3xl.font-bold.mb-8 {{ chapter.title }}
 
 	.nuxt-content(v-if="chapter.incomplete === true")
-		h2 This chapter is incomplete!
+		strong This chapter is incomplete!
 		p
 			| Feel free to browse the raw work-in-progress version&nbsp;
 			a(:href="chapterLink") at this link
