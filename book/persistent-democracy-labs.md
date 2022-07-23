@@ -15,7 +15,7 @@ incomplete: true
 
 <v-clicks>
 
-[`github.com/blainehansen/persistent-democracy-tools`](https://github.com/blainehansen/persistent-democracy-tools)
+[`github.com/persistent-democracy-labs/tools`](https://github.com/persistent-democracy-labs/tools)
 
 basically nothing there yet!
 
