@@ -14,7 +14,7 @@ import { Chapters } from '~/plugins/chapters'
 export default Vue.extend({
 	props: {
 		slug: { type: String, required: true },
-		text: { type: String, default: undefined }
+		text: { type: String, default: undefined },
 		type: { type: String as PropType<'full' | 'short'>, default: 'full' },
 	},
 

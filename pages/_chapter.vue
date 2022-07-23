@@ -20,7 +20,10 @@ div
 		ChapterNav(v-if="next", :link="next", type="next")
 
 	ChapterListing(v-if="isMain", type="main")
-	NuxtLink.flex.justify-end.mb-4(to="/contents") Table of Contents
+
+	NuxtLink.toc-link(to="/contents")
+		.btn.px-4.py-4.mb-2.mt-4.flex.items-center
+			span Table of Contents
 
 </template>
 
