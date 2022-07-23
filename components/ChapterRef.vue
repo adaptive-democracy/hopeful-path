@@ -1,7 +1,7 @@
 <template lang="pug">
 
 span
-	NuxtLink(:to="chapter.slug") {{ chapter.combinedTitle ? chapter.combinedTitle : chapter.title }}
+	NuxtLink(:to="chapter.slug") {{ chapter.combinedTitle && type === 'full' ? chapter.combinedTitle : chapter.title }}
 	span(v-if="text") &nbsp;{{ text }}
 	//- .btn.px-4.py-4.mb-2.flex.items-center
 
@@ -15,7 +15,7 @@ export default Vue.extend({
 	props: {
 		slug: { type: String, required: true },
 		text: { type: String, default: undefined }
-		// type: { type: String as PropType<'list-item' | 'button'>, default: 'list-item' },
+		type: { type: String as PropType<'full' | 'short'>, default: 'full' },
 	},
 
 	data() {

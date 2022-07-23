@@ -35,3 +35,7 @@ For any recurring public resource, such as assets that aren't consumed (public e
 ## Open Questions
 
 - Citizens could potentially "lock" their weights for increased amounts of time in order to increase the strength of those weights by some as yet undetermined scale. Should this be allowed? In what precise manner would locking increase strength?
+
+
+
+- it's possible for people to use their democratic weights to gain increased access to collective resources. Since we're already using them as a means of mediating access to influence and land, it makes sense to do so with things like healthcare or other kinds of resources. The goal in such a system then is to raise the floor of guaranteed access by increasing budgets or merely investing in innovation.

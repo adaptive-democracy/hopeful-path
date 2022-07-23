@@ -27,6 +27,10 @@ Since these elections are persistent, candidates can be displaced by other candi
 
 
 
+- decentralizing justice and policing, by having "justice tribes" that represent everyone and bring grievances against other tribes, with some randomly selected panel of other outside justice tribes acting as mediators/arbiters. also, restorative justice?
+
+- decentralizing the military and public defense, through some similar mechanism as above, with some kind of coming-of-age ritual military service thing that intentionally gets people out of their communities into far-away places to serve them, and is focused on producing compassionate and learned warrior "monks" rather than brainwashing people into being a mindless cog in the military machine.
+
 
 
 

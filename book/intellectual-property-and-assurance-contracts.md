@@ -160,3 +160,11 @@ Applications that have less meaningful competition for longer periods and have m
 ## Open Questions
 
 Is it possible to create some principled way to grant intellectual property deeds? I will probably keep trying to come up with one, but so far haven't made any interesting progress.
+
+
+
+
+
+
+
+- abolishing intellectual property with the crowdsell mechanism and quadratic funding. intellectual *labor* instead. intellectual property isn't like normal property, because its *intrinsic utility* (although *maybe* not its market price utility) actually *increases* with its increased social use (generally). this means that our current property-based regimes are inherently fictional and inefficient, and only really exist to enable capitalistic extraction. intellectual property is probably the chief enabler of current inequality, because it's entirely arbitrary and absolute. someone can own *an idea* and use that as an immense leverage point to extract wealth from society. also, investigating how the crowdsell mechanism would interact with just normal publicly (quadratically) funded research. also, investigating how it would change the stucture of the economy, and lend itself greatly to much much smaller profit-seeking innovation companies (which are perfectly suited to thrive in a fluid university described below) alongside larger member cooperative administrative companies.
