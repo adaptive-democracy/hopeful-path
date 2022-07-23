@@ -1,3 +1,13 @@
+<!--
+surveillance and recommender systems. the social problems created by large tech firms, especially those related to media and information, have become pressing and obvious. many people discuss how to solve these problems by somehow reforming the companies or regulations, but I think the *real* solution to these problems is quite obvious, cooperative ownership. the real problem at the heart of problematic companies of all kinds (not only tech companies) is the incentives of the companies aren't aligned with those of their customers or society at large. cooperative ownership directly solves the problem of alignment with customers (since they are the owning decision-makers), and obliquely solves the problem of alignment with society since membership in a cooperative is open.
+-->
+
+
+
+
+
+
+
 https://www.netinterest.co/p/from-co-ops-to-daos-a12
 
 

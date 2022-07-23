@@ -25,8 +25,8 @@ export function isMainChapter({ slug }: IContentDocument) {
 	return mainSlugRegex.test(slug)
 }
 
-export function isDetailChapter(document: IContentDocument) {
-	return !isMainChapter(document) && document.incomplete !== true
+export function isDetailChapter(doc: IContentDocument) {
+	return !isMainChapter(doc) && doc.incomplete !== true
 }
 
 
