@@ -4,6 +4,9 @@ subtitle: but Persistent Democracy and cooperatives could.
 incomplete: true
 ---
 
+We don't need decentralized infrastructure, we need decentralized ownership and control.
+
+
 Many of us have identified the problem of large concentrations of power in our society, and are trying to fix that problem. One of the solutions receiving attention is to use trustless consensus networks or blockchain technology to enable decentralized collaboration, coordination, ownership, and governance. There are many proposed applications of this technology, from DAOs (Decentralized Autonomous Organizations), NFTs (Non-Fungible Tokens), and of course the idea that started it all, cryptocurrencies.
 
 I'm very interested in all these concepts, mostly for technical reasons, and I do think they'll be useful in *some* way eventually. I've even come up with my own [decentralized consensus algorithm](TODO). But as interested as I am in blockchains, I'm skeptical they'll actually solve the problems people say they'll solve. Not for technological reasons, those can be removed or mitigated with more research and iteration, but for societal and economic reasons.
