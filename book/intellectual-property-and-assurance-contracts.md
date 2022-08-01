@@ -3,6 +3,137 @@ title: "Intellectual Property and Assurance Contracts"
 incomplete: true
 ---
 
+intellectual *labor*, not intellectual *property*
+
+---
+layout: statement
+---
+
+## society should reward intellectual labor...
+
+<v-click>
+
+## ... when it contributes to society
+
+</v-click>
+
+---
+
+# copyright/patent = monopoly
+
+- only for a limited time
+- eventually becomes public good
+
+monopoly is *only* given in exchange for sharing
+
+---
+
+## intellectual *property* doesn't create societal benefit
+
+<v-clicks>
+
+only intellectual *work*
+
+copyright/patents *should* only benefit useful laborers
+
+</v-clicks>
+
+<!-- the hope of our current system is that the copyright and patent office is able to initially give deeds only to those people who have somehow made actual work happen -->
+
+---
+layout: statement
+---
+
+## patents/copyrights incentivize
+## *holding property*
+## not doing labor
+
+---
+
+# easy to abuse
+
+![](https://penntoday.upenn.edu/sites/default/files/2021-07/Insulin%20at%20100-Banting-Best-2.jpg)
+
+Charles Best and Frederick Banting<br>James Collip and J.R.R. McLeod not shown
+
+---
+
+# persistently democratic oversight?
+
+- patent/copyright office with persistent delegation
+- use persistent commitments
+- apply common resource rights (coming soon)
+
+still tricky
+
+---
+
+# can we directly reward labor?
+
+want to remove "hangers-on"
+
+persistent funding and assurance contracts?
+
+---
+
+# assurance contracts
+
+sell intellectual work directly to society
+
+promise to release work freely if you're paid some amount
+
+useful for both finished and merely proposed work
+
+---
+layout: two-cols
+---
+
+## finished work
+
+::left::
+
+- creator submits description, price, promises
+- people pledge
+- promised work is released if enough money is pledged
+- "accountability window" where pledgers can assert the work doesn't meet the promises
+
+::right::
+
+![](/drawing-assurance-contract-finished-work.png)
+
+---
+layout: two-cols
+class: dense
+---
+
+## proposed work
+
+::left::
+
+- creator submits plan, including monthly budget and "prize" amount
+- people pledge
+- project begins when budget and prize amount are raised
+- every budget cycle pledgers can assert creator isn't meeting commitments
+- creator is given whatever budget and prize remains after pledgers assert project is done
+
+::right::
+
+![](/drawing-assurance-contract-proposed-work.png)
+
+---
+layout: statement
+---
+
+## persistent funding<br>+ assurance contracts<br>= crowdfunding + democratic oversight
+
+## could coexist with intellectual property
+
+
+
+
+
+
+
 Our system of intellectual property law is extremely arbitrary and easy to manipulate, and slows progress by disguising upfront labor costs (research, engineering, design) as marginal costs (increased prices on goods). Patents are granted for arbitrary amounts of time, and are frequently [abused by corporations to maximize profits even when obvious harm is caused to society](https://www.vox.com/2019/4/3/18293950/why-is-insulin-so-expensive). Many innovations end up locked in patents and take much longer than necessary to fulfill their social potential. Value from innovations is diverted by corporations or other bodies who add little value, but have the legal resources to enforce patents. Through these machinations immense public good is lost.
 
 For many technical and creative works, the value to society is quite clear even before the work is distributed, and can be paid for directly without the need to involve complex legal machinery.

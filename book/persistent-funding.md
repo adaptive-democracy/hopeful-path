@@ -3,6 +3,40 @@ title: "Persistent Funding"
 incomplete: true
 ---
 
+persistent commitments + quadratic funding
+
+uses democratic weights make *default* prioritization of projects
+
+persistent commitments = democratic oversight
+
+<v-click>
+
+quadratic funding is useful but not perfect
+
+</v-click>
+
+---
+
+# persistent funding
+
+- uses persistent commitments rounds
+- voters select a decision document
+  - can remove nuisance projects
+  - can add extra money to the funding pool
+  - can choose to fund nothing!
+
+---
+
+## persistent funding
+
+ought to prioritize projects with "cheapest" social good
+
+![](/drawing-10-prioritization.png)
+
+
+
+
+
 In addition to Quadratic Voting, thinkers like [Glen Weyl](https://www.radicalxchange.org/media/papers/liberal-radicalism.pdf) and [Vitalik Buterin](https://vitalik.ca/general/2019/12/07/quadratic.html) have also invented another exciting and related mechanism called [Quadratic Funding](https://www.radicalxchange.org/concepts/quadratic-funding/) that allows pledges toward any kind of project to be matched with public funds in a way that optimally incentivizes private actors to pledge towards projects that create the greatest social welfare. However the mechanism could often require matching amounts that exhaust the public funding pool, creating a tricky situation in which projects either don't receive the full optimal funding specified by the system, or must be arbitrarily prioritized.
 
 We can solve this problem by combining persistent prioritization and commitments to ensure every project is matched fully, in the order that will bring greatest social welfare.
