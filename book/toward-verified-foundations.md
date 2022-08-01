@@ -3,6 +3,38 @@ title: "Toward Verified Foundations for Ethics and Democratic Coordination"
 incomplete: true
 ---
 
+- these are proof sketches, only intended to be rigorous *enough* to be convincing enough to proceed building experimental systems/institutions
+- I'm only interested in hearing very rigorous criticisms. "you aren't enough of an expert to make claims like this" isn't helpful. I want to know *what* my errors in reasoning are, not *why* I made them.
+- first we'll go over a more "intuitive" and non-technical overview of the ethical frame and broad reasoning behind proofs. then the remainder will be the technical sketches
+- I'm broadly making these claims/conjectures:
+  - qualia and welfare are opaque, meaning it's simply structurally *undefined* to come up with systems that even *attempt* to "compare" or "aggregate" welfare across different beings. the best we can do is offer other beings discrete lists of options and a way to discretely signal their preferences for those options, since this simply uses game theory to "project" the incomparable preferences of incomparable beings into the same type-theoretical space.
+  - since it's impossible to aggregate and compare welfare of different populations, you can only compare different actions to each other based on how they are valued relative to each other by the *same* population. this means the best we can do to equally value the welfare of all beings is to merely give all beings equal amount of power to signal their relative value.
+  - it is possible to be "maximally" ethical, meaning that *society* seen as a whole couldn't possibly improve. *individuals* can create a separate concept of "meaning" for themselves by sacrificing their most welfare maximizing actions for ones that improve the welfare of others.
+  - longtermism broadly becomes a relatively moot concept when we think in terms of being able to do no better *societally* than "merely ethical" democratic systems. it also creates the "welfare miser" problem, since every generation *for eternity* must maximally sacrifice their own welfare to create a much larger amount of welfare in the long-term future (the only ceiling is the complete utilization of the entire universe). this means we can only do this: is the system truly democratic?; is it efficient, in the sense that it creates more welfare than coordination cost, and is improving in that regard; which implies it is able to improve universe leverage
+  - **conjecture:** a coordination system will most efficiently maximize the welfare of a particular population if it best maximizes the welfare production of all resources ("highest and best use") according to a purely democratic valuation. in the presence of coordination costs, switching costs, and reversal costs, Persistent Democracy best achieves this given whatever technological constraints exist. this also best achieves the ideal of Rawls' veil of ignorance.
+  - non-democratic markets are useful to help incite "leverage investments", where a group of people needs to sacrifice temporarily in order to improve leverage, and therefore get a bigger welfare payoff afterward. in the presence of systems that ensure continued democratic control and public good, these non-democratic markets are more good than harm (because they prevent cumulative advantage, market power, and negative externalities). if true common partial ownership is respected, then the "eternal paupers" problem is avoided, and any non-democratic wealth a being accrues is genuinely due to contribution to public good rather than exploitation of strategic position.
+
+I don't consider questions of voter strategy here, and I'm relying on other work, such as proofs around quadratic and score voting, to ensure they aren't of practical importance here. the below systems *allow* arbitrarily accurate signaling of preference, and since score voting has properties like monotonicity and quadratic voting is intentionally allowing "trading" of strategic pivotal-ness, I'm just allowing those to do the heavy lifting!
+
+https://en.wikipedia.org/wiki/Vector_projection
+https://en.wikipedia.org/wiki/Scalar_projection
+
+- small conjecture: score voting systems (when defined using pure rational numbers <= 1) allows arbitrarily accurate signaling of preference *alignment* when given a discrete list of options. when considering options as vectors in the opaque prediction/desire space inside someone's mind, that vector can *always* be compared using vector projection to the "closest comparable" vector or "ideal" vector (the ideal option this person would construct for this decision). if the ideal vector would receive a perfect score of 1, the actual vector can receive a score of ratio of magnitude of the projected vector. (don't at me about if this number is always a rational, whatever!)
+- small conjecture: resource voting systems (when defined using pure rational numbers that all add to 1) allows arbitrarily accurate signaling of preference *concern* when given a discrete list of *decisions*. when considering decisions as vector "clouds" of possible options, the magnitude of best/worst case vectors can be compared with those of other decisions representing how relatively concerning they are, and the rational number divided up evenly between these decisions based on their magnitudes.
+- small conjecture: quadratic range voting combines/preserves those two types of accuracy, therefore allowing each voter to model their preferences with the greatest amount of fidelity possible without them conveying their vector predictions (and therefore allowing the votes to be combined!)
+- small conjecture: by allowing each voter to add an arbitrarily large amount of information by proposing documents, we allow them to *truly* signal their preferences with complete accuracy. since these preference representations are democratically negotiated, an electorate can always (and will always) choose the option that best maximizes their preferences given their current mental model of the universe. only with better "meta" systems of public good creation and information discovery can they actually *produce* such a document. importantly, since the multi-dimensional vector concept is so flexible, quadratic range voting is still most efficient for documents, since documents representing "clouds of clouds" of possible outcomes, which can themselves be reasoned about.
+- small conjecture: empiricism is the most efficient way to align a logical model with the real universe in terms of minimizing prediction error.
+
+
+
+
+
+
+
+
+
+
+
 tldr: I've created a new type-theoretical vectorized model of the universe and welfare, and a set of ethical axioms and conjectures I think could:
 
 - achieve pareto-optimal welfare maximization
@@ -17,9 +49,9 @@ I'm looking for feedback to see if I'm crazy. After all, if this theory is reall
 
 ---
 
-A little while ago I came up with an idea called Persistent Voting, where a vote is conducted not as a discrete event with a deadline but as a continuous process where voters could change their votes at any time and candidates could enter or exit an election at any time. I've since evolved the idea into a new mode of societal coordination I call Persistent Democracy, and I'm very excited about its potential to massively improve the efficiency and fairness of democratic societies. I intend to very soon begin experimenting with it in private organizations like a democratically controlled political party and a consumer cooperative. Feel free to read about the details here:
+A little while ago I came up with an idea called Persistent Voting, where a vote is conducted not as a discrete event with a deadline but as a continuous process where voters can change their votes at any time and candidates can enter or exit an election at any time. I've since evolved the idea into a new mode of societal coordination I call Persistent Democracy, and I'm very excited about its potential to massively improve the efficiency and fairness of democratic societies. I intend to very soon begin experimenting with it in private organizations like a democratically controlled political party and a consumer cooperative. Feel free to read about the details here:
 
-[Persistent Democracy](https://github.com/blainehansen/hopeful-pathway/blob/main/book:next/02.persistent-democracy.md)
+[Persistent Democracy](https://persistentdemocracy.org/)
 
 However I've wanted to gain more confidence Persistent Democracy wasn't just intuitively convincing, but actually had a shot at being *optimal*. Economists have demonstrated it's possible to prove a coordination method is optimal according to some measure, as has been done with [quadratic voting](TODO) and [vickrey-clarke-groves auctions](TODO) and [harberger taxes](TODO), so it seems possible to me to prove a system for organizing society as a whole is optimal.
 
