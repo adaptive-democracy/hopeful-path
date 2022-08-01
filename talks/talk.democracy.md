@@ -1770,8 +1770,8 @@ centralized but mirrored blockchain?
 
 some fuzzy thoughts:
 
-- [Persistent Endorsement](https://github.com/blainehansen/hopeful-pathway/blob/main/book/06.persistent-endorsement.md)
-- [Democratic Adjudication](https://github.com/blainehansen/hopeful-pathway/blob/main/book/16.democratic-adjudication.md)
+- [Persistent Endorsement](https://github.com/persistent-democracy/hopeful-path/blob/main/book/06.persistent-endorsement.md)
+- [Democratic Adjudication](https://github.com/persistent-democracy/hopeful-path/blob/main/book/16.democratic-adjudication.md)
 
 ---
 
@@ -1953,7 +1953,7 @@ proof language would be especially valuable for building verified voting systems
 
 # computable governance language?
 
-[Computable Governance Code](https://github.com/blainehansen/hopeful-pathway/blob/main/book:next/computable-governance-code.md)
+[Computable Governance Code](https://github.com/persistent-democracy/hopeful-path/blob/main/book:next/computable-governance-code.md)
 
 <v-click>
 

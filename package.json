@@ -1,17 +1,17 @@
 {
-	"name": "hopeful-pathway",
+	"name": "hopeful-path",
 	"version": "0.1.0",
 	"description": "",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/blainehansen/hopeful-pathway.git"
+		"url": "git+https://github.com/persistent-democracy/hopeful-path.git"
 	},
 	"author": "",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/blainehansen/hopeful-pathway/issues"
+		"url": "https://github.com/persistent-democracy/hopeful-path/issues"
 	},
-	"homepage": "https://github.com/blainehansen/hopeful-pathway#readme",
+	"homepage": "https://github.com/persistent-democracy/hopeful-path#readme",
 	"scripts": {
 		"main": "ts-node -O '{ \"module\": \"CommonJS\" }' components/voting.utils.ts",
 		"dev": "nuxt",

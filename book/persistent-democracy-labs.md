@@ -44,7 +44,7 @@ proof language would be especially valuable for building verified voting systems
 
 # computable governance language?
 
-[Computable Governance Code](https://github.com/blainehansen/hopeful-pathway/blob/main/book:next/computable-governance-code.md)
+[Computable Governance Code](https://github.com/persistent-democracy/hopeful-path/blob/main/book:next/computable-governance-code.md)
 
 <v-click>
 
