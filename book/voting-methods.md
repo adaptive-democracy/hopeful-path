@@ -4,7 +4,7 @@ subtitle: "An introduction to voting methods and their rippling consequences."
 incomplete: true
 ---
 
-So hopefully you're convinced that our current voting system, [Plurality Voting](TODO point to that section in intro) is awful, and possibly the root cause of many of our political and social problems.
+Hopefully you're convinced that our current voting system, [Plurality Voting](TODO point to that section in intro) is awful, and possibly the root cause of many of our political and social problems.
 
 Persistent Voting is a new *way* of thinking about voting,
 

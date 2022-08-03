@@ -134,7 +134,7 @@ const config: NuxtConfig = {
 									fontWeight: theme('fontWeight.medium'),
 								},
 								'h1:not(:first-child), h2, h3': {
-									marginTop: theme('spacing.3'),
+									marginTop: theme('spacing.6'),
 									marginBottom: theme('spacing.3'),
 								},
 								// 'h1, h2, h3': {
