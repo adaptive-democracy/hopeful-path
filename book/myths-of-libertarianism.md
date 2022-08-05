@@ -3,6 +3,18 @@ title: "The Myths of Libertarianism"
 incomplete: true
 ---
 
+- markets are natural and unavoidable (nope, they're constructions of society, created by property rights which only exist because of coordination)
+- property rights must be absolute and inviolable (nope, they're something we designed, it's possible for us to design them in different ways to achieve different goals)
+- hierarchy and inequality are natural and unavoidable (I mean we don't even *want* to be *perfectly* equal in the sense that we have the same things, because we value different things. but things like the Pareto principle aren't immutable laws of the universe, we just as often structurally reinforce them, such as when popular things are recommended more because they are popular, or when property ownership confers greater leverage to get more property. the number one book isn't most likely there because it's superior to everything below it, but because feedback loops exist in our social structures. hierarchy isn't the same thing as organizing coordination. organizing coordination is the useful thing, the thing that helps us achieve our shared goals and increase our prosperity, but organizing coordination doesn't have to be hierarchical, or based on hierarchies that aren't malleable or constructed through domination)
+- markets should be completely free (nope, they should usefully align with rights that produce welfare. what does free even mean here? markets don't exist without governments)
+- markets incentivize innovation and problem-solving (nope, they *can*, but don't necessarily. markets incentivize ownership of valuable property, and nothing else. only when property rights perfectly coincide with innovation and problem-solving do they incentivize them)
+- society exists to create growth and exalt excellence (nope, society is something we constructed to help us meet our shared goals, prosperity and happiness. clearly the prosperity and happiness of every person matters as much as all the others, regardless of their possible or actual contribution to the societal project)
+
+
+
+
+
+
 After describing a framework for understanding rights, it's natural to ask how those rights interact with existing ideas about markets. The framework interacts very cleanly with markets, and in fact solves many of the possible problems economists have identified in markets. It isn't however immediately obvious why, and that's what this chapter will focus on.
 
 First, let's get a clearer understanding of what a market really is.

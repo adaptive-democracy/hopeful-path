@@ -3,6 +3,54 @@ title: "Toward Verified Foundations for Ethics and Democratic Coordination"
 incomplete: true
 ---
 
+- proof sketches disclaimer
+- explanation of structure, I'll do the core ideas in a nice narrative line that doesn't even try to be mathematical and then have a bunch of sections at the end that precisely define things or explore more deeply
+- how do we define ethical?
+  - simple utilitarianism, and its problems
+  - populations ethics, and its problems
+  - welfare opacity
+  - voting as a "democratic market" or a "projection" of complex welfare onto a simple relative valuation space
+  - the core ethical idea: welfare allocative efficiency.
+    - but how do we define an allocation? how do we define the voting? we'll get to that
+    - relationship to rawls and subject blindness
+    - implication that the best we can do is maximize each being's equal relative ability to vote for welfare *in their time*. obviously we can't create equal welfare across times
+- so we have a pretty obvious welfare maximizing edict. how do we actually achieve it? we need to select a coordination function that achieves welfare allocative efficiency given a particular model of the universe
+  - the simplest model, beings bid for objects at each time step. efficient only assuming no use for sharing since groups of beings can't bid together, and assuming no labor to move objects or people
+  - more complex, beings can bid together, but sharing is perfect so if a being is in a group that has an object they get full benefits from it, which means the allocation problem isn't just replicated at this layer. probably makes sense to use quadratic scaling here because there are public good effects. this has no reversal costs, switching costs, or coordination costs. prediction costs or prediction error is also important, and in these simple models we're assuming it doesn't exist
+  - the vaguely harbergian model, where the universe has "spots" a being or object can occupy, objects have "area effects", objects have "state" and can interact in arbitrary ways (objects are arbitrary types), objects require labor to move (a being can hold some number of them, but can only place them one time step at a time). this is efficient if no objects have asymmetric states (no irreversibility), since beings are separate from objects and can't be bid for, beings can perfectly predict their welfare outcomes, there are no coordination costs
+    - some objects will have "terminal" states, where once they're in that state they either can't be changed or are very difficult to change.
+  - the realest model, where there's *only* objects (which we could think of as whatever subatomic particles make up the universe), beings are *built* from objects (meaning they can be bid for???), beings have welfare prediction error, some state transitions are asymmetrically costly, state transitions are costly at all, and coordination itself is costly. if we just let beings bid for anything then we'll get lots of destruction and going in circles (people bidding to own each other but not themselves, cartels forming to bid for a bunch of other people, things that are highly valued by some being destroyed by others, bidding for sub-pieces of things that are effectively tied together, too granular to be useful)
+  - this model (basically) reflects reality! at some level we have to contend with this much detail, but we can't *all* the time.
+  - so the coordination function has no choice but to be a persistent constitution that defines abstractions and sub-functions! this model of the universe is too unpredictable, we have no choice but to coordinate as beings to agree on a shared simplification of the universe, one that usefully matches up with the universe/welfare models in each being's mind.
+
+no matter what the nature of the universe, the coordination function will only achieve welfare allocative efficiency if the model it uses usefully aligns with the welfare structure of the beings. since we can't know the true nature of the universe, we have no choice but to choose the model itself in a democratic way! if we just bid for "true" objects like atoms then someone could bid for half of my computer. the way physics works matters to all this! computers require some "wholeness" or coordination of parts to be useful, but other things like a bag of rice don't.
+we have to present the democratic choice of *models and functions* directly. beings can relatively value arbitrarily higher ranked things, like models and functions and functions of functions and probability clouds of possible changes.
+but this seems like a cop-out, because we've just said that they'll choose the model and function and sub-functions that they most highly value. while that certainly seems true, it hasn't done much to actually inform us about what we should build in the real world! we don't have to *completely* guess about the nature of the universe, at least not the parts of it we interact with all the time.
+
+so let's do one final model that's simple but has all the important things like switching/reversal/prediction/coordination costs
+
+- there are "voting objects" that can be moved around. if the length of the update rhythm is proportional to the average (or worst case) distance from a being to a voting object, and the scarcity of time each being has available to think about and do voting, then coordination costs will be roughly efficient
+- beings are just not biddable, you can't own them (otherwise we wouldn't have subject blindness because it would be possible for property constructions to allow beings to negate the welfare choices of others). also performing "state changes" on beings is allowed but only with consent of the being or in situations where the being's area effects justify it (imagine something like "nuclear Ebola"). this ensures the state change you're performing is either mutually beneficial or couldn't be substituted for something else
+- objects can have arbitrary type, so they can have arbitrarily asymmetric transitions. this means some objects will be practically immovable at least without destroying them and their welfare benefits (think things like the formations in arches national park), and the group can vote for a document classifying these unique objects and an arbitrary amount of land surrounding them to be protected, so not up for bid.
+- all other objects and spaces are up for group bids, and if a group owns some group of objects and spaces, they can write an arbitrary function determining what state changes are allowed on them. these bids use the [common resource rights system](/common-resource-rights), so this group of beings has some money supply separate from democratic weights used to trade and incentivize improving leverage. the reason weights are necessary in addition to money is so ownership stays tied to welfare. if a primarily monetary use (or one related to leverage) for something creates more public welfare than a public or democratic use of it, then we'll choose that, and otherwise a social use will take over. using weights effectively allows owners to capture some of the benefit of their leverage investments rather than immediately having them captured by the public (which includes them!)
+
+we can't incentivize specific time-shaped actions in a general bargaining free way without a monetary system. we can't give people more weights. the theorems of welfare economics are sitting right there, so we might as well use their benefits. as long as we've structurally prevented negative externalities and market power and opaque prices with common resource rights, markets work great.
+
+no matter the real shape of the universe it can always be accurately modeled by a vector of arbitrary types, even if we lack the knowledge to determine what that vector is. no matter what a being's internal model of the universe or their welfare is, it also can always be accurately modeled by a vector of arbitrary types. a being can always make a prediction about their welfare valuation of a particular state of the universe at some future time, and so can always divide some valuation resource between a discrete list of probability clouds for
+
+
+- detail sections
+  - universe/beings model
+  - welfare opacity and subject blindness
+  - coordination functions
+  - leverage
+  - voting methods conjectures
+  - this model and longtermism
+
+
+
+
+
 - these are proof sketches, only intended to be rigorous *enough* to be convincing enough to proceed building experimental systems/institutions
 - I'm only interested in hearing very rigorous criticisms. "you aren't enough of an expert to make claims like this" isn't helpful. I want to know *what* my errors in reasoning are, not *why* I made them.
 - first we'll go over a more "intuitive" and non-technical overview of the ethical frame and broad reasoning behind proofs. then the remainder will be the technical sketches
