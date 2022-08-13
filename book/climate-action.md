@@ -1,5 +1,5 @@
 ---
-title: "Climage Action"
+title: "Climate Action"
 incomplete: true
 ---
 
