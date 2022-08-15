@@ -1,11 +1,6 @@
 ---
 title: "Persistent Logistics"
-incomplete: true
 ---
-
-incorporate constitutional merging
-
-
 
 The largest difficulty in implementing persistent democracy is enabling every voter to update any of their votes at any time. In private organizations like member cooperatives that can simply assume all members can vote through the internet, and where the stakes aren't quite as high, this isn't a serious difficulty. But for a government with citizens spread across a large geographic area, it becomes quite challenging.
 
@@ -27,7 +22,7 @@ Each office would have one or more voting clerks, democratically elected or appo
 
 To properly serve those who are incapacitated or live very far away, we could provide a "mail lifeline" to interact with these voting/postal offices. A voter could send letter requests for paper manifests and ballots, or requests for a group of voting clerks to visit them at their residence to give them identification.
 
-I've already advocated for residency granting citizenship, so the only requirements to gain identification would be to demonstrate residence, give basic information about yourself, and have a photo taken. To demonstrate residence these offices could mail verification codes to someone's stated address and have them bring the code into the office, or a group of voting clerks could pick up the code when they visit.
+I've already advocated for [residency granting citizenship](/free-borders), so the only requirements to gain identification would be to demonstrate residence, give basic information about yourself, and have a photo taken. To demonstrate residence these offices could mail verification codes to someone's stated address and have them bring the code into the office, or a group of voting clerks could pick up the code when they visit.
 
 Verifying *uniqueness* of identity is a more difficult problem. This is [an area of active research](https://www.radicalxchange.org/media/papers/verifying-identity-as-a-social-intersection.pdf), and will likely take a much more complicated mechanism to robustly enforce. The best we can do without such a mechanism is to make it merely more annoying and costly to acquire *and use* more than one identity. If voting clerks give each voter a [one-time code](https://en.wikipedia.org/wiki/Cryptographic_nonce) after checking their identification, the voter would have to come in on a separate occasion to actually use a non-unique identity. And if people can make accusations of duplicate identity to be resolved through a trial mechanism, then at least acquiring and using duplicate identities would carry some risk. These methods would likely be sufficient if most voting happens in person.
 
@@ -46,6 +41,9 @@ The best ways to reduce these costs are with increased digital automation, and c
 
 
 <!--
+
+TODO incorporate constitutional merging
+
 
 universal voluntary constitution, is it possible to do this without being imperial?
 

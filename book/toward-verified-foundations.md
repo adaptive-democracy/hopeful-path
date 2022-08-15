@@ -29,7 +29,7 @@ but this seems like a cop-out, because we've just said that they'll choose the m
 
 so let's do one final model that's simple but has all the important things like switching/reversal/prediction/coordination costs
 
-- there are "voting objects" that can be moved around. if the length of the update rhythm is proportional to the average (or worst case) distance from a being to a voting object, and the scarcity of time each being has available to think about and do voting, then coordination costs will be roughly efficient
+- there are "voting objects" that can be moved around. if the length of the periodic update schedule is proportional to the average (or worst case) distance from a being to a voting object, and the scarcity of time each being has available to think about and do voting, then coordination costs will be roughly efficient
 - beings are just not biddable, you can't own them (otherwise we wouldn't have subject blindness because it would be possible for property constructions to allow beings to negate the welfare choices of others). also performing "state changes" on beings is allowed but only with consent of the being or in situations where the being's area effects justify it (imagine something like "nuclear Ebola"). this ensures the state change you're performing is either mutually beneficial or couldn't be substituted for something else
 - objects can have arbitrary type, so they can have arbitrarily asymmetric transitions. this means some objects will be practically immovable at least without destroying them and their welfare benefits (think things like the formations in arches national park), and the group can vote for a document classifying these unique objects and an arbitrary amount of land surrounding them to be protected, so not up for bid.
 - all other objects and spaces are up for group bids, and if a group owns some group of objects and spaces, they can write an arbitrary function determining what state changes are allowed on them. these bids use the [common resource rights system](/common-resource-rights), so this group of beings has some money supply separate from democratic weights used to trade and incentivize improving leverage. the reason weights are necessary in addition to money is so ownership stays tied to welfare. if a primarily monetary use (or one related to leverage) for something creates more public welfare than a public or democratic use of it, then we'll choose that, and otherwise a social use will take over. using weights effectively allows owners to capture some of the benefit of their leverage investments rather than immediately having them captured by the public (which includes them!)
@@ -284,7 +284,7 @@ This proof would simply rely on the optimality proofs of Quadratic voting, Harbe
 
 Of course coordination and switching and reversal costs aren't actually zero in the real world, so in order to deal with them we make these adjustments:
 
-- Increasing the amount of time between bid periods, which is equivalent to the persistent update rhythm.
+- Increasing the amount of time between bid periods, which is equivalent to the persistent periodic update schedule.
 - Using stabilization periods.
 - Having a total constitution that defines rights and the finer rules of property ownership and division. This is equivalent to locking down the entire universe with one coordination function that simply allows the definition of sub-functions, which are just sub-constitutions.
 
@@ -316,7 +316,7 @@ we can do this by appeal to the , since this structure gives all beings equal ma
 
 **Conjecture:** Increasing the persistent update cycle length reduces experienced coordination costs. For any cooperative with some given amount of technological capability, there exists a cycle length that best trades overhead for achieved coordination.
 
-It stresses people out to have to think more frequently about vote updates, and depending on how difficult it is to update votes it is better to have to do so less often. Once a day or once a week seem like reasonable update rhythms depending on the decision importance and cost to check updates.
+It stresses people out to have to think more frequently about vote updates, and depending on how difficult it is to update votes it is better to have to do so less often. Once a day or once a week seem like reasonable periodic update schedules depending on the decision importance and cost to check updates.
 
 **Conjecture:** Increasing the stabilization constant reduces experienced switching costs. For any type of trade with some given average switching cost, there exists a stabilization constant that best trades stabilization time for switching cost reduction.
 
