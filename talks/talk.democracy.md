@@ -9,7 +9,22 @@ layout: cover
 
 # Democracy doesn't have to suck
 
-## how Persistent Democracy can help us solve all our big problems
+## we can make it excellent using Persistent Democracy
+
+---
+
+<v-clicks>
+
+- problems caused by bad systems, not irrational people
+- we can fix the problems!
+  - score voting systems solve toxic polarization
+  - resource voting systems solve vote spam
+  - Persistent Voting solves deadline problems
+  - concrete example
+- true democracy and expert delegation are compatible
+- true democracy is a moral imperative
+
+</v-clicks>
 
 ---
 
@@ -25,6 +40,9 @@ https://www.amazon.com/Why-Its-OK-Ignore-Politics/dp/1138389005
 yeah people shouldn't vote on things *they don't know or care about*, but they should *be able to*
 https://www.slowboring.com/p/the-rise-and-importance-of-secret
 toxic polarization is much likelier a *symptom* of bad systems not the *cause*. it isn't an immutable fact
+
+in an irrational environment, irrational behavior is rational
+if the entire political landscape is toxically polarized and all power is assigned in the two party war, you *have* to fight the party war, otherwise you have no voice at all
 
 a lot of these make a strawman assumption: that "democracy" means everyone personally signs off on every decision. that's not what it means
 democracy just means weighing each person's *input* the same. that *input* can take dramatically different shapes!
@@ -262,3 +280,99 @@ the most obvious criticism of this post is that it could benefit *me*, because I
 the goal of persistent democracy is to be a system that if used by *any* group of people in *any* environment/universe would lead to welfare-optimal cooperation. it's not an accident that the *core* constructs of persistent democracy are extremely minimal and unopinionated, and that they are broadly close to market structures (importantly, they're inspired by markets but aren't "true" markets as we typically understand them)
 
 the only predictive model that can robustly have any predictive weight is one that directly incorporates the inputs of those effected. their models can be incorrect, but that's why we gather *all* their input so hopefully some error cancels out, and over time people can observe the difference between their predictions and reality. if you think you have the answer and can update their models, then that's why you can present your case to them and maybe persuade them, and if you're unable to persuade them it's more likely they have some contextual knowledge they haven't figured out how to share with you rather than they are simply *all* deceived.
+
+
+
+
+
+Exploring function-comparing ethics vs person-comparing ethics
+
+https://forum.effectivealtruism.org/posts/LPDyAvwYyp4tzPmED/common-sense-cases-where-hypothetical-future-people-matter
+
+you can only help future people by building *general systems* that are structurally capable of helping anyone. "anyone" is allowed to be narrow if your system is very grounded in a specific context, but the system you build should probably therefore be highly adaptable so it can respond to changes in that context.
+all of these cases rely on how you act *in relation to the state of the world*. stewardship of the *universe* and the structures that
+the subject-blind function-oriented ethical frame preserves the *intuitive* motivations of longtermism without allowing the repugnant conclusions implied by *any* form of aggregating utilitarianism
+
+if on the other hand you're trading between harming a person now to help a person later, the *real* reason you don't harm the person now is because that course of action preserves option value for you to do both not harm the person now *and* help the person later!
+*harming* a person both now or in the future is also morally equivalent! however the *only* people you can concretely help or harm exist in the present, by definition at all timesteps. you can only act toward people in the future by effecting the *world* now. your actions should be evaluated by how they treat *everyone* in a subject-blind way.
+
+https://forum.effectivealtruism.org/posts/HyeTgKBv7DjZYjcQT/the-problem-with-person-affecting-views
+actions aren't good or bad for *anyone* until you've solicited the input of that someone!
+
+you might *think* an action such as giving someone money will always be good for them but think about the case of "don't tempt me frodo". as difficult as it might be to imagine the possibility, someone might consider it *harmful* to even be *presented* with an offer of money.
+or more grounded: a recovering drug addict who is in a program they chose that takes care of all their needs, but any "extra" money will merely tempt them to relapse.
+
+the lexicographic ordering concept neatly sidesteps:
+> Neutrality Principle: Adding an extra person to the world, if it is done in such a way as to leave the well-being levels of others unaffected, does not make a state of affairs either better or worse.
+
+we *do* consider it better to create new beings, but only *after* present-being subject-blind democracy
+
+**function-comparing ethics** is less assumptive than all forms of **person-comparing ethics** because function-comparing only compares beings to themselves, even better only compares *valuations* of beings from themselves
+
+maybe: two functions with the same subject-blindness can be better if one of them encourages creating more people *unless creating those people would violate subject-blindness*. this is even stronger than
+
+
+*linear* rankability isn't necessary to prioritize one thing over another, because lexicographic orderings can restrict themselves to only comparing like types *and* still prioritize some *types* over another.
+but even then you can only linearly rank things in the same type
+
+https://www.cold-takes.com/future-proof-ethics/
+
+
+- type-theoretical rather than numerical models of beings (makes fewer assumptions)
+- vectors of beings rather than mere "sums" across beings
+- lexicographic orderings rather than mere linear orderings
+
+> In theory, any harm can be outweighed by something that benefits a large enough number of persons, even if it benefits them in a minor way.
+
+only if that person had equal weight to consider their output!
+
+instead of weighing the *inherent* morality of giving a million people a bednet, we simply ask "do those million people *want* a bednet? how much compared to other things?"
+
+you could spend a bunch of money giving people bednets. or you could donate that money to build a cooperative governed by the people for them to use to build whatever arbitrary public goods they value most.
+
+https://forum.effectivealtruism.org/posts/iupkbiubpzDDGRpka/other-centered-ethics-and-harsanyi-s-aggregation-theorem
+the snuck assumption in Harsanyi's Aggregation Theorem is that you can aggregate welfares of different people. you can aggregate their *solicited preferences*, but only through a voting system, so the only mechanism that could possibly *achieve* HAT is something like persistent democracy
+
+
+with welfare types like these, how do we go about "adding" them together? the very act of adding them together assumes they have types for which an operation has been defined for them that has all the properties of addition (is abelian, etc)
+
+```v
+Inductive A :=
+  | red
+  | yellow
+  | blue
+.
+
+Inductive B :=
+  | mountain
+  | forest
+.
+```
+
+however it *is* reasonable to assume each being has an *internal* and *opaque* function they could use to assign value to different welfare outcomes at different timesteps.
+
+the important thing is that we can recover all the reasonable and consistent conclusions of utilitarianism without the repugnant conclusions.
+
+when comparing vectors we do this:
+
+- align all beings with themselves. we can compare that being's valuation to itself, so we can say whether their valuation went up or down
+- find all the beings that are added (born)
+- find all the beings that are removed (die)
+
+```v
+Inductive Difference :=
+  | DifferenceSelf (valuation_difference: integer)
+  | DifferenceBirth (born_id: person_id)
+  | DifferenceDeath (died_id: person_id)
+.
+
+Fixpoint ComputeDifference (A B: BeingsVector): Difference :=
+  (* ... *)
+.
+```
+
+we can see the last two things are entirely different types from the first. there isn't a non-axiomatic way we can compare a birth to a death to a change in welfare.
+
+it could be reasonable in some situations to make more assumptions to have a "rough and ready" model for helping people. but that model must continue to respect subject-blindness to be consistent with this system.
+
+https://www.cold-takes.com/defending-one-dimensional-ethics/
