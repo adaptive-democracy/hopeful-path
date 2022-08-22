@@ -13,23 +13,671 @@ layout: cover
 
 ---
 
+# why are our democracies broken?
+
+<v-click>
+
+## people suck
+
+- irrational
+- ignorant
+- selfish
+- short-sighted
+- prejudiced
+- traumatized
+- disengaged
+
+</v-click>
+
+<!-- https://en.wikipedia.org/wiki/Jury_theorem -->
+
+---
+
+# why are our democracies broken?
+
+## ~~people suck~~
+
 <v-clicks>
 
-- problems caused by bad systems, not irrational people
-- we can fix the problems!
-  - score voting systems solve toxic polarization
-  - resource voting systems solve vote spam
-  - Persistent Voting solves deadline problems
-  - concrete example
-- true democracy and expert delegation are compatible
+## voting methods suck
+
+TODO symptoms not causes
+
+</v-clicks>
+
+---
+layout: statement
+---
+
+# irrational systems
+
+# make irrational choices
+
+# rational necessities
+
+---
+
+- bad systems
+  - spoiler effect (score voting methods)
+  - spam votes (resource voting methods)
+  - toxic media (cooperatives and public goods)
+- Persistent Democracy examples
+  - stable
+  - humanely paced
+  - truly democratic
+  - arbitrarily flexible
+  - allows expert delegation
+- realistic experimental plan
 - true democracy is a moral imperative
+
+---
+
+# toxic media
+
+- partially caused by bad voting systems
+- for-profit media has bad incentives to entertain or otherwise exploit
+- politics becomes entertainment
+
+solution is simple but not easy
+cooperatives!
+
+... we'll get to this later ...
+
+---
+layout: cover
+---
+
+# bad systems = bad outcomes
+
+---
+
+# Democracy ≠ Plurality Voting
+
+---
+
+# Plurality Voting is *awful*
+
+allows spoiler effect
+
+![](/drawing-spoiler-effect.png)
+
+---
+
+# incentivizes enforcement of two-party system
+
+![](/drawing-2-5-voting-cycle.png)
+
+---
+layout: statement
+---
+
+# a toxic and irrational voting method
+
+# creates a toxic and irrational country
+
+---
+
+Plurality Voting is awful *because* of its mathematical structure
+
+---
+
+# approval voting is much better!
+
+solves spoiler effect
+
+![](https://i2.wp.com/californiaapproves.org/wp-content/uploads/2021/08/approval-ballot.png?fit=750%2C440&ssl=1)
+
+---
+
+# score voting methods
+
+can use larger range
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Completed_Score_Voting_Ballot_version2.png/400px-Completed_Score_Voting_Ballot_version2.png)
+
+---
+
+# Ranked Choice Voting *isn't* an improvement
+
+- doesn't solve the spoiler effect
+- has extra pathologies and insidious surprises
+- **doesn't measure what matters**
+
+subject for a different talk!
+
+<!-- TODO picture or link -->
+
+---
+
+# score voting methods aren't good enough
+
+casual majorities can outvote passionate minorities
+
+![](/drawing-3-casual-out-approves-passionate.png)
+
+<!-- importantly, the casual group isn't wrong or bad or irrational, they did the most rational thing from their perspective. if they slightly prefer some choice and it costs them nothing to support it, then they should -->
+
+---
+
+# score voting methods aren't good enough
+
+casual majorities can outvote passionate minorities
+
+![](/drawing-3-casual-out-approves-passionate-points.png)
+
+---
+
+# score voting methods aren't good enough
+
+allow "spam voting"
+
+- don't account for preference strength
+- rational to vote even when you don't know/care
+
+---
+
+# spam voting creates many problems
+
+- NIMBY-ism
+- straight-ticket voting
+- unaccountable officials
+- polarization
+- tyranny of the majority
+- noise
+- gridlock
+
+---
+
+# resource voting methods
+
+more votes for things you care more about
+
+![](/drawing-4-resource-voting.png)
+
+---
+
+# forces honesty
+
+<!-- TODO Likert picture -->
+
+https://lawreview.uchicago.edu/sites/lawreview.uchicago.edu/files/3Chen_WEB_FINAL.pdf
+
+http://governance40.com/wp-content/uploads/2018/11/Eric-Posner-E.-Weyl-Radical-Markets_-Uprooting-Capitalism-and-Democracy-for-a-Just-Society-Princeton-University-Press-2018.pdf
+
+---
+
+# every vote signals **concern** and **confidence**
+
+<v-clicks>
+
+- votes are finite
+- choosing one thing more means choosing another less
+- choosing one thing means you care more about it
+- makes voting a true negotiation
+- *negative* votes allow non-experts to give useful information
+
+</v-clicks>
+
+<!-- example of china and single candidate elections -->
+
+<!--
+- strategy relates to how "cheap" pivotal votes are
+- this is good! incentivizes revealing more "rare" preference information
+- voting for candidates or situations where everyone else is less confident
+-->
+
+---
+
+# don't need ad-hoc rules to buffer spam voting
+
+resource voting methods *actually* accomplish
+what "representative democracy" *pretends* to accomplish
+
+- filibuster
+- senate
+- electoral college
+- supreme court
+- presidential veto
+
+---
+
+but we can go too far the other way!
+don't want *only* passionate voters to decide everything
+
+this is a "free rider" problem, where useful information from casual voters isn't shared
+
+---
+
+# quadratic voting
+
+provably optimal!
+
+| **voting credits spent** | **√** | **actual vote cast** |
+|----------------------|---|------------------|
+| 1                    | → | 1                |
+| 2                    | → | 1.4142           |
+| 3                    | → | 1.7320           |
+| 4                    | → | 2                |
+| ...                  |   | ...              |
+| 9                    | → | 3                |
+
+---
+
+# why square root?
+
+compensating other voters for marginal cost of losing
+
+saying "I want more probability to win please" makes it more and more likely you *will* win
+this means the cost you impose on others *increases* as you get more and more votes
+
+![](/linear-cost-curves.png)
+
+---
+
+# roughly `n²` relationships between `n` people
+
+go dig in if you are curious
+
+![](/drawing-4-tug-of-war.png)
+
+a stronger vote is more "painful" to others
+
+<!-- Instead it is that each individual must pay an amount equal to the cost that her actions impose on others. -->
+
+when you get what you want in an election, you impose a harm on others in the form that they didn't get what they wanted
+quadratic voting is based on the idea that you must compensate other members of society for the harm you impose on them
+in this situation you compensate them for losing in one election with a greater possibility of winning in *another* election
+
+this talk isn't about that!
+
+---
+
+# quadratic voting
+
+balances "tyranny of the majority" against "free riding"
+
+- people who care a little bit are still incentivized to vote a little bit
+- people who care a lot aren't given complete control
+
+---
+
+# quadratic voting
+
+> [Quadratic Voting] achieves a perfect balance between the free-rider and the tyranny of the majority problems.
+> If the cost of voting increased more steeply, say, as the fourth power of votes cast, those with strong preferences would vote too little and we would revert to a partial tyranny of the majority.
+> If the cost of voting increased more slowly, those with intense preferences would have too much say, as a partial free-rider problem would prevail.
+
+---
+
+# resource voting isn't good enough
+
+*savings strategies*: majorities can "bankrupt" minorities with repeated proposals
+
+| **horrifying<br>proposal<br>prevented?** | **large group<br>votes remaining** | **small group<br>votes remaining** |
+|--------------------------------|-----------------------------|-----------------------------|
+| ✅                              | 1,000,000                   | 40,000                      |
+| ✅                              | 950,000                     | 30,000                      |
+| ✅                              | 900,000                     | 20,000                      |
+| ✅                              | 850,000                     | 10,000                      |
+| 💥                              | 800,000                     | 0                           |
+
+---
+
+# resource voting isn't good enough
+
+*meta problem*: what decisions do we even make in the first place?
+
+---
+
+# *any* system with hard deadlines isn't good enough
+
+- voter suppression is easy
+- marketing and misinformation are cheap and effective
+- voter turnout is incredibly important
+- "election hangovers" are common
+- weird surprises are irreversible
+
+---
+
+# Persistent Democracy
+
+by example!
+
+- city (small scope, far future)
+- country (large scope, far future)
+- cooperative (near future)
+
+- stable
+- humanely paced
+- truly democratic
+- arbitrarily flexible
+- allows expert delegation
+
+---
+
+# Persistent Democracy
+
+- persistent voting
+- persistent commitments
+- persistent constitutions
+
+---
+
+# Persistent Voting
+
+- finite supply of "voting weights" you "place" on different decisions
+- weights are "moved" rather than "spent"
+- can use more weights on some decisions than others
+- can move weights at any time
+- candidates can enter/exit at any time
+
+- not tiring: *periodic update schedule*
+- not unstable: *stabilization buckets*
+- not noisy: *nomination buckets*
+
+---
+
+# Persistently Democratic city
+
+- dislike current district attorney
+- good friend is parks commissioner
+- want to nominate new police chief
+
+<!-- move to new city, make friends join communities, you decide you care about -->
+
+---
+
+# when to vote?
+
+*update schedule* of one week (every Monday at 1:00 am)
+
+changes not published immediately
+
+![](/drawing-5-instantaneous-updates.png)
+
+---
+
+# when to vote?
+
+only once a week (every Monday at 1:00 am)
+
+![](/drawing-6-reasonable-updates.png)
+
+---
+
+# when to vote?
+
+- it's only useful to vote once a week at most
+- you usually do it Tuesday evening after grocery shopping
+- if you don't want to change anything you don't bother
+
+---
+
+# where to vote?
+
+voting office (post office and library too)
+
+- proctor checks your id (was free and easy to get)
+- sit down in a private booth with a voting computer
+- view all elections and your current votes
+- change your votes
+
+[more about possible logistics](TODO logistics)
+
+---
+
+# how to vote?
+
+elections use "stabilization buckets"
+
+![](/drawing-7-stabilization-buckets.png)
+
+<!--
+- If a candidate pulls ahead of the current winner, they begin to fill up some "stabilization bucket". They must fill up the entire bucket to become the new current winner of the position.
+- If a candidate has a bigger vote advantage they fill up the stabilization bucket faster. This means the change will happen faster since the electorate is more "certain".
+- If a candidate loses their vote advantage, the stabilization bucket begins to drain based on the size of the new gap.
+-->
+
+---
+
+# how to vote?
+
+stabilization buckets ensure voters are confident in a change
+
+![](/drawing-7-stabilization-buckets.png)
+
+---
+
+# how to vote?
+
+stabilization buckets are "bigger" or more stable if:
+
+- election potentially effects more people
+- electorate is more "spread thin", they have more elections they can possibly vote in
+
+---
+
+# how to vote?
+
+- ✅ move many weights onto district attorney
+- ✅ move some weights onto parks commissioner
+
+---
+
+# how to vote?
+
+also use "nomination buckets"
+
+<!-- TODO picture some "dividing line" between real election and nominees. see nominee move into real election -->
+![](/drawing-nomination-buckets-before.png)
+
+---
+
+# how to vote?
+
+nomination buckets can prevent nonsense candidates and noisy elections
+
+![](/drawing-nomination-buckets-before.png)
+
+---
+
+# how to vote?
+
+candidates can't enter elections on a whim
+
+![](/drawing-nomination-buckets-after.png)
+
+---
+
+# how to vote?
+
+nomination buckets are sized almost like stabilization buckets, get more "difficult" if:
+
+- election potentially impacts more people
+- actual current amount of election noise increases:
+  - more candidates already nominated
+  - more nominees competing
+
+---
+
+# how to vote?
+
+- ✅ move some weights onto police chief nomination
+
+---
+
+# why could Persistent Voting be an improvement?
+
+- all benefits of resource voting
+- low voter engagement not a problem! "delegation by abstention"
+- removes election hangovers, other regret
+- massively increases propaganda cost
+- decreases horse-race effect
+
+---
+
+# persistent commitments
+
+not enough time
+
+![](/drawing-9-weight-transfer.png)
+
+---
+layout: statement
+---
+
+# Persistent *Documents*
+
+---
+
+# Persistently Democratic country
+
+- needs a top-level constitution
+- Persistent Voting is flexible enough to choose one democratically!
+
+---
+
+# voters can propose documents
+
+- propose in entirety (no random inconsistent amendments)
+- can work together to merge compatible documents into one candidates
+- voters can view "diffs" between similar documents
+
+---
+
+# voters can propose documents
+
+constitution I would propose
+
+- define rights in order to prevent irreversible harm (rights aren't different across the country)
+- split off legal codes (clarifications to rights)
+- split off agencies/officials and budget
+- split off district map, including protected areas
+
+---
+
+<!-- TODO constitution with split off parts -->
+
+---
+
+# constitutional tree
+
+<!-- TODO constitutional tree -->
+
+levels would effect stabilization buckets
+
+---
+
+# many different levels and many different decisions
+
+- rights and law
+- local zoning
+- environment
+- hunting/fishing
+- tax rates
+- reducing personal taxes
+
+lots of ideas!
+[persistentdemocracy.org](https://persistentdemocracy.org/)
+
+<!-- we have a lot of decisions to make! people would gravitate toward things they care about and know about -->
+
+---
+
+# allows arbitrarily flexible governance
+
+- delegate officials and experts, even partially
+- split up distinct parts of governance
+- allow voting weights to be used in many ways
+
+---
+
+# creates a true democracy
+
+- every voter has the same potential impact on every decision
+
+  *if not directly then through an elected official or constitution*
+- expert delegations have democratic legitimacy
+
+  *experts can only optimize within their domain, still need to be accountable*
+- every voter can give unbounded information in documents
+
+  *won't become noisy because of voting weights and nomination*
+
+---
+
+# realistic experimental plan
+
+need to validate first!
+
+- very novel
+- extremely speculative
+- extremely different
+
+can validate in low-stakes private organizations
+
+---
+
+# Persistently Democratic cooperative
+
+## cooperatives are central to my theory of change
+
+- would select a top-level constitution
+- can pursue any initiative members want
+- can vote over the internet
+- can afford to fail
+
+---
+
+# what's a cooperative?
+
+<v-clicks>
+
+- cooperatives are private companies owned by their members<br>(workers or users or both)
+- cooperatives are a proven model
+- cooperatives haven't lived up to their potential
+
+could help us solve our more pressing problems:
+
+- for-profit media
+  **
+- platform monopolies
+  *how would an actually good "world town square" work?*
+- general inequality
 
 </v-clicks>
 
 ---
 
-bunch of problems
+lots more at [persistentdemocracy.org](https://persistentdemocracy.org/)
 
+---
+
+# true democracy is a moral imperative
+
+- equal *moral* weight implies equal *input* weight
+- how would you decide who's "smart enough" to have a voice?
+
+---
+
+# true democracy = equal input weight
+
+- resource voting systems ensure votes signal real preferences
+- persistent constitutions ensure every person has equal input about
+
+every person doesn't have to vote on every decision!
+- but they should be *able* to, even if indirectly
+
+
+<!-- it doesn't seem possible to do better than that! -->
+
+
+
+I'm working on an ethical theory I so far call "function-comparing ethics" that seeks to make this concrete
+expect that in the future
+
+
+<!--
 https://forum.effectivealtruism.org/posts/ax8fod4R7ihTxh3kv/persistent-democracy-request-for-early-feedback?commentId=jFQGHNrAHtb9zAcrZ
 
 https://www.amazon.com/10-Less-Democracy-Should-Elites/dp/1503603571
@@ -57,28 +705,7 @@ democracy just means weighing each person's *input* the same. that *input* can t
 - election hangovers
 - unaccountable officials
 - NIMBY-ism
-
----
-
-is sane democracy simply impossible?
-
-do people just suck too much?
-
----
-
-not *causes*
-
-but *symptoms*
-
----
-
-the real problem?
-
-## poor voting methods
-
-right now we achieve stability and fairness (kinda) with weird adhoc rules, deadlines, time limitations, "representativeness"
-these things don't actually achieve stability and fairness, but they *feel* like they do
-the concept of resource voting achieves that goal much more cleanly.
+ -->
 
 people aren't stupid
 people just aren't experts on every topic
@@ -94,152 +721,47 @@ you can't just insist everyone get on board with your program to
 
 this is all probably making me sound like a market-absolutist libertarian. that's not true! I do think the underlying *flavor* of reasoning is shared, but I'm willing to accept that markets *as we understand them* aren't actually welfare-optimal and could be improved in ways that would make them "feel" more socialist
 
----
 
-we can use math and logic to build *provably* better voting methods
 
----
 
-- political problems caused by bad systems, not immutable badness, and the ethical questions of listening to people and giving them input
-- are structurally solvable
-- persistent democracy solves them, with a big concrete example
 
----
 
-first offender:
 
-# Plurality Voting
 
----
 
-# Plurality Voting is awful
 
----
 
-democracy != plurality voting
 
----
 
-approval voting is much better!
 
-part of a general group of systems I'll call "score systems"
 
-solves spoiler effect
 
-(note, systems like ranked choice voting *don't*, that's a subject for a different talk)
 
----
 
-not good enough
 
-doesn't account for preference strength
 
-allows vote spam
 
----
 
-quadratic voting is better
 
-part of a general group of systems I'll call "resource systems"
 
-solves "vote spam"
 
-would solve things like NIMBY-ism
 
----
 
-not good enough
 
-allows "savings strategies"
 
----
 
-deadline problem
-I want to convince you that a key of unraveling this question is to find a way to get rid of all unnecessary election deadlines
 
----
 
-persistent voting
 
----
 
-lots of slides discussing benefits and details
-ask people to be patient as you go through these important details
 
----
 
-briefly say you'll talk about persistent commitments in a second
 
----
 
-persistent constitutions
 
----
 
-extended example of a country that uses it, far in the future
-first go through someone going to a voting office
-starting with election for constitution
-the constitution directly defines rights so they aren't different all over the place
-it splits off documents for districts, rights clarifications, and agencies/officials
-go through a process of different drafts adopting easy to agree on compromises and therefore getting stronger
-then discuss bits of districts, agencies (does the county auditor actually need to be an elected position?)
-discuss how stabilization buckets relate to depth in constitutional tree
-
----
-
-lots of other stuff:
-
-- common resource rights
-- persistent funding
-- intellectual property
-- provably optimal?
-
----
-
-plan to make it a reality
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-We can only truly improve the world by improving Democracy. Charitable giving is nothing more than a stop-gap.
+EA should be improving Democracy and building cooperatives. Charitable giving is just a stop-gap.
+<!-- We can only truly improve the world by improving Democracy. Charitable giving is nothing more than a stop-gap. -->
 
 It is impossible to improve the state of the world without first fixing democratic systems, because all forms of aggregating utilitarianism are nonsensical.
 

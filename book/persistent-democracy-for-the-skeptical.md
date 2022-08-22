@@ -51,6 +51,8 @@ How "big" are these stabilization buckets? In general if the buckets are "bigger
 
 Publishing and recalculation shouldn't happen instantaneously. Electorates should be able to choose some periodic update schedule at which votes are actually tabulated and published, with all vote changes being batched until the update time arrives. This would allow each member to only worry about their votes at most one time in every update cycle.
 
+![](/drawing-6-reasonable-updates.png)
+
 Persistent Voting allows true direct democracy to be efficient and stable. Since voters can change their vote in any election at any time, they can participate in only the decisions they're actually concerned about while leaving other decisions for other voters. This means they can have many more possible decisions available to them without becoming overwhelmed.
 
 It even allows "auto-pilot democracy", where low voter turnout is essentially a nonissue. If some concerned minority makes most of the electoral choices, and everyone else is perfectly fine with those choices, then the majority can just not participate without worry. If the concerned minority begins making harmful or foolish choices in some elections, the rest of society can simply move weights into those elections to override them before harm is done.
