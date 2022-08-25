@@ -411,8 +411,14 @@ https://www.cold-takes.com/defending-one-dimensional-ethics/
 
 
 
-EA should be improving Democracy and building cooperatives. Charitable giving is just a stop-gap.
+EA should be improving democracies and building cooperatives. Everything else is mere paternalism.
+<!-- EA should be improving Democracy and building cooperatives. Charitable giving is just a stop-gap. -->
 <!-- We can only truly improve the world by improving Democracy. Charitable giving is nothing more than a stop-gap. -->
+
+
+the most dangerous thing ea could do, the thing that would merit publicly opposing it, is for ea to contend it possesses the greatest amount of knowledge, and is capable of hiding in it's intellectual cloisters and "performing the calculations" by which all other beings must be bound.
+that conclusion follows very naturally from any kind of aggregating utilitarianism. we must steer away from that
+
 
 It is impossible to improve the state of the world without first fixing democratic systems, because all forms of aggregating utilitarianism are nonsensical.
 
