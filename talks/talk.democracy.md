@@ -9,7 +9,13 @@ layout: cover
 
 # Democracy doesn't<br>have to suck
 
-## better voting systems can fix our problems
+## better voting systems can make democracy work
+
+<v-click>
+
+## (specifically Persistent Democracy)
+
+</v-click>
 
 ---
 
@@ -21,6 +27,7 @@ layout: cover
 
 - irrational
 - ignorant
+- misinformed
 - selfish
 - short-sighted
 - prejudiced

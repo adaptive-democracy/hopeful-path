@@ -381,7 +381,7 @@ it could be reasonable in some situations to make more assumptions to have a "ro
 
 https://www.cold-takes.com/defending-one-dimensional-ethics/
 
-
+https://forum.effectivealtruism.org/posts/vZ4kB8gpvkfHLfz8d/critique-of-macaskill-s-is-it-good-to-make-happy-people
 
 
 
