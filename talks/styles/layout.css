@@ -15,6 +15,16 @@
 	p {
 		@apply text-5xl font-light;
 	}
+
+	&.thumbnail {
+		h1 {
+			@apply text-8xl;
+		}
+
+		p {
+			@apply text-2xl font-light;
+		}
+	}
 }
 
 .slidev-layout.chapter-title {

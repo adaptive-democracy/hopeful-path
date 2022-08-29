@@ -4,14 +4,17 @@
 	"scripts": {
 		"dev": "slidev talk.democracy.md --open",
 		"build": "slidev build talk.democracy.md",
-		"export": "slidev export --with-clicks talk.democracy.md",
+		"export": "slidev export --with-clicks --format png talk.democracy.md",
 
 		"theory-dev": "slidev talk.theory.md --open",
 		"theory-build": "slidev build talk.theory.md",
-		"theory-export": "slidev export --with-clicks talk.theory.md"
+		"theory-export": "slidev export --with-clicks --format png talk.theory.md"
 	},
 	"dependencies": {
 		"@slidev/cli": "^0.29.2",
 		"@slidev/theme-apple-basic": "^0.20.0"
+	},
+	"devDependencies": {
+		"playwright-chromium": "^1.25.1"
 	}
 }

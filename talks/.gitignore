@@ -5,3 +5,6 @@ dist
 index.html
 .remote-assets
 components.d.ts
+
+*-export.pdf
+talk.*-export

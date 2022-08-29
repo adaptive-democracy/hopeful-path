@@ -5,6 +5,32 @@ lineNumbers: false
 drawings:
   persist: false
 layout: cover
+class: thumbnail
+---
+
+# Democracy<br>doesn't<br>have to<br>suck
+
+## better voting methods and
+## Persistent Democracy can fix it
+
+<div class="absolute right-28 bottom-12">
+
+❌ ~~thoughtless voting~~
+
+❌ ~~unaccountable officials~~
+
+❌ ~~weird 200 year old rules~~
+
+✅ voting without deadlines
+
+✅ weighted voting
+
+✅ complete flexibility
+
+</div>
+
+---
+layout: cover
 ---
 
 # Democracy doesn't<br>have to suck
@@ -326,6 +352,12 @@ subject for another talk!
 
 # resource voting isn't good enough
 
+*weird surprising outcomes*: a very small number of voters can change an election
+
+---
+
+# resource voting isn't good enough
+
 *meta problem*: what decisions do we even make in the first place?
 
 ---
@@ -392,6 +424,19 @@ subject for another talk!
 
 ---
 
+# where to vote?
+
+voting office (same building as post office and library)
+
+- proctor checks your id (was free and easy to get)
+- private booth with a voting computer
+- view all elections and your current votes
+- change your votes
+
+[Persistent Logistics](https://persistentdemocracy.org/persistent-logistics)
+
+---
+
 # when to vote?
 
 *update schedule* of one week (every Monday at 1:00 am)
@@ -415,19 +460,6 @@ instead of publishing changes immediately...
 - it's only useful to vote once a week at most
 - you usually do it Tuesday evening after grocery shopping
 - if you don't want to change anything you don't bother
-
----
-
-# where to vote?
-
-voting office (same building as post office and library)
-
-- proctor checks your id (was free and easy to get)
-- private booth with a voting computer
-- view all elections and your current votes
-- change your votes
-
-[Persistent Logistics](https://persistentdemocracy.org/persistent-logistics)
 
 ---
 
