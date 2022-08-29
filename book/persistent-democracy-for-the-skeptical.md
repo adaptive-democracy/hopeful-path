@@ -287,6 +287,7 @@ Exploring function-comparing ethics vs person-comparing ethics
 A utilitarian theory without the crazy conclusions
 
 https://forum.effectivealtruism.org/posts/LPDyAvwYyp4tzPmED/common-sense-cases-where-hypothetical-future-people-matter
+https://forum.effectivealtruism.org/posts/bedstSbqaP8aDBfDr/the-nietzschean-challenge-to-effective-altruism
 
 you can only help future people by building *general systems* that are structurally capable of helping anyone. "anyone" is allowed to be narrow if your system is very grounded in a specific context, but the system you build should probably therefore be highly adaptable so it can respond to changes in that context.
 all of these cases rely on how you act *in relation to the state of the world*. stewardship of the *universe* and the structures that
