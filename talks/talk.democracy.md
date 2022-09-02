@@ -10,16 +10,15 @@ class: thumbnail
 
 # Democracy<br>doesn't<br>have to<br>suck
 
-## better voting methods and
-## Persistent Democracy can fix it
+## (even when people do)
 
-<div class="absolute right-28 bottom-12">
+<div class="absolute right-18 bottom-12">
 
 ❌ ~~thoughtless voting~~
 
 ❌ ~~unaccountable officials~~
 
-❌ ~~weird 200 year old rules~~
+❌ ~~weird old rules~~
 
 ✅ voting without deadlines
 

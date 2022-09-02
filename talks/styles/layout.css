@@ -21,6 +21,10 @@
 			@apply text-8xl;
 		}
 
+		h2 {
+			@apply text-5xl;
+		}
+
 		p {
 			@apply text-2xl font-light;
 		}
