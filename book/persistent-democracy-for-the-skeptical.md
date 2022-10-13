@@ -286,6 +286,12 @@ It is however true that sometimes power dynamics or prejudices have appeared so 
 Exploring function-comparing ethics vs person-comparing ethics
 A utilitarian theory without the crazy conclusions
 
+https://forum.effectivealtruism.org/posts/8wWYmHsnqPvQEnapu/getting-on-a-different-train-can-effective-altruism-avoid
+https://www.samstack.io/p/the-train-to-crazy-town
+https://astralcodexten.substack.com/p/book-review-what-we-owe-the-future
+
+Function-comparing ethics and Persistent Democracy form a consistent ethical theory we can maximize without collapsing into absurdity. change my mind.
+
 https://forum.effectivealtruism.org/posts/LPDyAvwYyp4tzPmED/common-sense-cases-where-hypothetical-future-people-matter
 https://forum.effectivealtruism.org/posts/bedstSbqaP8aDBfDr/the-nietzschean-challenge-to-effective-altruism
 
