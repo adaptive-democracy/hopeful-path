@@ -15,6 +15,39 @@ incomplete: true
 
 
 
+
+
+
+
+
+
+
+
+
+myths of libertarianism
+
+- markets are natural (they only exist because of rights)
+- rights are natural (they only exist because of cooperation)
+
+- the profit motive is the only thing that ever achieves anything (self-interest can take many forms, and pursue many things other than money. many self-interested goals are *incompatible* with having money)
+- self-interest is the only thing that ever achieves anything (only the extremely strict *biological* definition of self-interest can remove genuine altruism or idealism from our consideration)
+
+- markets reward problem solving (markets reward ownership of things of value. it's only when we successfully design rights in such a way that someone can *only* own something of value when they have also solved problems that this is true)
+
+- wealthy people have proven they are good at managing resources (they've proven they have resources, and know which resources to exploit when. managing resources for what purpose? to gain themselves more resources? is that useful to us? there are many cycles of cumulative advantage or "property ratchets" in our society that obviously allow the already wealthy to become more wealthy without providing any value themselves. property holders can very easily become mere rent-seekers. they only have to make the single good decision to employ one person to manage things for them, after which they capture basically all of the value even when their manager is the one who has actually demonstrated value)
+
+- governments can never do something good (public goods are extremely valuable, and many can only be provisioned or best provisioned by a government. governments just have tricky principal-agent problems)
+
+it's true that leveraging profit motives can be useful for society, but only if we've leveraged them in the right way.
+saying we should simply allow profit motives to do what they please and let the market sort it out is like saying we should just let a horse run completely free. horses are extremely powerful and can be useful to us, but only when we can control them. if we let them go wherever they want we may not like where we end up
+
+it certainly seems like something someone would say if they only care about being able to do whatever they want in pursuit of profit. it seems to me we shouldn't listen to such people.
+
+
+
+
+
+
 After describing a framework for understanding rights, it's natural to ask how those rights interact with existing ideas about markets. The framework interacts very cleanly with markets, and in fact solves many of the possible problems economists have identified in markets. It isn't however immediately obvious why, and that's what this chapter will focus on.
 
 First, let's get a clearer understanding of what a market really is.

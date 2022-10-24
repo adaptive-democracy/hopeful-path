@@ -83,6 +83,143 @@ https://en.wikipedia.org/wiki/Scalar_projection
 
 
 
+
+
+
+function-comparing ethics
+proof sketches of Persistent Democracy's welfare optimality
+
+democracies fail because of bad systems, not bad people. resource voting systems are the solution
+elections shouldn't have deadlines, how persistent voting could fix democracy
+we should vote for our constitution (and all our other laws). persistent voting allows document elections
+
+cooperatives are the key to solving our trickiest economic problems
+the solution to broken social media is easy: cooperatives
+the solution to broken news media is easy: cooperatives
+the solution to broken open source is easy: cooperatives
+the solution to broken supply chains is easy: cooperatives
+the solution to broken supply chains is easy: cooperatives
+
+banks should offer services instead of account interest
+
+common resource rights can fix the problems with private property
+income taxes suck, they should be replaced by wealth taxes
+systems of cumulative advantage create inequality, not superior winners
+
+the good part of both capitalism and socialism is merely true democracy, everything else is a distraction
+persistent democracy and common resource rights achieve the benefits of both capitalism and socialism without any of their flaws
+
+should experts make all the decisions?
+
+Freedom and Cooperation don't contradict each other, they create each other
+
+
+all of this is at the conjecture stage, and I'm sharing to get feedback and see if I'm missing anything obvious and perhaps start some useful discussions. I won't consider it truly robustly proven until it's all been formalized and checked in a proof assistant. when I say *is* or *does* or whatever consider it amended to *maybe is* and *could do*, unless where otherwise specified.
+
+the core idea of function-comparing ethics is to determine the moral value of a universe not by the aggregate welfare of the population, but by the welfare producing properties of the **coordination function** to which the population is subject. this reframing allows us to avoid making many problematic assumptions about the nature of welfare and our level of knowledge of other's minds. it also allows us to reason not just about a particular *snapshot* of the universe, but all *paths* of the universe. it relies on the idea of ensuring that the function will always produce states which both currently alive and possibly alive people prefer to the previous one.
+
+as long as the function doesn't allow irreversible state transitions then all future subjects will continue to enjoy the same possible welfare benefits as current subjects
+
+consider an object whose type allows it to cycle through three states, red, yellow, blue. they go in order every time they are "clicked", and at blue you have to click three times to get it back to red. however it is also possible at any time to click the "gray" button, which puts the object into a permanent "gray" state that can't be moved out of.
+three subjects who prefer the three separate colors, and all would massively enjoy the single breaking, but it's clearly optimal to cycle through them and stick on the first two colors to compensate for the delay while at blue.
+lots of fun situations can come from this. what if a subject only enjoys the destruction? it's obvious here the needs of this one class of subjects is outweighed by all present *and future* subjects, so it shouldn't happen. but what if there are two types of subjects, both of whose survival depend on the object being broken or not broken? here we have a true *existential incompatibility*, and it is impossible for these two types of beings to live full flourishing lives while the other continues to exist. further, I'm comfortable saying that the type who requires an irreversible state is somehow *inherently* less ethical, since their existence precludes
+maybe we have to consider that the state *transitions* could also produce welfare (pushing one of the buttons is what does it, not the object being at the steady gray state)
+this situation is trivially resolved if you have as many sharable objects as you have types, or as many unsharable objects as you have subjects as you have subjects (give each type/subject their own). I would consider giving the "breaks" something to destroy acceptable even though it precludes the usefulness of that object to future subjects, and the reason is *because* it resolves an existential incompatibility.
+
+compare welfare properties of function rather than aggregate welfare
+use "satiable lexicographic ordering" to rank function's moral value
+  if a function is perfectly subject blind, it will always produce welfare missed by functions that aren't subject blind.
+  if a function disallows itself to be displaced or for leverage to be permanently degraded (maybe this should think in terms of "available leverage paths" and "accessible universe states"). increasing leverage can be easily understood in a discrete model by considering it the opening of more possible paths and states. a computer with infinite time could expound all accessible states from all states by performing a "Dijkstra style" walk where states are stored to prevent running in cycles. you could also simply bound the walk by the number of time steps the subject considers useful.
+  if a function assigns each subject rights that align with all sources of preferred and dispreferred welfare and only allows those rights to be infringed in situations where a consensual trade is occurring either privately or publicly through a vote. maybe our "basic" model of essential welfare should be baked into a constitutional kernel, essentially giving all people ownership of their body and their actions and their property in the "like against like" manner.
+  if all subjects have perfect self and universe knowledge and infinite computing power, they can always present a model of their welfare that is perfectly accurate that will maximize their welfare
+  if a function provably maximizes the voted welfare value of all resources in the universe, given the constraint that it never allows the function itself to be displaced or the leverage of the system to be permanently degraded, then no function can outperform it
+
+the same concept of lexicographic ordering appears in this intuitive definition of what rights would be most enjoyed by humans, since without rights of body one can't enjoy rights of action, and without rights of action one can't enjoy rights of property.
+
+if you can create a coordination function that is provably welfare optimal and provably will never become degraded, it seems difficult to say you haven't achieved a state of "maximum ethicality"
+
+
+use resource voting as a game theoretically sound proxy for welfare
+
+
+
+
+
+
+even completed crowdsells can have a "project" phase that involves disseminating all the "gray literature" to some public entity enough that the public entity can actually reproduce the invention. this dissemination ought to be recorded in some useful way to make it permanently openly available
+simply incentivizing open source work will tend to disseminate knowledge, since creating open source teaching materials will be incentivized
+
+persistently democratic thresholdware cooperatives both incentivize a minimum level of support through the open source threshold, and unbounded upward growth through possible competition for governing influence through the weight-buying aspect
+
+
+
+
+
+
+the *only* way you can help someone else is either directly communicating with them or creating/improving/implementing systems that are *provably* capable of helping *anyone*
+
+improving democracy is the best thing because we *can't* guess what other people most value
+will macaskill gives a perfect example with john stuart mill. if they had left coal in the ground for the reasons they were considering and only for the reason of benefiting future generations, they would have *harmed* future generations on average. maybe! even that we can't be sure of!
+if they had instead improved democratic structures in a durable and truly democratic/effective way, they basically certainly would have benefited future generations.
+
+
+Income taxes push back against speed of ascension, which inherently limits social mobility. Wealth taxes push back against height of position, which allows for social mobility and inherently reduces inequality
+
+the drowning child thought experiment mostly relies on the clarity and *urgency* of the situation. but really if you extend the metaphor much further the specifics break apart the reasoning. if situations of that clarity and urgency happend *over and over again*, you would be foolish not to ask why and to pursue a course of action that addresses the systemic problem. similarly for the far away people who will *probably* die *at some point* without your help, because the situation isn't as clear and urgent you have the opportunity to think of ways to help that person that are more systemic and *don't* require you to completely sacrifice all optional enjoyments in your life.
+
+
+
+
+
+we don't need capitalism or socialism, we merely need true democracy
+we don't need big corporations or big government, we need big cooperatives
+
+persistent voting turns democracy into a boring stable part of everyday life, woven into the fabric of society as part of its basic infrastructure, instead of an occasional panicked race a lot of people will get left out of
+persistent voting dramatically expands the strategic landscape for voters, because instead of only considering a closed finite type as their possible vote, they consider an open infinite type of what coordination function documents they could propose
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 tldr: I've created a new type-theoretical vectorized model of the universe and welfare, and a set of ethical axioms and conjectures I think could:
 
 - achieve pareto-optimal welfare maximization
