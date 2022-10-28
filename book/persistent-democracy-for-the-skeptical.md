@@ -395,7 +395,21 @@ https://forum.effectivealtruism.org/posts/vZ4kB8gpvkfHLfz8d/critique-of-macaskil
 
 
 
+https://rychappell.substack.com/p/double-or-nothing-existence-gambles
+the double or nothing thought experiment isn't true to our actual situation, since in real life we never have a zero chance of death! every choice contains some risk, so at the very least that puts all our choices in the same category
 
+another way function-comparing has a different perspective is that it doesn't simply consider "goods" as something you can add in a vacuum, but instead merely considers "the universe" as a single mutable vector, and adding goods is simply shifting things around.
+
+but the biggest reason it's unacceptable to play double or nothing with the universe is that it takes away choice from *others*, not from yourself. this is the perk of function-comparing ethics, it places purely personal choices in a truly different context than choices for others by virtue of the subject genericity requirement
+
+people do play double or nothing with their own lives all the time! the conquerors and pretenders to the throne of ages past, and dare devils of all kinds today, do so on a regular basis. doing it with your own life is different than doing it with the universe
+
+some of these intuitions are sharp if we consider a universe where humanity is extinct to have a subject-genericity score of `null` rather than zero or some negative number.
+
+
+it might make sense to place the subject-genericity score on a dimension measuring how much non-democratic power to coerce others exists in a society, where postitive values are *decreasing* amounts, zero is "everyone can coerce everyone at different times", and negative scores
+
+this idea also makes it clear why killing all the people suffering under poorly subject-generic functions isn't the answer, because you haven't improved the function but merely become a coercer yourself! someone saying "please kill me I don't want to live under this dictator" is different than you unilaterally deciding to do it.
 
 
 
