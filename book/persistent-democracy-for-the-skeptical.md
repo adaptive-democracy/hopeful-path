@@ -447,6 +447,9 @@ This post is largely a response to this:
 https://astralcodexten.substack.com/p/your-book-review-the-anti-politics
 I agree with the thrust of the criticism, but think this doesn't go nearly far enough.
 
+https://forum.effectivealtruism.org/posts/tnSg6o7crcHFLc395/the-welfare-range-table
+
+
 If I had to point my finger at the main philosophical mistake I believe EA makes, it's the general acceptance of some kind of "universal view" utilitarianism. I've been working on an alternate axiology, but I'll just do a bad job of explaining it here to stand as a contrast.
 
 TODO
