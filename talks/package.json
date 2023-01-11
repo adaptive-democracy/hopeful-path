@@ -2,9 +2,9 @@
 	"name": "persistent-democracy-talk",
 	"private": true,
 	"scripts": {
-		"dev": "slidev talk.democracy.md --open",
-		"build": "slidev build talk.democracy.md",
-		"export": "slidev export --with-clicks --format png talk.democracy.md",
+		"dev": "slidev talk.metagov.md --open",
+		"build": "slidev build talk.metagov.md",
+		"export": "slidev export --with-clicks --format png talk.metagov.md",
 
 		"theory-dev": "slidev talk.theory.md --open",
 		"theory-build": "slidev build talk.theory.md",

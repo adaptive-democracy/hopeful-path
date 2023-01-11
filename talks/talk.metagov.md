@@ -10,7 +10,7 @@ class: thumbnail
 
 # Persistent Democracy
 
-A maximally responsive, flexible, and ethical foundation for democratic society.
+## A maximally responsive, flexible, and ethical foundation for democratic society.
 
 ---
 
@@ -22,6 +22,8 @@ A maximally responsive, flexible, and ethical foundation for democratic society.
 
 <!-- - rough formal theory? -->
 
+---
+layout: cover
 ---
 
 # mechanics
@@ -60,6 +62,8 @@ instead of publishing changes immediately...
 # periodic update schedule
 
 ... only once a week
+
+like a "sample rate"
 
 ![](/drawing-6-reasonable-updates.png)
 
@@ -140,6 +144,8 @@ a candidate/document could have commitments *attached* that need to be "fulfille
 -->
 
 ---
+layout: cover
+---
 
 # proposed benefits
 
@@ -148,14 +154,14 @@ a candidate/document could have commitments *attached* that need to be "fulfille
 # avoids deadline problems
 
 - voter suppression is easy
-- marketing and misinformation are cheap and effective
+- marketing/misinformation are cheap/effective
 - voter turnout matters
 - "election hangovers" are common
 - weird surprises are irreversible
 
 <v-click>
 
-elections/dialogue are unified
+unifies election and "polling"
 
 </v-click>
 
@@ -171,8 +177,11 @@ votes signal **concern** and **confidence**
 - makes voting a true negotiation
 - *negative* votes allow non-experts to give useful information
 
-maximally responsive, flexible, and ethical
-achieves the same benefits of consent/sociocracy
+maximally responsive, flexible, and ethical (*true* democracy rather than degressive proportionality)
+
+<!-- TODO -->
+
+has benefits of consent-based systems
 
 especially if there are diverse decisions to be made
 
@@ -224,22 +233,35 @@ levels would effect stabilization buckets
 
 ---
 
-# resource and score are *complementary*
+# resource *complements* score
 
 - resource voting for relative concern about *elections*
 - score voting for alignment with *candidates* in elections
 
-gracefully degrades to score voting when few elections
+gracefully degrades to score voting with few elections
 
 ---
 
-# resource and score are *complementary*
+# resource *complements* score
 
 - resource voting for inherently incomparable *abstract* options
   <br>(preference *strength* signal)
 - score voting for possibly equivalent or comparable *concrete* options
   <br>(preference *alignment* signal)
 
+---
+layout: cover
+class: thumbnail
+---
+
+## Persistent Voting + Constitution Tree
+
+## =
+
+## Persistent Democracy
+
+---
+layout: cover
 ---
 
 # specific projects
@@ -251,6 +273,8 @@ gracefully degrades to score voting when few elections
 <!-- TODO github screenshot? -->
 
 Persistent Democracy PolicyKit plugin?
+
+currently wrangling with constitution tree "migrations"
 
 ---
 
