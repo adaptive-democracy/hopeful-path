@@ -43,13 +43,13 @@ must avoid becoming:
 - tiring: *periodic update schedule*
 - unstable: *stabilization buckets*
 - noisy: *nomination buckets*
-- costly: *logistics*
+- impractical: *logistics*
 
 </v-click>
 
 ---
 
-# periodic update schedule
+# periodic update schedule *(not tiring)*
 
 arbitrary, imagine every Monday at 1:00 am
 
@@ -59,7 +59,7 @@ instead of publishing changes immediately...
 
 ---
 
-# periodic update schedule
+# periodic update schedule *(not tiring)*
 
 ... only once a week
 
@@ -69,7 +69,7 @@ like a "sample rate"
 
 ---
 
-# stabilization buckets
+# stabilization buckets *(not unstable)*
 
 incentivizes increased participation/confidence
 
@@ -77,7 +77,7 @@ incentivizes increased participation/confidence
 
 ---
 
-# stabilization buckets
+# stabilization buckets *(not unstable)*
 
 are "bigger" (more stable) if:
 
@@ -86,7 +86,7 @@ are "bigger" (more stable) if:
 
 ---
 
-# nomination buckets
+# nomination buckets *(not noisy)*
 
 not as sure how necessary this is
 
@@ -94,7 +94,7 @@ not as sure how necessary this is
 
 ---
 
-# nomination buckets
+# nomination buckets *(not noisy)*
 
 not as sure how necessary this is
 
@@ -102,18 +102,20 @@ not as sure how necessary this is
 
 ---
 
-# logistics
+# logistics *(not impractical)*
 
 - must be computer assisted
-- important questions concern identity and privacy
+- UI design is open question
+- identity checks and privacy can vary on context
 - blockchains actually useful here?
 
 ---
 
-# logistics for government
+# logistics *(not impractical)*
 
-voting office (same building as post office and library)
+## for government?
 
+- voting office (same building as post office and library)
 - proctor checks your id (was free and easy to get)
 - private booth with a voting computer
 - view all elections and your current votes
@@ -125,7 +127,9 @@ voting office (same building as post office and library)
 
 ---
 
-# logistics for non-government
+# logistics *(not impractical)*
+
+## for non-government
 
 - can just use the internet!
 - groups can decide identity/privacy strictness
@@ -151,7 +155,7 @@ layout: cover
 
 ---
 
-# avoids deadline problems
+# avoids *deadline problems*
 
 - voter suppression is easy
 - marketing/misinformation are cheap/effective
@@ -161,7 +165,11 @@ layout: cover
 
 <v-click>
 
-unifies election and "polling"
+why?
+
+- Persistent Voting *unifies election with "polling"*
+- safely reveals preferences
+- all converge to most strategic vote
 
 </v-click>
 
@@ -176,14 +184,7 @@ votes signal **concern** and **confidence**
 - choosing one thing means you care more about it
 - makes voting a true negotiation
 - *negative* votes allow non-experts to give useful information
-
-maximally responsive, flexible, and ethical (*true* democracy rather than degressive proportionality)
-
-<!-- TODO -->
-
-has benefits of consent-based systems
-
-especially if there are diverse decisions to be made
+- allows *delegation by abstention*
 
 ---
 
@@ -217,11 +218,22 @@ levels would effect stabilization buckets
 
 # allows arbitrarily flexible governance
 
-- reasonable without deadline problems
 - solves the "meta" problem
 - allows arbitrary direct/delegated balance
-- split up distinct parts of governance
 - allow voting weights to be used in many ways
+- *truly ethical* democracy without degressive proportionality
+- similar to consent systems
+
+---
+layout: cover
+class: thumbnail
+---
+
+## Persistent Democracy
+
+## =
+
+## Persistent Voting + Constitution Tree
 
 ---
 
@@ -238,27 +250,18 @@ levels would effect stabilization buckets
 - resource voting for relative concern about *elections*
 - score voting for alignment with *candidates* in elections
 
-gracefully degrades to score voting with few elections
-
 ---
 
 # resource *complements* score
 
 - resource voting for inherently incomparable *abstract* options
-  <br>(preference *strength* signal)
+  - preference *strength* signal
+  - game-theoretical soundness
 - score voting for possibly equivalent or comparable *concrete* options
-  <br>(preference *alignment* signal)
+  - preference *alignment* signal
+  - strategic monotonicity, split-proof (IIA)
 
----
-layout: cover
-class: thumbnail
----
-
-## Persistent Voting + Constitution Tree
-
-## =
-
-## Persistent Democracy
+gracefully degrades to score with few elections
 
 ---
 layout: cover
@@ -270,11 +273,10 @@ layout: cover
 
 # Persistent Democracy tools
 
-<!-- TODO github screenshot? -->
-
-Persistent Democracy PolicyKit plugin?
-
-currently wrangling with constitution tree "migrations"
+- https://github.com/persistent-democracy/tools
+  - Rust implementations of core algorithms, eventually UI and voting server
+- Persistent Democracy PolicyKit plugin?
+- currently wrangling with constitution tree "migrations"
 
 ---
 
@@ -283,7 +285,7 @@ currently wrangling with constitution tree "migrations"
 - open source software especially
 - patrons/contributors have voting weights
 - constitution determines maintainers, issue prioritization, etc
-- "constitution buyout" (or something) could implement Exit-to-Community
+- "constitution buyout" could implement Exit-to-Community
 
 <!-- - it seems contributions would be more likely if patrons were sure there money wasn't just going to a for-profit? -->
 
@@ -291,7 +293,7 @@ currently wrangling with constitution tree "migrations"
 
 # Open Project Cooperatives
 
-need more than voting weights? "patreon"ish things
+need more than voting weights? "patreon-ish" things?
 
 perhaps ["sponsorware"](https://calebporzio.com/sponsorware) thresholds to guard:
 
@@ -304,44 +306,3 @@ perhaps ["sponsorware"](https://calebporzio.com/sponsorware) thresholds to guard
 trying to get the "all-or-nothing" energy flowing
 
 </v-click>
-
----
-
-
-
-<!--
-high-level thoughts about theory
-in general theory is only a complement to experimentation
-if we had to choose between being given a perfectly provable theory and something that works in practice, I think we'd always choose the thing that works in practice
-so I've been working (slowly :frown:, I don't have a ton of time to work on this) on software systems that implement persistent democracy, so we can experiment with it
-
-describe universe, beings, welfare, coordination function system
-the simplest model is of agents in an instantaneous auction for a "universe of property" using a democratic currency (such as weights)
-if the democratic evaluation of allocations is always maximized (this is a non-aggregating way to maximize welfare, I'm not a naive utilitarian), we've achieved a "subject-blind" or "ethical" outcome
-this simple auction would maximize welfare value of all property (satisfies fundamental axioms of welfare economics, and even more such as envy-freedom)
-
-many ways to generalize this model to be closer to reality:
-- we live in an uncertain universe, everything is done over *predictions* rather than perfect *evaluations* (not super worried about this today, in general science/investment incentives do a good job handling this)
-- beings are *made up of* the same stuff property is (beings are *inside* the universe)
-- nonzero coordination costs
-- nonzero switching costs
-
-need mechanisms to address these:
-- beings need to be delineated from everything else (we use systems of human rights for this)
-- can't be instantaneous (can't happen every timestep)
-- should be stabilized somehow (switching should have to be justified)
-
-- *Coordination costs*
-- *Switching costs*
-- *Reversal costs*
-
-the most problematic is reversal costs, since that *could* mean some actions must merely be *categorically prohibited*
-
-the only way to achieve this level of flexibility is by treating the universe as an opaque vector of unknown things, and the coordination function has to have arbitrary computational capabilities
-if the coordination function is authored in type theory it is capable of anything logic/mathematics are capable of
-
-some hand-waving about function/model composition, optimality of persistent voting for an arbitrary function
-
-in a way we've just "kicked the can down the road" by shoving all the *real* decision-making responsibility down into this function
-but it seems *possible* to prove this is optimal for any universe/beings
--->

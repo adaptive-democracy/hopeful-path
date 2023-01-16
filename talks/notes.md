@@ -1,4 +1,55 @@
 <!--
+high-level thoughts about theory
+in general theory is only a complement to experimentation
+if we had to choose between being given a perfectly provable theory and something that works in practice, I think we'd always choose the thing that works in practice
+so I've been working (slowly :frown:, I don't have a ton of time to work on this) on software systems that implement persistent democracy, so we can experiment with it
+
+describe universe, beings, welfare, coordination function system
+the simplest model is of agents in an instantaneous auction for a "universe of property" using a democratic currency (such as weights)
+if the democratic evaluation of allocations is always maximized (this is a non-aggregating way to maximize welfare, I'm not a naive utilitarian), we've achieved a "subject-blind" or "ethical" outcome
+this simple auction would maximize welfare value of all property (satisfies fundamental axioms of welfare economics, and even more such as envy-freedom)
+
+many ways to generalize this model to be closer to reality:
+- we live in an uncertain universe, everything is done over *predictions* rather than perfect *evaluations* (not super worried about this today, in general science/investment incentives do a good job handling this)
+- beings are *made up of* the same stuff property is (beings are *inside* the universe)
+- nonzero coordination costs
+- nonzero switching costs
+
+need mechanisms to address these:
+- beings need to be delineated from everything else (we use systems of human rights for this)
+- can't be instantaneous (can't happen every timestep)
+- should be stabilized somehow (switching should have to be justified)
+
+- *Coordination costs*
+- *Switching costs*
+- *Reversal costs*
+
+the most problematic is reversal costs, since that *could* mean some actions must merely be *categorically prohibited*
+
+the only way to achieve this level of flexibility is by treating the universe as an opaque vector of unknown things, and the coordination function has to have arbitrary computational capabilities
+if the coordination function is authored in type theory it is capable of anything logic/mathematics are capable of
+
+some hand-waving about function/model composition, optimality of persistent voting for an arbitrary function
+
+in a way we've just "kicked the can down the road" by shoving all the *real* decision-making responsibility down into this function
+but it seems *possible* to prove this is optimal for any universe/beings
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
 ## Solving problems
 
 <div class="flex basis-1/2">
