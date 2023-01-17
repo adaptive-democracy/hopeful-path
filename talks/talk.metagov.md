@@ -46,10 +46,10 @@ layout: cover
 
 needs corrections to avoid becoming:
 
-- tiring: *periodic update schedule*
-- unstable: *stabilization buckets*
-- noisy: *nomination buckets*
-- impractical: *logistics*
+- tiring (will I end up voting every 5 minutes?) - *periodic update schedule*
+- unstable (will the mayor change every hour?) - *stabilization buckets*
+- noisy (will elections get spammed with candidates?) - *nomination buckets*
+- impractical (how will this actually work?) - *logistics*
 
 </v-click>
 
