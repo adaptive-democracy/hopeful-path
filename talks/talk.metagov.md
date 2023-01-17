@@ -14,13 +14,19 @@ class: thumbnail
 
 ---
 
-# structure
+# very fast talk!
 
-- mechanics
+- just casting out threads
+- [persistentdemocracy.org](https://persistentdemocracy.org) has more
+- ["Democracy doesn't have to suck" on youtube](https://youtu.be/wOW6_DwA87c) has more
+
+---
+
+# talk structure
+
+- mechanics of Persistent Democracy
 - proposed benefits
 - specific projects
-
-<!-- - rough formal theory? -->
 
 ---
 layout: cover
@@ -38,7 +44,7 @@ layout: cover
 
 <v-click>
 
-must avoid becoming:
+needs corrections to avoid becoming:
 
 - tiring: *periodic update schedule*
 - unstable: *stabilization buckets*
@@ -51,8 +57,6 @@ must avoid becoming:
 
 # periodic update schedule *(not tiring)*
 
-arbitrary, imagine every Monday at 1:00 am
-
 instead of publishing changes immediately...
 
 ![](/drawing-5-instantaneous-updates.png)
@@ -61,9 +65,7 @@ instead of publishing changes immediately...
 
 # periodic update schedule *(not tiring)*
 
-... only once a week
-
-like a "sample rate"
+... some arbitrary "sample rate" (Monday at 1:00 am)
 
 ![](/drawing-6-reasonable-updates.png)
 
@@ -142,6 +144,14 @@ not enough time to talk about this!
 
 ![](/drawing-9-weight-transfer.png)
 
+---
+
+# Persistent Commitments (briefly)
+
+not enough time to talk about this!
+
+![](https://miro.medium.com/max/1400/0*cwm5XJR3rdah-ERB)
+
 <!--
 persistent commitments could allow pushing the decision deadline back, based on
 a candidate/document could have commitments *attached* that need to be "fulfilled" or something by a cyclical commitment before they actually take place
@@ -167,7 +177,7 @@ layout: cover
 
 why?
 
-- Persistent Voting *unifies election with "polling"*
+- Persistent Voting *unifies election and "polling"*
 - safely reveals preferences
 - all converge to most strategic vote
 
@@ -202,12 +212,6 @@ votes signal **concern** and **confidence**
 
 ---
 
-# constitutional districts
-
-![](/drawing-8-districts-1.png)
-
----
-
 # constitutional tree
 
 ![](/drawing-constitution-tree.png)
@@ -216,12 +220,18 @@ levels would effect stabilization buckets
 
 ---
 
+# constitutional districts
+
+![](/drawing-8-districts-1.png)
+
+---
+
 # allows arbitrarily flexible governance
 
 - solves the "meta" problem
 - allows arbitrary direct/delegated balance
 - allow voting weights to be used in many ways
-- *truly ethical* democracy without degressive proportionality
+- truly ethical democracy without degressive proportionality
 - similar to consent systems
 
 ---
@@ -237,7 +247,7 @@ class: thumbnail
 
 ---
 
-# Resource-scaled score voting
+# Resource-scaled score voting (briefly)
 
 (Quadratic Range Voting)
 
@@ -245,14 +255,14 @@ class: thumbnail
 
 ---
 
-# resource *complements* score
+# resource *complements* score (briefly)
 
 - resource voting for relative concern about *elections*
 - score voting for alignment with *candidates* in elections
 
 ---
 
-# resource *complements* score
+# resource *complements* score (briefly)
 
 - resource voting for inherently incomparable *abstract* options
   - preference *strength* signal
@@ -273,8 +283,8 @@ layout: cover
 
 # Persistent Democracy tools
 
-- https://github.com/persistent-democracy/tools
-  - Rust implementations of core algorithms, eventually UI and voting server
+- [github.com/persistent-democracy/tools](https://github.com/persistent-democracy/tools)
+- Rust implementations of core algorithms, eventually UI and voting server
 - Persistent Democracy PolicyKit plugin?
 - currently wrangling with constitution tree "migrations"
 
@@ -285,24 +295,11 @@ layout: cover
 - open source software especially
 - patrons/contributors have voting weights
 - constitution determines maintainers, issue prioritization, etc
+- perhaps ["sponsorware"](https://calebporzio.com/sponsorware) thresholds to guard:
+  - source access
+  - license rights
+  - convenient/performant deployment
 - "constitution buyout" could implement Exit-to-Community
+- like to use to manage [Magmide proof language](https://github.com/magmide/magmide)
 
 <!-- - it seems contributions would be more likely if patrons were sure there money wasn't just going to a for-profit? -->
-
----
-
-# Open Project Cooperatives
-
-need more than voting weights? "patreon-ish" things?
-
-perhaps ["sponsorware"](https://calebporzio.com/sponsorware) thresholds to guard:
-
-- source access
-- license rights
-- convenient/performant deployment
-
-<v-click>
-
-trying to get the "all-or-nothing" energy flowing
-
-</v-click>
