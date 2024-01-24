@@ -67,7 +67,6 @@
 	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
-
 [[redirects]]
 	from = "https://hopefulpathway.netlify.app/*"
 	to = "https://adaptivedemocracy.institute/:splat"
@@ -80,7 +79,6 @@
 	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
-
 [[redirects]]
 	from = "https://hopefulpathway.blainehansen.me/*"
 	to = "https://adaptivedemocracy.institute/:splat"
@@ -100,7 +98,6 @@
 	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
-
 [[redirects]]
 	from = "https://persistentdemocracy.org/*"
 	to = "https://adaptivedemocracy.institute/:splat"
@@ -109,63 +106,12 @@
 
 
 [[redirects]]
-	from = "https://www.adaptivedemocracy.com/*"
+	from = "https://www.persistentdemocracy.com/*"
 	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
-
 [[redirects]]
-	from = "https://adaptivedemocracy.com/*"
-	to = "https://adaptivedemocracy.institute/:splat"
-	status = 301
-	force = true
-
-
-[[redirects]]
-	from = "https://www.wecanfixeverything.com/*"
-	to = "https://adaptivedemocracy.institute/:splat"
-	status = 301
-	force = true
-
-[[redirects]]
-	from = "https://wecanfixeverything.com/*"
-	to = "https://adaptivedemocracy.institute/:splat"
-	status = 301
-	force = true
-
-[[redirects]]
-	from = "https://www.wecanfixeverything.org/*"
-	to = "https://adaptivedemocracy.institute/:splat"
-	status = 301
-	force = true
-
-[[redirects]]
-	from = "https://wecanfixeverything.org/*"
-	to = "https://adaptivedemocracy.institute/:splat"
-	status = 301
-	force = true
-
-
-[[redirects]]
-	from = "https://www.hopefulpathway.com/*"
-	to = "https://adaptivedemocracy.institute/:splat"
-	status = 301
-	force = true
-
-[[redirects]]
-	from = "https://hopefulpathway.com/*"
-	to = "https://adaptivedemocracy.institute/:splat"
-	status = 301
-	force = true
-
-[[redirects]]
-	from = "https://www.hopefulpathway.org/*"
-	to = "https://adaptivedemocracy.institute/:splat"
-	status = 301
-	force = true
-
-[[redirects]]
-	from = "https://hopefulpathway.org/*"
+	from = "https://persistentdemocracy.com/*"
 	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
