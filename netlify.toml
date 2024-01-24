@@ -10,6 +10,58 @@
 	command = "npm run build"
 
 [[redirects]]
+	from = "/persistent-democracy/"
+	to = "/adaptive-democracy/"
+	status = 301
+	force = true
+[[redirects]]
+	from = "/persistent-constitutions/"
+	to = "/adaptive-constitutions/"
+	status = 301
+	force = true
+[[redirects]]
+	from = "/persistent-democracy-for-the-skeptical/"
+	to = "/adaptive-democracy-for-the-skeptical/"
+	status = 301
+	force = true
+[[redirects]]
+	from = "/persistent-democracy-labs/"
+	to = "/adaptive-democracy-labs/"
+	status = 301
+	force = true
+[[redirects]]
+	from = "/persistent-funding/"
+	to = "/adaptive-funding/"
+	status = 301
+	force = true
+[[redirects]]
+	from = "/persistent-logistics/"
+	to = "/adaptive-logistics/"
+	status = 301
+	force = true
+[[redirects]]
+	from = "/persistent-prioritization/"
+	to = "/adaptive-prioritization/"
+	status = 301
+	force = true
+[[redirects]]
+	from = "/persistent-voting-open-questions/"
+	to = "/adaptive-voting-open-questions/"
+	status = 301
+	force = true
+[[redirects]]
+	from = "/effective-altruism-and-persistent-democracy/"
+	to = "/effective-altruism-and-adaptive-democracy/"
+	status = 301
+	force = true
+[[redirects]]
+	from = "/drawing-9-1-persistent-commitment.png"
+	to = "/drawing-9-1-adaptive-commitment.png"
+	status = 301
+	force = true
+
+
+[[redirects]]
 	# Redirect default Netlify subdomain to primary domain
 	from = "https://hopefulpathway.netlify.com/*"
 	to = "https://adaptivedemocracy.institute/:splat"
