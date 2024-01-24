@@ -38,7 +38,7 @@ layout: cover
 
 <v-click>
 
-## (specifically Persistent Democracy)
+## (specifically Adaptive Democracy)
 
 </v-click>
 
@@ -98,7 +98,7 @@ class: dense
   - spoiler effect (score voting methods)
   - spam votes (resource voting methods)
   - toxic media (cooperatives and public goods)
-- Persistent Democracy by example
+- Adaptive Democracy by example
   - stable
   - humanely paced
   - truly democratic
@@ -371,7 +371,7 @@ subject for another talk!
 
 ---
 
-# Persistent Democracy by example
+# Adaptive Democracy by example
 
 - city (small scope, far future)
 - country (large scope, far future)
@@ -389,15 +389,15 @@ subject for another talk!
 
 ---
 
-# Persistent Democracy
+# Adaptive Democracy
 
-- persistent voting
-- persistent commitments
-- persistent constitutions
+- adaptive voting
+- adaptive commitments
+- adaptive constitutions
 
 ---
 
-# Persistent Voting
+# Adaptive Voting
 
 - finite supply of "voting weights" you "place" on different decisions
 - weights are "moved" rather than "spent"
@@ -415,7 +415,7 @@ subject for another talk!
 
 ---
 
-# Persistently Democratic city
+# Adaptively Democratic city
 
 - dislike current district attorney
 - friend is parks commissioner
@@ -432,7 +432,7 @@ voting office (same building as post office and library)
 - view all elections and your current votes
 - change your votes
 
-[Persistent Logistics](https://persistentdemocracy.org/persistent-logistics)
+[Adaptive Logistics](https://adaptivedemocracy.institute/adaptive-logistics)
 
 ---
 
@@ -538,7 +538,7 @@ get more "difficult" if:
 
 ---
 
-# why is Persistent Voting exciting?
+# why is Adaptive Voting exciting?
 
 <v-clicks>
 
@@ -552,7 +552,7 @@ get more "difficult" if:
 
 ---
 
-# persistent commitments
+# adaptive commitments
 
 not enough time to talk about this!
 
@@ -562,14 +562,14 @@ not enough time to talk about this!
 layout: statement
 ---
 
-# Persistent *Documents*
+# Adaptive *Documents*
 
 ---
 
-# Persistently Democratic country
+# Adaptively Democratic country
 
 - needs a top-level constitution
-- Persistent Voting is flexible enough to choose one democratically!
+- Adaptive Voting is flexible enough to choose one democratically!
 
 ---
 
@@ -622,7 +622,7 @@ levels would effect stabilization buckets
 - tax rates
 - reducing personal taxes
 
-lots of ideas! [persistentdemocracy.org](https://persistentdemocracy.org/)
+lots of ideas! [adaptivedemocracy.institute](https://adaptivedemocracy.institute/)
 
 ---
 
@@ -660,7 +660,7 @@ can validate in low-stakes private organizations
 
 ---
 
-# Persistently Democratic cooperative
+# Adaptively Democratic cooperative
 
 ## cooperatives are central to my theory of change
 
@@ -685,14 +685,14 @@ could help us solve more pressing problems:
 
 ---
 
-# Persistently Democratic cooperative
+# Adaptively Democratic cooperative
 
 - select a top-level constitution
 - can pursue any initiative members want
 - can vote over the internet
 - can afford to fail
 
-lots more at [persistentdemocracy.org](https://persistentdemocracy.org/)
+lots more at [adaptivedemocracy.institute](https://adaptivedemocracy.institute/)
 
 ---
 
@@ -714,7 +714,7 @@ lots more at [persistentdemocracy.org](https://persistentdemocracy.org/)
 # true democracy is a moral imperative
 
 - resource voting systems ensure votes signal real preferences
-- persistent constitutions ensure every person has input on everything
+- adaptive constitutions ensure every person has input on everything
 
 <v-clicks>
 
@@ -734,19 +734,19 @@ but they should be *able* to, even if indirectly
 
 <v-click>
 
-relates to proof sketches for Persistent Democracy
+relates to proof sketches for Adaptive Democracy
 
 </v-click>
 
 ---
 
-# [persistentdemocracy.org](https://persistentdemocracy.org/)
+# [adaptivedemocracy.institute](https://adaptivedemocracy.institute/)
 
-- [Why Are Our Democracies Broken?](https://persistentdemocracy.org)
-- [Persistent Democracy](https://persistentdemocracy.org/persistent-democracy)
-- [Common Resource Rights](https://persistentdemocracy.org/common-resource-rights)
-- [The Power of Cooperatives](https://persistentdemocracy.org/power-of-cooperatives)
-- [A Realistic Plan for Fundamental Change](https://persistentdemocracy.org/realistic-plan-for-change)
+- [Why Are Our Democracies Broken?](https://adaptivedemocracy.institute)
+- [Adaptive Democracy](https://adaptivedemocracy.institute/adaptive-democracy)
+- [Common Resource Rights](https://adaptivedemocracy.institute/common-resource-rights)
+- [The Power of Cooperatives](https://adaptivedemocracy.institute/power-of-cooperatives)
+- [A Realistic Plan for Fundamental Change](https://adaptivedemocracy.institute/realistic-plan-for-change)
 
 ---
 layout: statement

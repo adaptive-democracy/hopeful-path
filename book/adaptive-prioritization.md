@@ -1,15 +1,15 @@
 ---
-title: "Persistent Prioritization"
+title: "Adaptive Prioritization"
 incomplete: true
 ---
 
 Often we're confronted with situations where some finite amount of public resources must be allocated or prioritized across a group. Market fundamentalists often argue these situations should be handled by private markets, where prices and willingness to pay can act as the system for prioritization. However, this is often an ethically fraught idea, since the inherent inequality of private markets subverts the entire goal of public goods.
 
-So we're in a bind, where it isn't obvious if we can merge the efficiencies of market allocation with the ethics of public goods. However the dynamics of Persistent and Quadratic Voting can solve this problem neatly.
+So we're in a bind, where it isn't obvious if we can merge the efficiencies of market allocation with the ethics of public goods. However the dynamics of Adaptive and Quadratic Voting can solve this problem neatly.
 
 ## Description
 
-Quadratic Voting excels in helping an electorate prioritize options. With quadratic weights that are instead allocated in various persistent elections, we can apply the same idea to help prioritize the use of public resources in a way that mimics the efficiency of markets without allowing economic inequality to interfere.
+Quadratic Voting excels in helping an electorate prioritize options. With quadratic weights that are instead allocated in various adaptive elections, we can apply the same idea to help prioritize the use of public resources in a way that mimics the efficiency of markets without allowing economic inequality to interfere.
 
 For any recurring public resource, such as assets that aren't consumed (public equipment or buildings) or that come in a continuous supply (such as doses of medication or a portion of a recurring budget):
 

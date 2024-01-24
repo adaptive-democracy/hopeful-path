@@ -7,7 +7,7 @@ quadratic scaling
 resource voting systems
 
 
-the beauty of quadratic persistent systems is that total consensus doesn't have to be achieved
+the beauty of quadratic adaptive systems is that total consensus doesn't have to be achieved
 
 
 

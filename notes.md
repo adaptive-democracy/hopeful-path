@@ -172,9 +172,9 @@ we need to retake science, retake technology, retake industry, retake big
 
 I need more formally define the theories of welfare and universes and predictions
 
-There's a lot of improvements and changes I'm intending to make, mostly relating to more specificity for persistent voting (things like "filling the consensus bucket", how that works, and more ideas about what "update intervals" a group has to choose) and integrating conviction voting into the persistent commitments concepts. After you asked about the strategy conjectures I was planning of giving the answer I more or less sketched in the book (I don't really know, I need to do research about if there are cycles, etc), but I slowly agreed with you that the claims I was making weren't very convincing yet, and so I've been chewing on all this for the last week or so, and have finally come up with something I'm willing to say ha
-I think part of the problem here is that the existing theory around strategy and voting are all very discrete. even infinite games probably don't really concern themselves with real persistent continuousness, so I'm not aware (as a self-taught newcomer to the field) of any existing tools that can think in this way. If I was going to prove all of this, here's what I think I might do to avoid arbitary dimensional preference spaces
-It's nice that persistent democracy is truly direct democracy, and that *every* single decision in the societal cooperative can possibly be made directly. This means we can represent each voters preferences with a simple "total" decision document, one that specifies everything this voter cares about with some arbitrary "social function", possibly with "null" or "identity" spots where this voter simply says "I don't care, delegate to everyone else". then we can understand their degree of satisfaction with the current status quo as some kind of "behavioral diff", or the amount of changes or edits required to make the current status quo behave exactly like their internal ideal. this is kinda fuzzy, and probably should focus more on outcomes on the "universe" vector rather than the actual "code" (the logical idea of functional extensionality can be applied to these diffs)
+There's a lot of improvements and changes I'm intending to make, mostly relating to more specificity for adaptive voting (things like "filling the consensus bucket", how that works, and more ideas about what "update intervals" a group has to choose) and integrating conviction voting into the adaptive commitments concepts. After you asked about the strategy conjectures I was planning of giving the answer I more or less sketched in the book (I don't really know, I need to do research about if there are cycles, etc), but I slowly agreed with you that the claims I was making weren't very convincing yet, and so I've been chewing on all this for the last week or so, and have finally come up with something I'm willing to say ha
+I think part of the problem here is that the existing theory around strategy and voting are all very discrete. even infinite games probably don't really concern themselves with real adaptive continuousness, so I'm not aware (as a self-taught newcomer to the field) of any existing tools that can think in this way. If I was going to prove all of this, here's what I think I might do to avoid arbitary dimensional preference spaces
+It's nice that adaptive democracy is truly direct democracy, and that *every* single decision in the societal cooperative can possibly be made directly. This means we can represent each voters preferences with a simple "total" decision document, one that specifies everything this voter cares about with some arbitrary "social function", possibly with "null" or "identity" spots where this voter simply says "I don't care, delegate to everyone else". then we can understand their degree of satisfaction with the current status quo as some kind of "behavioral diff", or the amount of changes or edits required to make the current status quo behave exactly like their internal ideal. this is kinda fuzzy, and probably should focus more on outcomes on the "universe" vector rather than the actual "code" (the logical idea of functional extensionality can be applied to these diffs)
 I would want a theory of universe vectors and rounds of mutation actions to reason from first principles.
 so their internal ideal is a social decision function that they predict is most likely to follow some trajectory they most prefer.
 
@@ -183,14 +183,14 @@ Again all of this is very vague and in my head! I'm not an expert in this field,
 1. At this point I haven't even tried to prove any of the conjectures I make in the book, . The conjecture I make isn't that it will "reduce" strategic voting per-se (Gibbard' theorem tells us it's impossible to completely remove), but that it just helps to *reveal* voters' real preferences more quickly, and allow each voter to choose the strategy of their vote that is satisfying to them given the entire collection of decisions they could choose to participate in. The original mathematical statement of QV also doesn't say that it removes strategy, but
 As for building a proof,
 
-I'm now thinking that persistent voting doesn't actually reduce strategic voting, but merely makes it inconsequential. the real problem with strategic voting is that it produces "incorrect" votes that the voter ends up regretting, or where they could have made some other choice that would have served them better. in real elections those kinds of problems are very deeply concerning, since their vote is set in stone and the decision has been made. with persistent voting they can simply adjust their vote to be more competitive after getting more information.
+I'm now thinking that adaptive voting doesn't actually reduce strategic voting, but merely makes it inconsequential. the real problem with strategic voting is that it produces "incorrect" votes that the voter ends up regretting, or where they could have made some other choice that would have served them better. in real elections those kinds of problems are very deeply concerning, since their vote is set in stone and the decision has been made. with adaptive voting they can simply adjust their vote to be more competitive after getting more information.
 this is why it seems very very important to use an expressive and monotonic *inner* voting method. that monotinicity itself seems like the very property that will prevent "cycles", since it will allow the durable expression of the most sincere preferences while the more "strategic" ones are allowed to fluctuate somewhat with the competitive landscape.
-conviction voting is probably the most correct thing to use for any irreversible commitment, it's become very clear to me after the last little while that intelligently blending persistent and conviction paradigms is the best way to achieve this balance.
+conviction voting is probably the most correct thing to use for any irreversible commitment, it's become very clear to me after the last little while that intelligently blending adaptive and conviction paradigms is the best way to achieve this balance.
 probably the real true shift of perspective is merely saying that *direct* democracy is the thing we should be striving for! all of these different mechanisms are just ways of trying to scale direct democracy so it actually works.
-in general I think I'm also trying to design all of this so that instead of thinking about *conflict* between different candidates in any decision, we're thinking about *negotiation* as the persistent mechanism promotes *discovery* of new options that have the power to quickly gain approval from all concerned parties. we're trying to find a system that quickly adjusts to discover the best acceptable option.
+in general I think I'm also trying to design all of this so that instead of thinking about *conflict* between different candidates in any decision, we're thinking about *negotiation* as the adaptive mechanism promotes *discovery* of new options that have the power to quickly gain approval from all concerned parties. we're trying to find a system that quickly adjusts to discover the best acceptable option.
 I'm conjecturing the presence of some equilibrium state in the preferences of the voters, one where each person has allocated their vote in a way that maximizes their satisfaction with its allocation, even if that allocation isn't perfectly representative of their real preferences. this equilibrium is one in which all votes are attaining their highest "return on investment" based on the competitiveness of the decision they're in compared with how concerned the voter is. it's the "likelihood of being pivotal"
 and besides
-and very importantly, probably the *real* thing that makes persistent voting stand out above other paradigms is that it maximizes the amount of control a group has over their cooperative mechanisms, since they *directly* control every single aspect in some way or another. the cooperative rules are a real representation of their current consensus
+and very importantly, probably the *real* thing that makes adaptive voting stand out above other paradigms is that it maximizes the amount of control a group has over their cooperative mechanisms, since they *directly* control every single aspect in some way or another. the cooperative rules are a real representation of their current consensus
 
 Yeah, I haven't spent much time finding concrete evidence for those claims, likely a future version of the book should do so!
 
@@ -198,13 +198,13 @@ if you use a monotonic voting method, then voters will never state a higher pref
 
 if some set of coalitions have a favorite candidate who is also a welfare consensus candidate, they will quickly win as those coalitions discover the possibility of that candidate's win and demote strategic candidate's
 
-my hunch is that if there's any property that can guarantee a persistent vote will always converge to some optimal state, it's monotinicity.
+my hunch is that if there's any property that can guarantee a adaptive vote will always converge to some optimal state, it's monotinicity.
 
 
 if a voting method forces to choose between fully and accurately expressing preferences and finding the highest welfare choice, we should prioritize finding highest welfare choice. this means we're not really concerned with the presence of strategy, but really between a mismatch between the *truly* most strategically fit vote and voters' *predicted* most strategically fit vote.
 
 
-persistent democracy is likely a welfare optimal construction because it is a direct representation of the concept of focus and welfare concern across time, which is the thing we're trying to maximize.
+adaptive democracy is likely a welfare optimal construction because it is a direct representation of the concept of focus and welfare concern across time, which is the thing we're trying to maximize.
 
 
 
@@ -214,8 +214,8 @@ There's an entirely equivalent stabilization mechanism at play in common resourc
 
 
 
-the saas model allowed private companies to seize control of the internet: here's how we take with back using with persistent democracy and compute cooperatives
-landlords are purely extractive middlemen who add no value to society: here's how we get rid of them with persistent democracy and common resource taxes
+the saas model allowed private companies to seize control of the internet: here's how we take with back using with adaptive democracy and compute cooperatives
+landlords are purely extractive middlemen who add no value to society: here's how we get rid of them with adaptive democracy and common resource taxes
 fixing the global housing crisis is easy, we just need to completely reform how we think about voting, public goods, and property ownership (sigh)
 
 
@@ -374,7 +374,7 @@ chapters:
   - this is an open source book
 - score voting systems: approval voting is an obvious change we can make right away. points to other resources, a talk about why approval is better than ranked choice.
 - resource voting systems and quadratic scaling: handling different levels of concern and shared costs
-- persistent democracy: the principle of persistent weights, using persistent voting to solve common cooperation problems. this goes over the obvious and easy to explain ones, and hints at more involved uses
+- adaptive democracy: the principle of adaptive weights, using adaptive voting to solve common cooperation problems. this goes over the obvious and easy to explain ones, and hints at more involved uses
 - democratic funding
 
 - provably correct software
@@ -383,7 +383,7 @@ chapters:
 - coordination theory
 
 - economic cooperatives and economic activism
-- persistently democratic member cooperative: building an economic institution to fight on our behalf
+- adaptively democratic member cooperative: building an economic institution to fight on our behalf
   - economic foundations, starting as an online-first credit union
   - journalism and media
   - internet, computing hinting at separate essay about misdirected blockchain enthusiasm, hint at public forum
@@ -392,7 +392,7 @@ chapters:
 
 - democratic public forum
 
-- persistently democratic political party: building a political institution to fight on our behalf
+- adaptively democratic political party: building a political institution to fight on our behalf
 
 - minimum necessary rights
 - markets and rights
@@ -401,7 +401,7 @@ chapters:
 - crowdsell intellectual property
 - democratic districts
 - free borders
-- persistent logistics
+- adaptive logistics
 - democratic adjudication
 - misinformation rights
 - universal voluntary constitution
@@ -444,7 +444,7 @@ Chaotic noise is inherently dangerous
 https://onezero.medium.com/redirecting-the-techlash-74065169b352
 We must absolutely destroy consumerism, but we can't live without industrialism
 
-Giving profit incentives to do something positive is just allowing middle men to make money without doing anything real. They're just going to hire labor so all they can possibly do is make choices. we should just make choices directly with persistent mechanisms
+Giving profit incentives to do something positive is just allowing middle men to make money without doing anything real. They're just going to hire labor so all they can possibly do is make choices. we should just make choices directly with adaptive mechanisms
 
 It's important to understand how we know things. Mathematical proof is one way, experience through experimentation is another. Whether our knowledge is persuasive is another matter we'll address later
 

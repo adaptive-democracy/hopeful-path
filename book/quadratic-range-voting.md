@@ -5,7 +5,7 @@ incomplete: true
 ---
 
 
-Persistent Voting fundamentally alters the dynamics of group decision making. Persistent Voting however only addresses the schedule in which elections are conducted, but not how the votes are solicited or counted. This means Persistent Voting is merely a container for some other "inner" voting method, which we also must select intelligently, taking care to make sure it optimally interacts with the persistent schedule.
+Adaptive Voting fundamentally alters the dynamics of group decision making. Adaptive Voting however only addresses the schedule in which elections are conducted, but not how the votes are solicited or counted. This means Adaptive Voting is merely a container for some other "inner" voting method, which we also must select intelligently, taking care to make sure it optimally interacts with the adaptive schedule.
 
 My best idea so far for an optimal method is one I've named Quadratic Range Voting.
 
@@ -13,7 +13,7 @@ My best idea so far for an optimal method is one I've named Quadratic Range Voti
 
 Quadratic Range Voting is simply a combination of [Quadratic Voting](https://en.wikipedia.org/wiki/Quadratic_voting) and [Range Voting](https://en.wikipedia.org/wiki/Score_voting) (and its simplest variant [Approval Voting](https://electionscience.org/approval-voting-101/)).
 
-- At any time, a polity would have some set of elections, and each voter some finite number of Quadratic voting "weights". I call them weights rather than credits since the persistent schedule means voters *allocate* weights rather than *spending* them, so they always have the same fixed amount at any time.
+- At any time, a polity would have some set of elections, and each voter some finite number of Quadratic voting "weights". I call them weights rather than credits since the adaptive schedule means voters *allocate* weights rather than *spending* them, so they always have the same fixed amount at any time.
 - To cast a vote in an election, they must place at least one weight on that *election*, which allows them to cast a traditional range ballot in that election, giving some candidates a score on a positive fixed scale (such as from 0 to 10). Separately, they can place another weight to cast a *negative* range ballot to give candidates negative scores on the same fixed scale. Requiring separate weights for positive and negative weights is done to neutralize a potential strategy I'll discuss later.
 - The final amount of votes given to any candidate for any ballot is defined as: `votes = score * sqrt(weights)`. This means the voter can increase the strength of all the scores on their ballot for an election by placing more weights on that ballot, but in a quadratically limited way. This is done separately for positive and negative ballots.
 - At any time, voters could place "nomination" weights on specific individual candidates to nominate them for a particular election, with some as yet undetermined rule for how much weight a candidate would need to enter the election. Voters could also place "anti-nomination" weights that count *against* an individual candidate, potentially causing them to be removed from the election if they at any time fall below the entry threshold.
@@ -22,12 +22,12 @@ Quadratic Range Voting is simply a combination of [Quadratic Voting](https://en.
 
 - This voting method quite nicely combines the expressiveness and resistance to voter strategy of Range Voting with the balancing of preference intensity of Quadratic Voting. Range Voting is intentionally chosen because of its "consensus candidate" bias, with the intent on producing welfare-optimizing and democratically legitimate outcomes.
 - Separating negative votes both in nomination and scoring retains the high expressiveness of Quadratic Voting without incentivizing highly strategic votes in which a voter marks even neutral candidates as negative.
-- The weighted nomination process keeps elections from becoming noisy and crowded, and likely discourages some potential instability which could arise in persistent voting.
+- The weighted nomination process keeps elections from becoming noisy and crowded, and likely discourages some potential instability which could arise in adaptive voting.
 - Separating nomination and scoring likely nicely mirrors the real patterns of voter behavior. Issues almost always have a small number of activists and a much larger number of less passionate voters who merely wish to express which candidates they find acceptable. Only occasionally do voters have positive or negative outliers.
 
 ## Potential Objections
 
-- The method is quite complicated, partially due to the persistent schedule, but also merely by itself.
+- The method is quite complicated, partially due to the adaptive schedule, but also merely by itself.
 - Mixing a more "honest" method with Quadratic Voting might be unnecessary, since the entire statement of Quadratic Voting embraces a voter's strategic thinking to guide them towards decisions where their input is more likely to be pivotal, making the mechanism more market-like. However I feel for democratic legitimacy and consensus building reasons, a more expressive method would fare better with a real electorate.
 
 ## Open Questions

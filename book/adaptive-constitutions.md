@@ -1,5 +1,5 @@
 ---
-title: "Persistent Constitutions and Democratic Districts"
+title: "Adaptive Constitutions and Democratic Districts"
 incomplete: true
 ---
 
@@ -13,9 +13,9 @@ rights and constitutions? from talk?
 
 
 
-Interestingly, groups could choose to create portions of their constitution *that can't be changed*, or that can only be changed with a more difficult persistent commitment. We call these portions "constitutional kernels", and they essentially make it impossible or very difficult to change those rules without throwing away the existing system and creating a new one.
+Interestingly, groups could choose to create portions of their constitution *that can't be changed*, or that can only be changed with a more difficult adaptive commitment. We call these portions "constitutional kernels", and they essentially make it impossible or very difficult to change those rules without throwing away the existing system and creating a new one.
 
-To understand why you might do this, let's ask this question: if you have a constitution selected with persistent voting, should it be possible to change *the fact that the constitution is selected with persistent voting*? Doing so could potentially make it impossible to go back to what you had before. We're not sure if kernels would be a good idea for governments, but they could make sense for certain kinds of private organizations. Visit [the theory page](TODO) if you're interested in the fine details of questions like this.
+To understand why you might do this, let's ask this question: if you have a constitution selected with adaptive voting, should it be possible to change *the fact that the constitution is selected with adaptive voting*? Doing so could potentially make it impossible to go back to what you had before. We're not sure if kernels would be a good idea for governments, but they could make sense for certain kinds of private organizations. Visit [the theory page](TODO) if you're interested in the fine details of questions like this.
 
 
 
@@ -39,13 +39,13 @@ However borders of administrative districts are often extremely arbitrary and in
 
 ## Description
 
-We can once again use persistent documents to solve this problem. The highest level of administration would have one document specifying sub-district borders, and each of those resulting sub-districts would fractally have their own documents specifying sub-districts.
+We can once again use adaptive documents to solve this problem. The highest level of administration would have one document specifying sub-district borders, and each of those resulting sub-districts would fractally have their own documents specifying sub-districts.
 
 Most countries have some fixed set of district levels, for example the United States has `Country > State > County > Municipality`. We don't really need to be concerned with that kind of control, and can allow each district to subdivide itself in whatever way seems optimal to them, including allowing no subdivision at all.
 
 Importantly, districts can't have incompatible definitions of rights, justice, and legislative codes without actually becoming different countries. Districts should only allow administrative differences such as precise tax rates and descriptions of public agencies and their officials. All rights, justice, and legislative documents must be shared at the highest possible level. I'll discuss this topic more in the future.
 
-Notably, the existing problem of [gerrymandering](https://en.wikipedia.org/wiki/Gerrymandering) is completely unrelated to this districting system. Persistent democracy makes almost all legislative representatives unnecessary, so the concept of districts to elect representatives is largely irrelevant. Even when district boundaries do effect what kinds of decisions are made, choosing districts democratically is arguably the best possible way to do so.
+Notably, the existing problem of [gerrymandering](https://en.wikipedia.org/wiki/Gerrymandering) is completely unrelated to this districting system. Adaptive democracy makes almost all legislative representatives unnecessary, so the concept of districts to elect representatives is largely irrelevant. Even when district boundaries do effect what kinds of decisions are made, choosing districts democratically is arguably the best possible way to do so.
 
 <!-- Both bottom-up and top-down districting are interesting to consider. Top-down is useful for situations in which some kind of escalation is necessary, such as in court appeals to higher levels. -->
 
@@ -98,7 +98,7 @@ It almost certainly makes more sense to just have a defined number of district s
 We have already described a proposed unified model of taxation, but it is reasonable for different areas to have different precise tax rates, and to have their own institutions and officials to administer to local concerns.
 
 - Suppose there is a nation with democratic systems like those we've already described. There is a single unifying constitution with a bill of rights that all citizens in this nation can use democratic weights to propose new versions of. This means that the entire nation has the same justice code, and different areas only differ by their administrative code. This constitution defines the democratic mechanisms used to make decisions, the protocols for creating administrative districts, and what powers administrative districts can have.
-- The entire nation is itself an administrative district with a separate administrative code, defining what institutions this district currently has, what offices control them, what precise tax rates apply in this district, and any other administrative questions such as zoning laws (which at the national level should be very abstract or nonexistent). Citizens use democratic weights to nominate or support different versions of this code in a Persistent Democratic Editing fashion.
+- The entire nation is itself an administrative district with a separate administrative code, defining what institutions this district currently has, what offices control them, what precise tax rates apply in this district, and any other administrative questions such as zoning laws (which at the national level should be very abstract or nonexistent). Citizens use democratic weights to nominate or support different versions of this code in a Adaptive Democratic Editing fashion.
 
 At any time, anyone can use democratic weights to propose a district at any level of administration. The district they propose is defined as a connected perimeter of districts (at the bottom level these districts are distinct properties as defined by the common resource tax).
 

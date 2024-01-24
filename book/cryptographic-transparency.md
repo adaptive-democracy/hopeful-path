@@ -7,7 +7,7 @@ incomplete: true
 - All votes must be secret, so it's impossible for anyone, including election officials, to know what vote any individual cast.
 - All votes must be auditable, so any outside party can check vote results.
 - All votes must be verified, so we know they were cast by verified and eligible voters.
-- And since the votes we're talking about are persistent, we need some way to verify the entire history of vote changes.
+- And since the votes we're talking about are adaptive, we need some way to verify the entire history of vote changes.
 
 
 

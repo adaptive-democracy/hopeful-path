@@ -6,7 +6,7 @@ incomplete: true
 
 ## Wealth Taxes
 
-Let's imagine a society with one extremely wealthy person, and a bunch of poor people. Let's say the government in this society fully enforces a naive idea of property rights. Let's say this society is democratic, even persistently democratic, but its constitution prevents taxes from taking an unequal percentage of wealth from any member.
+Let's imagine a society with one extremely wealthy person, and a bunch of poor people. Let's say the government in this society fully enforces a naive idea of property rights. Let's say this society is democratic, even adaptively democratic, but its constitution prevents taxes from taking an unequal percentage of wealth from any member.
 It's pretty obvious the extremely wealthy person will be the dictator of this society, regardless of the democratic structure. If a very wealthy person can pay most of society 3x their yearly income every year for as long as they keep doing whatever the wealthy person says, then whatever they want will happen. Even if people get tired of them, it will be easy for that person to just buy out enough of the group or the collaborators of the group, so their strength won't be enough to actually do anything.
 An even simpler statement: how many people with guns, or people operating the justice system, can this person buy off?
 

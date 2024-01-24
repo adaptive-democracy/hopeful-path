@@ -7,7 +7,7 @@ drawings:
 layout: cover
 ---
 
-# Persistent Democracy
+# Adaptive Democracy
 
 The way to fix...<br>everything?
 
@@ -26,19 +26,19 @@ The way to fix...<br>everything?
 
 # answers these questions
 
-- why do we need Persistent Democracy?<br>
+- why do we need Adaptive Democracy?<br>
   *(most global problems are coordination problems)*
-- what is Persistent Democracy, and how does it work?<br>
+- what is Adaptive Democracy, and how does it work?<br>
   *(continuous voting and efficient and flexible direct democracy)*
 - how can we actually make it happen?<br>
-  *(build tools, then persistently democratic parties and cooperatives)*
+  *(build tools, then adaptively democratic parties and cooperatives)*
 - why should Effective Altruists be especially interested?<br>
   *(research could be high impact)*<br>
   *(bootstrapping cooperatives could be massively scalable)*
 
 ---
 
-# Persistent Democracy
+# Adaptive Democracy
 
 <v-clicks>
 
@@ -46,10 +46,10 @@ instead of elections being discrete events with a deadline
 
 voters can update their choices at any time
 
-- quadratic voting 🡒 persistent voting
+- quadratic voting 🡒 adaptive voting
 - range voting 🡒 quadratic range voting
-- conviction voting 🡒 persistent commitments
-- quadratic funding 🡒 persistent funding
+- conviction voting 🡒 adaptive commitments
+- quadratic funding 🡒 adaptive funding
 - Harberger taxes 🡒 common resource rights
 
 </v-clicks>
@@ -68,27 +68,27 @@ class: dense
 - 📖 why is our democracy broken?
 - 📖 score voting systems
 - 📖 resource voting systems
-- 📖 persistent voting
-- 📖 persistent constitutions
+- 📖 adaptive voting
+- 📖 adaptive constitutions
 - 📖 rights and constitutions
 - 📖 quadratic range voting
-- 📖 persistent commitments
+- 📖 adaptive commitments
 - 📖 public goods and cooperative goods
 - 📖 quadratic funding
 
 ::right::
 
-- 📖 persistent funding
+- 📖 adaptive funding
 - 📖 intellectual property and assurance contracts
 - 📖 partial common ownership
 - 📖 Harberger taxes
 - 📖 common resource rights
 - 📖 comparison with liquid democracy
-- 📖 persistent democracy logistics
+- 📖 adaptive democracy logistics
 - 📖 provably optimal?
 - 📖 how to make this happen?
 - 📖 the power of cooperatives
-- 📖 persistent democracy and Effective Altruism
+- 📖 adaptive democracy and Effective Altruism
 - 📖 I need help!
 
 ---
@@ -271,7 +271,7 @@ but the systems we use to make decisions are too clunky
 
 ---
 
-# I'm convinced Persistent Democracy<br>can solve these problems
+# I'm convinced Adaptive Democracy<br>can solve these problems
 
 - make cooperation efficient, maybe provably optimally
 - make **direct democracy** possible
@@ -311,7 +311,7 @@ require powerful tools
 - sharing and passing down knowledge is a form of cooperation
 - even small groups rely on cooperation to survive and thrive
 
-<!-- cooperation is humanity's superpower, our logical systems are foundational tools, ones that help us achieve all our other goals, and that can cause all our other problems. improving our logical systems for coordination allows us to improve everything else about society. persistent democracy is my best bet at a (possibly provably) best base system for democratic coordination -->
+<!-- cooperation is humanity's superpower, our logical systems are foundational tools, ones that help us achieve all our other goals, and that can cause all our other problems. improving our logical systems for coordination allows us to improve everything else about society. adaptive democracy is my best bet at a (possibly provably) best base system for democratic coordination -->
 
 ---
 
@@ -621,11 +621,11 @@ cheap to flood the electorate with misinformation and propaganda
 layout: chapter-title
 ---
 
-# 📖 persistent voting
+# 📖 adaptive voting
 
 ---
 
-# persistent voting
+# adaptive voting
 
 - resource voting system
 - voters *move around* "weights" instead of *spending* "credits"
@@ -672,7 +672,7 @@ have to fill a *stabilization bucket* before you actually win
 
 ---
 
-# persistent voting
+# adaptive voting
 
 <v-clicks>
 
@@ -689,11 +689,11 @@ have to fill a *stabilization bucket* before you actually win
 layout: chapter-title
 ---
 
-# 📖 persistent constitutions
+# 📖 adaptive constitutions
 
 ---
 
-# persistent constitutions
+# adaptive constitutions
 
 <v-clicks>
 
@@ -729,7 +729,7 @@ the borders of different districts (states, counties, cities, etc) can be chosen
 
 ![](/drawing-8-districts-2-diff.png)
 
-<!-- each one of these sub-districts would have its own persistently chosen sub-constitution. these sub-constitutions would intentionally have a narrow scope defined by their ancestor constitutions -->
+<!-- each one of these sub-districts would have its own adaptively chosen sub-constitution. these sub-constitutions would intentionally have a narrow scope defined by their ancestor constitutions -->
 
 ---
 
@@ -741,7 +741,7 @@ the borders of different districts (states, counties, cities, etc) can be chosen
 
 ---
 
-# persistent constitutions
+# adaptive constitutions
 
 <v-clicks>
 
@@ -994,11 +994,11 @@ but the important question here is: how do we determine how extreme those outer 
 layout: chapter-title
 ---
 
-# 📖 persistent commitments
+# 📖 adaptive commitments
 
 ---
 
-# persistent commitments
+# adaptive commitments
 
 not all choices are reversible
 
@@ -1021,7 +1021,7 @@ weight takes time to be fully applied, moves slowly
 
 ---
 
-![](/drawing-9-1-persistent-commitment.png)
+![](/drawing-9-1-adaptive-commitment.png)
 
 ---
 layout: chapter-title
@@ -1210,17 +1210,17 @@ problems when:
 layout: chapter-title
 ---
 
-# 📖 persistent funding
+# 📖 adaptive funding
 
 ---
 
-# persistent funding
+# adaptive funding
 
-persistent commitments + quadratic funding
+adaptive commitments + quadratic funding
 
 uses democratic weights make *default* prioritization of projects
 
-persistent commitments = democratic oversight
+adaptive commitments = democratic oversight
 
 <v-click>
 
@@ -1230,9 +1230,9 @@ quadratic funding is useful but not perfect
 
 ---
 
-# persistent funding
+# adaptive funding
 
-- uses persistent commitments rounds
+- uses adaptive commitments rounds
 - voters select a decision document
   - can remove nuisance projects
   - can add extra money to the funding pool
@@ -1240,7 +1240,7 @@ quadratic funding is useful but not perfect
 
 ---
 
-## persistent funding
+## adaptive funding
 
 ought to prioritize projects with "cheapest" social good
 
@@ -1307,10 +1307,10 @@ Charles Best and Frederick Banting<br>James Collip and J.R.R. McLeod not shown
 
 ---
 
-# persistently democratic oversight?
+# adaptively democratic oversight?
 
-- patent/copyright office with persistent delegation
-- use persistent commitments
+- patent/copyright office with adaptive delegation
+- use adaptive commitments
 - apply common resource rights (coming soon)
 
 still tricky
@@ -1321,7 +1321,7 @@ still tricky
 
 want to remove "hangers-on"
 
-persistent funding and assurance contracts?
+adaptive funding and assurance contracts?
 
 ---
 
@@ -1373,7 +1373,7 @@ class: dense
 layout: statement
 ---
 
-## persistent funding<br>+ assurance contracts<br>= crowdfunding + democratic oversight
+## adaptive funding<br>+ assurance contracts<br>= crowdfunding + democratic oversight
 
 ## could coexist with intellectual property
 
@@ -1543,19 +1543,19 @@ layout: chapter-title
 
 ---
 
-## Harberger taxes + Persistent Voting
+## Harberger taxes + Adaptive Voting
 
 ![](/drawing-12-1-common-resource-taxes.png)
 
 ---
 
-## Harberger taxes + Persistent Voting
+## Harberger taxes + Adaptive Voting
 
 ![](/drawing-12-2-common-resource-taxes.png)
 
 ---
 
-## Harberger taxes + Persistent Voting
+## Harberger taxes + Adaptive Voting
 
 ![](/drawing-12-3-common-resource-taxes.png)
 
@@ -1677,7 +1677,7 @@ do we want youtubers and rock stars to have all the votes?
 
 don't need explicit delegation
 
-persistent voting has **delegation by abstention**
+adaptive voting has **delegation by abstention**
 
 </v-click>
 
@@ -1685,7 +1685,7 @@ persistent voting has **delegation by abstention**
 layout: chapter-title
 ---
 
-# 📖 persistent democracy logistics
+# 📖 adaptive democracy logistics
 
 how would a country implement this?
 
@@ -1770,14 +1770,14 @@ centralized but mirrored blockchain?
 
 some fuzzy thoughts:
 
-- [Persistent Endorsement](https://github.com/persistent-democracy/hopeful-path/blob/main/book/06.persistent-endorsement.md)
-- [Democratic Adjudication](https://github.com/persistent-democracy/hopeful-path/blob/main/book/16.democratic-adjudication.md)
+- [Adaptive Endorsement](https://github.com/adaptive-democracy/hopeful-path/blob/main/book/06.adaptive-endorsement.md)
+- [Democratic Adjudication](https://github.com/adaptive-democracy/hopeful-path/blob/main/book/16.democratic-adjudication.md)
 
 ---
 
-# expanding persistent democracy?
+# expanding adaptive democracy?
 
-persistent democracy could plausibly govern an interstellar society!
+adaptive democracy could plausibly govern an interstellar society!
 
 <v-clicks>
 
@@ -1788,14 +1788,14 @@ persistent democracy could plausibly govern an interstellar society!
 
 ---
 
-# merging persistent democracies
+# merging adaptive democracies
 
-- both have *already* implemented persistent democracy
+- both have *already* implemented adaptive democracy
 - elected inspectors check the other society:
   - implemented honestly
   - implemented compatibly
 
-<!-- has implemented persistent democracy honestly (a dictator isn't just pretending to have implemented it) and compatibly (should be easier with open source technology and practices) -->
+<!-- has implemented adaptive democracy honestly (a dictator isn't just pretending to have implemented it) and compatibly (should be easier with open source technology and practices) -->
 
 ---
 
@@ -1826,10 +1826,10 @@ maybe!
 
 **conjectures**
 
-- persistent constitutions allow societies to maximize progress and minimize irreversible harm
-- persistent constitutions minimize coordination overhead
-- persistent voting + common resource rights best satisfy fundamental theorems of welfare economics
-- persistent voting + common resource rights achieve optimal welfare use of resources
+- adaptive constitutions allow societies to maximize progress and minimize irreversible harm
+- adaptive constitutions minimize coordination overhead
+- adaptive voting + common resource rights best satisfy fundamental theorems of welfare economics
+- adaptive voting + common resource rights achieve optimal welfare use of resources
 - common resource rights satisfy "veil of ignorance"
 
 ---
@@ -1854,7 +1854,7 @@ first tools, then cooperatives, then governments
 
 ---
 
-# persistent democracy recap
+# adaptive democracy recap
 
 - systems of voting that can achieve theoretically perfect accuracy
 - voters can give as much information as they want
@@ -1892,17 +1892,17 @@ nice if experiments aren't just experiments
 
 # My tentative plan
 
-- Persistent Democracy Labs (general infrastructure)
-- Persistently Democratic Political Party (political activism)
-- Persistently Democratic Cooperative (economic activism)
+- Adaptive Democracy Labs (general infrastructure)
+- Adaptively Democratic Political Party (political activism)
+- Adaptively Democratic Cooperative (economic activism)
 
 ---
 
-# Persistent Democracy Labs
+# Adaptive Democracy Labs
 
 - evolve and prove theoretical claims
 - resolve open questions (precise bucket scaling?)
-- study persistently democratic organizations in practice
+- study adaptively democratic organizations in practice
 - build reusable tools like software and legal documents
 
 <v-click>
@@ -1913,7 +1913,7 @@ need to build systems before organizations
 
 ---
 
-# persistent voting server
+# adaptive voting server
 
 - create new voters
 - define elections from constitution tree
@@ -1924,7 +1924,7 @@ need to build systems before organizations
 
 <v-clicks>
 
-[`github.com/persistent-democracy/tools`](https://github.com/persistent-democracy/tools)
+[`github.com/adaptive-democracy/tools`](https://github.com/adaptive-democracy/tools)
 
 basically nothing there yet!
 
@@ -1932,7 +1932,7 @@ basically nothing there yet!
 
 ---
 
-# persistent voting client
+# adaptive voting client
 
 - lots of interesting UI design questions
 - different clients could interact with same server
@@ -1953,7 +1953,7 @@ proof language would be especially valuable for building verified voting systems
 
 # computable governance language?
 
-[Computable Governance Code](https://github.com/persistent-democracy/hopeful-path/blob/main/book:next/computable-governance-code.md)
+[Computable Governance Code](https://github.com/adaptive-democracy/hopeful-path/blob/main/book:next/computable-governance-code.md)
 
 <v-click>
 
@@ -1963,7 +1963,7 @@ proof language would be valuable for this too!
 
 ---
 
-# Persistently Democratic Political Party
+# Adaptively Democratic Political Party
 
 - members pay dues or volunteer and therefore get voting weights
 - members select the constitution at all levels
@@ -1980,7 +1980,7 @@ easier to start than a cooperative
 
 ---
 
-# Persistently Democratic Cooperative
+# Adaptively Democratic Cooperative
 
 ## cooperatives are central to my theory of change
 
@@ -2069,7 +2069,7 @@ inefficient democratic systems = really bad principal-agent problems
 
 <v-click>
 
-persistent democracy could solve that
+adaptive democracy could solve that
 
 </v-click>
 
@@ -2111,14 +2111,14 @@ persistent democracy could solve that
 <!--
 cooperatives only have one big disadvantage, and only in an inefficiently profit-focused economy like ours: comparative difficulty raising *startup* capital. once a cooperative is operating at scale it can much more plausibly fund initiatives with saved capital from members or even through debt financing. but when it's very small that isn't as true.
 in an economy/society like ours where profit-seekers control almost all of the capital and only wish to deploy that capital to seek further profits (rather than creating true market value in the form of consumer surplus or prosperity or progress) it will be difficult to get some of that capital to create cooperatives that could out-compete profit-seeking companies.
-it seems fairly obvious to me this isn't an *inherent* structural disadvantage of the cooperative model, but one that only exists in societies like ours that don't properly tax property and don't properly provision public goods. in a society that properly provisions public goods and prevents property-based wealth ratchet, there will be lots of capital in public hands ready to use to create new startup cooperatives, for example using something like persistent funding.
+it seems fairly obvious to me this isn't an *inherent* structural disadvantage of the cooperative model, but one that only exists in societies like ours that don't properly tax property and don't properly provision public goods. in a society that properly provisions public goods and prevents property-based wealth ratchet, there will be lots of capital in public hands ready to use to create new startup cooperatives, for example using something like adaptive funding.
 
 cooperative bonds? what are the regulatory difficulties in raising debt capital?
 -->
 
 ---
 
-# Persistently Democratic Cooperative
+# Adaptively Democratic Cooperative
 
 - "startup energy", tech forward
 - aggressively innovative
@@ -2201,13 +2201,13 @@ an evolution of [sponsorware system](https://calebporzio.com/sponsorware)
 layout: chapter-title
 ---
 
-# 📖 persistent democracy and Effective Altruism
+# 📖 adaptive democracy and Effective Altruism
 
 most big problems require big coordination
 
 ---
 
-## persistent democracy as a force multiplier
+## adaptive democracy as a force multiplier
 
 - comparable to other "meta" efforts in terms of expected impact
 - better coordination systems help solve every other problem
@@ -2220,7 +2220,7 @@ most big problems require big coordination
 
 - global health and development (improve governance and coordination)
 - climate change, biosecurity and pandemic prevention, nuclear security (global coordination and new public goods)
-- space governance (persistent constitutions and common resource rights)
+- space governance (adaptive constitutions and common resource rights)
 
 <v-click>
 
@@ -2235,7 +2235,7 @@ it's pretty obvious most global health and development problems are really just 
 
 pretty obvious relationship, these all require global coordination and new public goods
 
-persistent constitutions and common resource rights could very plausibly govern a global or multi-planet society. the fluidity of these systems would make it quite straightforward to decide how to divide space resources, either by placing them into shared public governance as is done with things like national parks, or simply using markets driven by common resource rights to fluidly decide ownership.
+adaptive constitutions and common resource rights could very plausibly govern a global or multi-planet society. the fluidity of these systems would make it quite straightforward to decide how to divide space resources, either by placing them into shared public governance as is done with things like national parks, or simply using markets driven by common resource rights to fluidly decide ownership.
 -->
 
 ---
@@ -2248,7 +2248,7 @@ persistent constitutions and common resource rights could very plausibly govern 
 
 <v-click>
 
-- persistent democracy could plausibly cooperativize ownership of AI systems
+- adaptive democracy could plausibly cooperativize ownership of AI systems
 - could ensure benefits are widely shared
 
 </v-click>
@@ -2267,8 +2267,8 @@ cooperative bootstrapping is a massively scalable project
 cooperatives have the potential to indirectly solve many other societal problems. wealth inequality and corporate misalignment have many knock-on effects in terms of how they negatively impact culture and deliberation and values and global health. for example, a facet of problems like obesity is the fact food manufacturers have misaligned incentives.
 
 this is where EA organizations (or any altruistic organizations) have the opportunity to step in. if we can get a critical mass of cooperatives to the point where they're operating at scale, then we can be fairly confident they can take it from there. this means grants or low or zero interest loans to scaling cooperatives is a very good impact investment
-in general I think persistent democracy is a very convincing EA initiative. EA has generally centered around utilitarian ethics and a desire to maximize welfare, and I can think of few better ways to do so than to improve coordination efficiency in a way that allows any person to fairly express their preferences.
-I have much more specific theoretical claims about the possible welfare optimality of persistent democracy, and I'll make those in my next talk. I think there's a strong chance persistent democracy is optimal 
+in general I think adaptive democracy is a very convincing EA initiative. EA has generally centered around utilitarian ethics and a desire to maximize welfare, and I can think of few better ways to do so than to improve coordination efficiency in a way that allows any person to fairly express their preferences.
+I have much more specific theoretical claims about the possible welfare optimality of adaptive democracy, and I'll make those in my next talk. I think there's a strong chance adaptive democracy is optimal
 -->
 
 ---
@@ -2309,7 +2309,7 @@ I'd love to do so in the context of a "startup-energy" cooperatives
 layout: statement
 ---
 
-# Persistent Democracy
+# Adaptive Democracy
 ## =
 # Ownership and Control
 

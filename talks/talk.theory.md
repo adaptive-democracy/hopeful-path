@@ -7,7 +7,7 @@ drawings:
 layout: cover
 ---
 
-# Persistent Democracy
+# Adaptive Democracy
 
 ## Theory, Proof Sketches, and Conjectures
 
@@ -52,10 +52,10 @@ grid matters again
 add costs to move and mutate, possibly asymmetric, so removing teleportation
 this creates switching costs, which is what justifies stabilization periods
 also here it makes sense to think about economic systems. money is a useful social technology at these stage because it can measure these costs to move and mutate, and to trade those costs across time and beings. concept of leverage is useful
-*persistent quadratic Harberger auction*
+*adaptive quadratic Harberger auction*
 
 make beings composed of objects, so beings experiencing welfare at all must be intrinsically abstracted
-*persistent constitution*, or just persistent democracy
+*adaptive constitution*, or just adaptive democracy
 this is what necessitates the concept of rights
 importantly, any particular system of rights isn't inevitable, any group of beings will have to figure out what they care about on average. this is why constitutions can be arbitrarily complex
 
@@ -175,11 +175,11 @@ prediction?
 philosophy and ethics stuff at the end
 
 open questions:
-is there a difference between giving each being an income of spendable credits every time step vs doing persistent? it feels like it as a result of strategy windows and the "broke" problem. having spendable credits implies *savable* credits. if you can save you can delay gratification. so weights instead merely represent your *current* share of capacity, rather than being discontinuous across time
+is there a difference between giving each being an income of spendable credits every time step vs doing adaptive? it feels like it as a result of strategy windows and the "broke" problem. having spendable credits implies *savable* credits. if you can save you can delay gratification. so weights instead merely represent your *current* share of capacity, rather than being discontinuous across time
 should someone refraining from the discourse in one time step give them more power in future time steps?
 spendable credits creates an intractable strategic problem. suddenly you have to not just consider the *visible* preferences of those who have weighed in, but the invisible preferences of all currently saved credits
 there's a similar smaller problem with unallocated weights, but it would be smaller since that number will never increase
 what if all the participants know how many weights/credits different people have saved?
-persistent weights emphasize cooperation and stability, spendable credits emphasize scheming and strategy
-this reasoning makes me *feel* like persistent weights would be on the whole better, but I don't have a solid argument why
+adaptive weights emphasize cooperation and stability, spendable credits emphasize scheming and strategy
+this reasoning makes me *feel* like adaptive weights would be on the whole better, but I don't have a solid argument why
 

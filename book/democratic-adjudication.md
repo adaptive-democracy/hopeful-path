@@ -6,9 +6,9 @@ incomplete: true
 
 
 
-Although Persistent Voting allows a group to directly author legislative documents rather than using representatives, and it makes selecting candidates in *single winner* elections very straightforward, there are sometimes situations where it makes sense for a group to select *multiple* people to perform some function. These elections are called multi-winner elections, and are usually used to fill a parliamentary body with a fixed number of seats. Many countries around the world choose methods that guarantee proportional representation for these bodies.
+Although Adaptive Voting allows a group to directly author legislative documents rather than using representatives, and it makes selecting candidates in *single winner* elections very straightforward, there are sometimes situations where it makes sense for a group to select *multiple* people to perform some function. These elections are called multi-winner elections, and are usually used to fill a parliamentary body with a fixed number of seats. Many countries around the world choose methods that guarantee proportional representation for these bodies.
 
-Since parliamentary bodies aren't needed in a Persistent Democracy, I won't focus on that case. In a future chapter I'll apply this method to a particular use case, but for now I'll just describe it in the abstract.
+Since parliamentary bodies aren't needed in a Adaptive Democracy, I won't focus on that case. In a future chapter I'll apply this method to a particular use case, but for now I'll just describe it in the abstract.
 
 ### Description
 
@@ -18,7 +18,7 @@ Let's say some polity wants to fill some number of seats. Any citizen could plac
 
 Candidates with an overall zero or negative vote value won't be given a seat, even if they're ranked within the top number of seats. This means some number of seats can remain unfilled.
 
-Since these elections are persistent, candidates can be displaced by other candidates at any time. However we still need some kind of stabilization mechanism. Any time a candidate gains enough votes to enter the body of seats, they don't officially take a seat from the lowest ranked member of the body until they maintain that qualification for a period of time inversely proportional to the vote advantage compared to the lowest ranked member. So for example if their vote is only barely greater than the lowest ranked member, they will have to maintain that advantage longer than if it was much larger.
+Since these elections are adaptive, candidates can be displaced by other candidates at any time. However we still need some kind of stabilization mechanism. Any time a candidate gains enough votes to enter the body of seats, they don't officially take a seat from the lowest ranked member of the body until they maintain that qualification for a period of time inversely proportional to the vote advantage compared to the lowest ranked member. So for example if their vote is only barely greater than the lowest ranked member, they will have to maintain that advantage longer than if it was much larger.
 
 
 
@@ -58,7 +58,7 @@ A justice system needs three groups of people, some of whom need special trainin
 - Investigators to gather facts and evidence. Depending on the nature of the group conducting trials, investigators might need specialized training.
 - Jurors to decide the results of cases.
 
-The members of these groups have been entrusted with an extremely important role, so they must be democratically selected. This situation is a perfect place to use Persistent Endorsement discussed in an earlier chapter, since it will choose candidates with the greatest amount of aggregate trust and confidence. For these roles it makes sense to not allow candidates to place weights on themselves. Also depending on the nature of the polity, a position in these groups could be compensated in some way.
+The members of these groups have been entrusted with an extremely important role, so they must be democratically selected. This situation is a perfect place to use Adaptive Endorsement discussed in an earlier chapter, since it will choose candidates with the greatest amount of aggregate trust and confidence. For these roles it makes sense to not allow candidates to place weights on themselves. Also depending on the nature of the polity, a position in these groups could be compensated in some way.
 
 With these groups selected, a case would proceed as follows:
 

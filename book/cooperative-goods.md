@@ -105,4 +105,4 @@ are all missed opportunities!
 
 its hard to coordinate the funding and control of cooperative goods
 
-[but it doesn't have to be!](/persistent-funding)
+[but it doesn't have to be!](/adaptive-funding)

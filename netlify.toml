@@ -12,96 +12,109 @@
 [[redirects]]
 	# Redirect default Netlify subdomain to primary domain
 	from = "https://hopefulpathway.netlify.com/*"
-	to = "https://persistentdemocracy.org/:splat"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 
 [[redirects]]
 	from = "https://hopefulpathway.netlify.app/*"
-	to = "https://persistentdemocracy.org/:splat"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 
 
 [[redirects]]
 	from = "https://www.hopefulpathway.blainehansen.me/*"
-	to = "https://persistentdemocracy.org/:splat"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 
 [[redirects]]
 	from = "https://hopefulpathway.blainehansen.me/*"
-	to = "https://persistentdemocracy.org/:splat"
+	to = "https://adaptivedemocracy.institute/:splat"
+	status = 301
+	force = true
+
+
+[[redirects]]
+	from = "https://www.adaptivedemocracy.institute/*"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 
 
 [[redirects]]
 	from = "https://www.persistentdemocracy.org/*"
-	to = "https://persistentdemocracy.org/:splat"
+	to = "https://adaptivedemocracy.institute/:splat"
+	status = 301
+	force = true
+
+[[redirects]]
+	from = "https://persistentdemocracy.org/*"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 
 
 [[redirects]]
-	from = "https://www.persistentdemocracy.com/*"
-	to = "https://persistentdemocracy.org/:splat"
+	from = "https://www.adaptivedemocracy.com/*"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 
 [[redirects]]
-	from = "https://persistentdemocracy.com/*"
-	to = "https://persistentdemocracy.org/:splat"
+	from = "https://adaptivedemocracy.com/*"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 
 
 [[redirects]]
 	from = "https://www.wecanfixeverything.com/*"
-	to = "https://persistentdemocracy.org/:splat"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 
 [[redirects]]
 	from = "https://wecanfixeverything.com/*"
-	to = "https://persistentdemocracy.org/:splat"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 
 [[redirects]]
 	from = "https://www.wecanfixeverything.org/*"
-	to = "https://persistentdemocracy.org/:splat"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 
 [[redirects]]
 	from = "https://wecanfixeverything.org/*"
-	to = "https://persistentdemocracy.org/:splat"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 
 
 [[redirects]]
 	from = "https://www.hopefulpathway.com/*"
-	to = "https://persistentdemocracy.org/:splat"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 
 [[redirects]]
 	from = "https://hopefulpathway.com/*"
-	to = "https://persistentdemocracy.org/:splat"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 
 [[redirects]]
 	from = "https://www.hopefulpathway.org/*"
-	to = "https://persistentdemocracy.org/:splat"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 
 [[redirects]]
 	from = "https://hopefulpathway.org/*"
-	to = "https://persistentdemocracy.org/:splat"
+	to = "https://adaptivedemocracy.institute/:splat"
 	status = 301
 	force = true
 

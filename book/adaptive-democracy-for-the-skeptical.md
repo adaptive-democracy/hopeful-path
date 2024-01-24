@@ -1,31 +1,31 @@
 ---
-title: "Persistent Democracy: technical overview and welfare optimality proof sketches"
+title: "Adaptive Democracy: technical overview and welfare optimality proof sketches"
 incomplete: true
 ---
 
 This post:
 
-- Aims for efficiency and precision, not user-friendliness. It is a technical overview of the online book [Persistent Democracy: a hopeful path for humanity](TODO), which is much gentler and more narrative.
+- Aims for efficiency and precision, not user-friendliness. It is a technical overview of the online book [Adaptive Democracy: a hopeful path for humanity](TODO), which is much gentler and more narrative.
 - Assumes familiarity with several concepts from utilitarian ethics, philosophy of consciousness, and economics. TODO which ones?
 - Isn't an attempt to *prove* claims with full rigor. I'm an engineer not an academic, so I merely hope for highly convincing/plausible conjectures that are good enough to justify continued experimentation. Having an economist tell me "those conjectures could be an interesting research program" is the most I'm hoping for. I would be thrilled to see academics pursue these theoretical questions in their research.
 
-My main claim/conjecture: **Persistent Democracy is a welfare-optimal way for any group to democratically organize.** It achieves this by combining/evolving/generalizing many other systems such as: quadratic/range/conviction voting, Harberger taxation, and a new paradigm for continuous voting called Persistent Voting.
+My main claim/conjecture: **Adaptive Democracy is a welfare-optimal way for any group to democratically organize.** It achieves this by combining/evolving/generalizing many other systems such as: quadratic/range/conviction voting, Harberger taxation, and a new paradigm for continuous voting called Adaptive Voting.
 
-Simply, **democracy doesn't have to suck**. I assert our democracies are broken more because of poorly structured coordination mechanisms rather than some immutable and unavoidable "badness" in humanity. Whatever badness does exist in people can be smoothed and canceled out by considering the input of all in an *actually* welfare-efficient way. The hope of Persistent Democracy is that it could remove basically all the common and avoidable pathologies from our democracies.
+Simply, **democracy doesn't have to suck**. I assert our democracies are broken more because of poorly structured coordination mechanisms rather than some immutable and unavoidable "badness" in humanity. Whatever badness does exist in people can be smoothed and canceled out by considering the input of all in an *actually* welfare-efficient way. The hope of Adaptive Democracy is that it could remove basically all the common and avoidable pathologies from our democracies.
 
 Let's define democracy precisely: a democracy is a system where all participants have equal decision-making weight. Democracy is not the same thing as [Plurality Voting](TODO)! Plurality Voting is democratic, but being democratic isn't enough to make it welfare efficient.
 
 I proceed in five sections:
 
-- Technical Details: how Persistent Democracy works and solves problems
+- Technical Details: how Adaptive Democracy works and solves problems
 - Ethical Framework: true "subject-blind" democracy is a moral imperative
 - Theory: a type-theoretical model of Beings, and optimality proof sketches
-- Practice: pragmatic plan to validate, apply, and leverage Persistent Democracy for societal improvement
+- Practice: pragmatic plan to validate, apply, and leverage Adaptive Democracy for societal improvement
 - Possible Objections
 
-# Technical Details: how Persistent Democracy works and solves problems
+# Technical Details: how Adaptive Democracy works and solves problems
 
-**Persistent Voting** is a paradigm of continuous voting that incorporates the strengths of resource voting systems such as Quadratic Voting. It allows making reversible decisions with arbitrary flexibility.
+**Adaptive Voting** is a paradigm of continuous voting that incorporates the strengths of resource voting systems such as Quadratic Voting. It allows making reversible decisions with arbitrary flexibility.
 
 - Each person has some supply of "voting weights" they "place" on different decisions. Weights are "moved" rather than "spent", so moving weights doesn't decrease how many weights you have.
 - Each person can move their weights around at any time, rather than having to wait for an election event.
@@ -53,22 +53,22 @@ Publishing and recalculation shouldn't happen instantaneously. Electorates shoul
 
 ![](/drawing-6-reasonable-updates.png)
 
-Persistent Voting allows true direct democracy to be efficient and stable. Since voters can change their vote in any election at any time, they can participate in only the decisions they're actually concerned about while leaving other decisions for other voters. This means they can have many more possible decisions available to them without becoming overwhelmed.
+Adaptive Voting allows true direct democracy to be efficient and stable. Since voters can change their vote in any election at any time, they can participate in only the decisions they're actually concerned about while leaving other decisions for other voters. This means they can have many more possible decisions available to them without becoming overwhelmed.
 
 It even allows "auto-pilot democracy", where low voter turnout is essentially a nonissue. If some concerned minority makes most of the electoral choices, and everyone else is perfectly fine with those choices, then the majority can just not participate without worry. If the concerned minority begins making harmful or foolish choices in some elections, the rest of society can simply move weights into those elections to override them before harm is done.
 
-I claim the continuous nature would give Persistent Voting many benefits:
+I claim the continuous nature would give Adaptive Voting many benefits:
 
 - Would keep elected officials much more accountable, since election seasons aren't the only times they can be replaced.
 - Allows groups to more quickly discover new options and converge toward decisions that are better for everyone.
 - Prevents strategic voting from causing regret or election hangovers, since negative surprises can just be counteracted before they do harm.
 - Positive surprises are also much more possible, since they can be detected and reinforced more easily.
 - Makes it way more expensive to "buy" an election with media blitzes or fake stories.
-- Make disenfranchisement much more transparent and obvious, since voting logistics would need to be a part of the [infrastructure of society](/persistent-logistics) rather than a temporary program. One-time improvements to ballot access would be more likely to remain permanent.
+- Make disenfranchisement much more transparent and obvious, since voting logistics would need to be a part of the [infrastructure of society](/adaptive-logistics) rather than a temporary program. One-time improvements to ballot access would be more likely to remain permanent.
 - Elections would be less sensitive to noise, politicking, campaigning, and predictions about the outcome.
 - Would allow more complex voting methods, since voters have time to think about and understand how they wish to vote.
 
-Persistent Voting also inherits the benefits of resource voting systems. If a vote must be done with a scarce resource of voting weights it is much more likely a true signal of a real preference. Voting for one option comes at the exclusion of all other options, so voters will tend to use their weights only for issues of high relative concern and high relative confidence. This would tend to dissolve "tyranny of the majority" problems, which happen when a majority who isn't actually very concerned with something casually supports it.
+Adaptive Voting also inherits the benefits of resource voting systems. If a vote must be done with a scarce resource of voting weights it is much more likely a true signal of a real preference. Voting for one option comes at the exclusion of all other options, so voters will tend to use their weights only for issues of high relative concern and high relative confidence. This would tend to dissolve "tyranny of the majority" problems, which happen when a majority who isn't actually very concerned with something casually supports it.
 
 Since weights can be used for *negative* votes, this allows people who are highly confident they *don't* find some option acceptable to still express that preference, even if they aren't sure what the *right* answer is. This encourages creativity and communication and persuasion and compromise to find new options that are broadly acceptable to all concerned.
 
@@ -78,27 +78,27 @@ In general resource voting systems put a stop to "spam voting", where a voter ca
 
 But to me the most exciting benefit is that it would be reasonable to directly elect *documents*, such as constitutions, tax codes, legal definitions, or anything else. These elections would work just the same as those for officials, where voters nominate documents and whichever document has the current greatest amount of support is the one that's in effect.
 
-**Persistent Democracy** itself is defined by using Persistent Voting to select a constitutional document.
+**Adaptive Democracy** itself is defined by using Adaptive Voting to select a constitutional document.
 
 If it's possible for any voter to create, nominate, and vote for constitutional documents, this means *every* decision of the group can be made democratically. Constitutions define how the entire system beneath them functions, what specific decisions can be made, what elected officials there are and their responsibilities, what the broad limitations are, and everything else. Any specific decision-making tool can be chosen based on how well it fits with the decision in question.
 
-This arbitrary flexibility means electorates can fine-tune their constitutions to strike the right balance between delegation and direct democratic control. A group can fully delegate certain decisions to an elected official and then conduct elections for that official using Persistent Voting. They can even *partially* delegate responsibility to some elected official by keeping decisions in their purview open to direct democratic influence, but giving the elected official extra decision weights that can only be used within their purview.
+This arbitrary flexibility means electorates can fine-tune their constitutions to strike the right balance between delegation and direct democratic control. A group can fully delegate certain decisions to an elected official and then conduct elections for that official using Adaptive Voting. They can even *partially* delegate responsibility to some elected official by keeping decisions in their purview open to direct democratic influence, but giving the elected official extra decision weights that can only be used within their purview.
 
 If these constitutions are written in a [computable governance code](/computable-governance-code), then the constitutional document can even be used to automatically generate voting software or institutional servers. Doing this would be especially useful in private organizations.
 
 Constitutions can contain other constitutions much in the way nesting dolls contain other nesting dolls. You can write a constitution that allows "lower constitutions" to be created underneath it for more specific areas of decision making. Upper constitutions can limit the power of lower constitutions, such as to enforce rights or limit jurisdiction. This allows federated administration, and the very natural concept of [subsidiarity](https://en.wikipedia.org/wiki/Subsidiarity).
 
-<!-- [Quadratic Range Voting](TODO) is a particular combination of Quadratic and Range Voting conducted in a Persistent style, that I conjecture to optimally balance the strengths of the different paradigms in regard to substitutability and strategic incentives. -->
+<!-- [Quadratic Range Voting](TODO) is a particular combination of Quadratic and Range Voting conducted in a Adaptive style, that I conjecture to optimally balance the strengths of the different paradigms in regard to substitutability and strategic incentives. -->
 
 <!-- people aren't dumb or irrational, they just can't be experts in everything. our systems are bad. things will basically work if we fix our systems -->
 
-**Persistent Commitments** can be used to make *irreversible* decisions.
+**Adaptive Commitments** can be used to make *irreversible* decisions.
 
-The whole point of Persistent Voting is that it removes election deadlines, but with true commitments we can't avoid some sort of deadline. However we can mitigate the negative effects of deadlines by leaning all the way into the principles of [conviction voting](https://medium.com/giveth/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-aa746cfb9475).
+The whole point of Adaptive Voting is that it removes election deadlines, but with true commitments we can't avoid some sort of deadline. However we can mitigate the negative effects of deadlines by leaning all the way into the principles of [conviction voting](https://medium.com/giveth/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-aa746cfb9475).
 
 - Each commitment has a deadline. Some commitments are cyclical such as those for budget periods, but other commitments might only happen once.
 - During the voting period before the deadline, voters can move around their weights to nominate and vote for "decision documents" that say what should be done in the commitment. For example a budget commitment would choose the budget document.
-- However instead of using stabilization buckets and a current winner as is done in persistent voting, particular choices instead *accumulate* votes as the deadline approaches.
+- However instead of using stabilization buckets and a current winner as is done in adaptive voting, particular choices instead *accumulate* votes as the deadline approaches.
 - If a voter removes weights from an option, the accumulated votes move *slowly* from the old to the new instead of moving immediately.
 - The winner is whichever option has most votes at the deadline.
 
@@ -106,7 +106,7 @@ The whole point of Persistent Voting is that it removes election deadlines, but 
 
 This process is designed to reward durable and consistent voting, and to prevent weird strategic swings or surprises right before the deadline. Since commitments have to be made more carefully we want to err on the side of choices that are better understood. It would likely make sense to *require* every commitment to have some safe "do nothing" option (such as always using the previous document for cyclical commitments or literally "do nothing" for one-time commitments) that accumulates votes *as if* all the non-participating voters selected that option with an equal division of weights across all elections.
 
-**Compared to other systems** Persistent Voting/Democracy stands out dramatically.
+**Compared to other systems** Adaptive Voting/Democracy stands out dramatically.
 
 TODO plurality voting, liquid democracy
 
@@ -187,7 +187,7 @@ What is our alternative? Representative democracy has already demonstrated its p
 
 - Proof sketches heavily rely on existing optimality proofs of Quadratic Voting, score voting systems, Harberger taxes, and Pareto efficient markets.
 - Beings are modeled as type-theoretical structures with distinct but generically opaque Qualia and Welfare types and several opaque internal "prediction" and functions.
-- Welfare can be maximized in any general universe with any amount of model uncertainty by ensuring that at every universe timestep the function coordinating the actions of all Beings is that which they value most in terms of it's predicted welfare impact. This can be achieved by selecting the coordination function using Persistent Voting, which properly offsets coordination costs, switching costs, reversal costs, and prediction error costs.
+- Welfare can be maximized in any general universe with any amount of model uncertainty by ensuring that at every universe timestep the function coordinating the actions of all Beings is that which they value most in terms of it's predicted welfare impact. This can be achieved by selecting the coordination function using Adaptive Voting, which properly offsets coordination costs, switching costs, reversal costs, and prediction error costs.
 - Welfare can be maximized in a more specific model of our universe with a constitution that maximizes the *welfare* allocative efficiency of all resources. By "setting aside" some rights to properly counteract reversal costs and "Being/object unity", but allocating all remaining property rights according to the Common Resource Rights model (a generalization of Harberger taxes), . Using a cumulable currency in addition to the purely democratic voting weights allows a society to incentivize labor that improves that's society's "leverage"
 
 
@@ -213,26 +213,26 @@ Given creation, a function that encourages faster leverage improvement is better
 
 
 
-# Practice: pragmatic plan to validate, apply, and leverage Persistent Democracy for societal improvement
+# Practice: pragmatic plan to validate, apply, and leverage Adaptive Democracy for societal improvement
 
 This section summarizes <chapter-ref slug="/realistic-plan-for-change">.
 
-Persistent Democracy would be logistically complex, and a major shift from existing paradigms. It must first be validated in small *private* organizations with low stakes. Doing so will give time to solve logistical problems and create necessary tools.
+Adaptive Democracy would be logistically complex, and a major shift from existing paradigms. It must first be validated in small *private* organizations with low stakes. Doing so will give time to solve logistical problems and create necessary tools.
 
-I will soon found Persistent Democracy Labs to do general structural work, then a persistently democratic political party and a persistently democratic consumer cooperative, since these two organizations would provide interesting case studies that could simultaneously safely attempt to produce real immediate societal improvement.
+I will soon found Adaptive Democracy Labs to do general structural work, then a adaptively democratic political party and a adaptively democratic consumer cooperative, since these two organizations would provide interesting case studies that could simultaneously safely attempt to produce real immediate societal improvement.
 
 
-it would be unwise to experiment immediately in our governments. we must first validate Persistent Democracy in *private* organizations, ones where the stakes aren't as high as they are in government (examples could be clubs, online communities, cooperatives, homeowners associations, etc). refer to this page to get the details
+it would be unwise to experiment immediately in our governments. we must first validate Adaptive Democracy in *private* organizations, ones where the stakes aren't as high as they are in government (examples could be clubs, online communities, cooperatives, homeowners associations, etc). refer to this page to get the details
 
 # Possible Objections
 
-## Wouldn't Persistent Voting be unstable and chaotic? Or would it be stressful and take too much of people's time?
+## Wouldn't Adaptive Voting be unstable and chaotic? Or would it be stressful and take too much of people's time?
 
 No, stabilization buckets and periodic update schedules.
 
-## Would Persistent Democracy be too logistically complex?
+## Would Adaptive Democracy be too logistically complex?
 
-In the immediate future yes. However it's not that hard to imagine how it could be [sanely implemented](/persistent-logistics).
+In the immediate future yes. However it's not that hard to imagine how it could be [sanely implemented](/adaptive-logistics).
 
 Luckily we need to validate it in low-risk private contexts first, which gives us time to work out logistical details and resolve problems.
 
@@ -240,13 +240,13 @@ Luckily we need to validate it in low-risk private contexts first, which gives u
 
 I would certainly prefer it to be much more secure, which is why I'm also leading/working on the [Magmide project](TODO). Provably correct software is much more possible and much more close to being widespread than you probably think.
 
-However even without provably correct software, I would still consider it worth the risk to implement Persistent Democracy in governments if it had been rigorously validated in private organizations first. We already trust software in many critical applications such as aeronautic control, banking, and even existing voting software. That software is held to a higher standard and built with different processes, but it still fails sometimes. We clearly still consider the benefits worth the risks in those domains, and I argue the same would be true with Persistent Democracy.
+However even without provably correct software, I would still consider it worth the risk to implement Adaptive Democracy in governments if it had been rigorously validated in private organizations first. We already trust software in many critical applications such as aeronautic control, banking, and even existing voting software. That software is held to a higher standard and built with different processes, but it still fails sometimes. We clearly still consider the benefits worth the risks in those domains, and I argue the same would be true with Adaptive Democracy.
 
 ## Should we really trust normal people to make all the democratic decisions? Aren't experts going to make better decisions?
 
 This question is founded on two incorrect assumptions, corrected by these statements:
 
-- Persistent Democracy doesn't *mandate* complete direct democracy for every decision, it merely *allows* it. Experts delegations can just as easily be used as a direct vote.
+- Adaptive Democracy doesn't *mandate* complete direct democracy for every decision, it merely *allows* it. Experts delegations can just as easily be used as a direct vote.
 - Expert delegations *must* be attained in a democratically legitimate way, otherwise the decisions these experts make will *by definition* not actually create public good. The nature of the public good is unknown until measured through democratically legitimate processes, so while delegated experts might make decisions that are optimal in some dimensions, those dimensions wouldn't necessarily be the ones most valued by the people.
 
 A true democracy must make it *possible* for any arbitrary decision to be made directly democratically, otherwise there is an implied structural subject-awareness.
@@ -290,7 +290,7 @@ https://forum.effectivealtruism.org/posts/8wWYmHsnqPvQEnapu/getting-on-a-differe
 https://www.samstack.io/p/the-train-to-crazy-town
 https://astralcodexten.substack.com/p/book-review-what-we-owe-the-future
 
-Function-comparing ethics and Persistent Democracy form a consistent ethical theory we can maximize without collapsing into absurdity. change my mind.
+Function-comparing ethics and Adaptive Democracy form a consistent ethical theory we can maximize without collapsing into absurdity. change my mind.
 
 https://forum.effectivealtruism.org/posts/LPDyAvwYyp4tzPmED/common-sense-cases-where-hypothetical-future-people-matter
 https://forum.effectivealtruism.org/posts/bedstSbqaP8aDBfDr/the-nietzschean-challenge-to-effective-altruism
@@ -342,7 +342,7 @@ instead of weighing the *inherent* morality of giving a million people a bednet,
 you could spend a bunch of money giving people bednets. or you could donate that money to build a cooperative governed by the people for them to use to build whatever arbitrary public goods they value most.
 
 https://forum.effectivealtruism.org/posts/iupkbiubpzDDGRpka/other-centered-ethics-and-harsanyi-s-aggregation-theorem
-the snuck assumption in Harsanyi's Aggregation Theorem is that you can aggregate welfares of different people. you can aggregate their *solicited preferences*, but only through a voting system, so the only mechanism that could possibly *achieve* HAT is something like persistent democracy
+the snuck assumption in Harsanyi's Aggregation Theorem is that you can aggregate welfares of different people. you can aggregate their *solicited preferences*, but only through a voting system, so the only mechanism that could possibly *achieve* HAT is something like adaptive democracy
 
 
 with welfare types like these, how do we go about "adding" them together? the very act of adding them together assumes they have types for which an operation has been defined for them that has all the properties of addition (is abelian, etc)
@@ -478,9 +478,9 @@ the problem is that we *also* can't just force democratic systems on people! it 
 
 this isn't to say we should never do aid work. we should, but only as a stop gap. it seems to me the only *real* solution to the problem of global inequality is a [global wealth tax](TODO). but it seems much more of our effort should be spent building flexible and dynamic systems that could theoretically be applied anywhere (and then test the bejesus out of them to see what our theory missed)
 
-the most obvious criticism of this post is that it could benefit *me*, because I want to do work to build Persistent Democracy. I fully recognize that criticism! But honestly, if someone else just took up that program and completely ignored me I wouldn't mind that, as long as I thought their work/conclusions were good. I don't care! I have lots of other things I can work on. But I'm very convinced democracy is the thing that matters, and specifically Persistent Democracy has the best chance I can imagine to maximize its potential.
+the most obvious criticism of this post is that it could benefit *me*, because I want to do work to build Adaptive Democracy. I fully recognize that criticism! But honestly, if someone else just took up that program and completely ignored me I wouldn't mind that, as long as I thought their work/conclusions were good. I don't care! I have lots of other things I can work on. But I'm very convinced democracy is the thing that matters, and specifically Adaptive Democracy has the best chance I can imagine to maximize its potential.
 
-the goal of persistent democracy is to be a system that if used by *any* group of people in *any* environment/universe would lead to welfare-optimal cooperation. it's not an accident that the *core* constructs of persistent democracy are extremely minimal and unopinionated, and that they are broadly close to market structures (importantly, they're inspired by markets but aren't "true" markets as we typically understand them)
+the goal of adaptive democracy is to be a system that if used by *any* group of people in *any* environment/universe would lead to welfare-optimal cooperation. it's not an accident that the *core* constructs of adaptive democracy are extremely minimal and unopinionated, and that they are broadly close to market structures (importantly, they're inspired by markets but aren't "true" markets as we typically understand them)
 
 the only predictive model that can robustly have any predictive weight is one that directly incorporates the inputs of those effected. their models can be incorrect, but that's why we gather *all* their input so hopefully some error cancels out, and over time people can observe the difference between their predictions and reality. if you think you have the answer and can update their models, then that's why you can present your case to them and maybe persuade them, and if you're unable to persuade them it's more likely they have some contextual knowledge they haven't figured out how to share with you rather than they are simply *all* deceived.
 
@@ -494,7 +494,7 @@ All ai research can do is make it predictable and controllable. It is by definit
 
 
 
-https://forum.effectivealtruism.org/posts/ax8fod4R7ihTxh3kv/persistent-democracy-request-for-early-feedback?commentId=jFQGHNrAHtb9zAcrZ
+https://forum.effectivealtruism.org/posts/ax8fod4R7ihTxh3kv/adaptive-democracy-request-for-early-feedback?commentId=jFQGHNrAHtb9zAcrZ
 
 https://www.amazon.com/10-Less-Democracy-Should-Elites/dp/1503603571
 better off according to whose measurements?

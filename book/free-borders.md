@@ -15,7 +15,7 @@ But I'll go even further:
 
 A person who lives in a country should be a citizen of that country, no other requirements necessary. It's certainly reasonable to have some kind of time-based residency threshold, but merely to prevent abuse.
 
-Let's go through some common objections to these ideas and see how our framework of rights, Persistent Democracy, and Common Resource Taxes alleviate them all.
+Let's go through some common objections to these ideas and see how our framework of rights, Adaptive Democracy, and Common Resource Taxes alleviate them all.
 
 ## What about dangerous people?
 
@@ -29,13 +29,13 @@ Many "welfare states" are worried incoming migrants will merely soak up public r
 
 Common Resource taxes necessarily require any person living in a country to pay taxes on the land they occupy, either directly or indirectly through rent. The size of the tax is efficiently sized according to how valued that land is to everyone else in society. This by definition prevents true free riders. And of course transaction and externality taxes further assure any possibly interfering action is moderated.
 
-Persistent Democracy allows efficient adjustment of budgets and prioritization of public resources. If it's really true that resources are getting more scarce, an electorate can quickly adjust and continue to support their shared goals.
+Adaptive Democracy allows efficient adjustment of budgets and prioritization of public resources. If it's really true that resources are getting more scarce, an electorate can quickly adjust and continue to support their shared goals.
 
 ## What about vote swaying?
 
 Some people are worried a large influx of people will quickly shift votes in unpredictable directions.
 
-All the systems of Persistent Democracy are designed to encourage stable and welfare optimum consensus. Quadratic weighting makes it possible for a small group of people to defend things they truly care about from unconcerned majorities. Negative votes allow people to express disapproval for proposals they feel would harm them.
+All the systems of Adaptive Democracy are designed to encourage stable and welfare optimum consensus. Quadratic weighting makes it possible for a small group of people to defend things they truly care about from unconcerned majorities. Negative votes allow people to express disapproval for proposals they feel would harm them.
 
 And again, what would you say if such an influx was composed of existing citizens? People move from city to city, and sometimes do so in large numbers. What's inherently different about incoming migrants that makes them more concerning?
 
@@ -56,7 +56,7 @@ The single largest action anyone can take to demonstrate their commitment to the
 If it's true someone doesn't share our values, we will only notice if:
 
 - They commit crimes, in which case the justice system will do what it is designed to do.
-- They run for public office and say things we disagree with, in which case we can use the very fair and efficient methods of Persistent Democracy to deny them any substantial power.
+- They run for public office and say things we disagree with, in which case we can use the very fair and efficient methods of Adaptive Democracy to deny them any substantial power.
 
 We guarantee our rights and freedoms with our democratic systems, not with the composition of our population.
 

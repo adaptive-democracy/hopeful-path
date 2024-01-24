@@ -8,7 +8,7 @@ layout: cover
 class: thumbnail
 ---
 
-# Persistent Democracy
+# Adaptive Democracy
 
 ## A maximally responsive, flexible, and ethical foundation for democratic society.
 
@@ -17,14 +17,14 @@ class: thumbnail
 # very fast talk!
 
 - just casting out threads
-- [persistentdemocracy.org](https://persistentdemocracy.org) has more
+- [adaptivedemocracy.institute](https://adaptivedemocracy.institute) has more
 - ["Democracy doesn't have to suck" on youtube](https://youtu.be/wOW6_DwA87c) has more
 
 ---
 
 # talk structure
 
-- mechanics of Persistent Democracy
+- mechanics of Adaptive Democracy
 - proposed benefits
 - specific projects
 
@@ -36,7 +36,7 @@ layout: cover
 
 ---
 
-# Persistent Voting
+# Adaptive Voting
 
 - "voting weights" one "places" on different decisions
 - can move weights at any time
@@ -123,9 +123,9 @@ not as sure how necessary this is
 - view all elections and your current votes
 - change your votes
 
-[Persistent Logistics](https://persistentdemocracy.org/persistent-logistics)
+[Adaptive Logistics](https://adaptivedemocracy.institute/adaptive-logistics)
 
-[Proof of Social Trust](https://persistentdemocracy.org/proof-of-social-trust)
+[Proof of Social Trust](https://adaptivedemocracy.institute/proof-of-social-trust)
 
 ---
 
@@ -138,7 +138,7 @@ not as sure how necessary this is
 
 ---
 
-# Persistent Commitments (briefly)
+# Adaptive Commitments (briefly)
 
 not enough time to talk about this!
 
@@ -146,14 +146,14 @@ not enough time to talk about this!
 
 ---
 
-# Persistent Commitments (briefly)
+# Adaptive Commitments (briefly)
 
 not enough time to talk about this!
 
 ![](https://miro.medium.com/max/1400/0*cwm5XJR3rdah-ERB)
 
 <!--
-persistent commitments could allow pushing the decision deadline back, based on
+adaptive commitments could allow pushing the decision deadline back, based on
 a candidate/document could have commitments *attached* that need to be "fulfilled" or something by a cyclical commitment before they actually take place
 -->
 
@@ -177,7 +177,7 @@ layout: cover
 
 why?
 
-- Persistent Voting *unifies election and "polling"*
+- Adaptive Voting *unifies election and "polling"*
 - safely reveals preferences
 - all converge to most strategic vote
 
@@ -198,7 +198,7 @@ votes signal **concern** and **confidence**
 
 ---
 
-# Persistent *Documents*
+# Adaptive *Documents*
 
 - propose in entirety (no random inconsistent amendments)
 - can work together to merge compatible documents
@@ -239,11 +239,11 @@ layout: cover
 class: thumbnail
 ---
 
-## Persistent Democracy
+## Adaptive Democracy
 
 ## =
 
-## Persistent Voting + Constitution Tree
+## Adaptive Voting + Constitution Tree
 
 ---
 
@@ -281,11 +281,11 @@ layout: cover
 
 ---
 
-# Persistent Democracy tools
+# Adaptive Democracy tools
 
-- [github.com/persistent-democracy/tools](https://github.com/persistent-democracy/tools)
+- [github.com/adaptive-democracy/tools](https://github.com/adaptive-democracy/tools)
 - Rust implementations of core algorithms, eventually UI and voting server
-- Persistent Democracy PolicyKit plugin?
+- Adaptive Democracy PolicyKit plugin?
 - currently wrangling with constitution tree "migrations"
 
 ---

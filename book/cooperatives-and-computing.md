@@ -21,7 +21,7 @@ To understand how we can use cooperatives to solve these problems, let's try to 
 The problem is ownership and control. Software should be collectively owned by all through the shared commons, and physical computers should be owned by their direct users or by democratically controlled organizations.
 
 the cloud company can be a [user defined organization](TODO) where voting weights are given when compute is billed.
-then the company can divert some percentage of funds to create a [persistent funding pool](TODO), and of course simply create open source software internally as directed by democratic control.
+then the company can divert some percentage of funds to create a [adaptive funding pool](TODO), and of course simply create open source software internally as directed by democratic control.
 
 
 some people want to literally control their own computers and run home servers. we should make that easier so that more people can do it!
@@ -43,9 +43,9 @@ A cloud computing cooperative is a perfect way to fund public goods without havi
 
 
 
-# Using Persistent Democracy to govern and fund open source projects
+# Using Adaptive Democracy to govern and fund open source projects
 
-[Persistent Democracy](TODO) applies very naturally to governing open source projects if we think of an open source project as a cooperative.
+[Adaptive Democracy](TODO) applies very naturally to governing open source projects if we think of an open source project as a cooperative.
 
 In any cooperative, the members must somehow contribute to the health of the cooperative with either resources or labor. This makes sure it can sustain itself, and it makes it easy to know who should be given the right to vote on cooperative decisions. Only people that have demonstrated their concern for the cooperative by sacrificing for it should be given a say in how it is run.
 
@@ -69,7 +69,7 @@ There are many ways governance documents could allow members to use their weight
 Every individual project will have different concerns for applying this idea.
 
 
-<!-- Funding open source is clearly just another manifestation of the public goods funding problem, which we feel should ultimately be solved with [persistent funding mechanisms](TODO) deployed by governments. That's a long way away though, and luckily we don't have to wait for government reform, we can deploy systems like this -->
+<!-- Funding open source is clearly just another manifestation of the public goods funding problem, which we feel should ultimately be solved with [adaptive funding mechanisms](TODO) deployed by governments. That's a long way away though, and luckily we don't have to wait for government reform, we can deploy systems like this -->
 
 
 
@@ -86,19 +86,19 @@ such as [proof of usage](TODO) where usage is defined by payments that support t
 
 
 
-An open source project can define its constitutional kernel to give persistent voting power on those grounds. Any of the above grounds can be made truly core or parameterized to lower levels.
+An open source project can define its constitutional kernel to give adaptive voting power on those grounds. Any of the above grounds can be made truly core or parameterized to lower levels.
 
 I think the monthly donations and the *existence* of contributor stakeholders should always be in the governance kernel, questions like who the recognized contributors are and if only patrons have guaranteed access to the project can be optionally defined at lower levels.
 
-So the kernel constitution should basically state that someone currently has persistent weights equivalent to the minimum of either last month's donation or the amount committed for the next donation, and that there exists a contributor list of people who all receive weights, and if there is only one contributor that person has weights equivalent to the highest donor.
+So the kernel constitution should basically state that someone currently has adaptive weights equivalent to the minimum of either last month's donation or the amount committed for the next donation, and that there exists a contributor list of people who all receive weights, and if there is only one contributor that person has weights equivalent to the highest donor.
 
-Below the kernel defining who is given voting weights and how, then the first layer of governance can just be a persistent vote for a constitutional document. This constitutional document can specify absolutely anything that's well-typed according to the constitutional kernel. Let's play around with different things this document could specify.
+Below the kernel defining who is given voting weights and how, then the first layer of governance can just be a adaptive vote for a constitutional document. This constitutional document can specify absolutely anything that's well-typed according to the constitutional kernel. Let's play around with different things this document could specify.
 
 - Selection of some elected "president" or main contributor. Most projects would just do this, since many crystallize around the vision of some individual anyway. This would allow for safe and changable versions of the "Benevolent Dictator for Life" pattern.
 - Defining contributor committees and working groups, much like what is done in the Rust project.
 - Upvoting or prioritizing of issues and feature requests. Pretty simple, since quadratic voting works quite well for prioritization. Could allow these prioritizations to accrue strength such as in [conviction voting](TODO).
-- Definition of a quadratic funding pool, with [projects prioritized by weights](TODO), all adjudicated with [persistent commitments](TODO).
-- Using something like [SourceCred](TODO) as the default method to reward contributors, but safely moderated with [persistent commitments](TODO).
+- Definition of a quadratic funding pool, with [projects prioritized by weights](TODO), all adjudicated with [adaptive commitments](TODO).
+- Using something like [SourceCred](TODO) as the default method to reward contributors, but safely moderated with [adaptive commitments](TODO).
 
 
 
@@ -118,7 +118,7 @@ persistence agnostic applications
 
 
 
-# Persistently Democratic User Defined Organizations
+# Adaptively Democratic User Defined Organizations
 
 In a political system it makes sense to simply give each citizen (which should be defined [merely by true residence](TODO)) a permanent and fixed amount of democratic weights.
 
@@ -128,7 +128,7 @@ The [Golem Foundation](https://golem.foundation/2021/12/16/udo2.html) invented t
 
 Applying this idea is simple. Users who supported the organization a long time ago should have less weight than someone who just barely supported it, and those who support it more should have more weight than those who support it less. To achieve both these principles, voting weight should be given proportional to amount of support, and then that voting weight should decay over time. Using quadratic scaling can prevent large supporters from dominating governance.
 
-The exact parameters of the system such as the decay function or the definition of what counts as supporting the organization can be determined in a [constitutional document chosen with persistent voting](TODO), some of which can be a constitutional kernel to require an organizational fork or a harder commitment in order to change.
+The exact parameters of the system such as the decay function or the definition of what counts as supporting the organization can be determined in a [constitutional document chosen with adaptive voting](TODO), some of which can be a constitutional kernel to require an organizational fork or a harder commitment in order to change.
 
 A great example of a cooperative service that would perfectly fit this model is a grocery consumer cooperative. Although it might make sense to charge some small membership dues as is done by club retailers, if someone routinely buys huge amounts of food from a cooperative then it really does make sense for them to have more voting control.
 

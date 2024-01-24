@@ -2,11 +2,11 @@ import { NuxtConfig } from '@nuxt/types'
 
 const config: NuxtConfig = {
 	head: {
-		title: 'Persistent Democracy: a hopeful path for humanity',
+		title: 'Adaptive Democracy: a hopeful path for humanity',
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
-			{ hid: 'description', name: 'description', content: 'Persistent Democracy: a hopeful path for humanity' }
+			{ hid: 'description', name: 'description', content: 'Adaptive Democracy: a hopeful path for humanity' }
 		]
 	},
 

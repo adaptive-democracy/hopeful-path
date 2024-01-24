@@ -1,10 +1,10 @@
 ---
-title: "Persistent Logistics"
+title: "Adaptive Logistics"
 ---
 
-The largest difficulty in implementing persistent democracy is enabling every voter to update any of their votes at any time. In private organizations like member cooperatives that can simply assume all members can vote through the internet, and where the stakes aren't quite as high, this isn't a serious difficulty. But for a government with citizens spread across a large geographic area, it becomes quite challenging.
+The largest difficulty in implementing adaptive democracy is enabling every voter to update any of their votes at any time. In private organizations like member cooperatives that can simply assume all members can vote through the internet, and where the stakes aren't quite as high, this isn't a serious difficulty. But for a government with citizens spread across a large geographic area, it becomes quite challenging.
 
-It should be immediately obvious all the voting methods I've described in this book absolutely must be counted and stored digitally. The idea of election officials having to manually validate and track a persistently incoming stream of paper Quadratic Range ballots and Democratic Weights udpates is just ridiculous. It's tempting then to simply perform all voting over the internet, and this would be more reasonable with a broadband [universal service obligation](https://en.wikipedia.org/wiki/Universal_service). However there is one very good reason not to make this decision even if an internet voting system could be made available, accessible, and secure.
+It should be immediately obvious all the voting methods I've described in this book absolutely must be counted and stored digitally. The idea of election officials having to manually validate and track a adaptively incoming stream of paper Quadratic Range ballots and Democratic Weights udpates is just ridiculous. It's tempting then to simply perform all voting over the internet, and this would be more reasonable with a broadband [universal service obligation](https://en.wikipedia.org/wiki/Universal_service). However there is one very good reason not to make this decision even if an internet voting system could be made available, accessible, and secure.
 
 ## Verified identity is critical with Quadratic systems.
 
@@ -26,11 +26,11 @@ I've already advocated for [residency granting citizenship](/free-borders), so t
 
 Verifying *uniqueness* of identity is a more difficult problem. This is [an area of active research](https://www.radicalxchange.org/media/papers/verifying-identity-as-a-social-intersection.pdf), and will likely take a much more complicated mechanism to robustly enforce. The best we can do without such a mechanism is to make it merely more annoying and costly to acquire *and use* more than one identity. If voting clerks give each voter a [one-time code](https://en.wikipedia.org/wiki/Cryptographic_nonce) after checking their identification, the voter would have to come in on a separate occasion to actually use a non-unique identity. And if people can make accusations of duplicate identity to be resolved through a trial mechanism, then at least acquiring and using duplicate identities would carry some risk. These methods would likely be sufficient if most voting happens in person.
 
-## Persistent Democracy makes hurdles less serious.
+## Adaptive Democracy makes hurdles less serious.
 
-It's important to point out, any logistical hurdles someone might face while trying to vote are a much less serious problem in a Persistent Democracy. Our existing elections present rigid date windows during which voters must clear any logistical hurdles or risk losing the chance to participate.
+It's important to point out, any logistical hurdles someone might face while trying to vote are a much less serious problem in a Adaptive Democracy. Our existing elections present rigid date windows during which voters must clear any logistical hurdles or risk losing the chance to participate.
 
-But in a Persistent Democracy they can gradually clear these hurdles and thereafter fit voting trips into their schedule as their life unfolds. The elections they wish to participate in will still be there once they're able.
+But in a Adaptive Democracy they can gradually clear these hurdles and thereafter fit voting trips into their schedule as their life unfolds. The elections they wish to participate in will still be there once they're able.
 
 ## Making voting offices cost-effective.
 

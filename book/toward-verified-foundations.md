@@ -21,7 +21,7 @@ incomplete: true
     - some objects will have "terminal" states, where once they're in that state they either can't be changed or are very difficult to change.
   - the realest model, where there's *only* objects (which we could think of as whatever subatomic particles make up the universe), beings are *built* from objects (meaning they can be bid for???), beings have welfare prediction error, some state transitions are asymmetrically costly, state transitions are costly at all, and coordination itself is costly. if we just let beings bid for anything then we'll get lots of destruction and going in circles (people bidding to own each other but not themselves, cartels forming to bid for a bunch of other people, things that are highly valued by some being destroyed by others, bidding for sub-pieces of things that are effectively tied together, too granular to be useful)
   - this model (basically) reflects reality! at some level we have to contend with this much detail, but we can't *all* the time.
-  - so the coordination function has no choice but to be a persistent constitution that defines abstractions and sub-functions! this model of the universe is too unpredictable, we have no choice but to coordinate as beings to agree on a shared simplification of the universe, one that usefully matches up with the universe/welfare models in each being's mind.
+  - so the coordination function has no choice but to be a adaptive constitution that defines abstractions and sub-functions! this model of the universe is too unpredictable, we have no choice but to coordinate as beings to agree on a shared simplification of the universe, one that usefully matches up with the universe/welfare models in each being's mind.
 
 no matter what the nature of the universe, the coordination function will only achieve welfare allocative efficiency if the model it uses usefully aligns with the welfare structure of the beings. since we can't know the true nature of the universe, we have no choice but to choose the model itself in a democratic way! if we just bid for "true" objects like atoms then someone could bid for half of my computer. the way physics works matters to all this! computers require some "wholeness" or coordination of parts to be useful, but other things like a bag of rice don't.
 we have to present the democratic choice of *models and functions* directly. beings can relatively value arbitrarily higher ranked things, like models and functions and functions of functions and probability clouds of possible changes.
@@ -59,7 +59,7 @@ no matter the real shape of the universe it can always be accurately modeled by 
   - since it's impossible to aggregate and compare welfare of different populations, you can only compare different actions to each other based on how they are valued relative to each other by the *same* population. this means the best we can do to equally value the welfare of all beings is to merely give all beings equal amount of power to signal their relative value.
   - it is possible to be "maximally" ethical, meaning that *society* seen as a whole couldn't possibly improve. *individuals* can create a separate concept of "meaning" for themselves by sacrificing their most welfare maximizing actions for ones that improve the welfare of others.
   - longtermism broadly becomes a relatively moot concept when we think in terms of being able to do no better *societally* than "merely ethical" democratic systems. it also creates the "welfare miser" problem, since every generation *for eternity* must maximally sacrifice their own welfare to create a much larger amount of welfare in the long-term future (the only ceiling is the complete utilization of the entire universe). this means we can only do this: is the system truly democratic?; is it efficient, in the sense that it creates more welfare than coordination cost, and is improving in that regard; which implies it is able to improve universe leverage
-  - **conjecture:** a coordination system will most efficiently maximize the welfare of a particular population if it best maximizes the welfare production of all resources ("highest and best use") according to a purely democratic valuation. in the presence of coordination costs, switching costs, and reversal costs, Persistent Democracy best achieves this given whatever technological constraints exist. this also best achieves the ideal of Rawls' veil of ignorance.
+  - **conjecture:** a coordination system will most efficiently maximize the welfare of a particular population if it best maximizes the welfare production of all resources ("highest and best use") according to a purely democratic valuation. in the presence of coordination costs, switching costs, and reversal costs, Adaptive Democracy best achieves this given whatever technological constraints exist. this also best achieves the ideal of Rawls' veil of ignorance.
   - non-democratic markets are useful to help incite "leverage investments", where a group of people needs to sacrifice temporarily in order to improve leverage, and therefore get a bigger welfare payoff afterward. in the presence of systems that ensure continued democratic control and public good, these non-democratic markets are more good than harm (because they prevent cumulative advantage, market power, and negative externalities). if true common partial ownership is respected, then the "eternal paupers" problem is avoided, and any non-democratic wealth a being accrues is genuinely due to contribution to public good rather than exploitation of strategic position.
 
 I don't consider questions of voter strategy here, and I'm relying on other work, such as proofs around quadratic and score voting, to ensure they aren't of practical importance here. the below systems *allow* arbitrarily accurate signaling of preference, and since score voting has properties like monotonicity and quadratic voting is intentionally allowing "trading" of strategic pivotal-ness, I'm just allowing those to do the heavy lifting!
@@ -87,11 +87,11 @@ https://en.wikipedia.org/wiki/Scalar_projection
 
 
 function-comparing ethics
-proof sketches of Persistent Democracy's welfare optimality
+proof sketches of Adaptive Democracy's welfare optimality
 
 democracies fail because of bad systems, not bad people. resource voting systems are the solution
-elections shouldn't have deadlines, how persistent voting could fix democracy
-we should vote for our constitution (and all our other laws). persistent voting allows document elections
+elections shouldn't have deadlines, how adaptive voting could fix democracy
+we should vote for our constitution (and all our other laws). adaptive voting allows document elections
 
 cooperatives are the key to solving our trickiest economic problems
 the solution to broken social media is easy: cooperatives
@@ -107,7 +107,7 @@ income taxes suck, they should be replaced by wealth taxes
 systems of cumulative advantage create inequality, not superior winners
 
 the good part of both capitalism and socialism is merely true democracy, everything else is a distraction
-persistent democracy and common resource rights achieve the benefits of both capitalism and socialism without any of their flaws
+adaptive democracy and common resource rights achieve the benefits of both capitalism and socialism without any of their flaws
 
 should experts make all the decisions?
 
@@ -149,7 +149,7 @@ use resource voting as a game theoretically sound proxy for welfare
 even completed crowdsells can have a "project" phase that involves disseminating all the "gray literature" to some public entity enough that the public entity can actually reproduce the invention. this dissemination ought to be recorded in some useful way to make it permanently openly available
 simply incentivizing open source work will tend to disseminate knowledge, since creating open source teaching materials will be incentivized
 
-persistently democratic thresholdware cooperatives both incentivize a minimum level of support through the open source threshold, and unbounded upward growth through possible competition for governing influence through the weight-buying aspect
+adaptively democratic thresholdware cooperatives both incentivize a minimum level of support through the open source threshold, and unbounded upward growth through possible competition for governing influence through the weight-buying aspect
 
 
 
@@ -174,8 +174,8 @@ the drowning child thought experiment mostly relies on the clarity and *urgency*
 we don't need capitalism or socialism, we merely need true democracy
 we don't need big corporations or big government, we need big cooperatives
 
-persistent voting turns democracy into a boring stable part of everyday life, woven into the fabric of society as part of its basic infrastructure, instead of an occasional panicked race a lot of people will get left out of
-persistent voting dramatically expands the strategic landscape for voters, because instead of only considering a closed finite type as their possible vote, they consider an open infinite type of what coordination function documents they could propose
+adaptive voting turns democracy into a boring stable part of everyday life, woven into the fabric of society as part of its basic infrastructure, instead of an occasional panicked race a lot of people will get left out of
+adaptive voting dramatically expands the strategic landscape for voters, because instead of only considering a closed finite type as their possible vote, they consider an open infinite type of what coordination function documents they could propose
 
 
 
@@ -234,17 +234,17 @@ I'm looking for feedback to see if I'm crazy. After all, if this theory is reall
 
 ---
 
-A little while ago I came up with an idea called Persistent Voting, where a vote is conducted not as a discrete event with a deadline but as a continuous process where voters can change their votes at any time and candidates can enter or exit an election at any time. I've since evolved the idea into a new mode of societal coordination I call Persistent Democracy, and I'm very excited about its potential to massively improve the efficiency and fairness of democratic societies. I intend to very soon begin experimenting with it in private organizations like a democratically controlled political party and a consumer cooperative. Feel free to read about the details here:
+A little while ago I came up with an idea called Adaptive Voting, where a vote is conducted not as a discrete event with a deadline but as a continuous process where voters can change their votes at any time and candidates can enter or exit an election at any time. I've since evolved the idea into a new mode of societal coordination I call Adaptive Democracy, and I'm very excited about its potential to massively improve the efficiency and fairness of democratic societies. I intend to very soon begin experimenting with it in private organizations like a democratically controlled political party and a consumer cooperative. Feel free to read about the details here:
 
-[Persistent Democracy](https://persistentdemocracy.org/)
+[Adaptive Democracy](https://adaptivedemocracy.institute/)
 
-However I've wanted to gain more confidence Persistent Democracy wasn't just intuitively convincing, but actually had a shot at being *optimal*. Economists have demonstrated it's possible to prove a coordination method is optimal according to some measure, as has been done with [quadratic voting](TODO) and [vickrey-clarke-groves auctions](TODO) and [harberger taxes](TODO), so it seems possible to me to prove a system for organizing society as a whole is optimal.
+However I've wanted to gain more confidence Adaptive Democracy wasn't just intuitively convincing, but actually had a shot at being *optimal*. Economists have demonstrated it's possible to prove a coordination method is optimal according to some measure, as has been done with [quadratic voting](TODO) and [vickrey-clarke-groves auctions](TODO) and [harberger taxes](TODO), so it seems possible to me to prove a system for organizing society as a whole is optimal.
 
-The only problem is, I'm not a mathematician or a philosopher or an economist. I'm very interested in these topics, and casually listen to podcasts and read articles and wikipedia pages about them, but my training is in [computer engineering](https://github.com/blainehansen), and my skills and heart are tied up in tech entrepreneurship. But despite my lack of confidence in proving an economic or philosophical theory, I haven't been able to shake the urge to figure out if Persistent Democracy is optimal, and even better to figure out if it's optimally *ethical*.
+The only problem is, I'm not a mathematician or a philosopher or an economist. I'm very interested in these topics, and casually listen to podcasts and read articles and wikipedia pages about them, but my training is in [computer engineering](https://github.com/blainehansen), and my skills and heart are tied up in tech entrepreneurship. But despite my lack of confidence in proving an economic or philosophical theory, I haven't been able to shake the urge to figure out if Adaptive Democracy is optimal, and even better to figure out if it's optimally *ethical*.
 
 I know this sounds crazy, but I honestly feel like I've done exactly that! I haven't tried to actually rigorously prove anything, since I don't think I have the time or the skills necessary to be confident such a pursuit wouldn't be a waste of time. But the models and conjectures and proof sketches I give in the rest of this document are pretty satisfyingly convincing to me, and I haven't been able to find any obvious flaws in the reasoning.
 
-As I already hinted, my next step plan is to create tech-startup-ish democratic organizations as a way to experiment with Persistent Democracy and maybe make the world a better place. But I figured writing this theory up enough for others to possibly find flaws or even pursue these questions more rigorously was worth the time. The theory below is good enough for me as rough-and-ready permission to go and experiment with Persistent Democracy, since even if this theory had iron-clad proofs we'd need to experiment with it in real life before we could be truly confident in it. In order to convince me not to pursue real world applications of Persistent Democracy, someone would have to find a serious and obvious flaw in this reasoning.
+As I already hinted, my next step plan is to create tech-startup-ish democratic organizations as a way to experiment with Adaptive Democracy and maybe make the world a better place. But I figured writing this theory up enough for others to possibly find flaws or even pursue these questions more rigorously was worth the time. The theory below is good enough for me as rough-and-ready permission to go and experiment with Adaptive Democracy, since even if this theory had iron-clad proofs we'd need to experiment with it in real life before we could be truly confident in it. In order to convince me not to pursue real world applications of Adaptive Democracy, someone would have to find a serious and obvious flaw in this reasoning.
 
 I haven't done the hard work to make this theory easily understandable and approachable, since I haven't added things like pictures and diagrams and have few examples. I'll be happy to do that work if people feel the theory is promising enough to be worth it.
 
@@ -391,9 +391,9 @@ this is a bit of an idealization... but that's okay ha
 *speed* of error reduction is harder though. certainly with the above requirement we get for free that at every time step the function will choose the predictive model that best reduces error *of all those available*, but to really get this property we have to prove that this function will maximally incentivize the best possible logical model at each timestep given current resources and observations. this seems like more of a public goods problem that a statistics problem! we might be able to recover this property if we can piggy-back on the optimality of quadratic funding!
  -->
 
-# Persistent Democracy Conjectures
+# Adaptive Democracy Conjectures
 
-The precise definition of persistent democracy is as a coordination function with these properties:
+The precise definition of adaptive democracy is as a coordination function with these properties:
 
 - All beings have an equal amount of Quadratic decision weights.
 - There is a "lock" object related to each universe variable.
@@ -403,7 +403,7 @@ The precise definition of persistent democracy is as a coordination function wit
   - These equivalence classes are given a lexicographic ordering where: higher bids rank higher, then lower variable counts rank higher, then being the existing holder of a group of locks ranks higher.
   - Starting with the highest ranked class, all bids that overlap with others in the same class are denied. The remaining bids always beat overlapping bids in lower equivalence classes.
 
-I'll call this exact mechanism a total persistent Harberger auction for ownership of universe variable locks.
+I'll call this exact mechanism a total adaptive Harberger auction for ownership of universe variable locks.
 
 You'll notice I haven't specified how often this bid resolution process takes place, and haven't placed any restrictions at all on the action recommendations that can be given from bid functions. There are three important costs we have to consider:
 
@@ -411,7 +411,7 @@ You'll notice I haven't specified how often this bid resolution process takes pl
 - Switching costs, meaning the negative welfare experienced for one owner of locks to give up their ownership and hand it over to another. If these costs are zero we could have ownership switch instantaneously every universe timestep without losing any welfare.
 - Reversal costs, meaning any asymmetries between the cost to transition the universe into one state versus back again to the same state. This is different than switching costs because switching costs are assumed to be roughly symmetric and mostly measured in welfare, whereas reversal costs are measured in leverage. If these costs are zero we could simply allow any being to bid for ownership of any set of locks, and not worry that some ownerships could destroy welfare leverage in a very costly to reverse way.
 
-**Conjecture:** Given a universe with zero costs for coordination, switching, and reversal, an instantaneous total persistent Harberger auction for ownership of universe variable locks optimally maximizes welfare.
+**Conjecture:** Given a universe with zero costs for coordination, switching, and reversal, an instantaneous total adaptive Harberger auction for ownership of universe variable locks optimally maximizes welfare.
 
 This proof would simply rely on the optimality proofs of Quadratic voting, Harberger taxes, and the fundamental theorems of welfare economics since this system creates a perfectly democratic market. The [preconditions for Pareto optimal exchange](https://en.wikipedia.org/wiki/Fundamental_theorems_of_welfare_economics) have been maximally satisfied for these three reasons:
 
@@ -421,15 +421,15 @@ This proof would simply rely on the optimality proofs of Quadratic voting, Harbe
 
 Of course coordination and switching and reversal costs aren't actually zero in the real world, so in order to deal with them we make these adjustments:
 
-- Increasing the amount of time between bid periods, which is equivalent to the persistent periodic update schedule.
+- Increasing the amount of time between bid periods, which is equivalent to the adaptive periodic update schedule.
 - Using stabilization periods.
 - Having a total constitution that defines rights and the finer rules of property ownership and division. This is equivalent to locking down the entire universe with one coordination function that simply allows the definition of sub-functions, which are just sub-constitutions.
 
-**Conjecture:** Given a universe with non-zero costs for coordination, switching, and reversal, a constitutional persistent democracy optimally maximizes welfare.
+**Conjecture:** Given a universe with non-zero costs for coordination, switching, and reversal, a constitutional adaptive democracy optimally maximizes welfare.
 
-The optimality proof of constitutional persistent democracy is the same as the naive zero cost version, but we have to demonstrate that each of these cost compensations prevents the incurrence of strictly negative exchanges, always allows or encourages strictly positive exchanges, and always chooses mixed changes that are valued more highly than all competing options others.
+The optimality proof of constitutional adaptive democracy is the same as the naive zero cost version, but we have to demonstrate that each of these cost compensations prevents the incurrence of strictly negative exchanges, always allows or encourages strictly positive exchanges, and always chooses mixed changes that are valued more highly than all competing options others.
 
-- *Coordination costs:* Assuming that each being has a constant cost to participate in the voting process (time for travel, psychological effort to make decisions), and there is a cost to aggregate decisions (gathering and counting votes), there will be a persistent update frequency that on average best trades these costs against the amount of increased welfare from coordination. This constant will be a factor of both human psychology (how inconvenient or difficult it is to make voting decisions) and a coordinating group's technology (voting online is more efficient than voting by mail, which is more efficient than voting in person with computers, or with paper, etc). The update frequency must be slow enough to prevent coordination costs from cannibalizing benefits, but must be fast enough to keep the system responsive.
+- *Coordination costs:* Assuming that each being has a constant cost to participate in the voting process (time for travel, psychological effort to make decisions), and there is a cost to aggregate decisions (gathering and counting votes), there will be a adaptive update frequency that on average best trades these costs against the amount of increased welfare from coordination. This constant will be a factor of both human psychology (how inconvenient or difficult it is to make voting decisions) and a coordinating group's technology (voting online is more efficient than voting by mail, which is more efficient than voting in person with computers, or with paper, etc). The update frequency must be slow enough to prevent coordination costs from cannibalizing benefits, but must be fast enough to keep the system responsive.
 - *Switching costs:* Stabilization periods help ensure a change of ownership is actually considered beneficial by both parties by requiring every trade to prove that it's legitimately desired more highly than others. By giving current owners time to adjust their valuations in the event they hadn't properly considered them, and making prospective owners demonstrate durable and consistent desire to acquire the ownership, we prevent wasteful switches that don't actually increase predicted welfare. Both those sides must also consider merely logistical switching costs (it costs time and money to move out of your house, or exchange a car with someone else) when giving their valuations.
 - *Reversal costs:* There are many sources of welfare or displacement leverage that are easier to destroy than to replace (it's easier to cut down a tree than grow one, it's easier to sever a person's arm than do the research and engineering that would be necessary to replace it, beautiful rock formations can be destroyed in minutes but take millions of years to form). Unfortunately these sources can only be identified with empirical means, and there's no automatic decidable way to identify them within a universe vector. This means the only way to identify and protect them is to simply designate a single total function that has ownership of the entire universe, and then allow all beings to vote on the contents of that function. This group of beings can negotiate about any source of leverage and give it special coordination status in whatever way they can agree to. They will miss some forms, or be unable to agree about others, but
 
@@ -440,7 +440,7 @@ The preconditions for Pareto optimal exchange have still been maximally fulfille
 - *Perfect information:*
 
 
-<!-- Persistent voting partially avoids this problem by making -->
+<!-- Adaptive voting partially avoids this problem by making -->
 
 
 we can do this by appeal to the , since this structure gives all beings equal market power since all rights and goods in the universe can have their fundamental ownership structures changed in the constitution which all beings can equally vote for, allows them to arbitrarily tamp down externalities since they can set rules about the entire universe, and best compensates for the presence of imperfect information by both allowing perfect price information through parital common ownership and allowing stabilization periods that can help correct valuations.
@@ -451,7 +451,7 @@ we can do this by appeal to the , since this structure gives all beings equal ma
 
 
 
-**Conjecture:** Increasing the persistent update cycle length reduces experienced coordination costs. For any cooperative with some given amount of technological capability, there exists a cycle length that best trades overhead for achieved coordination.
+**Conjecture:** Increasing the adaptive update cycle length reduces experienced coordination costs. For any cooperative with some given amount of technological capability, there exists a cycle length that best trades overhead for achieved coordination.
 
 It stresses people out to have to think more frequently about vote updates, and depending on how difficult it is to update votes it is better to have to do so less often. Once a day or once a week seem like reasonable periodic update schedules depending on the decision importance and cost to check updates.
 
@@ -461,7 +461,7 @@ Stabilization periods are supposed to minimize the actual incurrence of switchin
 
 
 
-**Conjecture:** Using a persistent constitution (total universe function) uniquely allows a cooperative to identify and prevent externalities and irreversible harms, for both displacement and welfare leverage.
+**Conjecture:** Using a adaptive constitution (total universe function) uniquely allows a cooperative to identify and prevent externalities and irreversible harms, for both displacement and welfare leverage.
 
 Since these constitutions are arbitrary, the coordinating beings can use them to define inviolable rights, since they control the entire universe, which should be defined as welfare-important ownerships that could be irreversibly destroyed. Ownership of irreversible qualities of our bodies and minds as well as certain types of natural resources obviously fall into this category. The optimality of this step again just piggy-backs on quadratic voting and Harberger auctions.
 
@@ -521,9 +521,9 @@ we could make this definition of ethicality more durable for long-termists by ad
 
 
 
-sustainable persistent democracy seems like the sensible change to make in order to adjust this for the long-term.
+sustainable adaptive democracy seems like the sensible change to make in order to adjust this for the long-term.
 
-since persistent democracy allows nomination of documents, it allows voters to give truly unbounded input to the system.
+since adaptive democracy allows nomination of documents, it allows voters to give truly unbounded input to the system.
 
 questions of equilibrium and convergence seem less important
 although we are hoping that this mechanism converges to a coordination function that best approximates an aggregation of all the welfare prediction
@@ -533,7 +533,7 @@ democracy can only maximize *predicted* welfare. its the job of experimentation 
 
 
 
-this is as far as I want to go downward in the coordination function. with the presence of an arbitrary persistent constitution, beings are just left to argue about what the most optimal *next* constructions are, and of course we'll argue for further instantiations of parital common ownership and persistent democracy. since these persistent constitutions control the entire universal coordination function, they have the authority to instantiate any structure, such as common resource taxes, that the beings consider optimal.
+this is as far as I want to go downward in the coordination function. with the presence of an arbitrary adaptive constitution, beings are just left to argue about what the most optimal *next* constructions are, and of course we'll argue for further instantiations of parital common ownership and adaptive democracy. since these adaptive constitutions control the entire universal coordination function, they have the authority to instantiate any structure, such as common resource taxes, that the beings consider optimal.
 
 
 
@@ -1076,7 +1076,7 @@ We would really like to have a theory of welfare that enabled us to design and p
 
 going to sketch proofs that:
 a totally ethical system is a coordination function that achieves pareto efficiency in contrast to a population ethics frame
-persistent democracy is optimal to maximize welfare for any universe/beings by simply reusing the properties that make quadratic voting welfare optimal for decisions and harberger taxes optimal for allocative efficiency.
+adaptive democracy is optimal to maximize welfare for any universe/beings by simply reusing the properties that make quadratic voting welfare optimal for decisions and harberger taxes optimal for allocative efficiency.
 empiricism is the best concrete framework for improving infrastructural welfare leverage (which is the measurement of the welfare yield on work given the current state of the universe),
 
 ## model of beings and the universe
@@ -1107,7 +1107,7 @@ original position property
 
 ## omniscient universal mediator
 
-this section sketches a proof of optimality persistent democracy given zero coordination and switching costs
+this section sketches a proof of optimality adaptive democracy given zero coordination and switching costs
 
 this system is optimal assuming zero coordination and switching costs, as well as the non-existence of permanent damage to beings. if we "bake in" non-negotiable ownership of one's non-repairable body then we sidestep that problem. we might have already done that by not making the model totally aware of the fact that qualia is directly encoded by some subset of the universe variables! we're again dealing with a concept of "looming harm", where we have to continously use our weight to protect things that are merely necessary but not sufficient for welfare. having to do that precludes using that weight to signal for positive improvements, possibly ones that produce positive externalities.
 it's optimal because it uses the quadratic principle for optimal decision efficiency and harberger taxes for optimal allocative efficiency. it satisfies the original position property because it equally considers the votes of all participants and uses partial common ownership to ensure that no universe state allows irreversible accrual of property and therefore market power, and prevents all externalties in principle since all portions of the universe can be bid at any time which allows concerned agents to always have their say about any possilbly externality producing set of variables
@@ -1119,12 +1119,12 @@ non-tradable rights allows us to remove deadweight negotiations, ones that are e
 
 basically, we're trying to apply this universe variables model to our real world, and we realize that without say over a huge section of the universe around you, basically the whole planet, you don't truly control *anything*
 
-## persistent constitutional systems
+## adaptive constitutional systems
 
-sampling and stabilization allow a persistent system to most closely approximate the omniscient mediator given non-zero coordination and switching costs. sampling/stabilization intervals should be proportional to coordination/switching costs respectively.
+sampling and stabilization allow a adaptive system to most closely approximate the omniscient mediator given non-zero coordination and switching costs. sampling/stabilization intervals should be proportional to coordination/switching costs respectively.
 rather than allowing bids for subsection functions individually, we choose one function that specifies all subfunctions. we do this because it durably protects permanent non-tradable rights, which are things we value as desirable and efficient. importantly allowing these rights to change gives us the flexibility to refine them or change them if the state of the universe drastically changes.
 when voting for a constitution we're essentially bidding for the *entire* universe space, so we're really just bidding on the function that goes alongside that global bid.
-importantly, if it is true that the omniscient persistent mediator is optimal for any universe and set of beings, the same is true for any strict subset of any universe/beings combination. this gives credence to the fact that persistent constitutions can be nested arbitrarily, since each constitution is given a strict subset of the universe/beings to control using the same systems.
+importantly, if it is true that the omniscient adaptive mediator is optimal for any universe and set of beings, the same is true for any strict subset of any universe/beings combination. this gives credence to the fact that adaptive constitutions can be nested arbitrarily, since each constitution is given a strict subset of the universe/beings to control using the same systems.
 
 ---
 
@@ -1227,7 +1227,7 @@ Obviously voting is one way we can gather relative preference strengths for outc
 
 But how can we know if the Actions of a consenting group will interfere with other Beings?
 
-# omniscient persistent mediator
+# omniscient adaptive mediator
 
 It seems that the perfectly optimal system would be the omniscient mediator
 at any universe tick any of us could submit to the omniscient mediator "locks" on groups of universe variables representing our desired control over the universe. these are essentially bids for those locks that we would demonstrate our conviction to by placing democratic weights on it. if two beings both agree to internally share access to a group of locks, then they can both put weights on the same group of locks. beings can put negative weights on the lock groups of others
@@ -1255,21 +1255,21 @@ the weights wouldn't only move with the body of a person, since they have other 
 
 beings who were "in the middle" of using some area and had some switching costs to giving it up even shortly would value it more highly than those coming in new, or those who only wanted it for a bit.
 
-conjecture: this perfectly granular and instantaneous persistent signaling is welfare optimal *in a naive way*, meaning that it will always achieve optimal welfare without considering coordination overhead
+conjecture: this perfectly granular and instantaneous adaptive signaling is welfare optimal *in a naive way*, meaning that it will always achieve optimal welfare without considering coordination overhead
 
 such a system obviously doesn't exist, probably won't ever exist, even if it could many of us generally dislike the idea of being so closely watched so the very presence of that system would harm our welfare.
 
 so instead we create systems of rights, which are basically a way to *durably* encode space-usage negotiations with a minimum of coordination cost. we negotiate over the *general* structure of these rights systems in our constitutions, and this negotiation represents our best guesses at what kinds of votes we would cast in different kinds of negotiations. for example a society that agrees no one should be able to demand non-interfering actions from others would encode ownership of body, etc.
 
-since the only way beings can possibly interfere with each other is through updating a shared universe, that's ultimately all a right is, the current grant to update a portion of the universe in a particular way. if rights are just grants to a portion of the universe, then this perfectly granular persistent democracy is optimal for the same reasons that harberger taxes achieve optimal allocative efficiency or highest best use, and that quadratic voting achieves optimal welfare allocation based on relative valuations
+since the only way beings can possibly interfere with each other is through updating a shared universe, that's ultimately all a right is, the current grant to update a portion of the universe in a particular way. if rights are just grants to a portion of the universe, then this perfectly granular adaptive democracy is optimal for the same reasons that harberger taxes achieve optimal allocative efficiency or highest best use, and that quadratic voting achieves optimal welfare allocation based on relative valuations
 
 we also can create rules for more dynamic negotations, ones where we don't think we can make broad rules. for example a system like common resource taxes on land encodes a negotiation algorithm for all physical spaces that all members of the group can use to dynamically adjust ownership according to highest valuation.
 
 It's important to remember how important voting method efficiency is when making these decisions! In a resource-like voting method such as Quadratic Voting, groups can essentially perform "trades" across different decisions. A group may accept some negative outcome in one area in order to get a more strongly preferred positive outcome in another! From the perspective of the entire group, that trade is still a Strict Improvement since each group has greater overall Welfare as evidenced by their willingness to make the trade.
 
-# persistent democracy optimality
+# adaptive democracy optimality
 
-conjecture: persistent democracy with stabilization rules optimally makes welfare choices after considering coordination overhead. unsure hand-waving and pointing to the above conjectures goes here!
+conjecture: adaptive democracy with stabilization rules optimally makes welfare choices after considering coordination overhead. unsure hand-waving and pointing to the above conjectures goes here!
 
 <!-- I conjecture that this structure is optimal, because it directly represents the true nature of the search for welfare. it maximizes the amount of information each person can give to the coordination function, and perfectly encodes the real nature of attention and concern -->
 
@@ -1284,7 +1284,7 @@ theory of wealth, welfare, and progress, two "lever" arrangements (`wealth = ava
 - `prosperity = wealth * welfare_leverage`
 - this theory of wealth and progress is inherently *step-indexed*, much like a computer program. the leverage power of the previous step's arrangement of matter effects how much we can achieve in this step. also probably important to add some "decay" function to each step, to represent the concept that some things require maintenance. also "waste" or "entropy" functions to encode carbon emissions and heat and unusable byproducts. in the step-indexed view, *current* potential wealth is the total amount of resources you could move based on current leverage, labor power, and available resources, and potential prosperity is the amount of welfare you could produce based on welfare leverage and wealth. so there's a raw resource leverage coefficient and a welfare leverage coefficient associated with any current resource arrangement. a simple analogy for a system like this is a 3d grid space with two possible welfare uses and materials for a raw lever, and the functions assign leverage numbers based on current position/orientation of the lever
 
-this is another way we could think about welfare optimality. a system that tends to create more welfare favorable arrangements of the universe are going to perform better, and tend to maintain the group's choice and power and flexibility most. would persistent democracy achieve this? if it's true that it best minimizes negative interference, can we also find that it best maximizes positive interference? maximizing positive interference can just be restated as best allocating public goods or incentivizing positive externalities.
+this is another way we could think about welfare optimality. a system that tends to create more welfare favorable arrangements of the universe are going to perform better, and tend to maintain the group's choice and power and flexibility most. would adaptive democracy achieve this? if it's true that it best minimizes negative interference, can we also find that it best maximizes positive interference? maximizing positive interference can just be restated as best allocating public goods or incentivizing positive externalities.
 
 # possible rights framework
 
@@ -1410,7 +1410,7 @@ And of course there's a difference between these examples where there's time for
 
 # methods details and algorithms
 
-## persistent voting details
+## adaptive voting details
 
 we can change how stabilization works:
 
@@ -1426,19 +1426,19 @@ thinking about update cycles:
 
 True ties are handled by no one occupying the position! Votes can be changed very quickly though, so true ties should very rarely last long.
 
-the exact nature of persistent democracy will only be truly figured out once there's actual *code* representing the mechanisms.
+the exact nature of adaptive democracy will only be truly figured out once there's actual *code* representing the mechanisms.
 it would be really nice to have a governance language capable of writing these kinds of constitutions and mechanisms directly, and verifying them
 
-## persistent commitments
+## adaptive commitments
 
 Each commitment would have some deadline for the electorate to choose some "decision document". Each commitment should have a default document that is considered the "winner", and any new document must overtake that document using stabilization buckets in order to be implemented. This default document would be decided by whatever election defined the existence of this commitment. This default document could very easily be "do nothing".
 wait blaine, what size stabilization bucket would this default document have? maybe these should just be normal conviction voting cycles, and people have to actually endorse the default document?
 
-If a persistent voting style change could possibly require an outlay of resource from something like a budget, then perhaps that means we should make the change time equivalent to the time necessary to put that outlay together? And possibly even require with dependent types that if such a change happens the next budget must include an item for this change?
+If a adaptive voting style change could possibly require an outlay of resource from something like a budget, then perhaps that means we should make the change time equivalent to the time necessary to put that outlay together? And possibly even require with dependent types that if such a change happens the next budget must include an item for this change?
 
 The thing I think we have to remember is that we're just trusting democracy! People will bring up any truly concerning problems if they're at all possibly predictable. It's unwise of us to think we can predict everything this system might have to account for. That's why we're enabling it to be changed by voters!
 
-## persistent constitutions
+## adaptive constitutions
 
 This is an interesting question to consider: *should* we design constitutions with kernels? I'm still not sure about all the ramifications of this idea, but there are some things to consider:
 
@@ -1461,7 +1461,7 @@ We can put these three things together to decide the size of stabilization bucke
 
 Or perhaps it makes sense to size stabilization buckets according to the number of *unallocated* weights? So all the people who just haven't used their weights are the only people you have to counterbalance? I don't think I like this idea, since most people would put all their weights on *something*, even if it was just one thing.
 
-## miscellaneous persistent methods
+## miscellaneous adaptive methods
 
 prioritizing finite resources, prioritizing project funding, offsetting taxes, asserting ownership, or endorsing people for public service.
 
@@ -1869,9 +1869,9 @@ in approval voting it seems everything is really clear and makes a lot of sense 
 
 
 
-one of the things I've realized is that the *real* source of problems in all these voting systems is the imperfect information problem, the potential error between voters credences and "true" credences. this is why persistent voting is so awesome! it shortens the feedback loop, and using a stabilization period is able to update everyone's credences without locking into perverse outcomes
+one of the things I've realized is that the *real* source of problems in all these voting systems is the imperfect information problem, the potential error between voters credences and "true" credences. this is why adaptive voting is so awesome! it shortens the feedback loop, and using a stabilization period is able to update everyone's credences without locking into perverse outcomes
 basically the voting method is able to replace the entire social polling apparatus, and remove any market incentive to participate in the horse race. it makes sense why all these methods have created such a large incentive, since credence error is the bigggest real source of utility loss!
-persistent updating takes politics out of the "game of chance" territory back into a fluid negotiation between groups as it's supposed to be
+adaptive updating takes politics out of the "game of chance" territory back into a fluid negotiation between groups as it's supposed to be
 
 
 

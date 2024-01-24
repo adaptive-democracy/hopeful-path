@@ -4,14 +4,14 @@
 	"description": "",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/persistent-democracy/hopeful-path.git"
+		"url": "git+https://github.com/adaptive-democracy/hopeful-path.git"
 	},
 	"author": "",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/persistent-democracy/hopeful-path/issues"
+		"url": "https://github.com/adaptive-democracy/hopeful-path/issues"
 	},
-	"homepage": "https://github.com/persistent-democracy/hopeful-path#readme",
+	"homepage": "https://github.com/adaptive-democracy/hopeful-path#readme",
 	"scripts": {
 		"main": "ts-node -O '{ \"module\": \"CommonJS\" }' components/voting.utils.ts",
 		"dev": "nuxt",

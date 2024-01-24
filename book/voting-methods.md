@@ -6,7 +6,7 @@ incomplete: true
 
 Hopefully you're convinced that our current voting system, [Plurality Voting](TODO point to that section in intro) is awful, and possibly the root cause of many of our political and social problems.
 
-Persistent Voting is a new *way* of thinking about voting,
+Adaptive Voting is a new *way* of thinking about voting,
 
 
 
@@ -234,7 +234,7 @@ that's where resource voting systems come in. they allow you to use some finite 
 
 quadratic voting is a specific version of resource voting, and it's actually been mathematically proven to be optimal. the proof is complex, check out this post to understand it better
 
-however even a resource voting system has problems, which mostly come down to the concept of "spending" the votes. that's where persistent democracy, the core idea of this book, comes in
+however even a resource voting system has problems, which mostly come down to the concept of "spending" the votes. that's where adaptive democracy, the core idea of this book, comes in
 -->
 
 
@@ -362,7 +362,7 @@ Some people will bring up situations such as [the "chicken" dillemma](TODO) as a
 
 that scenario is extremely contrived, and very importantly relies on *hyper*-strategic behavior. the voters in that scenario aren't making a choice that is their rational best choice according to expected values, but instead making an irrational calculation based on an extreme preference desire (something that's handled nicely by a weighted election).
 
-However, in the cases of plurality and ranked choice elections, when the voters act strategically *they're actually doing so rationally*. those strategic decisions have the highest expected value and therefore those voters *should* make them according to the mechanism. That's the best we really can do, persistent voting solves the problem of hyper-strategy by removing election hangovers and surprises and simply allowing the steady state to come into being.
+However, in the cases of plurality and ranked choice elections, when the voters act strategically *they're actually doing so rationally*. those strategic decisions have the highest expected value and therefore those voters *should* make them according to the mechanism. That's the best we really can do, adaptive voting solves the problem of hyper-strategy by removing election hangovers and surprises and simply allowing the steady state to come into being.
 -->
 
 And very importantly, Approval Voting is *simple*, both for voters to understand and governments to administer. If any government is already holding elections, it could use Approval Voting basically immediately.
@@ -373,7 +373,7 @@ The [Center for Election Science](TODO) has been doing great work advocating for
 
 Approval Voting isn't *perfect*, but only because it doesn't solve *all* the problems with our current elections. It does however solve the critical strategic voting problem, all without introducing any *new* problems. It is strictly better than Plurality Voting.
 
-The remaining problems with our elections are much trickier to solve. We have some ideas for voting methods that possibly could (such as Persistent Quadratic Voting which we'll detail later in the book), but those methods are much more complex and difficult to administer. For now, the absolute best option we have is Approval Voting.
+The remaining problems with our elections are much trickier to solve. We have some ideas for voting methods that possibly could (such as Adaptive Quadratic Voting which we'll detail later in the book), but those methods are much more complex and difficult to administer. For now, the absolute best option we have is Approval Voting.
 
 # What about Ranked Choice Voting?
 

@@ -1,5 +1,5 @@
 {
-	"name": "persistent-democracy-talk",
+	"name": "adaptive-democracy-talk",
 	"private": true,
 	"scripts": {
 		"dev": "slidev talk.metagov.md --open",

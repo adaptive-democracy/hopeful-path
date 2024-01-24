@@ -1,6 +1,6 @@
 ---
 title: "Blockchains aren't going to fix society..."
-subtitle: but Persistent Democracy and cooperatives could.
+subtitle: but Adaptive Democracy and cooperatives could.
 incomplete: true
 ---
 
@@ -13,15 +13,15 @@ I'm very interested in all these concepts, mostly for technical reasons, and I d
 
 My assertion is this: blockchains aren't terribly useful for decentralizing real power or solving our biggest coordination problems. In fact in most cases they're worse than nothing, and actively cause harm and distract time and resources from better solutions. I don't think it will be helpful to pursue extremely complicated systems that will make our society less cohesive, more anonymous, and more market-like.
 
-We need to instead build methods that better enable real negotiation, cohesion, and social cooperation. We need drastically better voting methods and systems for democratic ownership and control. Specifically I'd like to put forward [Persistent Democracy and widespread member cooperatives](TODO) as the next truly exciting ideas we should be aggressively pursuing.
+We need to instead build methods that better enable real negotiation, cohesion, and social cooperation. We need drastically better voting methods and systems for democratic ownership and control. Specifically I'd like to put forward [Adaptive Democracy and widespread member cooperatives](TODO) as the next truly exciting ideas we should be aggressively pursuing.
 
-Blockchains could of course be used within persistently democratic governments and cooperatives to create trustless cryptographic transparency. However that extremely high degree of transparency is just "nice to have", and is way more than we really need. [This simple publicly linked receipt system](TODO) gets a large percentage of the benefits of a blockchain without being nearly as complex.
+Blockchains could of course be used within adaptively democratic governments and cooperatives to create trustless cryptographic transparency. However that extremely high degree of transparency is just "nice to have", and is way more than we really need. [This simple publicly linked receipt system](TODO) gets a large percentage of the benefits of a blockchain without being nearly as complex.
 
 **The only thing we need to do is effectively work together.** That's [humanity's superpower](TODO), the thing that's allowed us to achieve everything we've achieved. Our systems of large-scale decision-making are merely showing their age, and need to be upgraded. Blockchains could be a part of that upgrade, but they absolutely aren't required.
 
 The rest of this essay will pull apart some economic ideas related to blockchains, and discuss the ways in which their currently proposed uses are either ineffective or actively harmful.
 
-But before I indulge in all that negativity and criticism, I want to point you toward hope. If you're one of the people who genuinely wants to make the world a better place, and think we have to find some way to break up large concentrations of power and make the world more democratic, then I appreciate you, even if you've been wrapped up in the blockchain space. Please go read about [Persistent Democracy and cooperatives](/), I hope to work together as we make things better.
+But before I indulge in all that negativity and criticism, I want to point you toward hope. If you're one of the people who genuinely wants to make the world a better place, and think we have to find some way to break up large concentrations of power and make the world more democratic, then I appreciate you, even if you've been wrapped up in the blockchain space. Please go read about [Adaptive Democracy and cooperatives](/), I hope to work together as we make things better.
 
 # A simple theory of economic value
 
@@ -72,7 +72,7 @@ This is again an attempt to create scarcity where there isn't any. Using a servi
 
 A system that requires users to pay for *artificially* scarce utility tokens will always be outcompeted in the limit by systems that only require them to pay based on true scarcity of supply. The price for something must remain tied to whatever true scarcity limits its supply. Any hope of financial gain can only come from ownership of a truly scarce and valuable good.
 
-Data protocols and open networks can be [public goods](/cooperative-goods) just like anything else. We just need [public goods funding systems](/persistent-funding) to pay for the labor needed to make them.
+Data protocols and open networks can be [public goods](/cooperative-goods) just like anything else. We just need [public goods funding systems](/adaptive-funding) to pay for the labor needed to make them.
 
 # Decentralized Autonomous Organizations (DAOs)
 
@@ -86,7 +86,7 @@ Making compromises toward centralization is a good thing! No one can foresee all
 
 Similarly, smart contract code cannot possibly effect anything in the real world without real people agreeing to honestly follow its judgments. Without any social foundation a DAO can only hope to mediate purely computational exchanges.
 
-DAOs don't add any unique value that can't be gained with a persistently democratic cooperative. In order to actually enforce the judgments of a DAO, or evolve how it works, or protect it from unforeseen errors, it needs to be grounded in legal institutions and systems, which defeats the entire purpose of bothering with a DAO. The only real difference between a DAO and a democratic member cooperative is that a DAO makes all decisions on a blockchain. A normal institution can automate governance in the exact same way by using [computable governance code](/computable-governance-code), and stay transparent [using a publicly linked receipt system](TODO), so again we can gain basically all the benefits of blockchains without actually using them.
+DAOs don't add any unique value that can't be gained with a adaptively democratic cooperative. In order to actually enforce the judgments of a DAO, or evolve how it works, or protect it from unforeseen errors, it needs to be grounded in legal institutions and systems, which defeats the entire purpose of bothering with a DAO. The only real difference between a DAO and a democratic member cooperative is that a DAO makes all decisions on a blockchain. A normal institution can automate governance in the exact same way by using [computable governance code](/computable-governance-code), and stay transparent [using a publicly linked receipt system](TODO), so again we can gain basically all the benefits of blockchains without actually using them.
 
 We can decentralize *ownership and control* without decentralizing *the organization*. Yes, that does mean we need functional legal systems, but that's an unavoidable reality anyway, even for basically all DAOs. Without functional legal systems, this all becomes pretty moot. Does it matter that you can make perfectly anonymous online trades if your real life rights aren't respected? We don't need to subvert or circumvent our governments, we need to fix them.
 
@@ -136,7 +136,7 @@ In most of the above sections I kept repeating two core ideas:
 - We don't need to subvert or circumvent our governments, we need to fix them.
 - We don't need truly decentralized markets, we need democratic ownership and control of resources.
 
-These are the core ideas of [Persistent Democracy and cooperatives](/), the solutions I believe will actually change our society for the better.
+These are the core ideas of [Adaptive Democracy and cooperatives](/), the solutions I believe will actually change our society for the better.
 
 Thank you!
 

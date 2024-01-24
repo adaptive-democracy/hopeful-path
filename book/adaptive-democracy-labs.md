@@ -1,10 +1,10 @@
 ---
-title: "Persistent Democracy Labs"
-subtitle: "Supporting Persistent Democracy with research and development."
+title: "Adaptive Democracy Labs"
+subtitle: "Supporting Adaptive Democracy with research and development."
 incomplete: true
 ---
 
-# persistent voting server
+# adaptive voting server
 
 - create new voters
 - define elections from constitution tree
@@ -15,7 +15,7 @@ incomplete: true
 
 <v-clicks>
 
-[`github.com/persistent-democracy/tools`](https://github.com/persistent-democracy/tools)
+[`github.com/adaptive-democracy/tools`](https://github.com/adaptive-democracy/tools)
 
 basically nothing there yet!
 
@@ -23,7 +23,7 @@ basically nothing there yet!
 
 ---
 
-# persistent voting client
+# adaptive voting client
 
 - lots of interesting UI design questions
 - different clients could interact with same server
@@ -44,7 +44,7 @@ proof language would be especially valuable for building verified voting systems
 
 # computable governance language?
 
-[Computable Governance Code](https://github.com/persistent-democracy/hopeful-path/blob/main/book:next/computable-governance-code.md)
+[Computable Governance Code](https://github.com/adaptive-democracy/hopeful-path/blob/main/book:next/computable-governance-code.md)
 
 <v-click>
 

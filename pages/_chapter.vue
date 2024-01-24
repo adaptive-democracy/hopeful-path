@@ -56,8 +56,8 @@ export default Vue.extend({
 
 			const isMain = isMainChapter(chapter)
 
-			// const editLink = `https://github.com/persistent-democracy/hopeful-path/edit/main/book/${chapter.slug}.md`
-			const chapterLink = `https://github.com/persistent-democracy/hopeful-path/blob/main/book/${chapter.slug}.md`
+			// const editLink = `https://github.com/adaptive-democracy/hopeful-path/edit/main/book/${chapter.slug}.md`
+			const chapterLink = `https://github.com/adaptive-democracy/hopeful-path/blob/main/book/${chapter.slug}.md`
 
 			return { chapter, isMain, prev, next, chapterLink }
 		}

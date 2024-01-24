@@ -58,10 +58,10 @@ Charles Best and Frederick Banting<br>James Collip and J.R.R. McLeod not shown
 
 ---
 
-# persistently democratic oversight?
+# adaptively democratic oversight?
 
-- patent/copyright office with persistent delegation
-- use persistent commitments
+- patent/copyright office with adaptive delegation
+- use adaptive commitments
 - apply common resource rights (coming soon)
 
 still tricky
@@ -72,7 +72,7 @@ still tricky
 
 want to remove "hangers-on"
 
-persistent funding and assurance contracts?
+adaptive funding and assurance contracts?
 
 ---
 
@@ -124,7 +124,7 @@ class: dense
 layout: statement
 ---
 
-## persistent funding<br>+ assurance contracts<br>= crowdfunding + democratic oversight
+## adaptive funding<br>+ assurance contracts<br>= crowdfunding + democratic oversight
 
 ## could coexist with intellectual property
 
@@ -142,7 +142,7 @@ For many technical and creative works, the value to society is quite clear even 
 
 The Crowdsell Mechanism is essentially a variant of an innovation prize combined with assurance contracts, directly and immediately rewarding thought workers for making contributions to our commons of public domain work.
 
-The simplest general statement of the mechanism is this: at any time some group can offer to society some intellectual creation and a price, and then society can use systems like Persistent Funding to purchase that creation and place it permanently in the public domain.
+The simplest general statement of the mechanism is this: at any time some group can offer to society some intellectual creation and a price, and then society can use systems like Adaptive Funding to purchase that creation and place it permanently in the public domain.
 
 <!-- what about the secret period? -->
 
@@ -191,13 +191,13 @@ In stark contrast, granting anyone a right of intellectual property allows them 
 
 The only reason we've historically allowed this kind of disruption is because we needed some way to incentivize private contribution to the public commons. A critical component of both patent and copyright law is their time limit and requirement for public submission. The purpose of these mechanisms is to give private actors a reason to make contributions that would eventually be completely public domain. Temporary private goods eventually become public goods.
 
-After fully describing the crowdsell mechanism and pairing it with Persistent Funding, I find it difficult to justify this continued tradeoff. Without a robust market-like system for funding public goods, the only way to incentivize expensive creative labor was with a guarantee of temporary market monopoly allowing profitable sale of excludable products. But *with* such a funding system we can simply compensate that labor directly.
+After fully describing the crowdsell mechanism and pairing it with Adaptive Funding, I find it difficult to justify this continued tradeoff. Without a robust market-like system for funding public goods, the only way to incentivize expensive creative labor was with a guarantee of temporary market monopoly allowing profitable sale of excludable products. But *with* such a funding system we can simply compensate that labor directly.
 
 There are a few silly objections to this idea:
 
 - Intellectual work sometimes must be validated and tested before we can be sure it's truly valuable. This is of course true, but crowdsell projects can obviously include documentation and schematics of successful prototypes or production methods. Intellectual property deeds don't offer any distinct advantages here, since patents already require actually useful and complete specifications.
 - There is an asymmetry of knowledge between creators and experts, and the public won't properly understand the value of very technical innovations and so won't properly pledge toward these projects. This is a silly consideration once we remember that "the public" includes many more types than just average consumers. Private companies, government agencies, consumer-owned cooperatives, all potentially advised or controlled by domain experts are all examples of groups that might choose to make contributions toward projects, and can make much larger contributions than individuals. Groups like these have traditionally been willing to pay for non-exclusive patent licenses, and it's difficult to see how such an arrangement is dissimilar from those same firms contributing quadratically matched funds to a crowdsell project. In both cases the licensing firm hasn't gained a strict competitive advantage, since other firms can also buy licenses. They are willing to buy licenses despite non-exclusivity in a wager they can combine the potential innovation with their distinct organizational strengths to create a competitive advantage.
-- Not all intellectual advancements have an obvious social or practical use, so despite their potential for eventual use they won't be properly supported. This is already true, and basic research is almost always pursued by publicly funded researchers. The crowdsell mechanism doesn't allow us to avoid directly funding basic research, and persistent democracy makes it easier for us to do so. It goes without saying that [all publicly funded research should be immediately and irrevocably public domain](https://paywallthemovie.com/).
+- Not all intellectual advancements have an obvious social or practical use, so despite their potential for eventual use they won't be properly supported. This is already true, and basic research is almost always pursued by publicly funded researchers. The crowdsell mechanism doesn't allow us to avoid directly funding basic research, and adaptive democracy makes it easier for us to do so. It goes without saying that [all publicly funded research should be immediately and irrevocably public domain](https://paywallthemovie.com/).
 
 In general most creators' issues with the crowdsell mechanism can be solved with one or more of these solutions:
 
