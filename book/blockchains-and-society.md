@@ -9,19 +9,19 @@ We don't need decentralized infrastructure, we need decentralized ownership and 
 
 Many of us have identified the problem of large concentrations of power in our society, and are trying to fix that problem. One of the solutions receiving attention is to use trustless consensus networks or blockchain technology to enable decentralized collaboration, coordination, ownership, and governance. There are many proposed applications of this technology, from DAOs (Decentralized Autonomous Organizations), NFTs (Non-Fungible Tokens), and of course the idea that started it all, cryptocurrencies.
 
-I'm very interested in all these concepts, mostly for technical reasons, and I do think they'll be useful in *some* way eventually. I've even come up with my own [decentralized consensus algorithm](TODO). But as interested as I am in blockchains, I'm skeptical they'll actually solve the problems people say they'll solve. Not for technological reasons, those can be removed or mitigated with more research and iteration, but for societal and economic reasons.
+I'm very interested in all these concepts, mostly for technical reasons, and I do think they'll be useful in *some* way eventually. I've even come up with my own [decentralized consensus algorithm](TODO). But as interested as I am in blockchains, I'm skeptical they'll actually solve the problems people say they'll solve. Not for technological reasons (those can be removed or mitigated with more research and iteration), but for societal and economic reasons.
 
 My assertion is this: blockchains aren't terribly useful for decentralizing real power or solving our biggest coordination problems. In fact in most cases they're worse than nothing, and actively cause harm and distract time and resources from better solutions. I don't think it will be helpful to pursue extremely complicated systems that will make our society less cohesive, more anonymous, and more market-like.
 
 We need to instead build methods that better enable real negotiation, cohesion, and social cooperation. We need drastically better voting methods and systems for democratic ownership and control. Specifically I'd like to put forward [Adaptive Democracy and widespread member cooperatives](TODO) as the next truly exciting ideas we should be aggressively pursuing.
 
-Blockchains could of course be used within adaptively democratic governments and cooperatives to create trustless cryptographic transparency. However that extremely high degree of transparency is just "nice to have", and is way more than we really need. [This simple publicly linked receipt system](TODO) gets a large percentage of the benefits of a blockchain without being nearly as complex.
+Blockchains could of course be used within adaptively democratic governments and cooperatives to create trustless cryptographic transparency. However that extremely high degree of transparency is just "nice to have", and is way more than we really need. For example a fully centralized blockchain that merely acts as a public record of hashed receipts would give *almost* all the benefits of a blockchain without being nearly as complex.
 
-**The only thing we need to do is effectively work together.** That's [humanity's superpower](TODO), the thing that's allowed us to achieve everything we've achieved. Our systems of large-scale decision-making are merely showing their age, and need to be upgraded. Blockchains could be a part of that upgrade, but they absolutely aren't required.
+**The only thing we need to do is effectively work together.** That's [humanity's superpower](TODO), the thing that's allowed us to achieve everything we've achieved. Our systems of large-scale decision-making are merely showing their age, and need to be upgraded. Blockchains could be a part of that upgrade, but they aren't absolutely required.
 
 The rest of this essay will pull apart some economic ideas related to blockchains, and discuss the ways in which their currently proposed uses are either ineffective or actively harmful.
 
-But before I indulge in all that negativity and criticism, I want to point you toward hope. If you're one of the people who genuinely wants to make the world a better place, and think we have to find some way to break up large concentrations of power and make the world more democratic, then I appreciate you, even if you've been wrapped up in the blockchain space. Please go read about [Adaptive Democracy and cooperatives](/), I hope to work together as we make things better.
+But before I indulge in all that negativity and criticism, I'll offer you some possible solutions. If you're one of the people who genuinely wants to make the world a better place, and think we have to find some way to break up large concentrations of power and make the world more democratic, then I appreciate you, even if you've been wrapped up in the blockchain space. Please go read about [Adaptive Democracy and cooperatives](/), I hope to work together as we make things better.
 
 # A simple theory of economic value
 
@@ -29,25 +29,27 @@ First let's agree on a simple foundation, a shared understanding of what economi
 
 Economic value is nothing more than:
 
-- the emotional experience of [welfare or utility](https://en.wikipedia.org/wiki/Utilitarianism),
+- the emotional experience of [welfare](https://en.wikipedia.org/wiki/Utilitarianism),
 - created by access to or usage of scarce resources,
 - facilitated by useful labor.
 
-All of those things must be present. If something doesn't create positive welfare for someone at some level, then it has no value. If it isn't scarce, then it is by definition intrinsic to the human experience and so, although valuable in a philosophical or moral sense, not valuable in an economic sense. And all access or usage of scarce resources is mediated by labor in some way, even if it's merely the labor of going into nature and finding scarce resources by oneself.
+All of those things must be present. If something doesn't create positive welfare for someone at some level, then it has no value. If it isn't scarce, then it is by definition intrinsic to the human experience and so, although valuable in a philosophical or moral sense, not valuable in an economic sense. And all access/usage of scarce resources is mediated by labor in some way, even if it's merely the labor of going into nature and finding scarce resources by oneself.
 
 Things are only economically valuable to the degree they somehow point downward at these basic concepts. Food and shelter are valuable because they create and enable welfare. Money is useful because it acts as a way for people to fluidly trade scarce labor and resources. Stocks and stock markets, despite becoming irrational and distorted in many ways at many times, are underpinned by the legal entitlement of the holder to shares of future company profits, votes regarding those profits, and the right to sell the share. Even intangible things like social standing can be understood by this framework, since scarce social standing is grounded in the scarce time and attention of a social group that has latent capacity for useful labor.
 
 And of course we can use this definition of economic value to explain why people create institutions not intended for simple monetary profit such as governments and cooperatives. These institutions are intended as enablers of cooperation, vehicles to create valuable shared goods that no member of the cooperating group could build on their own, or that would have their value undermined by being wrapped in [systems of excludability](https://en.wikipedia.org/wiki/Excludability). Infrastructure like roads or utility services, contributions to commons such as culture or science or technology, and even the very concepts of a legal system or national defense, are all [public goods](/cooperative-goods) that are structurally suited to being provided in a cooperative manner.
 
-The unfair concentrations of power in our society [are produced by inefficient definitions of legal control](https://www.thwink.org/sustain/glossary/CumulativeAdvantagePrinciple.htm), and so disrupt the creation of welfare by allowing extractive actors to exert undue power over others. [Common resource rights](/common-resource-rights) could structurally solve that problem, but that's not the topic of this essay.
+The unfair concentrations of power in our society [are produced by inefficient definitions of legal control](https://www.thwink.org/sustain/glossary/CumulativeAdvantagePrinciple.htm), and so disrupt the creation of welfare by allowing extractive actors to exert undue leverage over others. [Common resource rights](/common-resource-rights) could structurally solve that problem, but that's not the topic of this essay.
 
 When looking at the ways these applications of blockchains are irrational, we'll tend to see them violating a few ideas:
+
+<!-- - A mechanism of cooperation isn't identical to its *implementation*. It's possible to design a new way for people to interact without using a blockchain to record or enforce it. -->
 
 - Our biggest problems exist in the real world, not in the digital world. Their solutions must follow suit.
 - Ownership doesn't exist without enforcement, which only exists when created by cooperation within a society.
 - True scarcity is non-negotiable. It's irrational to either create scarcity where there isn't any, or to ignore scarcity where there is.
 - The public goods funding problem can't be solved with mere financial incentives, since that does nothing to change true scarcity and excludability. Only systems that truly remove free-riding, like systems of taxation, can possibly do so.
-- Financialization and markets are just one of the many tools we have for solving problems, and aren't suited to many. Not every interaction can be a financially evaluable transaction. Greed and competition can just as easily be forces for destruction and degradation as incentives for innovation.
+- Financialization and markets are just one of the many tools we have for solving problems, and aren't suited to many. Not every interaction can or should be a financially evaluable transaction. Greed and competition can just as easily be forces for destruction and degradation as incentives for innovation.
 
 Let's go through a few of the main proposed use cases of blockchains, and see why they either make things no better, or make things worse.
 
@@ -142,3 +144,14 @@ Thank you!
 
 P.S. This video discussing the problems of NFTs and crypto in general is great. It's very long, and focuses more on political and technical problems rather than economic ones.
 ["Line Goes Up – The Problem With NFTs"](https://www.youtube.com/watch?v=YQ_xWvX1n9g&ab_channel=FoldingIdeas)
+
+
+<!-- when evaluating financial things, ask:
+- where is the value actually coming from?
+- why should the price go up?
+
+the stock market is grounded in something real, because stocks give dividend rights. that foundation is enough for the market to still not *only* price based on dividends, since the future possibility of dividends is still real.
+
+but whenever we encounter use/investment conflicts we should run away. there's a reason you don't buy google stock *in order to use their products*. consumption and ownership are entirely separate. it's possible to *award* ownership based on literally anything, including consumption. or at least it doesn't make sense to give ownership a *price* if it's indelibly tied to consumption. cooperatives gate consumption on ownership, but that's because *both* require *contribution*, in the form of membership fees or something else. that's merely creating a commons, not creating a use/ownership confused *market*.
+
+and doing things like requiring some harberger tax mechanism to hold ownership also doesn't make sense unless the owned thing in question is *intrinsically* finite. otherwise there's no reason to not just expand the resource pool, assuming that competitive forces will make it all self-balancing. -->
