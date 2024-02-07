@@ -6,6 +6,10 @@ incomplete: true
 
 We don't need decentralized infrastructure, we need decentralized ownership and control.
 
+<!--
+https://www.citationneeded.news/review-read-write-own-by-chris-dixon/
+https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech
+-->
 
 Many of us have identified the problem of large concentrations of power in our society, and are trying to fix that problem. One of the solutions receiving attention is to use trustless consensus networks or blockchain technology to enable decentralized collaboration, coordination, ownership, and governance. There are many proposed applications of this technology, from DAOs (Decentralized Autonomous Organizations), NFTs (Non-Fungible Tokens), and of course the idea that started it all, cryptocurrencies.
 
