@@ -55,7 +55,7 @@ We get a few really nice properties from this scarcity:
 
 <!-- TODO -->
 
-That looks pretty good! It's certainly simple, but there's a very subtle problem with it that we'll have to do some work to understand. To get a basic intuition though, try to think about how a system like this would treat "extremists" (people who excessively care about a small number of issues) vs "moderates" (people who care about a range of issues). In general a method like this would allow extremists to easily dominate the narrow issues they care about, creating the opposite problem of a tyranny of the majority, making this system an over-correction. Let's try to get a clearer picture of why.
+That looks pretty good! It's certainly simple, but there's a very subtle problem with it that we'll have to do some work to understand. To get a basic intuition though, try to think about how a system like this would treat "extremists" (people who excessively care about a small number of issues) vs "moderates" (people who care about a range of issues). In general a method like this would allow extremists to easily dominate the narrow issues they care about, creating the opposite problem, a tyranny of the *minority*, which is an over-correction. Let's try to get a clearer picture of why.
 
 ## Quadratic Voting, the best way to weight elections by concern.
 
