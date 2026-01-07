@@ -7,7 +7,7 @@
 	publish = "dist/"
 
 	# Default build command.
-	command = "npm run build"
+	command = "pnpm run build"
 
 [[redirects]]
 	from = "/persistent-democracy/"
