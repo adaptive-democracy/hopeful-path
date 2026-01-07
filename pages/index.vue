@@ -20,7 +20,7 @@ import { IContentDocument } from '@nuxt/content/types/content'
 
 export default Vue.extend({
 	async asyncData({ $content }) {
-		const [introduction, ] = await $content().sortBy('path').fetch() as IContentDocument[]
+		const [introduction, ] = await $content().sortBy('path').fetch() as unknown as IContentDocument[]
 		return { introduction }
 	},
 })

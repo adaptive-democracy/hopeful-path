@@ -35,7 +35,7 @@ import { ChapterLink, processSlug, isMainChapter } from '@/plugins/chapters'
 export default Vue.extend({
 	async asyncData({ $content, params }) {
 		const chapterSlug = params.chapter
-		const [introduction, ...chapters] = (await $content().sortBy('path').fetch() as IContentDocument[])
+		const [introduction, ...chapters] = (await $content().sortBy('path').fetch() as unknown as IContentDocument[])
 
 		for (let index = 0; index < chapters.length; index++) {
 			const chapter = chapters[index]

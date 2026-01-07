@@ -178,9 +178,7 @@ const config: NuxtConfig = {
 		},
 	},
 
-	build: {
-		babel: { presets: [] },
-	},
+	build: {},
 }
 
 export default config

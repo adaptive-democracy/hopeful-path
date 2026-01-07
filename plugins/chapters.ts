@@ -48,6 +48,6 @@ function encloseChapters(chapters: ChapterLink[]) {
 export type Chapters = { $chapters: ReturnType<typeof encloseChapters> }
 
 export default async ({ $content }: Context, inject: Inject) => {
-	const chapters = (await $content().sortBy('path').fetch() as IContentDocument[]).map(ChapterLink)
+	const chapters = (await $content().sortBy('path').fetch() as unknown as IContentDocument[]).map(ChapterLink)
 	inject('chapters', encloseChapters(chapters))
 }
